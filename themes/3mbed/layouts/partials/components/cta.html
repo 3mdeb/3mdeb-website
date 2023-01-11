@@ -1,0 +1,22 @@
+{{ $context := .Context | default site.Params.cta }}
+{{ $class := .Class}}
+
+{{ with $context }}
+{{ with .Params.cta | default site.Params.cta }}
+{{ if .enable }}
+<section class="section {{$class}}">
+  <div class="container">
+    <div class="row justify-content-start align-items-center">
+      <div class="col-12 text-center">
+        <h2 class="fw-semibold mb-b">{{.title | markdownify}}</h3>
+        {{with .subtitle}}<p class="mb-5">{{. | markdownify}}</p>{{end}}
+        {{ if .button_link}}
+        <a href="{{.button_link}}" class="btn btn-primary">{{.button_label}}</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}

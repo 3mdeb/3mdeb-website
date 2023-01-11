@@ -1,0 +1,70 @@
+{{ define "main" }}
+
+{{ partial "components/page-header.html" . }}
+
+{{ with .Params.press_releases }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <h2>{{.title | markdownify}}</h2>
+        </div>
+      </div>
+      <div class="col-md-10 col-xl-8 mx-auto">
+        <div class="row g-5 mentions">
+          {{ range .releases }}
+          <div class="col-md-6">
+            <div class="pe-md-3">
+              <h3 class="h4">{{.review | markdownify}}</h3>
+              <p>{{.date}}</p>
+              {{ if .image }}
+              <a href="{{.source | safeURL}}" class="d-block" {{if findRE `^http` .source}}target="_blank" rel="noopener" {{end}}>
+                {{ partial "image.html" (dict "Src" .image "Alt" "press releases" "Resize" false  "Webp" false) }}
+              </a>
+              {{ end }}
+              {{ if .youtube_video_id }}
+              {{ partial "components/youtube-lite.html" (dict "Video_id" .youtube_video_id "Class" "mw-100" ) }}
+              {{ end }}
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.latest_articles }}
+{{ if .enable }}
+<section class="section">
+  <div class="container">
+    <div class="row gx-0">
+      <div class="col-12 mb-4">
+        <div class="section-title">
+          <h2>{{.title | markdownify}}</h2>
+        </div>
+      </div>
+      <div class="col-sm-9 col-xl-10 col-xxl-9 mx-auto">
+        <div class="row gy-5 gx-md-4 registered">
+          {{ range .articles }}
+          <div class="col-lg-3 col-sm-6 text-center">
+            <h5 class="fw-normal text-center">
+              <a href="{{.link | safeURL}}">{{.title | markdownify}}</a>
+            </h5>
+            <a href="{{.link | safeURL}}" class="text-dark text-center">
+              {{ partial "image.html" (dict "Src" .image "Alt" (.title | markdownify) "Class" "mt-4") }}
+            </a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ partial "components/cta.html" (dict "Context" . "Class" "bg-light") }}
+
+{{ end }}

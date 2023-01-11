@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+{{ partial "components/page-header.html" . }}
+
+{{with .Params.service_catalogues}}
+{{ range $i, $e := . }}
+<section class="section {{if not (modBool $i 2)}}bg-light{{end}}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 {{if .image}}col-md-8 order-2 order-md-0{{end}}">
+        {{.content | markdownify}}
+      </div>
+      {{with .image}}
+      <div class="col-md-4 order-1 order-md-0 text-center">
+        {{ partial "image.html" (dict "Src" . "Alt" "validation" "Size"
+        "320x320" )
+        }}
+      </div>
+      {{end}}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+
+{{ end }}

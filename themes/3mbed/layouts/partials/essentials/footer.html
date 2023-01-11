@@ -1,0 +1,70 @@
+<footer class="bg-dark overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 mx-auto border-white border-bottom border-opacity-10">
+        <ul class="social-menu">
+          {{ range site.Params.social }}
+          <li class="list-inline-item">
+            <a href="{{.link | safeURL}}" target="_blank" title="{{.title}}"><i class="{{.icon}}"></i></a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+    <div class="row gx-0 gy-5 justify-content-center">
+      <div class="col-sm-6 col-md-5 col-xl-3 pe-sm-5">
+        {{ partial "image.html" (dict "Src" site.Params.logo_big "Alt" "3mdeb" "Size" "220x" "Class" "pt-4 pb-5" ) }}
+
+        {{ with site.Params.contact_info }}
+        <ul class="list-unstyled mt-5">
+          <li class="mb-4 d-flex align-items-start">
+            {{ partial "image.html" (dict "Src" "/images/icons/name.svg" "Size" "30x30" ) }}
+            <p class="mb-2 ms-5 text-white text-opacity-75 fw-light">{{.vat_info}}</p>
+          </li>
+          <li class="mb-4 d-flex align-items-start">
+            {{ partial "image.html" (dict "Src" "/images/icons/address.svg" "Size" "30x30" ) }}
+            <p class="mb-2 ms-5 text-white text-opacity-75 fw-light">{{.address}}</p>
+          </li>
+          <li class="mb-4 d-flex align-items-start">
+            {{ partial "image.html" (dict "Src" "/images/icons/call.svg" "Size" "30x30" ) }}
+            <p class="mb-2 ms-5"><a class="fw-light text-white text-opacity-75" href="tel:{{.mobile}}">{{.mobile}}</a></p>
+          </li>
+          <li class="mb-4 d-flex align-items-start">
+            {{ partial "image.html" (dict "Src" "/images/icons/mail.svg" "Size" "30x30" ) }}
+            <p class="mb-2 ms-5"><a class="text-white text-opacity-75 fw-light" href="mailto:{{.email}}">{{.email}}</a></p>
+          </li>
+        </ul>
+        {{ end }}
+      </div>
+      <div class="col-sm-6 col-md-5 col-xl-3 ps-sm-5 text-center">
+        {{ with site.Params.newsletter }}
+        <div class="opt-in-form">
+          <p class="text-white text-opacity-75 text-center">{{.title | markdownify}}</p>
+          <form action="">
+            <input class="p-3 w-100" type="text" name="email" placeholder="Email">
+            <input class="btn btn-radius-primary mt-4" type="submit" value="SUBSCRIBE">
+          </form>
+        </div>
+        {{ end }}
+
+        <div class="mt-5">
+          <h3 class="h5 text-white fw-normal mb-4">Information</h3>
+          <ul class="list-unstyled">
+            {{ range site.Menus.footer }}
+            <li class="mb-2">
+              <a href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else if eq .URL (`/` | relURL) }}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}} class="text-white text-opacity-75 fw-light">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top btn">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <path
+      d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z" />
+  </svg>
+</button>

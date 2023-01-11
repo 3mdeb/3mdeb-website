@@ -1,0 +1,379 @@
+header {
+  background-color: $text-dark;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  transition: background-color .3s;
+
+  &.sticky {
+
+    .dropdown-menu,
+    & {
+      background-color: rgba($text-dark, .9) !important;
+    }
+  }
+
+  @include desktop-lg {
+    padding: 10px 0px;
+  }
+
+  .container {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar-toggler {
+    display: none;
+
+    svg {
+      transition: transform 0.4s;
+    }
+
+    &[aria-expanded="true"] svg {
+      transform: rotate(180deg);
+    }
+
+    @include desktop {
+      display: block !important;
+    }
+  }
+
+  nav {
+
+    @include desktop {
+      max-height: calc(100vh - 66px);
+      overflow-y: auto;
+      z-index: 899;
+    }
+
+    button.btn {
+      padding: 0;
+      margin: 0;
+      outline: none;
+      border: none;
+    }
+
+    a {
+      width: 100%;
+      color: $white !important;
+    }
+
+    // Media - Max Width 1199px
+    @include desktop {
+      &.primary-menu {
+        position: absolute;
+        top: 99.7%;
+        width: 100%;
+        background: $text-dark;
+        left: 0px;
+
+        &>ul:first-child {
+          padding: 20px 30px;
+          flex-direction: column;
+          align-items: flex-start !important;
+
+          li:not(:last-child) {
+            border-bottom: 1px solid $border-dark !important;
+
+            .dropdown-menu {
+              border-top: 1px solid $border-dark !important;
+              border-bottom: 1px solid $border-dark !important;
+            }
+          }
+
+          li,
+          li.dropdown {
+            width: 100%;
+            padding-right: 0px !important;
+
+            .anchor-wrapper {
+
+              a:first-child,
+              span:first-child {
+                font-size: 24px;
+                padding: 20px 0px !important;
+                padding-right: 0px !important;
+                margin: 0px !important;
+                transform: translate(0px) !important;
+
+                @include tablet {
+                  font-size: 20px;
+                }
+              }
+
+              button[aria-expanded="true"] {
+                svg path {
+                  transform: scaleY(-1) translateY(-100%);
+                }
+              }
+
+              button.btn {
+                svg.icon {
+                  width: 15px;
+                  padding: 10px 15px;
+                  margin: 0px;
+                  box-sizing: content-box;
+                  border: 1px solid $border-dark;
+                  border-radius: 3px;
+                  fill: #ffff;
+                }
+              }
+            }
+
+            ul.dropdown-menu {
+              width: 100%;
+              padding: 0px;
+              background-color: $text-dark;
+              border: none;
+              position: static !important;
+              visibility: visible;
+              opacity: 1;
+              border-radius: 0px;
+              transform: translateY(0px) !important;
+              border-left: 10px outset #292929;
+              display: none;
+
+              &::before {
+                display: none;
+              }
+
+              span {
+                font-size: 18px !important;
+                padding: 20px 30px !important;
+              }
+            }
+
+            ul.dropdown-menu.collapse.show {
+              display: block;
+            }
+
+            &::after {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    @include min-desktop {
+      &#navbarCollapse {
+        display: block;
+      }
+    }
+
+    .anchor-wrapper span {
+      color: $white;
+      cursor: pointer;
+    }
+
+    // Anchor Tag Underline Hover Effect
+    ul li.dropdown .anchor-wrapper span,
+    ul li.dropdown .anchor-wrapper a,
+    .anchor-wrapper span,
+    .anchor-wrapper a,
+    .dropdown-menu a {
+      position: relative;
+      font-weight: 400;
+
+      &::before {
+        content: "";
+        width: 0;
+        height: 2px;
+        position: absolute;
+        left: 0;
+        bottom: 15px;
+        background-color: transparent;
+
+        @include desktop-xl {
+          bottom: 0px;
+          height: 1.5px;
+          background-color: $color-primary;
+        }
+      }
+
+      &::after {
+        content: "";
+        width: 0;
+        height: 2px;
+        position: absolute;
+        right: 0;
+        bottom: 15px;
+        background-color: $color-primary;
+        transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+
+        @include desktop {
+          bottom: 0px;
+          height: 1.5px;
+          background-color: $color-primary;
+        }
+      }
+
+      &:hover::before,
+      &+button:hover &::before {
+        width: 100%;
+        background-color: $color-primary;
+        left: 0;
+        transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+      }
+
+      &:hover::after,
+      &+button:hover &::before {
+        background-color: transparent;
+        width: 100%;
+        transition: 0s;
+        right: 0;
+      }
+    }
+
+    .dropdown-menu a {
+
+      &::before {
+        bottom: 0px;
+      }
+
+      &::after {
+        bottom: 0px;
+      }
+    }
+
+    ul {
+      margin: 0;
+
+      li {
+        &:not(:last-child) {
+          padding-right: 24px;
+
+          @include desktop-lg {
+            padding-right: 14px;
+          }
+        }
+
+        .anchor-wrapper {
+
+          a,
+          span {
+            font-size: 15px;
+            overflow: hidden;
+            display: block;
+            padding-top: 20px !important;
+            padding-bottom: 20px !important;
+            position: relative;
+
+            @media desktop-lg {
+              padding: 20px 24px;
+            }
+          }
+
+          button {
+            svg.icon {
+              fill: $color-primary;
+              width: 14px;
+              right: 0px;
+              position: absolute;
+              top: 50%;
+              margin-left: 8px;
+              transform: translateY(-50%);
+              display: none;
+            }
+          }
+        }
+
+        &.dropdown {
+          .anchor-wrapper {
+
+            a,
+            span {
+              padding: 20px 24px 20px 0px !important;
+
+              @include desktop-lg {
+                padding: 20px 18px 20px 0px !important;
+              }
+            }
+
+            svg.icon {
+              display: block;
+            }
+          }
+
+          ul.dropdown-menu {
+            width: 21rem !important;
+            position: absolute !important;
+            background-color: #222222;
+            display: flex;
+            flex-direction: column;
+            top: 100%;
+            align-items: flex-start;
+            right: 0px;
+            visibility: hidden;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.2s linear, transform 0.2s linear, right 0s 0.2s;
+
+            @include desktop {
+              width: 100% !important;
+            }
+
+            &::before {
+              content: "";
+              width: 0;
+              height: 0;
+              position: absolute;
+              border-left: 8px solid transparent;
+              border-right: 8px solid transparent;
+              border-bottom: 10px solid $color-primary;
+              transform: scale(0.8);
+              top: -10px;
+              right: 35px;
+            }
+
+            li {
+              width: 100%;
+              padding: 0px;
+
+              a {
+                font-size: 14px;
+                opacity: .75;
+                text-align: start;
+                display: inline-block;
+                padding: 10px 24px !important;
+
+                &::before {
+                  bottom: 0px;
+                }
+              }
+            }
+          }
+
+          &::after {
+            content: "";
+            width: 100%;
+            position: absolute;
+            height: 100%;
+            visibility: hidden;
+            background-color: transparent;
+          }
+
+          &:hover {
+            ul {
+              visibility: visible;
+              opacity: 1;
+              transform: translateY(0);
+            }
+
+            &::after {
+              visibility: visible;
+            }
+          }
+
+          &::after:hover .dropdown-menu {
+            visibility: visible;
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      }
+    }
+  }
+}

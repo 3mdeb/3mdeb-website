@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<section class="page-header" {{ partial `bg-image.html` (dict `Src` "/images/logo-policy-header-bg.jpg" ) | safeHTMLAttr}}>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <h1>{{.Title | markdownify}}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-big">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        {{.Content}}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "components/cta.html" (dict "Context" . "Class" "bg-light") }}
+
+{{ end }}

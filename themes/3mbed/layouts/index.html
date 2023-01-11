@@ -1,0 +1,195 @@
+{{ define "main" }}
+
+{{ with .Params.banner }}
+<section>
+  <div class="container-fluid">
+    <div class="row gx-sm-4 gy-4 banner">
+      <div class="col-sm-7 col-lg-7 col-xl-9 image-slider overflow-hidden">
+        <div class="swiper-wrapper">
+          {{ range .slider }}
+          <div class="swiper-slide">
+            {{ if .link }}
+            <a href="{{.link | safeURL}}" class="stretched-link">{{ partial "image.html" (dict "Src" .image "Alt"
+              "dasharo" )}}</a>
+            {{ else }}
+            {{ partial "image.html" (dict "Src" .image "Alt" "dasharo" )}}
+            {{ end }}
+
+            <div class="text">
+              <span class="display-1 fw-normal mb-3 d-block">{{.title | markdownify}}</span>
+              <span class="display-3">{{.subtitle | markdownify}}</span>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+
+        <div class="swiper-navigation">
+          <button
+            class="swiper-navigation-prev btn p-0 border-0 shadow-none position-absolute top-50 translate-middle-y">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+              <path
+                d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+            </svg>
+          </button>
+          <button
+            class="swiper-navigation-next btn p-0 border-0 shadow-none position-absolute top-50 translate-middle-y">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+              <path
+                d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="swiper-pagination d-flex position-absolute start-50 translate-middle-x justify-content-center">
+        </div>
+      </div>
+
+      <div class="col-sm-7 mx-auto d-sm-none">
+        {{ partial "image.html" (dict "Src" .clients_image "Alt" "our clients" "Webp" false "Resize" false ) }}
+      </div>
+
+      <div class="col-sm-5 col-lg-5 col-xl-3 links h-100">
+        {{ range .important_links }}
+        <div class="overflow-hidden w-100 position-relative">
+          <a href="{{.link}}">
+            {{ partial "image.html" (dict "Src" .image "Alt" "our clients" "Class" "link-image" ) }}
+            <span class="link-text fs-1 fw-bold d-block position-absolute top-50 translate-middle-y text-white w-100 text-center">
+              {{.title | markdownify}}
+            </span>
+          </a>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section d-none d-sm-block">
+  <div class="container">
+    <div class="row gx-0">
+      <div class="col-sm-7 mx-auto">
+        {{ partial "image.html" (dict "Src" .clients_image "Alt" "our clients" "Webp" false "Resize" false ) }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.cooperation_with_us }}
+{{ if .enable }}
+<section class="section pt-0">
+  <div class="container-fluid">
+    <div class="row gx-0">
+      <div class="col-12">
+        <div class="section-title">
+          <h2>{{.title | markdownify}}</h2>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="cooperation-wrapper">
+          {{ range $i, $e := .coop_lists }}
+          <div class="cop-block-outer">
+            <span class="cop-block-num">{{ if lt $i 10}}0{{end}}{{add $i 1}}</span>
+            <div class="cop-block">
+              <div class="outer-border"></div>
+              <h6 class="cop-title">{{.title | markdownify}}</h6>
+              <div class="cop-detailinfo">
+                <p>{{.content | markdownify}}</p>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ with .Params.where_is_3mdeb }}
+{{ if .enable }}
+<section class="section pt-0">
+  <div class="container">
+    <div class="row gx-0 justify-content-center">
+      <div class="col-12">
+        <div class="section-title">
+          <h2>{{.title | markdownify}}</h2>
+        </div>
+      </div>
+      <div class="col-md-5">
+        {{ partial "image.html" (dict "Src" .image_1 "Alt" "3mdeb clients" "Resize" false "Webp" false "Class"
+        "img-fluid") }}
+      </div>
+      <div class="col-md-5">
+        {{ partial "image.html" (dict "Src" .image_2 "Alt" "3mdeb clients" "Resize" false "Webp" false "Class"
+        "img-fluid") }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ with .Params.where_we_do }}
+{{ if .enable }}
+<section class="section bg-light">
+  <div class="container">
+    <div class="row gx-0">
+      <div class="col-12">
+        <div class="section-title">
+          <h2>{{.title | markdownify}}</h2>
+        </div>
+      </div>
+      <div class="col-sm-9 col-xl-10 col-xxl-9 mx-auto">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 gy-5 gx-md-4 services">
+          {{ range .services }}
+          <div class="col">
+            <a href="{{.link | safeURL}}" class="text-dark text-center">
+              {{ partial "image.html" (dict "Src" .icon "Alt" (.title | markdownify) "Class" "mb-4") }}
+            </a>
+            <h5 class="fw-normal text-center">
+              <a href="{{.link | safeURL}}" class="text-dark text-center">{{.title | markdownify}}</a>
+            </h5>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ with .Params.we_are_registered }}
+{{ if .enable }}
+<section class="section">
+  <div class="container">
+    <div class="row gx-0">
+      <div class="col-12">
+        <div class="section-title">
+          <h2>{{.title | markdownify}}</h2>
+        </div>
+      </div>
+      <div class="col-sm-9 col-xl-10 col-xxl-9 mx-auto">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 gy-5 gx-md-4 registered">
+          {{ range .organizations }}
+          <div class="col">
+            <a href="{{.link | safeURL}}" class="text-dark text-center">
+              {{ partial "image.html" (dict "Src" .icon "Alt" (.title | markdownify) "Class" "mb-4") }}
+            </a>
+            <h5 class="fw-normal text-center">
+              <a href="{{.link | safeURL}}" class="text-dark text-center">{{.title | markdownify}}</a>
+            </h5>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ partial "components/cta.html" (dict "Context" . "Class" "bg-light") }}
+
+{{ end }}

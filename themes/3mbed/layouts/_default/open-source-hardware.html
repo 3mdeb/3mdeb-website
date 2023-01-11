@@ -1,0 +1,110 @@
+{{ define "main" }}
+
+{{ partial "components/page-header.html" . }}
+
+{{ with .Params.open_source_hardware_features }}
+{{ range $i, $el := . }}
+<section>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center {{if modBool $i 2}}order-0 order-md-1{{end}}">
+        {{ partial "image.html" (dict "Src" .image "Alt" "open source hardware feature") }}
+      </div>
+      <div class="col-md-8 {{if modBool $i 2}}order-1 order-md-0{{end}}">
+        {{.content | markdownify}}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ with .Params.reference_platforms_for }}
+<section class="section bg-light">
+  <div class="row align-items-center">
+    <div class="col-12">
+      <div class="section-title">
+        <h2>{{.title | markdownify}}</h2>
+        <p><strong>{{.subtitle | markdownify}}</strong></p>
+      </div>
+    </div>
+    <div class="col-9 mx-auto">
+      <div class="row gy-5">
+        {{ range $i, $el := .lists }}
+        <div class="col-md-6">
+          {{ . | markdownify}}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+</section>
+{{ end }}
+
+{{ with .Params.used_technology }}
+<section class="section">
+  <div class="container">
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 align-items-center">
+      {{ range . }}
+      <div class="col text-center">
+        {{ partial "image.html" (dict "Src" . "Alt" "brand" "Class" "mb-4") }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<div class="container">
+  <hr class="separator">
+</div>
+
+{{ with .Params.products }}
+<section class="section-big">
+  <div class="container">
+    <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 gx-md-4 cta-links">
+      {{ range . }}
+      <div class="col">
+        <a href="#{{.title | urlize}}"> {{ partial "image.html" (dict "Src" .product_image "Alt" .title "Class" "mb-4") }} </a>
+        <span class="h4 d-block fw-normal text-center">
+          <a href="#{{.title | urlize}}" class="text-dark">
+            {{ .title | markdownify }}
+          </a>
+        </span>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ range $x, $y := . }}
+<div class="container mt-5">
+  <hr class="separator">
+</div>
+
+{{ $title := .title }}
+
+{{ range $i, $el := .product_description }}
+<section id="{{$title | urlize}}" class="section {{if not (modBool $i 2)}}bg-light{{end}}">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="{{if and (or (eq $x 0) (eq $x 3)) (eq $i 1)}}col-md-12{{else}}col-md-8{{end}} {{if and (eq $x 2) (eq $i 1)}}text-center col-md-12{{end}}">
+        {{.content | markdownify}}
+      </div>
+      {{ with .image}}
+      <div class="col-md-4 text-center">
+        {{ partial "image.html" (dict "Src" . "Alt" $title ) }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}
+{{/* end of .Params.products loop */}}
+
+{{ end }}
+
+{{ partial "components/cta.html" (dict "Context" . "Class" "bg-light") }}
+
+{{ end }}

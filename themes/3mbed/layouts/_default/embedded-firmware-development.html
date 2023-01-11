@@ -1,0 +1,86 @@
+{{ define "main" }}
+
+{{ partial "components/page-header.html" . }}
+
+{{with .Params.introduction}}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 order-2 order-md-0">
+        {{ .content | markdownify }}
+      </div>
+      <div class="col-md-4 order-1 order-md-0 text-center">
+        {{ partial "image.html" (dict "Src" .image "Alt" "technology" "Size" "320x320" )
+        }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{with .Params.used_technology}}
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-9 mx-auto">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center align-items-center">
+          {{ range . }}
+          <div class="col text-center">
+            {{ partial "image.html" (dict "Src" . "Alt" "technology") }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{with .Params.our_capabilities}}
+<section class="section bg-light">
+  <div class="container">
+    <div class="row gy-5 justify-content-between">
+      <div class="col-md-4 text-center">
+        {{ partial "image.html" (dict "Src" .image "Alt" `technology` "Size" "420x420" )}}
+      </div>
+      <div class="col-md-8">
+        {{.content | markdownify}}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{range .Params.reference_platforms}}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        {{ .content | markdownify }}
+      </div>
+      {{with .images}}
+      <div class="col-md-4 mx-auto">
+        <div class="row row-cols-2 align-items-center">
+          {{range .}}
+          <div class="col text-center">
+            {{ partial "image.html" (dict "Src" . "Alt" "technology") }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{with .Params.why_us}}
+<section class="section bg-light">
+  <div class="container">
+   {{.content | markdownify}}
+  </div>
+</section>
+{{ end }}
+{{ partial "components/cta.html" (dict "Context" .) }}
+
+{{ end }}

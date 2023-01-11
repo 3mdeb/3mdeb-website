@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="85px" viewBox="0 0 73 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14.0770503,36.5373396 C14.0871672,21.8727433 25.7418703,9.99206129 40.1102453,10.000004 L306.251648,10.1374126 C319.928959,10.1469438 331.01011,21.4732258 330.999993,35.4317166 L330.922171,146.899487 C330.912054,160.857184 319.816116,172.165992 306.138805,172.154872 L38.4642987,172.016669 C24.9449676,172.009521 13.9906673,160.818265 14.000006,147.017833 L14.0778285,36.5365453 L14.0770503,36.5373396 Z" id="path-1"></path>
+        <filter x="-5.0%" y="-8.6%" width="110.1%" height="119.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.121011801 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page" transform="translate(-748.000000, -466.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1920" height="680"></rect>
+            <path d="M326,530.5 L1586.62934,531" id="Line-Copy" stroke="#DBDBDB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5"></path>
+            <g id="Group-3" transform="translate(326.000000, 439.000000)" fill-rule="nonzero">
+                <g id="Untitled-1-Copy-5" transform="translate(436.000000, 0.000000)">
+                    <path d="M0.0873696363,30.0027331 L7.09952777e-15,152.125628 C-0.0111197719,168.709179 13.4215647,182.160926 30.0035274,182.17284 L225.523271,182.31422 C242.104439,182.326134 255.556186,168.892655 255.5681,152.309104 L255.656264,30.1846208 C255.66659,13.6034524 242.2347,0.150116921 225.651943,0.139791418 L30.1329933,3.16918343e-14 C13.5510306,-0.0119140413 0.0992836777,13.4215647 0.0865753669,30.0027331 L0.0873696363,30.0027331 Z" id="Path" fill="#38D530"></path>
+                    <g id="Path">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                    </g>
+                    <polygon id="Path" fill="#38D530" points="26.9471787 75.6565452 9.04990579 75.6565452 0.100077947 91.1567129 9.04990579 106.656086 26.9471787 106.656086 35.8962122 91.1567129"></polygon>
+                </g>
+            </g>
+            <polygon id="Path" fill="#38D530" fill-rule="nonzero" points="795.670872 466 746.557222 466 722 508.53551 746.557222 551.071021 795.670872 551.071021 820.229682 508.53551"></polygon>
+        </g>
+    </g>
+</svg>

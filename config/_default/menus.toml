@@ -1,0 +1,252 @@
+# main menu
+[[main]]
+weight = 1
+name = "Company"
+hasChildren = true
+
+[[main]]
+parent = "Company"
+name = "About Us"
+url = "about-us/"
+weight = 1
+
+[[main]]
+parent = "Company"
+name = "Customers"
+url = "about-us/#partners-customers"
+weight = 5
+
+[[main]]
+parent = "Company"
+url = "careers/"
+name = "Careers"
+weight = 10
+
+[[main]]
+parent = "Company"
+url = "markets/"
+name = "Markets"
+weight = 15
+
+[[main]]
+parent = "Company"
+name = "FAQ"
+url = "faq/"
+weight = 20
+
+[[main]]
+parent = "Company"
+name = "Logo Policy & Projects co-funded by the EU"
+url = "logo-policy/"
+weight = 20
+
+[[main]]
+weight = 5
+name = "Products"
+hasChildren = true
+
+[[main]]
+parent = "Products"
+name = "Dasharo"
+url = "https://dasharo.com/"
+weight = 1
+
+[[main]]
+parent = "Products"
+name = "Open Source Software"
+url = "open-source-software/"
+weight = 5
+
+[[main]]
+parent = "Products"
+name = "Open Source Hardware"
+url = "open-source-hardware/"
+weight = 10
+
+[[main]]
+parent = "Products"
+name = "Products Documentation"
+url = "products-documentation/"
+weight = 15
+
+[[main]]
+weight = 10
+name = "Services"
+hasChildren = true
+
+[[main]]
+parent = "Services"
+name = "Embedded Firmware"
+url = "embedded-firmware-development/"
+weight = 1
+
+[[main]]
+parent = "Services"
+name = "Operating Systems"
+url = "operating-systems-development/"
+weight = 5
+
+[[main]]
+parent = "Services"
+name = "Hypervisors"
+url = "hypervisors-development/"
+weight = 10
+
+[[main]]
+parent = "Services"
+name = "Software and Hardware Security"
+url = "software-and-hardware-security/"
+weight = 15
+
+[[main]]
+parent = "Services"
+name = "Hardware Support"
+url = "hardware-development-support/"
+weight = 20
+
+[[main]]
+parent = "Services"
+name = "Internet of Things Solutions"
+url = "internet-of-things-solutions/"
+weight = 25
+
+[[main]]
+parent = "Services"
+name = "Automated Validation"
+url = "automated-validation/"
+weight = 30
+
+[[main]]
+parent = "Services"
+name = "Service Catalogues"
+url = "service-catalogues/"
+weight = 35
+
+[[main]]
+weight = 15
+name = "Training"
+hasChildren = true
+
+[[main]]
+parent = "Training"
+name = "coreboot for Embedded Linux Developers"
+url = "/training/#coreboot-for-embedded-linux-developers"
+weight = 1
+
+[[main]]
+parent = "Training"
+name = "Building and development of Embedded Linux Systems"
+url = "/training/#building-and-development-of-embedded-linux-systems"
+weight = 5
+
+[[main]]
+parent = "Training"
+name = "OST2 Arch4001, Arch4021, TC3001, TC3011, TC3211 – Intel Root of Trust training"
+url = "/training/#ost2-arch4001-arch4021-tc3001-tc3011-tc3211-intel-root-of-trust-training"
+weight = 10
+
+[[main]]
+parent = "Training"
+name = "OST2 Arch2001, Arch4001, Arch4021 – System Security training"
+url = "/training/#ost2-arch2001-arch4001-arch4021-system-security-training"
+weight = 15
+
+[[main]]
+parent = "Training"
+name = "Yocto project development"
+url = "/training/#yocto-project-development"
+weight = 20
+
+[[main]]
+parent = "Training"
+name = "UEFI offensive security"
+url = "/training/#UEFI-offensive-security/"
+weight = 25
+
+[[main]]
+parent = "Training"
+name = "UEFI advanced concepts"
+url = "/training/#UEFI-advanced-concepts/"
+weight = 30
+
+[[main]]
+parent = "Training"
+name = "UEFI fundamentals"
+url = "/training/#UEFI-fundamentals/"
+weight = 35
+
+[[main]]
+parent = "Training"
+name = "UEFI practical firmware development"
+url = "/training/#UEFI-practical-firmware-development/"
+weight = 40
+
+[[main]]
+weight = 20
+name = "News"
+hasChildren = true
+
+[[main]]
+parent = "News"
+name = "Blog"
+url = "https://blog.3mdeb.com/"
+weight = 1
+
+[[main]]
+parent = "News"
+name = "Events"
+url = "events/"
+weight = 5
+
+[[main]]
+parent = "News"
+name = "Press Releases"
+url = "press-releases/"
+weight = 10
+
+[[main]]
+parent = "News"
+name = "Our Contribution"
+url = "https://opensource.3mdeb.com/"
+weight = 15
+
+[[main]]
+parent = "News"
+name = "Containers"
+url = "https://containers.3mdeb.com/"
+weight = 20
+
+[[main]]
+name = "Shop"
+url = "shop/"
+weight = 25
+
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 30
+
+[[main]]
+name = "Account"
+url = "/"
+weight = 35
+
+[[footer]]
+name = "Terms & Conditions"
+url = "/terms-conditions/"
+weight = 1
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy/"
+weight = 5
+
+[[footer]]
+name = "Return & Refund Policy"
+url = "/return-refund-policy/"
+weight = 10
+
+[[footer]]
+name = "Contact Us"
+url = "/contact/"
+weight = 15

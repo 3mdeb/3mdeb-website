@@ -1,0 +1,523 @@
+body {
+  background-color: $body-bg;
+}
+
+header,
+main,
+footer {
+  width: 100%;
+}
+
+.container {
+  max-width: 1680px;
+  margin: auto;
+  width: calc(100% - 8rem);
+
+  @include desktop-lg {
+    width: calc(100% - 4rem);
+  }
+}
+
+.section {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+
+  @include tablet {
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+  }
+}
+
+.section-title {
+  text-align: center;
+  padding: 32px 0px;
+
+  h2 {
+    font-weight: 600;
+  }
+}
+
+.section-big {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+
+  @include tablet {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+main {
+  overflow: hidden;
+}
+
+form {
+  div[class*="col-"] {
+    &>*:not(input[type="submit"]) {
+      width: 100%;
+    }
+  }
+
+  label {
+    margin-bottom: 0px;
+    font-size: 1.6rem;
+  }
+
+  input[type="submit"] {
+    transition: transform 0.4s;
+
+    &:hover {
+      text-decoration: none;
+      transform: scale(1.1);
+    }
+  }
+
+  input,
+  textarea {
+    padding: 10px !important;
+    border: 1px solid $border-color !important;
+
+    &:focus-visible {
+      border: 1px solid $dark !important;
+      outline: none;
+    }
+  }
+}
+
+.page-header {
+  padding: 9rem 0rem;
+  text-align: center;
+  overflow: hidden;
+
+  @include tablet {
+    padding: 6.5rem 0rem;
+  }
+
+  h1 {
+    font-weight: 600;
+    color: $white;
+    font-size: 8.4rem;
+
+    @include desktop {
+      font-size: 6.4rem;
+    }
+
+    @include mobile {
+      font-size: 4.4rem;
+    }
+  }
+}
+
+.separator {
+  background: linear-gradient(to left, currentColor calc(50% - 16px), transparent calc(50% - 16px), transparent calc(50% + 16px), currentColor calc(50% + 16px));
+  background-color: transparent !important;
+  border: none;
+  height: 0.1rem;
+  overflow: visible;
+  position: relative;
+
+  &::before {
+    left: calc(50% - 0.5rem);
+  }
+
+  &::after {
+    right: calc(50% - 0.5rem);
+  }
+
+  &::before,
+  &::after {
+    background: $dark;
+    content: "";
+    display: block;
+    height: 1.6rem;
+    position: absolute;
+    top: calc(50% - 0.8rem);
+    transform: rotate(22.5deg);
+    width: 0.13rem;
+  }
+}
+
+// Social Icons
+.social-menu {
+  padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: auto;
+  width: fit-content;
+
+  @include min-desktop {
+    display: none;
+  }
+
+  li {
+    padding: 0px !important;
+    margin: 0px !important;
+
+    a {
+      display: block;
+      background: #ffffff1a;
+      height: 50px;
+      width: 50px;
+      display: flex;
+      line-height: 43px;
+      position: relative;
+      border-radius: 50%;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+
+      i {
+        font-size: 20px;
+        color: $white;
+        transition: fill 0.2s linear;
+        position: absolute;
+      }
+    }
+  }
+}
+
+.social-menu-alt {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 10px;
+
+  &>li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    border-radius: 50%;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .twitter {
+    background-color: #1da1f2;
+    color: #fff;
+  }
+
+  .facebook {
+    background-color: #1778f2;
+    color: #fff;
+  }
+
+  .linkedin {
+    background-color: #0d66c2;
+    color: #fff;
+  }
+
+  .youtube {
+    background-color: red;
+    color: #fff;
+  }
+
+  .github {
+    background-color: #24292d;
+    color: #fff;
+  }
+
+  .stackoverflow {
+    background-color: #f0f0f0;
+    color: #444;
+  }
+
+  .reddit {
+    background-color: #fa4501;
+    color: #fff;
+  }
+}
+
+// Back to top
+.back-to-top {
+  position: fixed;
+  border: 0px;
+  outline: 0px;
+  width: 15px;
+  height: 15px;
+  box-shadow: none;
+  right: 25px;
+  bottom: 80px;
+  z-index: 99999;
+  padding: 20px;
+  box-sizing: content-box;
+  border-radius: 50%;
+  background: lighten($color-primary, 20%) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.4s, visibility 0.4s;
+
+  &.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  svg {
+    width: 30px;
+    transform: scale(1.5);
+    fill: $white;
+  }
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.text-primary {
+  color: $color-primary !important;
+}
+
+.accordion {
+  --bs-accordion-active-btn-bg: $color-primary;
+
+  .accordion-header {
+    .accordion-button {
+      padding-right: 30px;
+      position: relative;
+      flex-wrap: wrap;
+      color: $dark;
+
+      strong {
+        color: $color-primary;
+      }
+
+      &::after {
+        transform: translateX(20px);
+        position: absolute;
+        right: 30px;
+      }
+    }
+
+    .accordion-button.h3 {
+      @include tablet {
+        font-size: 2rem;
+      }
+
+      @include tablet {
+        font-size: 1.8rem;
+      }
+
+    }
+  }
+
+  .accordion-button[aria-expanded="true"]:not(.collapsed) {
+    color: $dark;
+    background-color: $color-primary;
+
+    strong {
+      color: $white;
+    }
+  }
+
+  .accordion-collapse {
+    background-color: $light;
+
+    .accordion-body {
+      width: 90%;
+      margin: auto;
+      padding: 50px 0px;
+
+      @include tablet {
+        padding: 20px 0px;
+      }
+
+      h3 {
+        @include tablet {
+          font-size: 1em;
+        }
+      }
+    }
+  }
+}
+
+strong {
+  color: $color-primary;
+  font-weight: inherit;
+}
+
+blockquote {
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  border-color: $color-primary;
+  border-style: solid;
+  border-width: 0 0 0 0.2rem;
+  color: inherit;
+  font-size: 1em;
+  margin: 2rem 0;
+  padding: 0.5rem 0 0.5rem 2rem;
+
+  p {
+    text-align: inherit;
+    margin-bottom: .5rem;
+  }
+}
+
+p,
+section li,
+strong {
+  a {
+    font-weight: 600;
+    color: $color-primary;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+section ul,
+section ol {
+
+  @include min-desktop {
+    margin-bottom: 4rem;
+  }
+
+  ul,
+  ol {
+    margin-bottom: 0;
+  }
+}
+
+p>strong,
+li>strong {
+  font-weight: 600;
+  color: inherit;
+}
+
+b {
+  font-weight: 500;
+}
+
+table {
+  width: 100%;
+
+  thead {
+    background-color: $color-primary !important;
+
+    th {
+      font-weight: 600;
+      color: $white;
+    }
+  }
+
+  th,
+  td {
+    border: 0.1rem solid $border-color;
+    line-height: 1.4;
+    margin: 0;
+    overflow: visible;
+    padding: 0.5em !important;
+  }
+}
+
+code {
+  background-color: $light;
+  color: black;
+  padding: 4px 8px;
+}
+
+.preloader {
+  background-color: $body-bg;
+}
+
+.icon {
+  max-width: 30px;
+  width: 100%;
+}
+
+.fw-normal {
+  font-weight: 600 !important;
+}
+
+::selection {
+  background: lighten($color: $color-primary, $amount: 10);
+  color: $white;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+section ul:not(ul[class*="social"]) {
+  padding-left: 0;
+
+  ul {
+    list-style: circle;
+    padding-left: 0;
+  }
+}
+
+section {
+  ul:not(ul[class*="social"]) {
+    list-style-type: disc;
+
+    li {
+      font-size: 1.5rem;
+      line-height: 1.8;
+      font-weight: 300;
+      padding: 0;
+      margin: 0;
+      margin-left: 40px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover {
+  color: $color-primary;
+}
+
+a,
+button,
+select {
+  cursor: pointer;
+  transition: 0.2s ease;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.content {
+
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3,
+  h4,
+  .h4,
+  h5,
+  .h5,
+  h6,
+  .h6 {
+    font-weight: 600;
+    margin-bottom: 1.8rem;
+  }
+}
+
+@include tablet {
+  .img-float-right {
+    float: none !important;
+    display: block !important;
+  }
+}
