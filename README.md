@@ -2,11 +2,12 @@
 
 ## Local preview
 
-1. Run local server: `./scripts/local-preview.sh -b http://localhost:1313`
-1. Go to [http://localhost:1313/](http://localhost:1313/) to view the changes.
+1. Run local server: `./scripts/local-preview.sh -b http://<IP-ADDRESS>:1313`
+1. Go to [http://<IP-ADDRESS>:1313/](http://localhost:1313/) to view the changes.
 
-_NOTE_: Feel free to replace `http://localhost:1313` with desired IP address
-and port.
+_NOTE_: Using `localhost` could end in partial resource import, therefore try to
+use the local IP address of the host machine. Feel free to replace
+`http://localhost:1313` with desired address IP and port.
 
 ## Good practices
 
