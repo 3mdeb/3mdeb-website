@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+
+{{ partial "components/page-header.html" . }}
+
+{{ with .Params.products }}
+{{ range $i, $ele := . }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 {{ if not (modBool $i 2) }}text-md-start order-2 {{else}} order-2 order-md-0 text-md-end {{ end }}">
+        {{ .content | markdownify}}
+      </div>
+      <div class="col-md-6 text-center {{ if not (modBool $i 2) }}order-1 {{else}} order-1 order-md-0 {{ end }}">
+        {{ partial "image.html" (dict "Src" .image "Alt" "rte" "Size" "420x420") }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+
+{{ end }}

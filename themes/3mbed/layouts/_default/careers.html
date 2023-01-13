@@ -1,0 +1,248 @@
+{{ define "main" }}
+
+{{ partial "components/page-header.html" . }}
+
+<section class="section pb-0">
+  <div class="container">
+    <div class="row gx-0">
+      {{ with .Params.multilingual }}
+      <div class="col-12 text-center">
+        <span class="h4 d-block mb-5">{{.info_name}} <a class="text-primary text-break" href="{{.url}}">{{.url | absURL}}</a></span>
+      </div>
+      {{ end }}
+      <div class="col-sm-9 col-xl-11 col-xxl-9 mx-auto">
+        <div class="row justify-content-center">
+          {{ range .Params.table_of_contents }}
+          <div class="col-7 col-md-5 col-lg-3">
+            <a href="#{{.section_id}}">
+              {{ partial "image.html" (dict "Src" .icon "Alt" (.title | plainify | urlize) "Class" "mb-4") }}
+            </a>
+            <span class="h4 d-block fw-normal text-center">
+              <a href="#{{.section_id}}" class="text-center">
+                {{.title | markdownify}}
+              </a>
+            </span>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+</section>
+
+<div class="container">
+  <hr class="separator mt-5">
+</div>
+
+{{ with .Params.careers }}
+<section id="careers" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <h2 class="h1 fw-semibold">{{.title | markdownify}}</h2>
+        </div>
+      </div>
+      <div class="col-md-12 col-xl-8 mx-auto">
+        <div class="row gy-5">
+          <div class="col-md-8">
+            {{.content | markdownify}}
+          </div>
+          <div class="col-6 mx-auto col-md-4">
+            {{ partial "image.html" (dict "Src" .icon "Alt" "career" "Class" "w-100" ) }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.current_openings }}
+{{ if .enable }}
+<section class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <h2 class="fw-semibold">{{.title | markdownify}}</h2>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="accordion accordion-flush" id="jobs">
+          {{ range .jobs }}
+          <hr class="separator">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button shadow-none h3 fw-semibold collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#_{{.title | plainify | urlize | sha1}}" aria-expanded="false"
+                aria-controls="_{{.title | plainify | urlize | sha1}}">
+                {{.title | markdownify}}
+              </button>
+            </h2>
+            <div id="_{{.title | plainify | urlize | sha1}}" class="accordion-collapse collapse" data-bs-parent="#jobs">
+              <div class="accordion-body">
+                <div class="row row-cols-1 row-cols-md-2 gy-5">
+                  {{ $applyBtn := sub (len .description) 1 }}
+                  {{ range $i, $e := .description }}
+                  <div class="col">
+                    <h3 class="h4 mb-3">{{.title | markdownify}}</h3>
+                    {{.content | markdownify}}
+                    {{ if eq $i $applyBtn }}
+                    <a href="#apply-form" class="btn btn-primary">APLIKUJ TERAZ</a>
+                    {{ end }}
+                  </div>
+                  {{ end }}
+                </div>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+          <hr class="separator">
+        </div>
+      </div>
+    </div>
+</section>
+
+<section id="apply-form" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <h2 class="fw-semibold">Otwieramy nową <strong>filię w Osiu!!</strong></h2>
+        </div>
+      </div>
+      <div class="col-8 mx-auto">
+        <form action="" class="row gy-4">
+          <div class="col-12">
+            <label for="name" class="form-label">Your Name (required)</label>
+            <input type="text" class="form-control" id="name" name="name" required aria-required="true" aria-invalid="false">
+          </div>
+          <div class="col-12">
+            <label for="email" class="form-label">Your Email (required)</label>
+            <input type="email" class="form-control" id="email" name="email" required aria-required="true" aria-invalid="false">
+          </div>
+          <div class="col-12">
+            <label for="phone" class="form-label">Your Phone (required)</label>
+            <input type="tel" class="form-control" id="phone" name="phone" required aria-required="true" aria-invalid="false">
+          </div>
+          <div class="col-12">
+            <label for="position" class="form-label">Job Position (required)</label>
+            <select class="form-select" id="position" name="position" aria-required="true" aria-invalid="false" name="job">
+              <option value="">—Please choose an option—</option>
+              {{ range .jobs }}
+              <option value="{{ replace (.title | plainify) `**` `` }}">{{ replace (.title | plainify) `**` `` }}</option>
+              {{ end }}
+            </select>
+          </div>
+          <div class="col-12">
+            <label for="cv" class="form-label">Your CV in PDF format (max 5mb)(required)</label>
+            <input type="file" class="form-control" id="cv" name="cv" required aria-required="true" aria-invalid="false">
+          </div>
+          <div class="col-12">
+            <label for="cv" class="form-label">Your Cover Letter in PDF format (max 5mb)</label>
+            <input type="file" class="form-control" id="coverletter" name="coverletter" required aria-required="true" aria-invalid="false">
+          </div>
+          <div class="col-12">
+            <label for="how_did_you_hear" class="form-label">How did you hear about the job offer? (required)</label>
+            <input type="text" class="form-control" id="how_did_you_hear" name="how_did_you_hear" required aria-required="true" aria-invalid="false">
+          </div>
+          <div class="col-12">
+            <label for="your-message" class="form-label">Your Message</label>
+            <textarea cols="40" rows="5" class="form-control" aria-invalid="false" id="your_message" name="your_message"></textarea>
+          </div>
+          <div class="col-12">
+            <input type="checkbox" name="Accept" id="accept" value="1" aria-invalid="false" class="d-inline w-auto">
+            <label class="d-inline small text-muted" for="accept">“I agree to the processing of my personal data by the company 3mdeb Piotr Król with its registered office in Gdańsk, ul. Burgaska 9d/10, for the needs of the recruitment process; in accordance with the provisions of the Personal Data Protection Act of 29.08.1997 (Journal of Laws of 2002 No. 101, item 926 as amended).”</label>
+          </div>
+          <div class="col-12 text-center">
+            <button type="submit" class="btn btn-radius-primary w-auto">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<div class="container">
+  <hr class="separator">
+</div>
+
+{{ with .Params.team_visions }}
+<section id="team-visions" class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title pt-0">
+          <h2 class="h1 fw-semibold">{{.title | markdownify}}</h2>
+        </div>
+      </div>
+      <div class="col-sm-10 col-md-8 mx-auto text-center text-center text-sm-start">
+        <div class="row align-items-center links">
+          <div class="col-sm-8">
+            <div class="d-inline-flex flex-column gap-4">
+              {{ range .visions }}
+              <a href="#{{with .section_id}}{{.}}{{else}}{{.title | plainify | urlize}}{{end}}" class="h3 fw-semibold">{{.title | markdownify}}</a>
+              {{ end }}
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 mx-auto">
+            {{ partial "image.html" (dict "Src" .icon "Alt" "team-vision" "Class" "w-100" ) }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ range .visions }}
+<section id="{{with .section_id}}{{.}}{{else}}{{.title | plainify | urlize}}{{end}}">
+  <section class="pb-5 pt-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <div class="mt-5 pt-5">
+            <hr class="separator mb-5">
+          </div>
+          <h3 id="OSFV" class="h2 fw-semibold pt-5 mb-0">{{.title | markdownify}}</h3>
+          <div class="mt-5">{{.content | markdownify}}</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-big bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mx-auto text-center">
+          <h3 class="h3 fw-semibold">{{.intro | markdownify}}</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{ range $i, $e := .about_this_vision }}
+  <section class="section {{if not (modBool $i 2)}}bg-light{{end}}">
+    <div class="container">
+      <div class="row gy-4 justify-content-between">
+        <div class="col-md-4 text-center {{if (modBool $i 2)}}order-0 order-md-1{{end}}">
+          {{ partial "image.html" (dict "Src" .image "Alt" (.title | plainify | lower)) }}
+        </div>
+        <div class="col-md-7 {{if (modBool $i 2)}}order-1 order-md-0{{end}}">
+          <h3 class="h3 fw-semibold mb-5">{{.title | markdownify}}</h3>
+          {{.content | markdownify}}
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+</section>
+{{ end }}
+
+{{ end }}
+
+{{ partial "components/cta.html" (dict "Context" . ) }}
+
+{{ end }}

@@ -1,0 +1,127 @@
+{{ define "main" }}
+
+{{ partial "components/page-header.html" . }}
+
+
+{{with .Params.introductions}}
+{{ range $i, $e := . }}
+<section {{if modBool $i 2}}class="section" {{ end }}>
+  <div class="container">
+    <div class="row {{if not (modBool $i 2)}} align-items-center {{ end }}">
+      <div class="{{if not (modBool $i 2)}}col-md-7 order-2{{else}}col-md-8 order-2 order-md-1{{ end }}">
+        {{ .content | markdownify }}
+      </div>
+      <div class="{{if not (modBool $i 2)}}order-1 col-md-5{{else}}col-md-4 order-1 order-md-2{{ end }} text-center">
+        {{if not (modBool $i 2)}} {{partial "image.html" (dict "Src" .image "Alt" "technology image" "Size" "620x" )}}
+        {{else}} {{partial "image.html" (dict "Src" .image "Alt" "technology image" "Size" "320x" )}} {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ with .Params.technologies }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="h3">{{.title | markdownify}}</h2>
+        <br>
+      </div>
+      <div class="col-12 mx-auto">
+        <div class="row g-5 justify-content-around">
+          {{ range .images }}
+          <div class="col-sm-2 col-lg-1 text-center">
+            {{ partial "image.html" (dict "Src" . "Alt"
+            "technology" "Size" "x70" "Webp" false) }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* Separtor */}}
+<div class="container">
+  <hr class="separator">
+</div>
+
+{{with .Params.iot_webdev_team}}
+<section class="section">
+  <div class="container">
+    <div class="row pb-5">
+      <div class="col-12 text-center">
+        <h2>{{.title | markdownify}}</h2>
+        <p class="h6"> <br> {{.subtitle | markdownify}}</p>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5  pt-5">
+      {{ range .services }}
+      <div class="col mt-5 mt-lg-4 text-center">
+        {{ partial "image.html" (dict "Src" .icon "Alt" `project-management` "Class" "mb-5" "Size" "x70") }}
+        <h3 class="h6">{{.title | markdownify}}</h3>
+        <p>{{.description | markdownify}}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{with .Params.why_webdev_team}}
+<section class="section">
+  <div class="container">
+    <div class="row pb-5">
+      <div class="col-12 text-center">
+        <h2 class="h3">{{.title | markdownify}}</h2>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5  justify-content-around pt-5">
+      {{ range .services }}
+      <div class="col mt-5 mt-lg-4 text-center">
+        {{ partial "image.html" (dict "Src" .icon "Alt" `project-management` "Class" "mb-5" "Size" "x70") }}
+        <h3 class="h6">{{.title | markdownify}}</h3>
+        <p>{{.description | markdownify}}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.what_we_do }}
+<section class="section bg-light">
+  <div class="container">
+    <div class="row g-5">
+      {{ range . }}
+      <div class="col-md-6">
+        <h2 class="h3">{{.title | markdownify}}</h2>
+        {{ .content | markdownify }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.features_and_mission }}
+<section class="section">
+  <div class="container">
+    <div class="row g-5">
+      {{ range . }}
+      <div class="col-md-6">
+        <h2 class="h3">{{.title | markdownify}}</h2>
+        {{ .content | markdownify }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ partial "components/cta.html" (dict "Context" .) }}
+
+{{ end }}

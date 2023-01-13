@@ -1,0 +1,7 @@
+{{$width := .Width | default "720px"}}
+{{$class := .Class}}
+{{$videoid := .Video_id}}
+
+<div class="{{$class}} mw-100 overflow-hidden" {{with $width}}style="width:{{.}}"{{ end }}>
+  <youtube-lite videoid="{{$videoid}}"></youtube-lite>
+</div>

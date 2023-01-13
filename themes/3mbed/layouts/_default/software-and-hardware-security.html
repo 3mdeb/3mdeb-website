@@ -1,0 +1,54 @@
+{{ define "main" }}
+
+{{ partial "components/page-header.html" . }}
+
+{{with .Params.introduction}}
+<section class="section">
+  <div class="container">
+    <div class="row gy-5">
+      <div class="col-md-8 order-2 order-md-0">
+        {{ .content | markdownify }}
+        <br>
+        <div class="d-flex flex-wrap justify-content-around align-items-center">
+          {{ range .images }}
+          {{ partial "image.html" (dict "Src" . "Alt" "technology")
+          }}
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="col-md-4 order-1 order-md-0 text-center">
+        {{ partial "image.html" (dict "Src" .image "Alt" "hardware security" "Size" "320x320" )
+        }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{with .Params.software_security}}
+<section class="section bg-light">
+  <div class="container">
+    <div class="row gy-5 justify-content-around">
+      <div class="col-md-8 order-2 order-md-0">
+        {{.content | markdownify}}
+      </div>
+
+      <div class="col-md-3 order-1 order-md-0 text-center">
+        {{ partial "image.html" (dict "Src" .image "Alt" "software security" ) }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.how_to_improve_security }}
+<section class="section">
+  <div class="container">
+    {{.content | markdownify}}
+  </div>
+</section>
+{{ end }}
+{{ partial "components/cta.html" (dict "Context" .) }}
+
+{{ end }}

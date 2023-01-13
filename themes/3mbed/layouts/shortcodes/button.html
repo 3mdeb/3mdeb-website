@@ -1,0 +1,5 @@
+{{ $class := .Get `class` }}
+{{ $link := .Get `link` }}
+{{ $label := .Get `label` }}
+<a href="{{ $link | absLangURL }}" class="btn {{with $class}}{{.}}{{else}}btn-primary{{end}}" {{ if strings.HasPrefix $link `http` }}
+  target="_blank" rel="noopener" {{ end }}>{{ $label }}</a>

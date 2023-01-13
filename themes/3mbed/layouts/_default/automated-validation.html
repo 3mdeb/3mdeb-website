@@ -1,0 +1,105 @@
+{{ define "main" }}
+
+{{ partial "components/page-header.html" . }}
+
+{{ with .Params.introduction }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 order-2 order-md-0">
+        {{.content | markdownify}}
+        <div class="row row-cols-1 row-cols-md-3 d-flex justify-content-around flex-wrap">
+          {{ range .technologies }}
+          <div class="col text-center">
+            {{ partial "image.html" (dict "Src" . "Alt" "technology" "Class" `d-inline-block mx-auto` "Size" "x120" ) }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-md-4 order-1 order-md-0 text-center">
+        {{ partial "image.html" (dict "Src" .image "Alt" "validation" "Size" "320x320" ) }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{with .Params.regression_testing}}
+<section class="section bg-light">
+  <div class="container">
+    <div class="row g-5">
+      {{ range . }}
+      <div class="col-md-6">
+        {{.content | markdownify}}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.service_options }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>{{.title | markdownify}}</h2>
+        <p> <br> <b>{{.subtitle | markdownify}}</b></p>
+      </div>
+    </div>
+    <div class="row pt-5 justify-content-center">
+      {{ range .packages }}
+      {{ range .list }}
+      <div class="col-6 col-sm-2 text-center">
+        {{ partial "image.html" (dict "Src" .icon "Alt" "icon" "Size" "x300") }}
+        <p>{{.title | markdownify}}</p>
+      </div>
+      {{ end }}
+      <div class="col-12 text-center">
+        <p> <br> <b>{{.info | markdownify}}</b></p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.service_details }}
+<section class="section bg-light">
+  <div class="container">
+    <div class="row g-5">
+      {{ range . }}
+      <div class="col-md-6">
+        {{ .content | markdownify }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.supporting_technologies }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-7 mx-auto">
+        <div class="row row-cols-md-4 row-cols-lg-6 g-5 justify-content-around">
+          {{ range . }}
+          <div class="col text-center">
+            {{ partial "image.html" (dict "Src" . "Alt"
+            "technology" "Size" "x70" "Webp" false) }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+{{ end }}
+
+{{ partial "components/cta.html" (dict "Context" .) }}
+
+{{ end }}

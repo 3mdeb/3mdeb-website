@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+{{ partial "components/page-header.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+        <div class="content">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "components/cta.html" (dict "Context" . "Class" "bg-light") }}
+
+{{ end }}

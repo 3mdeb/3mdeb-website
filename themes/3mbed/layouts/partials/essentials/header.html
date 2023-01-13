@@ -1,0 +1,72 @@
+<!-- navigation -->
+<header>
+  <div class="container">
+    <a href="/" class="brand-logo">
+      {{ partial "image.html" (dict "Src" site.Params.logo "Alt" "3mdeb" ) }}
+    </a>
+
+    {{/* Navigation */}}
+    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+      aria-label="Toggle navigation" aria-expanded="false">
+      <svg class="icon" fill="white" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg"
+        width="26" height="7" viewBox="0 0 26 7">
+        <path fill-rule="evenodd"
+          d="M332.5,45 C330.567003,45 329,43.4329966 329,41.5 C329,39.5670034 330.567003,38 332.5,38 C334.432997,38 336,39.5670034 336,41.5 C336,43.4329966 334.432997,45 332.5,45 Z M342,45 C340.067003,45 338.5,43.4329966 338.5,41.5 C338.5,39.5670034 340.067003,38 342,38 C343.932997,38 345.5,39.5670034 345.5,41.5 C345.5,43.4329966 343.932997,45 342,45 Z M351.5,45 C349.567003,45 348,43.4329966 348,41.5 C348,39.5670034 349.567003,38 351.5,38 C353.432997,38 355,39.5670034 355,41.5 C355,43.4329966 353.432997,45 351.5,45 Z"
+          transform="translate(-329 -38)"></path>
+      </svg>
+      <p class="text-muted mt-1 mb-0 p-0 small">Menu</p>
+    </button>
+    <nav class="primary-menu collapse" id="navbarCollapse">
+      <ul class="list-unstyled d-lg-flex justify-content-between" id="navbarSupportedContent">
+        {{ $currentPage := . }}
+        {{ range site.Menus.main }}
+        {{ $menuURL := .URL | absLangURL }}
+        {{ $pageURL:= $currentPage.Permalink | absLangURL }}
+        {{ $active := eq $menuURL $pageURL }}
+        {{ if .HasChildren }}
+        <li class="dropdown
+          {{ range .Children }}
+          {{ $childURL := .URL | absLangURL }}
+          {{ $active := eq $childURL $pageURL }}
+          {{ if $active }}active{{ end }}
+          {{ end }}">
+          <div class="anchor-wrapper d-flex justify-content-between">
+            <span>{{ .Name }}</span>
+            <button class="btn" data-bs-target="#{{ .Name | lower | urlize }}" data-bs-toggle="collapse" aria-expanded="false">
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+              </svg>
+            </button>
+          </div>
+          <ul class="list-unstyled dropdown-menu collapse {{if eq .Name `Training`}}accordion-links-wrapper{{end}}" id="{{ .Name | lower | urlize }}">
+            {{ range .Children }}
+            {{ $childURL := .URL | absLangURL }}
+            {{ $active := eq $childURL $pageURL }}
+            <li>
+              <a class="{{if $active}}active{{end}}" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
+              href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else if eq .URL (`/` | relURL) }}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          </ul>
+        </li>
+        {{ else }}
+        <li class="{{if $active}}active{{end}}">
+          <div class="anchor-wrapper d-flex justify-content-between">
+            <a {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}} href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else if eq .URL (`/` | relURL) }}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
+          </div>
+        </li>
+        {{ end }}
+        {{ end }}
+      </ul>
+
+      <ul class="social-menu">
+        {{ range site.Params.social }}
+        <li class="list-inline-item">
+          <a href="{{.link}}" title="{{.name}}"><i class="{{.icon}}"></i></a>
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->

@@ -1,0 +1,103 @@
+#################### default parameters ################################
+# favicon
+favicon = "images/favicon.jpg"
+# logo
+logo = "images/logo.png"
+logo_big = "images/logo300x104.svg"
+# use `px` or `x` with logo_width, example: "100px".
+# Note: logo_width is not work with .svg file
+logo_width = "100px"
+# if logo_webp set false, will not generate WEBP version of logo | default is true
+logo_webp = true
+# logo text will only show when logo is missing.
+logo_text = "3mbed"
+# purgeCSS
+purge_css = true
+# Main Sections
+mainSections = ["blog"]
+# image gallery shortcode
+image_gallery = true
+# contact form action
+contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
+# google tag manager, see https://developers.google.com/tag-manager/
+google_tag_manager = "" # example: G-XXXXXXXXXX
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
+custom_script = ""
+
+# Preloader
+[preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# contact info
+[contact_info]
+vat_info = "3mdeb Sp. z o.o. VAT ID: PL5842812770"
+address = "Abrahama 1A / 2.05 80-307 Gdańsk, Poland"
+mobile = "+48 58 718 91 79"
+email = "contact@3mdeb.com"
+invoicing = "3mdeb Sp. z o.o. <br> ul. Abrahama 1A/2.05 <br> 80-307 Gdańsk, Poland <br> VAT ID: PL5842812770"
+
+# Newsletter
+[newsletter]
+enable = true
+title = "If you are interested in receiving updates about 3mdeb activity, join our 3mdeb newsletter!"
+
+# Call to action
+[cta]
+enable = true
+title = "Contact **Us**"
+subtitle = "Feel free to ask if you have any questions."
+button_label = "Contact Us"
+button_link = "/contact"
+
+# seo meta data for OpenGraph / Twitter Card
+[metadata]
+keywords = ["Boilerplate", "Hugo", "Themefisher", "GetHugoThemes"]
+description = "This is meta description"
+author = "Themefisher"
+image = "images/favicon.png"                                       # this image will be used as fallback if a page has no image of its own
+
+# site verifications
+[site_verification]
+google = ""   # Your verification code
+bing = ""     # Your verification code
+baidu = ""    # Your verification code
+facebook = "" # Your verification code
+
+# cookies
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+############################# social site ########################
+[[social]]
+title = "facebook"
+icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.facebook.com/3mdeb/"
+
+[[social]]
+title = "twitter"
+icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://twitter.com/3mdeb_com"
+
+[[social]]
+title = "youtube"
+icon = "fab fa-youtube" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.youtube.com/channel/UC_djHbyjuJvhVjfT18nyqmQ"
+
+[[social]]
+title = "linkedin"
+icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "ttps://www.linkedin.com/company/3mdeb/"
+
+[[social]]
+title = "github"
+icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://github.com/3mdeb"
+
+[[social]]
+title = "reddit"
+icon = "fab fa-reddit" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.reddit.com/r/3mdeb/"

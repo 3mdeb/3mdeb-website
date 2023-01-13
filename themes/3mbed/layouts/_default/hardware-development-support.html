@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+{{ partial "components/page-header.html" . }}
+
+{{ with .Params.hardware_support }}
+{{ range $i, $e := . }}
+<section class="section {{if not (modBool $i 2)}}bg-light{{ end }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 {{if not (modBool $i 2)}}order-2{{else}}order-2 order-md-1{{ end }}">
+        {{ .content | markdownify }}
+      </div>
+      <div class="col-md-4 {{if not (modBool $i 2)}}order-1{{else}}order-1 order-md-2{{ end }} text-center">
+        {{ partial "image.html" (dict "Src" .image "Alt" "technology" "Size" "320x320" )
+        }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+
+{{ with .Params.why_us }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        {{ .content | markdownify }}
+
+        {{ partial "image.html" (dict "Src" .image "Alt" "pc-engines" )
+        }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ partial "components/cta.html" (dict "Context" .) }}
+
+{{ end }}

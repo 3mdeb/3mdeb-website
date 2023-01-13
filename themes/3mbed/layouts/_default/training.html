@@ -1,0 +1,118 @@
+{{ define "main" }}
+
+
+{{ partial "components/page-header.html" . }}
+
+{{ with .Params.message }}
+<section class="section-big">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 mx-auto">
+        {{ .content | markdownify}}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.trainings }}
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="accordion accordion-flush" id="courses">
+          {{ range $i, $ele := .}}
+          {{ if ne $i 0 }}
+          <hr class="separator">
+          {{ end }}
+          <div class="accordion-item" id="{{ replace (.title | plainify | urlize) `nbsp-` ``}}">
+            <h2 class="accordion-header">
+              <button class="accordion-button shadow-none h3 fw-semibold collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#_{{.title | sha1}}" aria-expanded="false"
+                aria-controls="_{{.title | sha1}}">
+                {{.title | markdownify}}
+              </button>
+            </h2>
+            <div id="_{{.title | sha1}}" class="accordion-collapse collapse" data-bs-parent="#courses">
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div>
+                      <h3>Overview</h3>
+                      {{.overview | markdownify}}
+                      <br>
+                    </div>
+                    <div>
+                      <h3>Audience</h3>
+                      {{.audience | markdownify}}
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div>
+                      <div class="w-100 text-center">
+                        {{ partial "image.html" (dict "Src" .image "Webp" false ) }}
+                      </div>
+
+                      <h3>Duration</h3>
+                      {{.duration | markdownify}}
+                      <br>
+                      <h3>Materials</h3>
+                      {{.materials | markdownify}} <br><br>
+                      <h3>Language</h3>
+                      {{.language | markdownify}}
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="d-flex flex-wrap gap-4 w-fit mx-auto">
+                      {{ .buttons | markdownify }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+</section>
+{{ end }}
+
+{{ with .Params.faq }}
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <h2 class="fw-semibold{">{{.title | markdownify}}</h2>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="accordion accordion-flush" id="faq">
+          {{ range $i, $ele := .faqs }}
+          {{ if ne $i 0 }}
+          <hr class="separator">
+          {{ end }}
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button shadow-none h3 fw-semibold collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#_{{.title | urlize}}" aria-expanded="false" aria-controls="_{{.title | urlize}}">
+                {{.title | markdownify}}
+              </button>
+            </h2>
+            <div id="_{{.title | urlize}}" class="accordion-collapse collapse" data-bs-parent="#faq">
+              <div class="accordion-body">
+               {{.content | markdownify}}
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+</section>
+{{ end }}
+
+{{ partial "components/cta.html" (dict "Context" . "Class" "bg-light") }}
+{{ end }}

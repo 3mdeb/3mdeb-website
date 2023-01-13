@@ -1,0 +1,263 @@
+{{ define "main" }}
+
+<section class="page-header" {{ partial `bg-image.html` (dict `Src` "/images/events/header-bg.jpg" ) | safeHTMLAttr }}>
+  <div class="container">
+    <h1>Events</h1>
+  </div>
+</section>
+
+<section class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-xl-6 mx-auto">
+        <div class="opt-in-form text-center mb-5">
+          <p class="text-opacity-75">
+            If you are interested in receiving updates about 3mdeb activity, join our 3mdeb newsletter!
+          </p>
+          <form action="" class="row justify-content-center">
+            <div class="col-md-8">
+              <input class="p-3 w-100" type="text" name="email" placeholder="Email">
+            </div>
+            <div class="col-12">
+              <input class="btn btn-radius-primary mt-4" type="submit" value="SUBSCRIBE">
+            </div>
+          </form>
+        </div>
+
+        <iframe loading="lazy" src="https://calendar.google.com/calendar/embed?src=events%403mdeb.com&amp;ctz=Europe%2FParis" scrolling="no"
+          class="lazy mt-5 w-100" height="600" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section pt-0 event-links">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-xl-6 mx-auto">
+        {{ with .Params.events_download }}
+        <div class="text-center section-title">
+          <h2 class="h3">{{.title | markdownify}}</h2>
+          <a class="fs-2" href="{{.link | safeURL}}">{{.label | markdownify}}</a>
+        </div>
+        {{ end }}
+
+        <div class="row event-links-wrapper accordion-links-wrapper gy-5 align-items-start pt-5">
+          {{ range .Params.all_events }}
+          <div class="col-md-6">
+            <h3>{{.year | markdownify}}</h3>
+            <ul>
+              {{ range .events }}
+              {{ $eventLink := or (ne .date ``) (ne .time ``) (ne .event_poster ``) (ne .additional_info ``)}}
+
+              {{ if $eventLink }}
+              <li><a href="/events/#_{{.title | plainify | urlize}}">{{.title | markdownify}}</a></li>
+              {{ else }}
+              <li>{{.title | markdownify}}</li>
+              {{ end }}
+              
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+
+          <div class="col-md-6 d-none">
+            <h3>Up<strong>coming</strong></h3>
+            <ul>
+              <li><a href="/events/#id-fosdem-2023">FOSDEM</a></li>
+              <li>TPMdev 2023 MiniConf</li>
+              <li>Dasharo Community Call Q1'23</li>
+              <li>Dasharo Virtual Hackathon Q1'23</li>
+              <li>Platform Security Summit 2023</li>
+              <li>Qubes OS Summit 2023</li>
+              <li>Open Source Firmware Conference</li>
+            </ul>
+            <h3>20<strong>21</strong></h3>
+            <ul>
+              <li><a href="/events/#id-yocto-project-virtual-summit-2021">Yocto Project
+                  <strong>Virtual Summit</strong></a></li>
+              <li><a href="/events/#id-vpub-0x3-2021">Dasharo OSF vPub Fall 2021
+                  <strong>(aka 3mdeb vPub vol. 3)</strong></a></li>
+              <li><a href="/events/#id-trenchboot-developers-forum-2021">TrenchBoot
+                  <strong>Developers Forum</strong></a></li>
+              <li><a href="/events/#id-openpower-summit-2021">OpenPOWER
+                  <strong>Summit</strong></a></li>
+              <li><a href="/events/#id-tpmdev-2021-miniconf">TPM.dev <strong>2021
+                    MiniConf</strong></a></li>
+              <li><a href="/events/#id-linux-plumbers-conference-2021">Linux Plumbers
+                  <strong>Conference</strong></a></li>
+              <li><a href="/events/#id-eurobsdcon-2021">Euro<strong>BSDCon</strong></a>
+              </li>
+              <li><a href="/events/#id-qubes-os-minisummit-2021">Qubes OS
+                  <strong>Minisummit</strong></a></li>
+              <li><a href="/events/#id-open-power-community-call-21">OpenPOWER
+                  <strong>Community Call</strong></a></li>
+              <li><a href="/events/#id-zephyr-developer-summit-2021">Zephyr Developer
+                  <strong>Summit</strong></a></li>
+              <li><a href="/events/#id-xen-developer-and-design-summit-2021">Xen Developer
+                  <strong>&amp; Design Summit</strong></a></li>
+              <li><a href="/events/#id-yocto-project-summit-21">Yocto Project
+                  <strong>Summit</strong></a></li>
+              <li><a href="/events/#id-ngi-forum-2021">NGI <strong>Forum 2021</strong></a>
+              </li>
+              <li><a href="/events/#id-vpub-0x2-2021">vPub <strong>0x2</strong></a></li>
+              <li><a href="/events/#id-trenchboot-developers-forum-21">TrenchBoot
+                  <strong>Developers Forum</strong></a></li>
+              <li><a href="/events/#id-vbeer-0x1-2021">vBeer <strong>0x1</strong></a></li>
+              <li><a href="/events/#id-fosdem-2021">FOSDEM</a></li>
+            </ul>
+            <h3>20<strong>19</strong></h3>
+            <ul>
+              <li><a href="/events/#id-grub2-and-3mdeb-minisummit-2019">GRUB2
+                  and&nbsp;<strong>3mdeb minisummit</strong></a></li>
+              <li><a href="/events/#id-web-summit-2019">Web&nbsp;<strong>Summit</strong></a></li>
+              <li><a href="/events/#id-embedded-linux-conference-europe-2019">Embedded
+                  Linux&nbsp;</a><strong><a class="ek-link ek-link"
+                    href="/events/#id-Embedded-Linux-Conference">Conference</a></strong><a class="ek-link ek-link"
+                  href="/events/#id-Embedded-Linux-Conference"><strong>
+                    Europe</strong></a></li>
+              <li><a href="/events/#id-platform-security-summit-2019">Platform
+                  Security&nbsp;<strong>Summit</strong></a></li>
+              <li><a href="/events/#id-linux-plumbers-conference-2019">Linux
+                  Plumbers&nbsp;<strong>Conference</strong></a></li>
+              <li><a href="/events/#id-open-source-firmware-conference-2019">Open Source
+                  <strong>Firmware Conference</strong></a></li>
+              <li><a href="/events/#id-qubes-os-and-3mdeb-minisummit-2019">Qubes OS
+                  and&nbsp;<strong>3mdeb minisummit</strong></a></li>
+              <li><a href="/events/#id-embedded-world-2019">Embedded&nbsp;<strong>World</strong></a></li>
+            </ul>
+            <h3>20<strong>17</strong></h3>
+            <ul>
+              <li><a href="/events/#id-european-coreboot-conference-2017">European
+                  coreboot&nbsp;<strong>Conference</strong></a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-6 d-none">
+            <h3>20<strong>22</strong></h3>
+            <ul>
+              <li><a href="/events/#id-3mdeb-hackathon-2022">3mdeb
+                  <strong>Hackathon</strong></a></li>
+              <li><a href="/events/#id-yocto-project-summit-2022">Yocto Project
+                  <strong>Summit</strong></a></li>
+              <li><a href="/events/#id-open-source-firmware-conference-2022">Open Source
+                  <strong>Firmware Conference</strong></a></li>
+              <li><a href="/events/#id-qubes-os-summit-2022">Qubes OS <strong>summit
+                    2022</strong></a></li>
+              <li><a href="/events/#id-vpub-0x5-2022">Dasharo OSF vPub Spring 2022
+                  <strong>(aka 3mdeb vPub vol. 5)</strong></a></li>
+              <li><a href="/events/#id-fosdem-2022">FOSDEM</a></li>
+              <li><a href="/events/#id-vpub-0x4-2022">Dasharo OSF vPub Winter 2022
+                  <strong>(aka 3mdeb vPub vol. 4)</strong></a></li>
+            </ul>
+            <h3>20<strong>20</strong></h3>
+            <ul>
+              <li><a href="/events/#id-open-source-firmware-conference-2020">Open Source
+                  <strong>Firmware Conference</strong></a></li>
+              <li><a href="/events/#id-grub-mini-summit-2020">GRUB
+                  <strong>mini-summit</strong></a></li>
+              <li><a href="/events/#id-Yocto-Project-Summit">Yocto Project </a><strong><a
+                    href="/events/#id-yocto-project-summit-2020">Summit</a></strong></li>
+              <li><a href="/events/#id-tpmdev-2020-miniconf">TPM.dev <strong>2020
+                    MiniConf</strong></a></li>
+              <li><a href="/events/#id-x-org-developers-conference-2020">X.Org Developers
+                  <strong>Conference</strong></a></li>
+              <li><a href="/events/#id-openpower-summit-2020">OpenPOWER
+                  <strong>Summit</strong></a></li>
+              <li><a href="/events/#id-linux-plumbers-conference-2020">Linux Plumbers
+                  <strong>Conference</strong></a></li>
+              <li><a href="/events/#id-virtual-xen-developer-and-design-summit-2020">virtual Xen Developer &amp;
+                  <strong>Design Summit</strong></a></li>
+              <li><a href="/events/#id-qubes-os-and-3mdeb-minisummit-2020">Qubes OS
+                  and&nbsp;<strong>3mdeb minisummit</strong></a></li>
+              <li><a href="/events/#id-embedded-world-2020">Embedded&nbsp;<strong>World</strong></a></li>
+              <li><a href="/events/#id-fosdem-2020">FOSDEM</a></li>
+            </ul>
+            <h3>20<strong>18</strong></h3>
+            <ul>
+              <li><a href="/events/#id-open-source-firmware-conference-2018">Open Source
+                  <strong>Firmware Conference</strong></a></li>
+            </ul>
+            <h3>20<strong>16</strong></h3>
+            <ul>
+              <li><a href="/events/#id-net-vision-2016">Net<strong>Vision</strong></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ range .Params.all_events }}
+{{ $year := .year }}
+<section class="events-wrapper">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10 bg-light">
+        <div class="event-year">
+          <h2>{{$year | markdownify}}</h2>
+        </div>
+      </div>
+      <div class="col-md-10">
+        <div class="events-accordion accordion accordion-flush" id="_{{$year | plainify | urlize}}_">
+          {{ range $i, $e := .events }}
+          {{ if or (ne .status "upcoming") (ne .date ``) (ne .time ``) (ne .event_poster ``) }}
+          {{ if ne $i 0 }}<hr class="separator">{{end}}
+          <div class="accordion-item" id="_{{.title | plainify | urlize}}">
+            <h2 class="accordion-header">
+              <button class="accordion-button shadow-none h3 fw-semibold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#_{{.title | plainify | urlize}}__" aria-expanded="false" aria-controls="_{{.title | plainify | urlize}}__">
+                {{.title | markdownify}}
+              </button>
+            </h2>
+            <div id="_{{.title | plainify | urlize}}__" class="accordion-collapse collapse bg-transparent" data-bs-parent="#_{{$year | plainify | urlize}}_">
+              <div class="accordion-body">
+                <div class="row gx-4 gx-lg-5 gy-4">
+                  <div class="col-lg-3">
+                    <p class="h5">{{.time}}<strong>{{.date}}</strong></p>
+                  </div>
+                  <div class="col-lg-3 me-auto">
+                    {{ partial "image.html" (dict "Src" .event_poster "Alt" (.title | plainify)) "Size" "200x" }}
+                  </div>
+                  <div class="col-lg-5">{{.additional_info | markdownify}}</div>
+                </div>
+
+                {{ range .segments }}
+                {{ if or (ne .date ``) (ne .image ``) (ne .youtube_video_id ``) (ne .additional_info ``)}}
+                <div class="row gx-4 gx-lg-5 gy-4">
+                  <div class="col-lg-3">
+                    <p class="h5">{{.time}}<strong>{{.date}}</strong></p>
+                  </div>
+
+                  <div class="col-lg-4">
+                    {{- with .image -}}
+                    {{- partial "image.html" (dict "Src" .image "Alt" "event-image" "Class" "mb-4") "Size" "200x" -}}
+                    {{- end -}}
+
+                    {{- with .youtube_video_id -}}
+                    {{- partial "components/youtube-lite.html" (dict "Video_id" .) -}}
+                    {{- end -}}
+                  </div>
+
+                  <div class="col-lg-5">{{.additional_info | markdownify}}</div>
+                </div>
+                {{ end }}
+                {{ end }}
+
+              </div>
+            </div>
+          </div>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ partial "components/cta.html" (dict "Context" . "Class" "bg-light") }}
+
+
+{{ end }}

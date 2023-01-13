@@ -1,0 +1,117 @@
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: $font-primary;
+	background: #f5efe0;
+	color: #000;
+	font-size: 1.5rem;
+	letter-spacing: -0.015em;
+	line-height: 1.8;
+	font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font-primary;
+	color: $text-dark;
+	font-feature-settings: "lnum";
+	font-variant-numeric: lining-nums;
+	letter-spacing: -0.0415625em;
+	line-height: 1.25;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+	font-weight: 600;
+	margin-bottom: 1.8rem;
+
+	a {
+		color: $text-dark;
+
+		&:hover {
+			color: $color-primary;
+		}
+	}
+}
+
+h1,
+.h1 {
+	font-size: 8.4rem;
+	font-weight: 800;
+	line-height: 1.138888889;
+
+	@include tablet {
+		font-size: 6.4rem;
+	}
+
+	@include mobile {
+		font-size: 4.4rem;
+	}
+}
+
+h2,
+.h2 {
+	font-size: 4rem;
+
+	@include tablet {
+		font-size: 3.2rem;
+	}
+}
+
+h3,
+.h3 {
+	font-size: 3rem;
+
+	@include tablet {
+		font-size: 2.5rem;
+	}
+}
+
+h4,
+.h4 {
+	font-size: 2.4rem;
+}
+
+h5,
+.h5 {
+	font-size: 2rem;
+
+	@include min-tablet {
+		font-size: 2.4rem;
+	}
+}
+
+h6,
+.h6 {
+	font-size: 1.8rem;
+}
+
+p,
+label {
+	line-height: 1.8;
+	font-weight: 300;
+	margin: 0 0 1em 0;
+}
+
+small,
+.small {
+	font-size: 1.4rem;
+}

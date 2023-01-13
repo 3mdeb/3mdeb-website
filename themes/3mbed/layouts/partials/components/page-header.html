@@ -1,0 +1,5 @@
+<section class="page-header" {{ partial `bg-image.html` (dict `Src` .Params.image ) | safeHTMLAttr }}>
+  <div class="container">
+    <h1> {{.Params.title | markdownify}} </h1>
+  </div>
+</section>

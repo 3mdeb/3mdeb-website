@@ -1,0 +1,57 @@
+# This file is for render site varibles and plugins
+# don't remove this file.
+# The presence of this file is for compatibility with Blogdown and Forestry.
+#
+# The actual configuration files are stored in the `config/_default/` folder.
+
+
+######################### site variables ##############################
+# customize your color and font from here.
+[params.variables]
+color_primary = "#38d430"
+color_secondary = "#001111"
+body_color = "#fff"
+text_color = "#666666"
+text_dark = "#222222"
+text_light = "#959595"
+border_color = "#ACB9C4"
+border_dark = "#ffffff1f"
+black = "#000"
+white = "#fff"
+dark = "#222"
+light = "#f9f9f9"
+
+# go to https://fonts.google.com/ to find the font you want to use. select your font and copy only the bold part from the URL. and paste it here.
+# example: "Work+Sans:wght@400;500;600"
+font_primary = "Montserrat:wght@300;400;500;600;700"
+font_primary_type = "sans-serif"            # [serif/sans-serif]
+font_secondary = ""
+font_secondary_type = ""                    # [serif/sans-serif]
+font_icon = "Font Awesome 6 Free"           # https://fontawesome.com/v6.0/icons/
+
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/swiper/swiper-bundle.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/brands.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/solid.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/swiper/swiper-bundle.js"
+[[params.plugins.js]]
+link = "plugins/webfont/webfont-loader-2.js"
+# [[params.plugins.js]]
+# link = "plugins/glightbox.js"
+[[params.plugins.js]]
+link = "plugins/cookie.js"
+[[params.plugins.js]]
+link = "plugins/lazy-loader.js"
+[[params.plugins.js]]
+link = "plugins/youtube-lite/youtube-lite.js"

@@ -1,0 +1,129 @@
+{{ define "main" }}
+
+{{ partial "components/page-header.html" . }}
+
+{{ with site.GetPage "/" }}
+{{ with .Params.cooperation_with_us }}
+{{ if .enable }}
+<section class="section">
+  <div class="container-fluid">
+    <div class="row gx-0">
+      <div class="col-12">
+        <div class="section-title">
+          <h2>{{.title | markdownify}}</h2>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="cooperation-wrapper">
+          {{ range $i, $e := .coop_lists }}
+          <div class="cop-block-outer">
+            <span class="cop-block-num">{{ if lt $i 10}}0{{end}}{{add $i 1}}</span>
+            <div class="cop-block">
+              <div class="outer-border"></div>
+              <h6 class="cop-title">{{.title | markdownify}}</h6>
+              <div class="cop-detailinfo">
+                <p>{{.content | markdownify}}</p>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
+
+<section class="section pt-0">
+  <div class="container">
+    {{ with .Params.lets_work_together }}
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <h2>{{.title | markdownify}}</h2>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+    <div class="row">
+      <div class="col-md-6 d-flex justify-content-around flex-column flex-md-row">
+        <div class="text-center">
+          {{ partial "image.html" (dict "Src" "/images/contact/icon-1.png" "Alt" "our office") }}
+          <h3 class="h2 mt-5">Our <strong>office</strong></h3>
+          <p>{{site.Params.contact_info.address | markdownify}}</p>
+        </div>
+        <div class="text-center">
+          {{ partial "image.html" (dict "Src" "/images/contact/icon-2.png" "Alt" "Invoicing") }}
+          <h3 class="h2 mt-5">Invoicing</h3>
+          <p>{{site.Params.contact_info.invoicing | markdownify}}</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <form action="" class="row gy-4">
+          <div class="col-12">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="col-12">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="col-12">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="subject" required>
+          </div>
+          <div class="col-12">
+            <label for="reference" class="form-label">How did you hear about Us?</label>
+            <input type="text" class="form-control" id="reference" required>
+          </div>
+          <div class="col-12">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea rows="4" class="form-control" id="message" required></textarea>
+          </div>
+          <div class="col-12 text-center">
+            <input type="submit" class="btn btn-radius-primary" value="send">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section pt-0">
+  <div class="container">
+    <div class="row justify-content-around">
+      {{ with .Params.cta }}
+      <div class="col-md-5">
+        <div class="text-center">
+          <h2 class="h4 mt-5">{{.title | markdownify}}</h2>
+          {{ with .button }}
+          <a href="{{.link | safeURL}}" target="_blank" class="btn btn-primary">{{.label | markdownify}}</a>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+      <div class="col-md-5 text-center">
+        <h2 class="h4 mt-5">Find us on <strong>social media</strong></h2>
+        <ul class="social-menu-alt">
+          {{ range site.Params.social }}
+          <li class="list-inline-item">
+            <a href="{{.link | safeURL}}" title="{{.title}}" class="{{.title}}"><i class="{{.icon}}"></i></a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <iframe loading="lazy" src="{{.Params.google_map_embed_url | safeURL}}" allowfullscreen="" width="600" height="850" frameborder="0" class="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+{{ end }}
