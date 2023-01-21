@@ -125,6 +125,8 @@ weight = 35
 [[main]]
 weight = 15
 name = "Training"
+pre = true
+url = "/training"
 hasChildren = true
 
 [[main]]
