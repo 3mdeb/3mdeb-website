@@ -81,12 +81,12 @@ The Logo Policy document you can find [**here**](https://cloud.3mdeb.com/index.p
 **“Introduction of 3mdeb Embedded System Consulting software solutions on the international market”**
 The basic assumption of this project is participation in pro-export events, mostly in international conferences. We would like to be involved as both speakers and attendees, presenting our knowledge and technological solutions. The main goal of the project is to promote the company on the foreign market and to establish contacts that can result in long-term cooperation.
 
-Overall planned implementation cost of this project: 46728,86 PLN Planned amount of funding: 23364,43 PLN
+Overall planned implementation cost of this project: 46728,86 <br/> PLN Planned amount of funding: 23364,43 PLN
 
 and
 
 **“Promoting 3mdeb Embedded System Consulting companyon the international market as an opportunity to expand export”**
 The main goal of the project is to develop our export potential by participating in the most important industry events related to our company. The main assumption of the project is the opportunity to participate in the events as an exhibitor, to could present and visualize our products. We want to present our projects and technology in the form of demonstration products at our own exhibition stands, to put upon a great opportunity for cooperation and promotion on a new market.
 
-Overall planned implementation cost of this project: 119647,80 Planned amount of funding: 57983,90
+Overall planned implementation cost of this project: 119647,80 <br/> Planned amount of funding: 57983,90
 <div/>
