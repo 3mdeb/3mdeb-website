@@ -5,7 +5,7 @@
 {{with .Params.introduction}}
 <section class="section">
   <div class="container">
-    <div class="row gy-5">
+    <div class="row gy-5 align-items-center">
       <div class="col-md-8 order-2 order-md-0">
         {{ .content | markdownify }}
         <br>
@@ -18,7 +18,7 @@
       </div>
 
       <div class="col-md-4 order-1 order-md-0 text-center">
-        {{ partial "image.html" (dict "Src" .image "Alt" "hardware security" "Size" "320x320" )
+        {{ partial "image.html" (dict "Src" .image "Alt" "hardware security" "Size" "320x320" "Class" "mb-5 pb-0 pb-md-5" )
         }}
       </div>
     </div>
