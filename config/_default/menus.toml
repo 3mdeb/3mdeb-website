@@ -218,7 +218,7 @@ weight = 20
 
 [[main]]
 name = "Shop"
-url = "shop/"
+url = "https://3mdeb.com/shop/"
 weight = 25
 
 [[main]]
