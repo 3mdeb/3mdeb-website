@@ -7,20 +7,20 @@ draft: false
 layout: "markets"
 
 table_of_content:
-  - title: "Customer"
-    icon: "images/about-us/customer.png"
+  - title: "Safety and Mission Critical"
+    icon: "images/markets/mission.png"
   - title: "Industrial"
     icon: "images/markets/industrial.png"
   - title: "IoT & Embedded"
     icon: "images/services/iot.png"
-  - title: "Safety and Mission Critical"
-    icon: "images/markets/mission.png"
+  - title: "Customer"
+    icon: "images/about-us/customer.png"
 
 customer:
-  title: "Customer"
+  title: "Consumer"
   icon: "images/about-us/customer.png"
   content: |
-    Our company offer many products and services that may be considered not only for industrial or commercial usage. I.e. if you have a private network in your house, where you keep valuable private stuff, it would be reasonable to protect it with good firewall, like **[Protectli Vault](https://shop.3mdeb.com/product/protectli-vault/)**, **[lpnGate](https://shop.3mdeb.com/product/lpngate/)** or Librebox, especially **[flashed](https://shop.3mdeb.com/product/flashing-microcontroller-service/)** with appropriate and secure firmware.
+    Our company offer many products and services that may be considered not only for industrial or commercial usage. I.e. if you have a private network in your house, where you keep valuable private stuff, it would be reasonable to protect it with good firewall, like **[Protectli Vault](https://shop.3mdeb.com/product/protectli-vault/)**, **lpnGate** or Librebox, especially **[flashed](https://shop.3mdeb.com/product/flashing-microcontroller-service/)** with appropriate and secure firmware.
 
     If you already have such a device, flashing it still is a good idea. It will make your device more stable, secure and even boost its performance.
 
@@ -31,9 +31,11 @@ customer:
     Interested in what are we doing? Check out our **[Blog](https://blog.3mdeb.com/)** and follow us on **[Twitter](https://twitter.com/3mdeb_com)** and **[Facebook](https://www.facebook.com/3mdeb)**.
 
     If you have any doubts or questions, please **[contact us](/contact/)** or **[schedule a call](https://calendly.com/3mdeb)**.
+
+    <br>
     
-    {{< image src="/images/partners/libretrend.png" alt="libretrend" >}}
-    {{< image src="/images/partners/protectli.png" alt="protectli" >}}
+    {{< image src="/images/partners/libretrend.png" alt="libretrend" class="d-block d-md-inline mx-auto" >}}
+    {{< image src="/images/partners/protectli.png" alt="protectli" class="d-block d-md-inline mx-auto" >}}
 
 
 industrial:
