@@ -35,12 +35,12 @@ hardware_support:
       ## Support of Hardware Security
       {.h3} 
 
-      Due to recent emphasis on IoT solutions, which require sophisticated security features, many hardware developers enabled Trusted Platform Modules. We are not only familiar with these, we have mastered TPM2 and its features. Read more [**here**.](/services/software-and-hardware-security/)
+      Due to recent emphasis on IoT solutions, which require sophisticated security features, many hardware developers enabled Trusted Platform Modules. We are not only familiar with these, we have mastered TPM2 and its features. Read more [**here**.](/software-and-hardware-security/)
 
       ## Continuous Validation
       {.h3} 
 
-      Firmware is crucial element in some industries. Sometimes restrictions laid on the firmware have to be verified in order to obtain certification for example. It is obvious that human make mistakes, so we leave the validation to scripts and automatons we’ve written. Our [**continuous validation**](/services/automated-validation/) let us prove that improving the developed device doesn’t cause regression issues.
+      Firmware is crucial element in some industries. Sometimes restrictions laid on the firmware have to be verified in order to obtain certification for example. It is obvious that human make mistakes, so we leave the validation to scripts and automatons we’ve written. Our [**continuous validation**](/automated-validation/) let us prove that improving the developed device doesn’t cause regression issues.
 
 why_us:
   content: |
