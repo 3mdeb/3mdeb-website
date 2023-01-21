@@ -101,8 +101,6 @@ what_we_do:
 
   - title: "Our task was to prepare the whole system from scratch, by the way we’ve also done:"
     content: |
-      One of our clients was a company, which is dynamically growing in the IoT market. The project was focused on the gateway they produce. It was based on i.MX6 and have a lot of peripherals:
-
       *   Drivers and firmware for the end device (node),
       *   Gateway board bringup and BSP,
       *   Hardware-backed AWS Just in Time Registration (JITR),
