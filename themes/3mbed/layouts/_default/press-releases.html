@@ -51,9 +51,9 @@
           {{ range .articles }}
           <div class="col-lg-3 col-sm-6 text-center">
             <h5 class="fw-normal text-center">
-              <a href="{{.link | safeURL}}">{{.title | markdownify}}</a>
+              <a href="{{.source_url | safeURL}}" {{if findRE `^http` .source_url}}target="_blank" rel="noopener" {{end}}>{{.title | markdownify}}</a>
             </h5>
-            <a href="{{.link | safeURL}}" class="text-dark text-center">
+            <a href="{{.source_url | safeURL}}" {{if findRE `^http` .source_url}}target="_blank" rel="noopener" {{end}} class="text-dark text-center">
               {{ partial "image.html" (dict "Src" .image "Alt" (.title | markdownify) "Class" "mt-4") }}
             </a>
           </div>

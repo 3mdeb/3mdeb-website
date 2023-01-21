@@ -135,14 +135,18 @@ latest_articles:
   title: "Latest **Articles**"
   articles:
     - title: "Articles on <br/> **E-lektor Magazine**"
+      source_url: "https://www.elektormagazine.com/magazine/elektor-75/42164"
       image: "images/latest-articles/ezgif.com-webp-to-jpg-e1560357043205.jpg"
 
     - title: "Articles on <br/> **Reddit**"
+      source_url: "https://www.reddit.com/domain/3mdeb.com/"
       image: "images/latest-articles/pobrany-plik-e1560357066563.png"
 
     - title: "Articles on <br/> **Firmware Security**"
+      source_url: "https://firmwaresecurity.com/?s=3mdeb"
       image: "images/latest-articles/firmwaresecurity-e1575281314935.jpg"
 
     - title: "Articles on <br/> **Picurdi**"
+      source_url: "https://www.picurdi.com/3mdeb/"
       image: "images/latest-articles/56599782_306466833366859_2921705366288859136_n-e1575281280711.png"
 ---
