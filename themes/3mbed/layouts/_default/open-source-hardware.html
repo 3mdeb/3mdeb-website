@@ -43,7 +43,7 @@
 {{ with .Params.used_technology }}
 <section class="section">
   <div class="container">
-    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 align-items-center">
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 align-items-center justify-content-center">
       {{ range . }}
       <div class="col text-center">
         {{ partial "image.html" (dict "Src" . "Alt" "brand" "Class" "mb-4") }}

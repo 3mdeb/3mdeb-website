@@ -49,7 +49,7 @@ open_source_hardware_features:
 
       Size of our company makes us flexible and agile, our hardware and embedded engineers will fully cooperate for your satisfaction, and all the resources will be allocated efficiently. We are continuously enlarging our potential to handle more and more sophisticated projects.
 
-      Check our satisfied clients, projects we participate, and **[contact us](/contact/)**[.](/contact/)
+      Check our satisfied clients, projects we participate, and **[contact us.](/contact/)**
 
       [**Congratulations, you have just found the solution**.](/)
       {{< image src="/images/markets/aws.png" alt="aws" class="d-block mx-auto">}}
@@ -93,7 +93,6 @@ used_technology:
   - "/images/open-source-hardware/intel-1.png"
   - "/images/open-source-hardware/amd-2.png"
   - "/images/open-source-hardware/nxp-3.png"
-  - "/images/open-source-hardware/espressif-4.jpg"
   - "/images/open-source-hardware/espressif-4.jpg"
   - "/images/open-source-hardware/broadcom-5.png"
   - "/images/open-source-hardware/allwinner-6.jpg"
@@ -175,8 +174,7 @@ products:
 
       - image:
         content: |
-          ## OpenVizsla hardware is mainly composed  
-          of four chips connected together:
+          ## OpenVizsla hardware is mainly composed <br /> of four chips connected together:
           {.h3}
 
           * **FTDI FT2232H High-Speed USB FIFO**
