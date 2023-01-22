@@ -35,6 +35,7 @@ careers:
 current_openings:
   enable: true
   title: "Aktualnie **poszukujemy:**"
+  button_label: "APLIKUJ TERAZ"
   jobs:
   - title: "Embedded Systems **Developer/Engineer**"
     description:
@@ -276,6 +277,7 @@ new_branch_in_osie:
 current_openings_in_osie:
   enable: true
   title: "Do oddziału w Osiu **poszukujemy:**"
+  button_label: "APLIKUJ TERAZ"
   jobs:
   - title: "Kierownik **Oddziału IT**"
     description:

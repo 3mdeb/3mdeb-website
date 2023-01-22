@@ -13,9 +13,11 @@ multilingual:
 table_of_contents:
   - title: "Careers"
     icon: "images/careers/stairs.png"
+    section_id: "careers"
 
   - title: "Team **Visions**"
     icon: "images/careers/vision.png"
+    section_id: "team-visions"
 
 careers:
   title: "Careers"
@@ -36,6 +38,7 @@ careers:
 current_openings:
   enable: true
   title: "Current Openings:"
+  button_label: "Apply Now"
   jobs:
   - title: "Embedded Systems **Developer/Engineer**"
     description:

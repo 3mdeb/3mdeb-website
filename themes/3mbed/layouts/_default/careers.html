@@ -61,6 +61,7 @@
 
 {{ with $current_openings }}
 {{ if .enable }}
+{{ $button_label := .button_label }}
 <section class="section pb-0">
   <div class="container">
     <div class="row">
@@ -90,7 +91,7 @@
                     <h3 class="h4 mb-3">{{.title | markdownify}}</h3>
                     {{.content | markdownify}}
                     {{ if eq $i $applyBtn }}
-                    <a href="#apply-form" class="btn btn-primary">APLIKUJ TERAZ</a>
+                    <a href="#apply-form" class="btn btn-primary">{{$button_label | markdownify}}</a>
                     {{ end }}
                   </div>
                   {{ end }}
@@ -128,6 +129,7 @@
 
 {{ with $current_openings_in_osie }}
 {{ if .enable }}
+{{ $button_label := .button_label }}
 <section class="section pb-0">
   <div class="container">
     <div class="row">
@@ -157,7 +159,7 @@
                     <h3 class="h4 mb-3">{{.title | markdownify}}</h3>
                     {{.content | markdownify}}
                     {{ if eq $i $applyBtn }}
-                    <a href="#apply-form" class="btn btn-primary">APLIKUJ TERAZ</a>
+                    <a href="#apply-form" class="btn btn-primary">{{$button_label | markdownify}}</a>
                     {{ end }}
                   </div>
                   {{ end }}
