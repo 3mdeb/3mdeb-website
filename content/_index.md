@@ -117,23 +117,23 @@ we_are_registered:
   organizations:
   - title: "UEFI <br> **Adopters**"
     icon: "images/registered/uefi.png"
-    link: "/about-us/#uefi-adopters/"
+    link: "/about-us/#uefi-adopters"
 
   - title: "Yocto <br> **Participants**"
     icon: "images/registered/yocto.png"
-    link: "/about-us/#yocto-participants/"
+    link: "/about-us/#yocto-participants"
     
-  - title: "we are licensed providers for quality <br> **coreboot consulting services**"
+  - title: "Licensed provider for quality <br> **coreboot consulting services**"
     icon: "images/registered/coreboot.png"
-    link: "/about-us/#coreboot-consultants/"
+    link: "/about-us/#coreboot-consultants"
     
   - title: "LVFS <br> **consultant**"
     icon: "images/registered/lvfs.png"
-    link: "/about-us/#lvfs-consultants/"
+    link: "/about-us/#lvfs-consultants"
     
   - title: "OpenPOWER <br> **Foundation members**"
     icon: "images/registered/openpower.png"
-    link: "/about-us/#openpower-foundation-members/"
+    link: "/about-us/#openpower-foundation-members"
 
 
 cta:

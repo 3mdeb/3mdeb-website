@@ -108,6 +108,7 @@ we_are_registered:
   organizations:
   - title: "Yocto **Participants**"
     icon: "images/registered/yocto.png"
+    section_id: "uefi-adopters"
     content: |
       The Yocto Project is a Linux Foundation collaborative open source project whose goal is to produce tools and processes that enable the creation of Linux distributions for embedded and IoT software that are independent of the underlying architecture of the embedded hardware. The project was announced by the Linux Foundation in 2010 and launched in March, 2011, in collaboration with 22 organizations, including OpenEmbedded.
 
@@ -117,6 +118,7 @@ we_are_registered:
 
   - title: "UEFI **Adopters**"
     icon: "images/registered/uefi.png"
+    section_id: "yocto-participants"
     content: |
       The Unified Extensible Firmware Interface (UEFI) is a specification that defines a software interface between an operating system and platform firmware. UEFI replaces the Basic Input/Output System (BIOS) firmware interface originally present in all IBM PC-compatible personal computers, with most UEFI firmware implementations providing legacy support for BIOS services. UEFI can support remote diagnostics and repair of computers, even with no operating system installed.
 
@@ -124,6 +126,7 @@ we_are_registered:
     
   - title: "Licensed provider for quality **coreboot consulting services**"
     icon: "images/registered/coreboot.png"
+    section_id: "coreboot-consultants"
     content: |
       coreboot, formerly known as LinuxBIOS, is a software project aimed at replacing proprietary firmware (BIOS or UEFI) found in most computers with a lightweight firmware designed to perform only the minimum number of tasks necessary to load and run a modern 32-bit or 64-bit operating system.
 
@@ -134,12 +137,14 @@ we_are_registered:
     
   - title: "LVFS **consultant**"
     icon: "images/registered/lvfs.png"
+    section_id: "lvfs-consultants"
     content: |
       The Linux Vendor Firmware Service is a secure portal that brings together firmware updates uploaded by renowned hardware vendors. The LVFS provides reliable firmware alongside with the detailed metadata for clients such as GNOME Software or fwupdmgr for controlling updates remotely through a terminal. There is no charge to vendors for the hosting or distribution of content and open source nature of this project provides additional value to the market with contributors from dozens of people from different companies. Consulting companies can offer advice on specific request implementation or help with custom plugins integration for fwupd allowing different protocols to be supported. We have experience in introducing new solutions (libflashrom API and fwupd flashrom plugin) into the current LVFS ecosystem and are not afraid to accept the most demanding firmware security challenges. We can become the maintainer of the firmware for your platform at any time!
 
     
   - title: "OpenPOWER **foundation members**"
     icon: "images/registered/openpower.png"
+    section_id: "openpower-foundation-members"
     content: |
       The OpenPOWER Foundation is a collaboration around Power ISA-based products initiated by IBM and announced as the "OpenPOWER Consortium" on August 6, 2013. IBM is opening up technology surrounding their Power Architecture offerings, such as processor specifications, firmware and software with a liberal license, and will be using a collaborative development model with their partners. The goal is to enable the server vendor ecosystem to build their own customized server, networking and storage hardware for future data centers and cloud computing. Power.org is still the governing body around the Power ISA instruction set but specific implementations are now free to use under a liberal license granted by IBM. Processors based on IBM's IP can now be fabricated on any foundry and mixed with other hardware products of the integrator's choice. On August 20, 2019, IBM announced that the OpenPOWER Foundation would become part of the Linux Foundation.
 

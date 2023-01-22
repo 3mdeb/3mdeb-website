@@ -514,6 +514,11 @@ select {
     margin-bottom: 1.8rem;
   }
 }
+.last-child-mb-0 {
+  *:last-child {
+    margin-bottom: 0;
+  }
+}
 
 @include tablet {
   .img-float-right {
