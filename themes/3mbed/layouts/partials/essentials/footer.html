@@ -13,7 +13,9 @@
     </div>
     <div class="row gx-0 gy-5 justify-content-center">
       <div class="col-sm-6 col-md-5 col-xl-3 pe-sm-5">
+        <a href="/">
         {{ partial "image.html" (dict "Src" site.Params.logo_big "Alt" "3mdeb" "Size" "220x" "Class" "pt-4 pb-5" ) }}
+        </a>
 
         {{ with site.Params.contact_info }}
         <ul class="list-unstyled mt-5">
