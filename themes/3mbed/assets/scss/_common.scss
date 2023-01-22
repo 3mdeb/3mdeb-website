@@ -521,3 +521,22 @@ select {
     display: block !important;
   }
 }
+
+.image-has-gradient {
+  position: relative;
+  z-index: 1;
+  &::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 60%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 2%, rgba(255,255,255,0.6) 40%, rgba(255,255,255,0.35) 80%, rgba(255,255,255,0) 100%);
+  }
+  img {
+    object-fit: cover;
+  }
+}

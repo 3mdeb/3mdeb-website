@@ -9,6 +9,7 @@ layout: "careers"
 multilingual:
   info_name: "Site PL :"
   url: "/praca/"
+  flag: "images/ml-polish-flag.svg"
 
 table_of_contents:
   - title: "Careers"

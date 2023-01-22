@@ -9,8 +9,9 @@ url: "praca"
 
 
 multilingual:
-  info_name: "Site PL :"
+  info_name: "Site ENG :"
   url: "/careers/"
+  flag: "images/ml-british-flag.svg"
 
 table_of_contents:
   - title: "Praca"

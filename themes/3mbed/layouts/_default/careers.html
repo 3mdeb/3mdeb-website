@@ -7,7 +7,13 @@
     <div class="row gx-0">
       {{ with .Params.multilingual }}
       <div class="col-12 text-center">
-        <span class="h4 d-block mb-5">{{.info_name}} <a class="text-primary text-break" href="{{.url}}">{{.url | absURL}}</a></span>
+        <span class="h4 d-flex align-items-center mb-5 pb-5 justify-content-center">
+          <span class="me-3">{{.info_name}}</span>
+          <a class="lh-0 text-primary text-break border bg-light rounded-3 py-2 px-3 d-inline-flex align-items-center" href="{{.url}}">
+            {{ partial "image.html" (dict "Src" .flag "Alt" "multilingual" "Class" "me-3 border rounded-circle border-danger") }}
+            {{.url | humanize}}
+          </a>
+        </span>
       </div>
       {{ end }}
       <div class="col-sm-9 col-xl-11 col-xxl-9 mx-auto">
@@ -307,6 +313,23 @@
   </section>
 
   {{ range $i, $e := .about_this_vision }}
+  {{ if eq $i 0 }}
+  <section class="{{if not (modBool $i 2)}}bg-light{{end}} overflow-hidden">
+    <div class="container">
+      <div class="row flex-md-nowrap gy-4">
+        <div class="col-md-6 text-center image-has-gradient {{if (modBool $i 2)}}order-0 order-md-1{{end}}">
+          {{ partial "image.html" (dict "Src" .image "Alt" (.title | plainify | lower) "Resize" false "Class" "h-100 mw-100") }}
+        </div>
+        <div class="col-md-7 {{if (modBool $i 2)}}order-1 order-md-0{{end}} align-self-center">
+          <div class="section">
+            <h3 class="h3 fw-semibold mb-5">{{.title | markdownify}}</h3>
+            {{.content | markdownify}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ else }}
   <section class="section {{if not (modBool $i 2)}}bg-light{{end}}">
     <div class="container">
       <div class="row gy-4 justify-content-between">
@@ -320,6 +343,7 @@
       </div>
     </div>
   </section>
+  {{ end }}
   {{ end }}
 
 </section>
