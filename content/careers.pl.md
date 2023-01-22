@@ -259,6 +259,125 @@ current_openings:
         *   Doświadczenie w pracy z Jira
 
 
+new_branch_in_osie:
+  enable: true
+  title: "Otwieramy nową **filię w Osiu!**"
+  content: |
+    Obecnie otwieramy również nową filię w Osiu! <br/>
+    Tworzymy nowy zespół, dlatego szukamy osoby, która pokieruje oddziałem oraz osób technicznych, które są zainteresowane pracą z systemami komputerowymi. <br/>
+    Poszukujemy osób z pasją i motywacją do pracy. <br/>
+    Jeśli komputery to Twoja pasja i chcesz się dalej rozwijać w tym kierunku, ale nie spełniasz wszystkich wymagań? Nie szkodzi, w razie potrzeby chętnie Cię doszkolimy.
+
+    Jeśli chcesz stać się jego częścią, daj nam się poznać i aplikuj.
+
+    Wyślij swoje CV na adres career@3mdeb.com lub skorzystaj z poniższego formularza kontaktowego.
+
+
+current_openings_in_osie:
+  enable: true
+  title: "Do oddziału w Osiu **poszukujemy:**"
+  jobs:
+  - title: "Kierownik **Oddziału IT**"
+    description:
+    - title: "Wymagania:"
+      content: |
+        *   Samodzielność podczas wykonywania swoich obowiązków
+        *   Skupienie na celu i nastawienie na realizację zadań
+        *   Chęć rozwoju
+        *   Otwartość na nowe rozwiązania
+        *   Bardzo dobre zdolności organizacyjne
+        *   Umiejętność wyznaczania celów oraz priorytetyzacji zadań dla siebie i zespołu
+        *   Podstawowa umiejętność czytania i analizy dokumentacji technicznej anglojęzycznej systemów komputerowych
+        *   Umiejętność uruchamiania i testowania systemów komputerowych zgodnie z dokumentacją technologiczną i techniczną
+        *   Znajomość języka angielskiego w stopniu umożliwiającym czytanie i pisanie dokumentacji
+
+    - title: "Codzienne zadania:"
+      content: |
+        *   Prowadzenie biura 
+        *   Budowanie, organizacja i nadzór nad pracą oddziału w Osiu 
+        *   Koordynacja pracy z oddziałem w Gdańsku oraz osobami pracującymi zdalnie
+        *   Szkolenie zespołu
+        *   Bieżące reagowanie na problemy
+        *   Utrzymanie dokumentacji
+        *   Prowadzenie raportów na temat podejmowanych działań, przygotowywanie planów oraz prognoz
+
+    - title: "Co oferujemy:"
+      content: |
+        *   Stabilne zatrudnienie
+        *   Elastyczne warunki zatrudnienia
+        *   Szkolenie wprowadzające na stanowisko
+        *   Opieka medyczna
+        *   Ubezpieczenie grupowe
+        *   Dofinansowanie do pakietów sportowych
+        *   Elastyczny czas pracy
+        *   Przyjazną atmosferę bez korporacyjnych procesów
+        *   Dofinansowanie do szkoleń
+        *   Atrakcyjne wynagrodzenie zależne od umiejętności
+        *   Możliwości rozwoju w wybranym przez siebie kierunku
+
+    - title: "Mile widziane:"
+      content: |
+        *   Znajomość technologii:
+            *   BIOS
+            *   Otwarte oprogramowanie
+            *   Sieci komputerowe
+            *   System operacyjne (Linux, BSD, Windows)
+        *   Zainteresowanie bezpieczeństwem systemów komputerowych
+        *   Znajomość aparatury pomiarowej i diagnostycznej
+
+  - title: "Technik **Informatyk**"
+    description:
+    - title: "Wymagania:"
+      content: |
+        *   Skupienie na celu i nastawienie na realizację zadań
+        *   Otwartość na nowe rozwiązania
+        *   Motywacja do pracy i pozyskiwania nowej wiedzy technicznej
+        *   Umiejętność samodzielnej diagnozy oraz naprawy systemów komputerowych
+        *   Umiejętność uruchamiania i testowania systemów komputerowych zgodnie z dokumentacją technologiczną i technicznąInstalacja systemów operacyjnych (Windows, Linux, BSD)
+        *   Konfiguracja BIOS
+        *   Umiejętność czytania i analizy dokumentacji technicznej
+        *   Znajomość języka angielskiego w stopniu umożliwiającym czytanie i pisanie dokumentacji.
+
+    - title: "Codzienne zadania:"
+      content: |
+        *   Uruchamianie, testowanie, diagnozowanie oraz naprawa systemów komputerowych 
+        *   Obsługa aparatury oraz oprogramowania pomiarowego i diagnostycznego
+        *   Tworzenie i prezentowanie raportów z pracy
+        *   Bieżące reagowanie na problemy
+
+    - title: "Co oferujemy:"
+      content: |
+        *   Stabilne zatrudnienie
+        *   Elastyczne warunki zatrudnienia
+        *   Szkolenie wprowadzające na stanowisko
+        *   Opieka medyczna
+        *   Ubezpieczenie grupowe
+        *   Dofinansowanie do pakietów sportowych
+        *   Elastyczny czas pracy
+        *   Przyjazną atmosferę bez korporacyjnych procesów
+        *   Dofinansowanie do szkoleń
+        *   Atrakcyjne wynagrodzenie zależne od umiejętności
+        *   Możliwości rozwoju w wybranym przez siebie kierunku
+
+    - title: "Mile widziane:"
+      content: |
+        *   Doświadczenie w lutowaniu ręcznym podzespołów/elementów elektronicznych
+        *   Podstawowe umiejętności konfiguracji i utrzymania sieci komputerowych serwerowych systemów operacyjnych Linux;
+        *   Zainteresowanie bezpieczeństwem systemów komputerowych
+
+apply_form:
+  title: "Aplikuj **Teraz!**"
+  input_name: "Imię i Nazwisko (wymagane)"
+  input_email: "Email (wymagane)"
+  input_phone: "Telefon (wymagane)"
+  input_job_position: "Pozycja (wymagane)"
+  input_CV: "CV w formacie PDF (max 5mb)(wymagane)"
+  input_cover_letter: "List motywacyjny w formacie PDF (max 5mb)"
+  input_how_did_you_hear: "Skąd dowiedziałeś się o ofercie pracy? (wymagane)"
+  input_message: "Wiadomość"
+  input_agreement: "“Wyrażam zgodę na przetwarzanie moich danych osobowych przez firmę 3mdeb Piotr Król z siedzibą w Gdańsku ul. Burgaska 9d/10, dla potrzeb niezbędnych do realizacji procesu rekrutacyjnego; zgodnie z przepisami ustawy z dnia 29.08.1997 o ochronie danych osobowych (Dz.U. z 2002 r. Nr 101, poz. 926 z póź. zm.)”"
+  input_button: "Wyślij"
+
 
 team_visions:
   title: "Wizje **Visions**"

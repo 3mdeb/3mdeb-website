@@ -57,7 +57,9 @@
 </section>
 {{ end }}
 
-{{ with .Params.current_openings }}
+{{ $current_openings := .Params.current_openings}}
+
+{{ with $current_openings }}
 {{ if .enable }}
 <section class="section pb-0">
   <div class="container">
@@ -102,67 +104,147 @@
       </div>
     </div>
 </section>
+{{ end }}
+{{ end }}
 
+{{ with .Params.new_branch_in_osie }}
+{{ if .enable }}
+<section class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-xl-7 mx-auto">
+        <div class="section-title">
+          <h2 class="fw-semibold">{{.title | markdownify}}</h2>
+        </div>
+        {{.content | markdownify}}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ $current_openings_in_osie := .Params.current_openings_in_osie }}
+
+{{ with $current_openings_in_osie }}
+{{ if .enable }}
+<section class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <h2 class="fw-semibold">{{.title | markdownify}}</h2>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="accordion accordion-flush" id="jobs">
+          {{ range .jobs }}
+          <hr class="separator">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button shadow-none h3 fw-semibold collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#_{{.title | plainify | urlize | sha1}}" aria-expanded="false"
+                aria-controls="_{{.title | plainify | urlize | sha1}}">
+                {{.title | markdownify}}
+              </button>
+            </h2>
+            <div id="_{{.title | plainify | urlize | sha1}}" class="accordion-collapse collapse" data-bs-parent="#jobs">
+              <div class="accordion-body">
+                <div class="row row-cols-1 row-cols-md-2 gy-5">
+                  {{ $applyBtn := sub (len .description) 1 }}
+                  {{ range $i, $e := .description }}
+                  <div class="col">
+                    <h3 class="h4 mb-3">{{.title | markdownify}}</h3>
+                    {{.content | markdownify}}
+                    {{ if eq $i $applyBtn }}
+                    <a href="#apply-form" class="btn btn-primary">APLIKUJ TERAZ</a>
+                    {{ end }}
+                  </div>
+                  {{ end }}
+                </div>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+          <hr class="separator">
+        </div>
+      </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ with .Params.apply_form }}
 <section id="apply-form" class="section">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="section-title">
-          <h2 class="fw-semibold">Otwieramy nową <strong>filię w Osiu!!</strong></h2>
+          <h2 class="fw-semibold">{{.title | markdownify}}</h2>
         </div>
       </div>
       <div class="col-8 mx-auto">
         <form action="" class="row gy-4">
           <div class="col-12">
-            <label for="name" class="form-label">Your Name (required)</label>
+            <label for="name" class="form-label">{{.input_name | markdownify}}</label>
             <input type="text" class="form-control" id="name" name="name" required aria-required="true" aria-invalid="false">
           </div>
           <div class="col-12">
-            <label for="email" class="form-label">Your Email (required)</label>
+            <label for="email" class="form-label">{{.input_email | markdownify}}</label>
             <input type="email" class="form-control" id="email" name="email" required aria-required="true" aria-invalid="false">
           </div>
           <div class="col-12">
-            <label for="phone" class="form-label">Your Phone (required)</label>
+            <label for="phone" class="form-label">{{.input_phone | markdownify}}</label>
             <input type="tel" class="form-control" id="phone" name="phone" required aria-required="true" aria-invalid="false">
           </div>
           <div class="col-12">
-            <label for="position" class="form-label">Job Position (required)</label>
+            <label for="position" class="form-label">{{.input_job_position | markdownify}}</label>
             <select class="form-select" id="position" name="position" aria-required="true" aria-invalid="false" name="job">
               <option value="">—Please choose an option—</option>
+              {{ with $current_openings }}
+              {{ if .enable }}
               {{ range .jobs }}
               <option value="{{ replace (.title | plainify) `**` `` }}">{{ replace (.title | plainify) `**` `` }}</option>
+              {{ end }}
+              {{ end }}
+              {{ end }}
+              {{ with $current_openings_in_osie }}
+              {{ if .enable }}
+              {{ range .jobs }}
+              <option value="{{ replace (.title | plainify) `**` `` }}">{{ replace (.title | plainify) `**` `` }}</option>
+              {{ end }}
+              {{ end }}
               {{ end }}
             </select>
           </div>
           <div class="col-12">
-            <label for="cv" class="form-label">Your CV in PDF format (max 5mb)(required)</label>
+            <label for="cv" class="form-label">{{.input_CV | markdownify}}</label>
             <input type="file" class="form-control" id="cv" name="cv" required aria-required="true" aria-invalid="false">
           </div>
           <div class="col-12">
-            <label for="cv" class="form-label">Your Cover Letter in PDF format (max 5mb)</label>
+            <label for="cv" class="form-label">{{.input_cover_letter | markdownify}}</label>
             <input type="file" class="form-control" id="coverletter" name="coverletter" required aria-required="true" aria-invalid="false">
           </div>
           <div class="col-12">
-            <label for="how_did_you_hear" class="form-label">How did you hear about the job offer? (required)</label>
+            <label for="how_did_you_hear" class="form-label">{{.input_how_did_you_hear | markdownify}}</label>
             <input type="text" class="form-control" id="how_did_you_hear" name="how_did_you_hear" required aria-required="true" aria-invalid="false">
           </div>
           <div class="col-12">
-            <label for="your-message" class="form-label">Your Message</label>
+            <label for="your-message" class="form-label">{{.input_message | markdownify}}</label>
             <textarea cols="40" rows="5" class="form-control" aria-invalid="false" id="your_message" name="your_message"></textarea>
           </div>
           <div class="col-12">
             <input type="checkbox" name="Accept" id="accept" value="1" aria-invalid="false" class="d-inline w-auto">
-            <label class="d-inline small text-muted" for="accept">“I agree to the processing of my personal data by the company 3mdeb Piotr Król with its registered office in Gdańsk, ul. Burgaska 9d/10, for the needs of the recruitment process; in accordance with the provisions of the Personal Data Protection Act of 29.08.1997 (Journal of Laws of 2002 No. 101, item 926 as amended).”</label>
+            <label class="d-inline small text-muted" for="accept">{{.input_agreement | markdownify}}</label>
           </div>
           <div class="col-12 text-center">
-            <button type="submit" class="btn btn-radius-primary w-auto">Send</button>
+            <button type="submit" class="btn btn-radius-primary w-auto">{{.input_button | markdownify}}</button>
           </div>
         </form>
       </div>
     </div>
   </div>
 </section>
-{{ end }}
 {{ end }}
 
 <div class="container">
