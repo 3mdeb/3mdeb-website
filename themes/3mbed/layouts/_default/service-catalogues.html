@@ -6,7 +6,7 @@
 {{ range $i, $e := . }}
 <section class="section {{if not (modBool $i 2)}}bg-light{{end}}">
   <div class="container">
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-12 {{if .image}}col-md-8 order-2 order-md-0{{end}}">
         {{.content | markdownify}}
       </div>
