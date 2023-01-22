@@ -2,7 +2,6 @@
 
 {{ partial "components/page-header.html" . }}
 
-{{ with site.GetPage "/" }}
 {{ with .Params.cooperation_with_us }}
 {{ if .enable }}
 <section class="section">
@@ -32,7 +31,6 @@
     </div>
   </div>
 </section>
-{{ end }}
 {{ end }}
 {{ end }}
 

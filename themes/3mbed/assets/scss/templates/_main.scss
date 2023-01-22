@@ -256,12 +256,14 @@
         left: -14px;
         width: calc(100% + 86px);
         display: none;
+        align-items: center;
 
         p {
           color: #FFF !important;
           font-weight: 500;
           font-size: 16px;
           line-height: 1.5;
+          margin-bottom: 0;
 
           br {
             display: none;
@@ -284,12 +286,8 @@
       }
 
       &:hover .cop-detailinfo {
-        display: block;
+        display: flex;
         animation: fadeIn 0.5s;
-        -webkit-animation: fadeIn 0.5s;
-        -moz-animation: fadeIn 0.5s;
-        -o-animation: fadeIn 0.5s;
-        -ms-animation: fadeIn 0.5s;
 
         @keyframes fadeIn {
           from {
