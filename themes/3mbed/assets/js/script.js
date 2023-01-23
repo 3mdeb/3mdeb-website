@@ -64,7 +64,6 @@
   let accordionBtns = document.querySelectorAll(".accordion-button");
   accordionBtns.forEach(btn => {
     btn.addEventListener("click", () => {
-
       if (!btn.classList.contains("collapsed")) {
         setTimeout(() => {
           window.scrollTo({

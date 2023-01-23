@@ -7,7 +7,7 @@ draft: false
 layout: "internet-of-things-solutions"
 
 introductions:
-  - image: "/images/services/iot.png"
+  - image: "/images/services/iot-icon.png"
     content: |
       ## Internet of Things Solutions
       {.h3}

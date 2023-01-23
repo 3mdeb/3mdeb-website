@@ -110,7 +110,7 @@ where_we_do:
     link: "/hardware-development-support/"
 
   - title: "Internet of Things <br> **Solutions**"
-    icon: "images/services/iot.png"
+    icon: "images/services/iot-icon.png"
     link: "/internet-of-things-solutions/"
 
   - title: "Automated <br> **Validation**"

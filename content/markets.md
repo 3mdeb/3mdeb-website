@@ -12,7 +12,7 @@ table_of_content:
   - title: "Industrial"
     icon: "images/markets/industrial.png"
   - title: "IoT & Embedded"
-    icon: "images/services/iot.png"
+    icon: "images/services/iot-icon.png"
   - title: "Customer"
     icon: "images/about-us/customer.png"
 
@@ -91,7 +91,7 @@ industrial:
 
 iot_embedded:
   title: "IoT & Embedded"
-  icon: "images/services/iot.png"
+  icon: "images/services/iot-icon.png"
   content: |
     The Internet of things (IoT) is the extension of Internet connectivity into physical devices and everyday objects. Embedded with electronics, Internet connectivity, and other forms of hardware (such as sensors), these devices can communicate and interact with others over the Internet, and they can be remotely monitored and controlled.
 
