@@ -96,9 +96,11 @@
                     <p class="h5 text-primary"><strong>{{.date}}</strong></p>
                   </div>
                   <div class="col-lg-4 me-auto">
+                    {{ if .event_poster }}
                     <div class="pe-5">
                       {{ partial "image.html" (dict "Src" .event_poster "Alt" (.title | plainify)) "Size" "200x" }}
                     </div>
+                    {{ end }}
                   </div>
                   <div class="col-lg-5">{{.additional_info | markdownify}}</div>
                 </div>
