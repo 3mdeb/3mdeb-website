@@ -106,4 +106,19 @@
     }
   }
 
+  const eventsAccordion = document.querySelectorAll('.events-accordion')
+  eventsAccordion.forEach(data => {
+    data.addEventListener('shown.bs.collapse', event => {
+      let expandedButtons = document.querySelectorAll(".accordion-button[aria-expanded='true']");
+      let currentTarget = event.target.getAttribute('id');
+      if (expandedButtons.length > 1) { 
+        expandedButtons.forEach((btn) => {
+          if (btn.getAttribute('aria-controls') !== currentTarget) {
+            btn.click();
+          }
+        })
+      }
+    })
+  })
+
 })();
