@@ -433,7 +433,7 @@ all_events:
           youtube_video_id: ""
           additional_info: |
             Presentation **#1**  <br>
-            Topic: **Getting started with meta-selinux - enhancing system security on QEMU**
+            Topic: **Getting started with meta-selinux - enhancing system security on QEMU**  <br>
             Presenter: **Tomasz Żyjewski**
 
             * [**Direct link**](https://pretalx.com/yocto-project-summit-2021-11/talk/SPLD9P/)
@@ -453,7 +453,7 @@ all_events:
           youtube_video_id: ""
           additional_info: |
             Presentation **#1**  <br>
-            Topic: **Dasharo OSF vPub Fall 2021**
+            Topic: **Dasharo OSF vPub Fall 2021**  <br>
             Presenter: **3mdeb Team**
 
             * [**Slides**](https://vpub.dasharo.com/archive/pdfs/vpub-0x3.pdf)
@@ -797,5 +797,375 @@ all_events:
             * [**Slides**](https://fosdem.org/2021/schedule/event/firmware_osfsoap2/attachments/slides/4669/export/events/attachments/firmware_osfsoap2/slides/4669/Open_Source_Firmware_status_on_AMD_platforms_2021.pdf)
 
             Videos & Slides from other presentations are available here: [link](https://fosdem.org/2021/schedule/track/open_source_firmware_bmc_and_bootloader/)
+        
+
+  - year: "20**20**"
+    events:
+    - title: "Open Source **Firmware Conference 2020**"
+      status: ""
+      date: "01-03.12.2020"
+      event_poster: "/images/events/2020/osfc-1024x420.png"
+      additional_info: |
+        ### OSFC 2020 [**Official Page**](https://www.osfc.io/archive/2020/)
+
+      # segments:
+      segments:
+        - date: "02.12.2020"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **POWER9 support in coreboot**  <br>
+            Presenter: **Piotr Król, Michał Żygowski**
+
+            * [**Direct link**](https://www.osfc.io/2020/talks/power9-support-in-coreboot/)
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/POWER9-support-in-coreboot-1.pdf)
+            * [**Video**](https://vimeo.com/488133382)
+
+        - date: "02.12.2020"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#2**  <br>
+            Topic: **TrenchBoot DRTM features for AMD platforms**  <br>
+            Presenter: **Piotr Król, Michał Żygowski**
+
+            * [**Direct link**](https://www.osfc.io/2020/talks/trenchboot-drtm-features-for-amd-platforms/)
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/TrenchBoot_DRTM_features_for_AMD_platforms_uGl3cGy.pdf)
+            * [**Video**](https://vimeo.com/488140434)
+
+
+    - title: "GRUB **mini-summit**"
+      status: ""
+      date: "03 & 10 & 17 & 24.11.2020"
+      event_poster: "/images/events/2020/grub-mini-summit-1024x470.jpeg"
+      additional_info: |
+        ### GRUB mini-summit
+
+        Summary: [Blogpost](https://blog.3mdeb.com/2020/2020-11-02-grub2mini-summit/)
+
+      # segments:
+      segments:
+        - date: "03.11.202"
+          image: ""
+          youtube_video_id: "LEcM5C5hdjs"
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Network Boot in GRUB2**  <br>
+            Presenter: **Michał Żygowski**
+
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/Network-boot-in-GRUB2.pdf)
+
+        - date: "10.11.2020"
+          image: ""
+          youtube_video_id: "u0sK6j-pQeM"
+          additional_info: |
+            Presentation **#2**  <br>
+            Topic: **AMD TrenchBoot support in GRUB2**  <br>
+            Presenter: **Piotr Król**
+
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/AMD-TrenchBoot-support-in-GRUB2.pdf)
+
+        - date: "24.11.2020"
+          image: ""
+          youtube_video_id: "z7Xjrn7y9jw"
+          additional_info: |
+            Presentation **#3**  <br>
+            Topic: **GRUB2 license issues**  <br>
+            Presenter: **Piotr Król**
+
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/GRUB2-license-issues.pdf)
+
+        - date: "24.11.2020"
+          image: ""
+          youtube_video_id: "z7Xjrn7y9jw"
+          additional_info: |
+            Presentation **#4**  <br>
+            Topic: **RISC-V support in GRUB2**  <br>
+            Presenter: **Piotr Król, Michał Żygowski**
+
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/RISC-V-support-in-GRUB2.pdf)
+            
+
+    - title: "Yocto Project **Summit 2020**"
+      status: ""
+      date: "29-30.10.2020"
+      event_poster: "/images/events/2021/yocto-project_virtual-summit_300x181px.png"
+      additional_info: |
+        ### Yocto Project Summit **[Official Page](https://www.yoctoproject.org/yocto-projectr-summit-virtual-europe-2020/)**
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: "PLl8jwZOpS0"
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Pros and cons of various layer management tools**  <br>
+            Presenter: **Tomasz Żyjewski**
+
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/Pros-and-cons-of-various-layer-management-tools.pdf)
+
+        - date: ""
+          image: ""
+          youtube_video_id: "2qFwNRd-oAc"
+          additional_info: |
+            Presentation **#2**  <br>
+            Topic: **How to create a Wic plugin? Tips and tricks based on the grub-legacy**  <br>
+            Presenter: **Norbert Kamiński**
+
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/Norbert_Kaminski_Wic_plugin_devel_0Lszv3V.pdf)
+            
+
+    - title: "TPM.dev **2020 MiniConf**"
+      status: ""
+      date: "21-22.10.2020"
+      event_poster: "/images/events/2020/EkuGwoaWAAI1K1T-1024x1024.jpg"
+      additional_info: |
+        ### TPM.dev 2020 MiniConf **[Official Page](https://hopin.com/events/tpm-dev-2020-miniconf)**
+
+      # segments:
+      segments:
+        - date: "21.10.2020"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Trustworthy 2020 Platforms: Mighty Mini AMD for Digital Work, Play, and Currencies**  <br>
+            Presenter: **Piotr Król**
+
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2020/10/Trustworthy-2020-Platforms.pdf)
+            * [**Video**](https://vimeo.com/475939321)
+            
+
+    - title: "X.org Developers **Conference**"
+      status: ""
+      date: "16-18.09.2020"
+      event_poster: "/images/events/2020/Ed8KxwbWoAQpjWL-1024x625.png"
+      additional_info: |
+        ### X.Org Developers Conference **[Official Page](https://lpc.events/event/9/)**
+
+      # segments:
+      segments:
+        - date: "18.09.2020"
+          image: ""
+          youtube_video_id: "pPpP7RjyCV4"
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Software and hardware images decoding on the RaspberryPi**  <br>
+            Presenter: **Maciej Pijanowski**
+
+            * [**Direct link**](https://lpc.events/event/9/contributions/628/)
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/Software_and_hardware_images_decoding_on_the_RaspberryPi.pdf)
+            
+
+    - title: "OpenPOWER **Summit 2020**"
+      status: ""
+      date: "15.09.2020"
+      event_poster: "/images/events/2020/OpenPower_NA20_VirtualEventGraphics_Sept15_Snackable-1024x536.png"
+      additional_info: |
+        ### OpenPOWER Summit **[Official Page](https://openpowerna2020.sched.com/)**
+
+      # segments:
+      segments:
+        - date: "18.09.2020"
+          image: ""
+          youtube_video_id: "Mb__SNfMVFw"
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **POWER9 Support in coreboot**  <br>
+            Presenter: **Michał Żygowski**
+
+            * [**Direct link**](https://openpowerna2020.sched.com/event/eDrM/power9-support-in-coreboot-michal-zygowski-3mdeb-embedded-systems-consulting)
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/POWER9-support-in-coreboot.pdf)
+            
+
+    - title: "Linux Plumbers **Conference 2020**"
+      status: ""
+      date: "24-28.08.2020"
+      event_poster: "/images/events/2020/linux-plumbers.png"
+      additional_info: |
+        ### Linux Plumbers Conference **[Official Page](https://lpc.events/event/7/)**
+
+        **3mdeb** - co-organiser of the event
+
+      # segments:
+      segments:
+        - date: "27.08.2020"
+          image: ""
+          youtube_video_id: "IJUNxHnopH4"
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Passing and retrieving information from bootloader and firmware**  <br>
+            Presenter: **Michał Żygowski**
+
+            * [**Direct link**](https://lpc.events/event/7/contributions/735/)
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/Passing_and_retrieving_information_from_bootloader_and_firmware.pdf)
+            
+
+    - title: "virtual Xen Developer and **Design Summit**"
+      status: ""
+      date: "06.07.2020"
+      event_poster: "/images/events/2020/logo_xenproject.png"
+      additional_info: |
+        ### virtual Xen Developer and Design Summit **[Official Page](https://xen2020.sched.com/)**
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: "SwByVrw7-08"
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Design Session on Xen system boot attestation with DRTM and TPM2**  <br>
+            Presenter: **Michał Żygowski**
+
+            * [**Direct link**](https://xen2020.sched.com/event/baXz/design-session-talk-xen-system-boot-attestation-with-drtm-and-tpm2)
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/Xen-system-boot-attestation-with-DRTM-and-TPM2.pdf)
+            
+
+    - title: "Qubes OS and **3mdeb minisummit**"
+      status: ""
+      date: "20.05-10.06.2020"
+      event_poster: "/images/events/2020/qubesos.jpeg"
+      additional_info: |
+        ### Qubes OS and 3mdeb minisummit
+
+        Summary: [Blogpost #1](https://blog.3mdeb.com/2020/2020-05-15-qubesos/)
+        Summary: [Blogpost #2](https://blog.3mdeb.com/2020/2020-06-17-qubes_summation/)
+
+      # segments:
+      segments:
+        - date: "20.05.2020"
+          image: ""
+          youtube_video_id: "Rw7rAPPyPPc"
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Qubes OS on modern AMD platform**  <br>
+            Presenter: **Michał Żygowski**
+
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/Qubes-on-modern-AMD-platform.pdf)
+
+        - date: ""
+          image: ""
+          youtube_video_id: "o_IdERo3aiE"
+          additional_info: |
+            Presentation **#2**  <br>
+            Topic: **Status fwupd/LVFS support for Qubes OS**  <br>
+            Presenter: **Norbert Kamiński**
+
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/Status-fwupd_LVFS-support-for-Qubes-OS.pdf)
+
+        - date: ""
+          image: ""
+          youtube_video_id: "BSGUcW6QDYU"
+          additional_info: |
+            ### 
+            Presentation **#3**  <br>
+            Topic: **AMA session** 
+
+        - date: "28.05.2020"
+          image: ""
+          youtube_video_id: "Eip5Rts6S2I"
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **SRTM for Qubes OS VMs**  <br>
+            Presenter: **Piotr Król**
+
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/SRTM-for-Qubes-OS-VMs.pdf)
+
+        - date: ""
+          image: ""
+          youtube_video_id: "rM0vRi6qABE"
+          additional_info: |
+            Presentation **#2**  <br>
+            Topic: **Anti Evil Maid for modern AMD UEFI-based platform**  <br>
+            Presenter: **Michał Żygowski**
+
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/Anti-Evil-Maid-for-modern-AMD-UEFI-based-platform.pdf)
+
+        - date: "04.06.2020"
+          image: ""
+          youtube_video_id: "WYDfzg9T0MU"
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **How to build Qubes? From components to operating system overview**  <br>
+            Presenter: **Frédéric Pierret**
+
+            * [**Slides**](https://cloud.3mdeb.com/index.php/s/aDX3csekLeAy6aM)
+
+        - date: ""
+          image: ""
+          youtube_video_id: "rM0vRi6qABE"
+          additional_info: |
+            Presentation **#2**  <br>
+            Topic: **Operating system testing, when it itself uses virtual machines**  <br>
+            Presenter: **Marek Marczykowski-Górecki**
+
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/D-RTM-for-Qubes-OS-VMs.pdf)
+            
+
+    - title: "Embedded **World**"
+      status: ""
+      date: "25-27.02.2020"
+      event_poster: "/images/events/2020/embeddedworld2020-1-400x250-1.png"
+      additional_info: |
+        ### Embedded World **[Official Page](https://www.embedded-world.de/en/all-about-the-exhibition)**
+
+        Summary: [Blogpost](https://blog.3mdeb.com/2020/2020-02-18-ew2020-btg-demo/)
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: "CWrdGIucawk"
+          additional_info: |
+            ### 
+            Demo **#1**  <br>
+            Topic: **Boot Guard – pre-execution firmware verification on Protectli FW6**  <br>
+            Presenter: **Piotr Król**
+            
+
+    - title: "FOSDEM **2020**"
+      status: ""
+      date: "01-02.02.2020"
+      event_poster: "/images/events/fosdem.jpeg"
+      additional_info: |
+        ### FOSDEM 2020 **[Official Page](https://archive.fosdem.org/2020/)**
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: "fprapnLYEGk"
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Improving the Security of Edge Computing Services**  <br>
+            Presenter: **Daniel Kiper, Piotr Król**
+
+            * [**Direct link**](https://archive.fosdem.org/2020/schedule/event/firmware_itsoecs/)
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/improving_the_security_of_edge_computing_services_20200201_pk.pdf)
+
+        - date: ""
+          image: ""
+          youtube_video_id: "fprapnLYEGk"
+          additional_info: |
+            Presentation **#2**  <br>
+            Topic: **Status of AMD platforms in coreboot**  <br>
+            Presenter: **Michał Żygowski**
+
+            * [**Direct link**](https://archive.fosdem.org/2020/schedule/event/coreboot_amd/)
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/Status_of_AMD_platforms_in_coreboot.pdf)
+
+        - date: ""
+          image: ""
+          youtube_video_id: "ZqP-9RRkYIk"
+          additional_info: |
+            Presentation **#3**  <br>
+            Topic: **Correlation analysis in automated testing**  <br>
+            Presenter: **Łukasz Wcisło**
+
+            * [**Direct link**](https://archive.fosdem.org/2020/schedule/event/testing_correlation_analysis_automated_testing/)
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/Correlation-analysis-in-automated-testing.pdf)
 
 ---
