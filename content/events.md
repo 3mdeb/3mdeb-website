@@ -14,7 +14,7 @@ events_download:
 all_events:
   - year: "Up**coming**"
     events:
-    - title: "FOSDEM 2023"
+    - title: "FOSDEM **2023**"
       status: "upcoming"
       date: "04-05.02.2022"
       event_poster: "/images/events/fosdem.jpeg"
@@ -1167,5 +1167,422 @@ all_events:
 
             * [**Direct link**](https://archive.fosdem.org/2020/schedule/event/testing_correlation_analysis_automated_testing/)
             * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/Correlation-analysis-in-automated-testing.pdf)
+        
+
+  - year: "20**19**"
+    events:
+    - title: "GRUB2 and **3mdeb minisummit**"
+      status: ""
+      date: "17.12.2019"
+      event_poster: "/images/events/2019/grub2_minisummit.png"
+      additional_info: |
+        ### GRUB2 and 3mdeb minisummit <br/>
+
+        Summary: [Blogpost](https://blog.3mdeb.com/2020/2020-02-19-grub2_and_3mdeb_minisummit/)
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: "CtyhmQM6vJs"
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Introduction to GRUB2 minisummit**  <br>
+            Presenter: **Piotr Król**
+
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/Intro.pdf)
+
+        - date: ""
+          image: ""
+          youtube_video_id: "NmtgQYqV-p0"
+          additional_info: |
+            Presentation **#2**  <br>
+            Topic: **Redundant GRUB2 env file**  <br>
+            Presenter: **Maciej Pijanowski**
+
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/Redundant-GRUB2-env-file.pdf)
+
+        - date: ""
+          image: ""
+          youtube_video_id: "KcMwN0tzXys"
+          additional_info: |
+            Presentation **#3**  <br>
+            Topic: **TPM support in GRUB2 for legacy boot mode**  <br>
+            Presenter: **Michał Żygowski**
+
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/TPM-support-in-GRUB2-for-legacy-boot-mode.pdf)
+
+        - date: ""
+          image: ""
+          youtube_video_id: "gOL6NOmZI0c"
+          additional_info: |
+            Presentation **#4**  <br>
+            Topic: **GRUB2 security features overview**  <br>
+            Presenter: **Piotr Król**
+
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/GRUB2-security-features-overview.pdf)
+
+        - date: ""
+          image: ""
+          youtube_video_id: "ZfQXP07sroQ"
+          additional_info: |
+            Presentation **#5**  <br>
+            Topic: **Python 3 support in GRUB2**  <br>
+            Presenter: **Michał Żygowski**
+
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/Python-3-support-in-GRUB2.pdf)
+
+        - date: ""
+          image: ""
+          youtube_video_id: "V1Pate0JeJo"
+          additional_info: |
+            Presentation **#6**  <br>
+            Topic: **AMD TrenchBoot support in GRUB2**  <br>
+            Presenter: **Piotr Król**
+
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/AMD-TrenchBoot-support-in-GRUB2-1.pdf)
+
+    - title: "Web **Summit**"
+      status: ""
+      date: "17.12.2019"
+      event_poster: "/images/events/2019/6r40cl0c9ghrdx3tq911.png"
+      additional_info: |
+        ### Web Summit [Official Page](https://websummit.com/2019-schedule) <br/>
+
+        Summary: [Blogpost](https://blog.3mdeb.com/2019/2019-11-22-websummit-2019/)
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: "iXUO7wY9EeM"
+          additional_info: |
+            ### 
+            Participant: **Łukasz Wcisło**
+
+    - title: "Embedded Linux **Conference Europe**"
+      status: ""
+      date: "28-30.10.2019"
+      event_poster: "/images/events/2019/LF_Event_Snackables_071919_v1_ac_1200x628_ELCEU-1-1024x536.png"
+      additional_info: |
+        ### Embedded Linux Conference Europe **[Official Page](https://websummit.com/2019-schedule)**
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: "KHddgelN7fI"
+          additional_info: |
+            ### 
+            Demo **#1** <br/>
+            Topic: **Secure Virtual Network Appliance** <br/>
+            Presenter: **Piotr Król** <br/>
+
+            - [White papers](https://3mdeb.com/wp-content/uploads/2021/06/TrenchBoot.pdf)
+            - [Misc](https://3mdeb.com/wp-content/uploads/2021/06/ELCE_PosterForm-A1.pdf)
+
+    - title: "Platform Security **Summit**"
+      status: ""
+      date: "01-03.10.2019"
+      event_poster: ""
+      additional_info: |
+        ### Platform Security Summit **[Official Page](https://www.platformsecuritysummit.com/2019/)**
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: "Iw3Nadci0fY"
+          additional_info: |
+            ### 
+            Demo **#1** <br/>
+            Topic: **Less-Insecure Network Edge Virtualization with Low Size, Weight and Power** <br/>
+            Presenter: **Piotr Król** <br/>
+
+            - [Slides](https://3mdeb.com/wp-content/uploads/2021/06/Less_Insecure_Network_Edge_Virtualization_with_Low_Size_Weight_and_Power.pdf)
+            - [White Papers](https://3mdeb.com/wp-content/uploads/2021/06/PSEC-2019_abstract.pdf)
+
+    - title: "Linux Plumbers **Conference 2019**"
+      status: ""
+      date: "09-11.09.2019"
+      event_poster: "/images/events/2019/773-512-max-1.jpg"
+      additional_info: |
+        ### Linux Plumbers Conference **[Official Page](https://lpc.events/event/4/)**
+
+      # segments:
+      segments:
+        - date: "11.09.2019"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            ### 
+            Presentation **#1** <br/>
+            Topic: **Non-UEFI-aware measured boot using coreboot, GRUB and TPM2.0** <br/>
+            Presenter: **Piotr Król, Michał Żygowski** <br/>
+
+            - [Direct link](https://lpc.events/event/4/contributions/517/)
+            - [Slides](https://3mdeb.com/wp-content/uploads/2021/06/Non-UEFI-aware_measured_boot_using_coreboot_GRUB_and_TPM2.0.pdf)
+            - [Video](https://youtu.be/u8XxDov-JNE?t=8991)
+
+        - date: "11.09.2019"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            ### 
+            Presentation **#1** <br/>
+            Topic: **TPM 2.0 Linux sysfs interface** <br/>
+            Presenter: **Piotr Król, Michał Żygowski** <br/>
+
+            - [Direct link](https://lpc.events/event/4/contributions/516/)
+            - [Slides](https://3mdeb.com/wp-content/uploads/2021/06/TPM_2.0_Linux_sysfs_interface.pdf)
+            - [Video](https://youtu.be/u8XxDov-JNE?t=10175)
+
+    - title: "Open Source **Firmware Conference 2019**"
+      status: ""
+      date: "03-06.09.2019"
+      event_poster: "/images/events/2019/osfc4.png"
+      additional_info: |
+        ### OSFC 2019 **[Official Page](https://www.osfc.io/archive/2019/)**
+
+      # segments:
+      segments:
+        - date: "03.09.2019"
+          image: ""
+          youtube_video_id: "Pbl-58w-95w"
+          additional_info: |
+            ### 
+            Presentation **#1** <br/>
+            Topic: **Start trusting Your BIOS – SRTM with vboot, TPM and permanent flash protection** <br/>
+            Presenter: **Michał Żygowski** <br/>
+
+            - [Direct link](https://www.osfc.io/2019/talks/start-trusting-your-bios-srtm-with-vboot-tpm-and-permanent-flash-protection/)
+            - [Slides](https://3mdeb.com/wp-content/uploads/2021/06/Start-trusting-Your-BIOS-SRTM-with-vboot-TPM-and-permanent-flash-protection.pdf)
+            - [White Papers](https://3mdeb.com/wp-content/uploads/2022/11/SRTM_based_on_Verified_and_Measured_Boot_with_SPI_flash_protection.pdf)
+            - [Video](https://www.youtube.com/watch?v=02rwvjcitEY&t=4s)
+
+        - date: "03.09.2019"
+          image: ""
+          youtube_video_id: "4nZfsU-o1b4"
+          additional_info: |
+            ### 
+            Presentation **#2** <br/>
+            Topic: **Consideration about enabling hypervisor in open-source firmware** <br/>
+            Presenter: **Piotr Król** <br/>
+
+            - [Direct link](https://www.osfc.io/2019/talks/consideration-about-enabling-hypervisor-in-open-source-firmware/)
+            - [Slides](https://3mdeb.com/wp-content/uploads/2021/06/Consideration_about_enabling_hypervisor_in_open_source_firmware-1.pdf)
+            - [White Papers](https://3mdeb.com/wp-content/uploads/2022/11/Consideration_about_enabling_hypervisor_in_open_source_firmware.pdf)
+            - [Video](https://youtu.be/SR6Iarvv2DU)
+
+        - date: "04.09.2019"
+          image: ""
+          youtube_video_id: "9NcVjsSu59w"
+          additional_info: |
+            ### 
+            Presentation **#3** <br/>
+            Topic: **TrenchBoot Open DRTM implementation for AMD platforms** <br/>
+            Presenter: **Piotr Król** <br/>
+
+            - [Direct link](https://www.osfc.io/2019/talks/trenchboot-open-drtm-implementation-for-amd-platforms/)
+            - [Slides](https://3mdeb.com/wp-content/uploads/2021/06/TrenchBoot-Open-DRTM-implementation-for-AMD-platforms.pdf)
+            - [White Papers](https://3mdeb.com/wp-content/uploads/2022/11/TrenchBoot-_Open_DRTM_implementation_for_AMD_platforms_v2.pdf)
+            - [Video](https://youtu.be/zOBb2KbQTfc)
+
+    - title: "Qubes OS and **3mdeb minisummit 2019**"
+      status: ""
+      date: "15.05.2019"
+      event_poster: "/images/events/2019/qubesos_3mdeb_minisummit.png"
+      additional_info: |
+        ### Qubes OS and 3mdeb minisummit**
+
+        Summary: [Blogpost](https://blog.3mdeb.com/2019/2019-08-07-qubes-os-and-3mdeb-minisummit/)
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            ### 
+            Presentation **#1** <br/>
+            Topic: **Qubes Hardware Certification** <br/>
+            Presenter: **Piotr Król** <br/>
+
+            - [Slides](https://3mdeb.com/wp-content/uploads/2021/06/Qubes-Hardware-Certification.pdf)
+
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            ### 
+            Presentation **#2** <br/>
+            Topic: **Qubes build system** <br/>
+            Presenter: **Maciej Pijanowski** <br/>
+
+            - [Slides](https://3mdeb.com/wp-content/uploads/2021/06/Qubes-build-system.pdf)
+
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            ### 
+            Presentation **#3** <br/>
+            Topic: **Qubes OS and TPM 2.0** <br/>
+            Presenter: **Michał Żygowski** <br/>
+
+            - [Slides](https://3mdeb.com/wp-content/uploads/2021/06/TPM-2.0.pdf)
+
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            ### 
+            Presentation **#4** <br/>
+            Topic: **Lightning Talks** <br/>
+            Presenter: **Piotr Król** <br/>
+
+            - [Slides](https://3mdeb.com/wp-content/uploads/2021/06/Lightning-Talks.pdf)
+
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            ### 
+            Presentation **#5** <br/>
+            Topic: **Anti Evil Maid** <br/>
+            Presenter: **Michał Żygowski** <br/>
+
+            - [Slides](https://3mdeb.com/wp-content/uploads/2021/06/Anti-Evil-Maid.pdf)
+
+
+    - title: "Embedded **World 2019**"
+      status: ""
+      date: "26-28.02.2019"
+      event_poster: "/images/events/2019/embedded-world-2019-Logo-farbig-mit-Zahl-colored-RGB-300dpi-1-1024x170.jpg"
+      additional_info: |
+        ### Embedded World **[Official Page](https://www.embedded-world.de/en/all-about-the-exhibition)**
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: "qJBJ2TpAu8I"
+          additional_info: |
+            ### 
+            Demo **#1** <br/>
+            Topic: **Protectli Fast Boot** <br/>
+            Presenter: **Piotr Król** <br/>
+
+        - date: ""
+          image: ""
+          youtube_video_id: "lddSYz8PAck"
+          additional_info: |
+            ### 
+            Demo **#2** <br/>
+            Topic: **BayTrail Hypervisor** <br/>
+            Presenter: **Piotr Król** <br/>
+        
+
+  - year: "20**18**"
+    events:
+    - title: "Open Source **Firmware Conference 2018**"
+      status: ""
+      date: "12-15.09.2018"
+      event_poster: "/images/events/2018/osfc-1536x765-2-1024x510.png"
+      additional_info: |
+        ### OSFC 2018 **[Official Page](https://www.osfc.io/archive/2018/)** <br/>
+
+      # segments:
+      segments:
+        - date: "12.09.2018"
+          image: ""
+          youtube_video_id: "5JoEuh9qXx0"
+          additional_info: |
+            Presentation **#1** <br>
+            Topic: **How to enable AMD IOMMU in coreboot** <br>
+            Presenter: **Piotr Król** <br>
+
+            * [**Direct link**](https://3mdeb.com/wp-content/uploads/2021/06/Intro.pdf)
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/How_to_enable_AMD_IOMMU_in_coreboot.pdf)
+            * [**Video 2**](https://www.youtube.com/watch?v=gBsHwAjgeh0)
+            * [**Video 3**](https://www.youtube.com/watch?v=YlRvj2lqpHE)
+
+        - date: "14.09.2018"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#2** <br/>
+            Topic: **Remote Testing Environment Workshop** <br/>
+            Presenters: **Piotr Król, Michał Żygowski** <br/>
+
+            * [**Direct link**](https://www.osfc.io/2018/talks/remote-testing-environment-rte-workshop/)
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/Remote_Testing_Environment_Workshop.pdf)
+
+        - date: "15.09.2018"
+          image: ""
+          youtube_video_id: "P49uLPCXgjo"
+          additional_info: |
+            Presentation **#3** <br/>
+            Topic: **BITS and CHIPSEC as coreboot payloads** <br/>
+            Presenters: **Piotr Król, Michał Żygowski** <br/>
+
+            * [**Direct link**](https://www.osfc.io/2018/talks/bits-and-chipsec-as-coreboot-payloads/)
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2021/06/BITS_and_CHIPSEC_as_coreboot_payloads.pdf)
+        
+
+  - year: "20**17**"
+    events:
+    - title: "European Coreboot **Conference**"
+      status: ""
+      date: "26-29.10.2017"
+      event_poster: "/images/events/2017/ecc.png"
+      additional_info: |
+        ### European Coreboot Conference **[Official Page](https://ecc2017.com/)** <br/>
+
+      # segments:
+      segments:
+        - date: "26.10.2017"
+          image: ""
+          youtube_video_id: "nt0BkqVUu3w"
+          additional_info: |
+            Presentation **#1** <br/>
+            Topic: **Booting UEFI-aware OS on coreboot enabled platform – “in God’s Name, Why?”** <br/>
+            Presenter: **Piotr Król** <br/>
+
+            * [**Direct link**](https://ecc2017.com/talks/2eYVdk7g9WnUQ52QNQHCIg)
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2022/08/Booting-UEFI-aware-OS-on-coreboot-enabled-platform-_In-Gods-Name-Why__.pdf)
+        
+        - date: "27.10.2017"
+          image: ""
+          youtube_video_id: "Yjb9n5p3giI"
+          additional_info: |
+            Presentation **#2** <br/>
+            Topic: **Enabling TPM 2.0 on coreboot based devices** <br/>
+            Presenter: **Kamil Wcisło** <br/>
+
+            * [**Direct link**](https://ecc2017.com/talks/xKtg73Rwilcd4Z-uanoQVw)
+            * [**Slides**](https://3mdeb.com/wp-content/uploads/2022/08/Enabling-TPM-2.0-on-coreboot-based-devices.pdf)
+        
+
+  - year: "20**16**"
+    events:
+    - title: "**NetVision**"
+      status: ""
+      date: "21-23.04.2016"
+      event_poster: "/images/events/2016/netvision-1.png"
+      additional_info: |
+        ### NetVision
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: "owz4kcwXahE"
+          additional_info: |
+            Presentation **#1** <br>
+            Topic: **How to build IoT Solutions using Cloud infrastructure?** <br>
+            Presenters: **Piotr Król, Rafał Korszuń** <br>
+
+            * [**Slides**](https://www.slideshare.net/rafalkorszun/how-to-build-iot-solution-using-cloud-infrastructure-61282284)
 
 ---

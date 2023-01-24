@@ -42,9 +42,9 @@
         </div>
         {{ end }}
 
-        <div class="row event-links-wrapper accordion-links-wrapper gy-5 align-items-start pt-5">
+        <div class="event-links-wrapper accordion-links-wrapper pt-5">
           {{ range .Params.all_events }}
-          <div class="col-md-6">
+          <div>
             <h3>{{.year | markdownify}}</h3>
             <ul>
               {{ range .events }}
@@ -119,7 +119,7 @@
                     {{- end -}}
 
                     {{- with .youtube_video_id -}}
-                    <div class="ratio ratio-16x9">
+                    <div class="ratio ratio-16x9 bg-dark">
                       <iframe src="https://www.youtube.com/embed/{{.}}" title="YouTube video" allowfullscreen></iframe>
                     </div>
                     {{- end -}}

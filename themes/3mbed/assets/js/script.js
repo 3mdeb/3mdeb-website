@@ -59,7 +59,7 @@
     })
   })
 
-  // When user click accordian then accordian details will be opened and scroll to top after header
+  // Open accordian and scroll to accordion
   let headerHeight = document.querySelector("header").offsetHeight;
   let accordionBtns = document.querySelectorAll(".accordion-button");
   accordionBtns.forEach(btn => {
@@ -75,7 +75,7 @@
     });
   });
 
-  // When user click event link then user will scroll to corresponding event of clicked event and open that event accordian 
+  // Open accordian and scroll to event accordion
   let eventlinks = document.querySelectorAll(".accordion-links-wrapper a");
 
   eventlinks.forEach(link => {
