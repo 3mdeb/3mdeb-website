@@ -5,9 +5,15 @@
 1. Run local server: `./scripts/local-preview.sh -b http://<IP-ADDRESS>`
 1. Go to [http://<IP-ADDRESS>:1313/](http://localhost:1313/) to view the changes.
 
-_NOTE_: Using `localhost` could end in partial resource import, therefore try to
+> _NOTE_: Using `localhost` could end in partial resource import, therefore try to
 use the local IP address of the host machine. Feel free to replace
 `http://localhost:1313` with desired address IP and port.
+
+> _NOTE-2_: If you are having problems with docker (above script), use locally
+> installed hugo:
+> 1. Install hugo: `sudo snap install hugo`
+> 2. Start local server: `hugo server`
+> 3. Open locally deployed website on `localhost:1313`
 
 ## Good practices
 
