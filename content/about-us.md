@@ -108,7 +108,7 @@ we_are_registered:
   organizations:
   - title: "Yocto **Participants**"
     icon: "images/registered/yocto.png"
-    section_id: "uefi-adopters"
+    section_id: "yocto-participants"
     content: |
       The Yocto Project is a Linux Foundation collaborative open source project whose goal is to produce tools and processes that enable the creation of Linux distributions for embedded and IoT software that are independent of the underlying architecture of the embedded hardware. The project was announced by the Linux Foundation in 2010 and launched in March, 2011, in collaboration with 22 organizations, including OpenEmbedded.
 
@@ -118,7 +118,7 @@ we_are_registered:
 
   - title: "UEFI **Adopters**"
     icon: "images/registered/uefi.png"
-    section_id: "yocto-participants"
+    section_id: "uefi-adopters"
     content: |
       The Unified Extensible Firmware Interface (UEFI) is a specification that defines a software interface between an operating system and platform firmware. UEFI replaces the Basic Input/Output System (BIOS) firmware interface originally present in all IBM PC-compatible personal computers, with most UEFI firmware implementations providing legacy support for BIOS services. UEFI can support remote diagnostics and repair of computers, even with no operating system installed.
 
