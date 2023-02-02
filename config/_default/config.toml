@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com/"
+baseURL = "https://3mdeb.github.io/3mdeb-website/"
 title = "3mdeb Sp. z o.o. — Open Source Firmware and Embedded System consultants shop online"
 theme = ["3mbed"]
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List

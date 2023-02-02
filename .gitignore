@@ -10,6 +10,7 @@ package-lock.json
 public
 resources
 .hugo_build.lock
+*.lock
 jsconfig.json
 hugo_stats.json
 go.sum
