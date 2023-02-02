@@ -18,7 +18,7 @@ writeStats = true
 
 ############################# Outputs ##############################
 [outputs]
-home = ["HTML", "RSS", "JSON", "WebAppManifest"]
+home = ["HTML", "RSS", "JSON"]
 
 ############################# Imaging ##############################
 [imaging]
@@ -51,20 +51,3 @@ style = 'monokai' # see https://xyproto.github.io/splash/docs/all.html
 startLevel = 2
 endLevel = 5
 ordered = true
-
-
-############################ Media types ############################
-[mediaTypes]
-[mediaTypes."application/manifest+json"]
-suffixes = ["webmanifest"]
-
-[mediaTypes."text/netlify"]
-delimiter = ""
-suffixes = [""]
-
-
-############################ Output Format ###########################
-[outputFormats]
-[outputFormats.WebAppManifest]
-mediaType = "application/manifest+json"
-rel = "manifest"
