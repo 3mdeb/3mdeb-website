@@ -48,12 +48,12 @@
     <div class="row">
       <div class="col-md-6 d-flex justify-content-around flex-column flex-md-row">
         <div class="text-center">
-          {{ partial "image.html" (dict "Src" "/images/contact/icon-1.png" "Alt" "our office") }}
+          {{ partial "image.html" (dict "Src" "images/contact/icon-1.png" "Alt" "our office") }}
           <h3 class="h2 mt-5">Our <strong>office</strong></h3>
           <p>{{site.Params.contact_info.address | markdownify}}</p>
         </div>
         <div class="text-center">
-          {{ partial "image.html" (dict "Src" "/images/contact/icon-2.png" "Alt" "Invoicing") }}
+          {{ partial "image.html" (dict "Src" "images/contact/icon-2.png" "Alt" "Invoicing") }}
           <h3 class="h2 mt-5">Invoicing</h3>
           <p>{{site.Params.contact_info.invoicing | markdownify}}</p>
         </div>
@@ -97,7 +97,7 @@
         <div class="text-center">
           <h2 class="h4 mt-5">{{.title | markdownify}}</h2>
           {{ with .button }}
-          <a href="{{.link | safeURL}}" target="_blank" class="btn btn-primary">{{.label | markdownify}}</a>
+          <a href="{{.link | relURL}}" target="_blank" class="btn btn-primary">{{.label | markdownify}}</a>
           {{ end }}
         </div>
       </div>
@@ -107,7 +107,7 @@
         <ul class="social-menu-alt">
           {{ range site.Params.social }}
           <li class="list-inline-item">
-            <a href="{{.link | safeURL}}" title="{{.title}}" class="{{.title}}"><i class="{{.icon}}"></i></a>
+            <a href="{{.link | relURL}}" title="{{.title}}" class="{{.title}}"><i class="{{.icon}}"></i></a>
           </li>
           {{ end }}
         </ul>
@@ -119,7 +119,7 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <iframe loading="lazy" src="{{.Params.google_map_embed_url | safeURL}}" allowfullscreen="" width="600" height="850" frameborder="0" class="lazy"></iframe>
+      <iframe loading="lazy" src="{{.Params.google_map_embed_url | relURL}}" allowfullscreen="" width="600" height="850" frameborder="0" class="lazy"></iframe>
     </div>
   </div>
 </section>

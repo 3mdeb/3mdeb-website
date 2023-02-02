@@ -1,13 +1,13 @@
 ---
 title: "Operating Systems"
 description: ""
-image: "/images/operating-system.jpg"
+image: "images/operating-system.jpg"
 keywords: [""]
 draft: false
 layout: "operating-systems-development"
 
 introduction:
-  image: "/images/services/system.png"
+  image: "images/services/system.png"
   content: |
     ## Operating Systems Development
     {.h3}
@@ -15,7 +15,7 @@ introduction:
     At first, let’s explain something important. Most people after hearing `Operating System` will imagine Windows, iOS, maybe Android or some Linux distribution. Yes, all of them are Operating Systems, but **[3mdeb](https://3mdeb.com/)** focus on embedded solutions, which are able to operate with a limited number of resources, very compact and extremely efficient by design. These rarely have any **[GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)** and are designed to operate on small machines with less autonomy. That include devices used in IoT, robotics, healthcare, military, and in every field where systems are operation or life critical.
 
 what_we_do:
-  image: "/images/system-what-we-do.jpg"
+  image: "images/system-what-we-do.jpg"
   content: |
     ## What we do?
     {.h3}
@@ -29,9 +29,9 @@ what_we_do:
     For more examples of what we can do visit [**this page**.](/products/open-source-software/)
 
 used_technology:
-  - "/images/coreboot.png"
-  - "/images/used-technology/yocto.png"
-  - "/images/uefi.png"
+  - "images/coreboot.png"
+  - "images/used-technology/yocto.png"
+  - "images/uefi.png"
 
 why_us:
   content: |

@@ -94,10 +94,10 @@
         <div class="row row-cols-2 row-cols-md-3 used-technology">
           {{ range .technologies }}
           <div class="col">
-            <a href="{{.link | safeURL}}" {{if findRE `^http` .link}}target="_blank" rel="noopener" {{end}}>
+            <a href="{{.link | relURL}}" {{if findRE `^http` .link}}target="_blank" rel="noopener" {{end}}>
               {{ partial "image.html" (dict "Src" .image "Alt" (.title | plainify | urlize) "Size" "200x200") }}
             </a>
-            <h3 class="fs-4"><a href="{{.link | safeURL}}" {{if findRE `^http` .link}}target="_blank" rel="noopener" {{end}}>{{.title | markdownify}}</a></h3>
+            <h3 class="fs-4"><a href="{{.link | relURL}}" {{if findRE `^http` .link}}target="_blank" rel="noopener" {{end}}>{{.title | markdownify}}</a></h3>
           </div>
           {{ end }}
         </div>
@@ -202,7 +202,7 @@
   <div class="container">
     <div class="row g-5 justify-content-end align-items-center">
       <div class="col-6 mx-auto mx-md-0 col-md-4 text-center">
-        {{ partial "image.html" (dict "Src" "/images/careers/computer-hands-on-laptop.jpg" "Alt" "" "Class" "d-block mx-auto" ) }}
+        {{ partial "image.html" (dict "Src" "images/careers/computer-hands-on-laptop.jpg" "Alt" "" "Class" "d-block mx-auto" ) }}
       </div>
       <div class="col-md-7">
         <h3 class="h3 fw-semibold mb-5">{{.title | markdownify}}</h3>

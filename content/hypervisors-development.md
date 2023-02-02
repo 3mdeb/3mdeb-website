@@ -1,13 +1,13 @@
 ---
 title: "Hypervisors"
 description: ""
-image: "/images/hyper-visor.jpg"
+image: "images/hyper-visor.jpg"
 keywords: [""]
 draft: false
 layout: "hypervisors-development"
 
 introduction:
-  image: "/images/services/hypervisor.png"
+  image: "images/services/hypervisor.png"
   content: |
     ## Introduction
     {.h3}
@@ -21,7 +21,7 @@ introduction:
 
 
 hypervisors_usage:
-  image: "/images/hypervisor/closeup-complex-complexity.jpg"
+  image: "images/hypervisor/closeup-complex-complexity.jpg"
   content: |
     ## What are hypervisors used for?
     {.h3}
@@ -65,6 +65,6 @@ why_3mdeb:
     Don’t waste your precious time! **[Contact Us](/contact/)** or [**book a call**.](https://calendly.com/3mdeb)
 
   technologies:
-    - "/images/hypervisor/acrn.jpg"
-    - "/images/hypervisor/bare.jpg"
+    - "images/hypervisor/acrn.jpg"
+    - "images/hypervisor/bare.jpg"
 ---

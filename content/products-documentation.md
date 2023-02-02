@@ -1,13 +1,13 @@
 ---
 title: "Products <br> Documentation"
 description: ""
-image: "/images/product-documentation.jpg"
+image: "images/product-documentation.jpg"
 keywords: [""]
 draft: false
 layout: "products-documentation"
 
 products:
-  - image: "/images/prouduct-documentation/rte-1.jpg"
+  - image: "images/prouduct-documentation/rte-1.jpg"
     content: |
       ## RTE
       {.h3}
@@ -26,7 +26,7 @@ products:
 
       [Protectli Flashing Manual](https://cloud.3mdeb.com/index.php/s/NQCAHopjSpMGT9z)
 
-  - image: "/images/open-source-hardware/tpm-2.png"
+  - image: "images/open-source-hardware/tpm-2.png"
     content: |
       ## TPM2
       {.h3}
@@ -35,7 +35,7 @@ products:
 
       [Datasheet](https://www.infineon.com/dgdl/Infineon-data-sheet-SLB9665_2.0_Rev1.2-DS-v01_02-EN.pdf?fileId=5546d462689a790c016929d1d3054feb)
 
-  - image: "/images/prouduct-documentation/muxpi-open-hardware-device.png"
+  - image: "images/prouduct-documentation/muxpi-open-hardware-device.png"
     content: |
       ## muxPi
       {.h3}
@@ -44,7 +44,7 @@ products:
 
       [Datasheet](https://cloud.3mdeb.com/index.php/s/QgqnFLnm2XKy2yw)    
 
-  - image: "/images/open-source-hardware/OpenVizsla-usb2.0-analyzer.png"
+  - image: "images/open-source-hardware/OpenVizsla-usb2.0-analyzer.png"
     content: |
       ## OpenVizsla
       {.h3}
@@ -57,7 +57,7 @@ products:
 
       [Schematics](http://openvizsla.org/images/ov_3.2_design.pdf)
 
-  - image: "/images/prouduct-documentation/vitrobian-crystal.jpg"
+  - image: "images/prouduct-documentation/vitrobian-crystal.jpg"
     content: |
       ## Vitrobian Crystal
       {.h3}

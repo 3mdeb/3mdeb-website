@@ -1,7 +1,7 @@
 ---
 title: "Pace Enterprise Training"
 description: ""
-image: "/images/training/header-bg.jpg"
+image: "images/training/header-bg.jpg"
 keywords: [""]
 draft: false
 layout: "training"
@@ -13,7 +13,7 @@ message:
 
 trainings:
   - title: "coreboot for &nbsp; **embedded linux developers**"
-    image: "/images/coreboot-big.png"
+    image: "images/coreboot-big.png"
     overview: |
       *   modern x86 architecture
       *   firmware design principles by examples
@@ -44,11 +44,11 @@ trainings:
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
     buttons: |
-      {{<button class="btn btn-primary" label="BOOK A CALL" link="/contact/">}}
+      {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/7Bt72SWnJ2GnCQq">}}
       
   - title: "Building and Development &nbsp; **of Embedded Linux Systems**"
-    image: "/images/training/linux.png"
+    image: "images/training/linux.png"
     overview: |
       *   Open source development overview
       *   Brief history of Linux
@@ -82,11 +82,11 @@ trainings:
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
     buttons: |
-      {{<button class="btn btn-primary" label="BOOK A CALL" link="/contact/">}}
+      {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/ooHTPK6D5Cym5kX">}}
       
   - title: "OST2 Arch4001, Arch4021, TC3001, TC3011, TC3211 &nbsp; **- Intel Root of Trust training**"
-    image: "/images/training/ost2.png"
+    image: "images/training/ost2.png"
     overview: |
       *   UEFI introduction
       *   Modern x86 architecture
@@ -109,10 +109,10 @@ trainings:
     materials: "All training materials presentations and source code will be available for the client's internal usage."
     language: "English"
     buttons: |
-      {{<button class="btn btn-primary" label="BOOK A CALL" link="/contact/">}}
+      {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       
   - title: "OST2 Arch2001, Arch4001, Arch4021 &nbsp; **- System Security training**"
-    image: "/images/training/ost2.png"
+    image: "images/training/ost2.png"
     overview: |
       *   x86 assembly
       *   x86 operating system internals
@@ -140,10 +140,10 @@ trainings:
     materials: "All training materials presentations and source code will be available for the client's internal usage."
     language: "English"
     buttons: |
-      {{<button class="btn btn-primary" label="BOOK A CALL" link="/contact/">}}
+      {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       
   - title: "Yocto Project &nbsp; **Development**"
-    image: "/images/training/yocto.png"
+    image: "images/training/yocto.png"
     overview: |
       *   Overview of an Embedded Linux system architecture
       *   Overview of the Yocto Project and OpenEmbedded ecosystem
@@ -181,11 +181,11 @@ trainings:
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
     buttons: |
-      {{<button class="btn btn-primary" label="BOOK A CALL" link="/contact/">}}
+      {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/DRW89CQo366JAPB">}}
       
   - title: "UEFI &nbsp; **offensive security**"
-    image: "/images/registered/uefi.png"
+    image: "images/registered/uefi.png"
     overview: |
       *   modern x86 architecture
       *   boot flow from power on to system take off
@@ -214,11 +214,11 @@ trainings:
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
     buttons: |
-      {{<button class="btn btn-primary" label="BOOK A CALL" link="/contact/">}}
+      {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/Ta4DCfXsxbDaX7c">}}
       
   - title: "UEFI &nbsp; **advanced concepts**"
-    image: "/images/registered/uefi.png"
+    image: "images/registered/uefi.png"
     overview: |
       *   Memory protection mechanisms in UEFI
       *   Boot Service and Runtime Services hands-on
@@ -241,11 +241,11 @@ trainings:
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
     buttons: |
-      {{<button class="btn btn-primary" label="BOOK A CALL" link="/contact/">}}
+      {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/8e6Dp27c9QXyMbR">}}
       
   - title: "UEFI &nbsp; **fundamentals**"
-    image: "/images/registered/uefi.png"
+    image: "images/registered/uefi.png"
     overview: |
       *   UEFI and PI specification overview
       *   UEFI development workflow and hardware interaction
@@ -272,11 +272,11 @@ trainings:
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
     buttons: |
-      {{<button class="btn btn-primary" label="BOOK A CALL" link="/contact/">}}
+      {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/gFqgCxFJTrZgdNf">}}
 
   - title: "UEFI &nbsp; **practical firmware development**"
-    image: "/images/registered/uefi.png"
+    image: "images/registered/uefi.png"
     overview: |
       *   Tianocore structure and components
       *   EDK2 build process deep dive
@@ -303,7 +303,7 @@ trainings:
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
     buttons: |
-      {{<button class="btn btn-primary" label="BOOK A CALL" link="/contact/">}}
+      {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/M3RqcjGCTnXn2Rc">}}
    
 faq:

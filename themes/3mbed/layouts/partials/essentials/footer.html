@@ -5,7 +5,7 @@
         <ul class="social-menu">
           {{ range site.Params.social }}
           <li class="list-inline-item">
-            <a href="{{.link | safeURL}}" target="_blank" title="{{.title}}"><i class="{{.icon}}"></i></a>
+            <a href="{{.link | relURL}}" target="_blank" title="{{.title}}"><i class="{{.icon}}"></i></a>
           </li>
           {{ end }}
         </ul>
@@ -13,26 +13,26 @@
     </div>
     <div class="row gx-0 gy-5 justify-content-center">
       <div class="col-sm-6 col-md-5 col-xl-3 pe-sm-5">
-        <a href="/">
+        <a href="{{site.BaseURL | relURL}}">
         {{ partial "image.html" (dict "Src" site.Params.logo_big "Alt" "3mdeb" "Size" "220x" "Class" "pt-4 pb-5" ) }}
         </a>
 
         {{ with site.Params.contact_info }}
         <ul class="list-unstyled mt-5">
           <li class="mb-4 d-flex align-items-start">
-            {{ partial "image.html" (dict "Src" "/images/icons/name.svg" "Size" "30x30" ) }}
+            {{ partial "image.html" (dict "Src" "images/icons/name.svg" "Size" "30x30" ) }}
             <p class="mb-2 ms-5 text-white text-opacity-75 fw-light">{{.vat_info}}</p>
           </li>
           <li class="mb-4 d-flex align-items-start">
-            {{ partial "image.html" (dict "Src" "/images/icons/address.svg" "Size" "30x30" ) }}
+            {{ partial "image.html" (dict "Src" "images/icons/address.svg" "Size" "30x30" ) }}
             <p class="mb-2 ms-5 text-white text-opacity-75 fw-light">{{.address}}</p>
           </li>
           <li class="mb-4 d-flex align-items-start">
-            {{ partial "image.html" (dict "Src" "/images/icons/call.svg" "Size" "30x30" ) }}
+            {{ partial "image.html" (dict "Src" "images/icons/call.svg" "Size" "30x30" ) }}
             <p class="mb-2 ms-5"><a class="fw-light text-white text-opacity-75" href="tel:{{.mobile}}">{{.mobile}}</a></p>
           </li>
           <li class="mb-4 d-flex align-items-start">
-            {{ partial "image.html" (dict "Src" "/images/icons/mail.svg" "Size" "30x30" ) }}
+            {{ partial "image.html" (dict "Src" "images/icons/mail.svg" "Size" "30x30" ) }}
             <p class="mb-2 ms-5"><a class="text-white text-opacity-75 fw-light" href="mailto:{{.email}}">{{.email}}</a></p>
           </li>
         </ul>

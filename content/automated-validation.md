@@ -1,13 +1,13 @@
 ---
 title: "Automated Validation"
 description: ""
-image: "/images/automated-validation/header-bg.jpg"
+image: "images/automated-validation/header-bg.jpg"
 keywords: [""]
 draft: false
 layout: "automated-validation"
 
 introduction:
-  image: "/images/services/validation.png"
+  image: "images/services/validation.png"
   content: |
     ## Automated Validation
     {.h3}
@@ -19,12 +19,12 @@ introduction:
     Our hardware and **[RobotFramework](https://robotframework.org/)** infrastructure is capable to support many of recently used boards to c onfirm their features. If You consider constant changes of revision of the onfirm their features. If You consider constant changes of revision of the onfirm their features. If You consider constant changes of revision of the subject it is suggested to take a regression test suite. With regression testing, we can confirm, that a recent version of the hardware and/or embedded firmware has not adversely affected existing features.
 
   technologies:
-    - "/images/automated-validation/robotframe.png"
-    - "/images/used-technology/python.png"
-    - "/images/used-technology/linux-logo.png"
-    - "/images/used-technology/docker.png"
-    - "/images/automated-validation/git.png"
-    - "/images/automated-validation/cockpit.png"
+    - "images/automated-validation/robotframe.png"
+    - "images/used-technology/python.png"
+    - "images/used-technology/linux-logo.png"
+    - "images/used-technology/docker.png"
+    - "images/automated-validation/git.png"
+    - "images/automated-validation/cockpit.png"
 
 regression_testing:
   - content: |
@@ -59,16 +59,16 @@ service_options:
   packages:
     - info: "and the period of time for validation:"
       list:
-        - icon: "/images/automated-validation/service-option-1.1.png"
+        - icon: "images/automated-validation/service-option-1.1.png"
           title: "Full"
-        - icon: "/images/automated-validation/service-option-1.2.png"
+        - icon: "images/automated-validation/service-option-1.2.png"
           title: "Custom"
 
     - info: "receiving a customized validation package."
       list:
-        - icon: "/images/automated-validation/service-option-2.1.png"
+        - icon: "images/automated-validation/service-option-2.1.png"
           title: "One-time"
-        - icon: "/images/automated-validation/service-option-2.2.png"
+        - icon: "images/automated-validation/service-option-2.2.png"
           title: "Time-based"
 
 service_details:
@@ -102,17 +102,17 @@ service_details:
       _<b>NOTE</b>: If there will be a request for the help with bugs elimination (mainly in the embedded firmware area) we can also provide such support._
 
 supporting_technologies:
-  - "/images/automated-validation/tech/debian.png"
-  - "/images/automated-validation/tech/ubuntu.png"
-  - "/images/automated-validation/tech/pfsense.png"
-  - "/images/automated-validation/tech/opnsense.png"
-  - "/images/coreboot.png"
-  - "/images/internet-things/supporting-technologies/uboot-logo.png"
-  - "/images/automated-validation/tech/zephyr.png"
-  - "/images/automated-validation/tech/mbed.jpg"
-  - "/images/automated-validation/tech/bare.jpg"
+  - "images/automated-validation/tech/debian.png"
+  - "images/automated-validation/tech/ubuntu.png"
+  - "images/automated-validation/tech/pfsense.png"
+  - "images/automated-validation/tech/opnsense.png"
+  - "images/coreboot.png"
+  - "images/internet-things/supporting-technologies/uboot-logo.png"
+  - "images/automated-validation/tech/zephyr.png"
+  - "images/automated-validation/tech/mbed.jpg"
+  - "images/automated-validation/tech/bare.jpg"
   - "images/automated-validation/tech/xen.png"
-  - "/images/automated-validation/tech/intel.png"
+  - "images/automated-validation/tech/intel.png"
 
   
 ---

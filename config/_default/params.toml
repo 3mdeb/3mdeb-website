@@ -48,7 +48,7 @@ enable = true
 title = "Contact **Us**"
 subtitle = "Feel free to ask if you have any questions."
 button_label = "Contact Us"
-button_link = "/contact"
+button_link = "contact"
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]

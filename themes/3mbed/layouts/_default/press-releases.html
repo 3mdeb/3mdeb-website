@@ -19,7 +19,7 @@
               <h3 class="h4">{{.review | markdownify}}</h3>
               <p>{{.date}}</p>
               {{ if .image }}
-              <a href="{{.source | safeURL}}" class="d-block" {{if findRE `^http` .source}}target="_blank" rel="noopener" {{end}}>
+              <a href="{{.source | relURL}}" class="d-block" {{if findRE `^http` .source}}target="_blank" rel="noopener" {{end}}>
                 {{ partial "image.html" (dict "Src" .image "Alt" "press releases" "Resize" false  "Webp" false) }}
               </a>
               {{ end }}
@@ -51,9 +51,9 @@
           {{ range .articles }}
           <div class="col-lg-3 col-sm-6 text-center">
             <h5 class="fw-normal text-center">
-              <a href="{{.source_url | safeURL}}" {{if findRE `^http` .source_url}}target="_blank" rel="noopener" {{end}}>{{.title | markdownify}}</a>
+              <a href="{{.source_url | relURL}}" {{if findRE `^http` .source_url}}target="_blank" rel="noopener" {{end}}>{{.title | markdownify}}</a>
             </h5>
-            <a href="{{.source_url | safeURL}}" {{if findRE `^http` .source_url}}target="_blank" rel="noopener" {{end}} class="text-dark text-center">
+            <a href="{{.source_url | relURL}}" {{if findRE `^http` .source_url}}target="_blank" rel="noopener" {{end}} class="text-dark text-center">
               {{ partial "image.html" (dict "Src" .image "Alt" (.title | markdownify) "Class" "mt-4") }}
             </a>
           </div>

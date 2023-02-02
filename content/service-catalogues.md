@@ -1,7 +1,7 @@
 ---
 title: "Service Catalogues"
 description: ""
-image: "/images/catalogues/header-bg.jpg"
+image: "images/catalogues/header-bg.jpg"
 keywords: [""]
 draft: false
 layout: "service-catalogues"
@@ -12,7 +12,7 @@ service_catalogues:
         {.h3}
 
         Our embedded systems specialists have extensive experience in many commercial projects. We are registered Yocto Participants and masters in Amazon Web Services integration, board bring-up and BSP development. If you are looking for a specific solution, be sure to check the catalogue above in which you will find technologies we are familiar with: programming languages, operating-systems and bootloaders, tools and libraries, hardware experience, reference and open source projects we contributed in.
-    image: "/images/catalogues/banner-image.png"
+    image: "images/catalogues/banner-image.png"
 
   - content: |
         ## [OSFV Service Catalogue](https://cloud.3mdeb.com/index.php/s/DMEgZzKMMTC2j9b)

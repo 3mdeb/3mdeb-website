@@ -8,7 +8,7 @@ layout: "careers"
 
 multilingual:
   info_name: "Site PL :"
-  url: "/praca/"
+  url: "praca/"
   flag: "images/ml-polish-flag.svg"
 
 table_of_contents:
@@ -479,6 +479,6 @@ cta:
   title: "Contact **Us**"
   subtitle: "Feel free to ask if you have any questions."
   button_label: "Contact Us"
-  button_link: "/contact"
+  button_link: "contact"
 
 ---

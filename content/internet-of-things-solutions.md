@@ -1,13 +1,13 @@
 ---
 title: "Internet of Things <br> Solutions"
 description: ""
-image: "/images/internet-things/header-bg.jpg"
+image: "images/internet-things/header-bg.jpg"
 keywords: [""]
 draft: false
 layout: "internet-of-things-solutions"
 
 introductions:
-  - image: "/images/services/iot-icon.png"
+  - image: "images/services/iot-icon.png"
     content: |
       ## Internet of Things Solutions
       {.h3}
@@ -27,7 +27,7 @@ introductions:
       *   Enabling WiFi/Bluetooth, GSM/4G, GPS, and NB-IoT modules,
       *   The fully automated system features tests.
 
-  - image: "/images/internet-things/smart-space.png"
+  - image: "images/internet-things/smart-space.png"
     content: |
       ## Smart space for business.
       {.h3}
@@ -37,52 +37,52 @@ introductions:
 technologies:
   title: "Technologies supporting IoT"
   images: 
-    - "/images/internet-things/supporting-technologies/node-js.png"
-    - "/images/internet-things/supporting-technologies/react-logo.png"
-    - "/images/internet-things/supporting-technologies/docker-logo.png" 
-    - "/images/internet-things/supporting-technologies/aws-logo.png"
-    - "/images/internet-things/supporting-technologies/azure-logo.png"
-    - "/images/internet-things/supporting-technologies/git-logo.png"
-    - "/images/internet-things/supporting-technologies/linux-logo.png"
-    - "/images/internet-things/supporting-technologies/uboot-logo.png"
-    - "/images/internet-things/supporting-technologies/yocto-logo.jpg"
-    - "/images/internet-things/supporting-technologies/aws.png"
-    - "/images/internet-things/supporting-technologies/bluetooth.png"
-    - "/images/internet-things/supporting-technologies/wifi.png"
+    - "images/internet-things/supporting-technologies/node-js.png"
+    - "images/internet-things/supporting-technologies/react-logo.png"
+    - "images/internet-things/supporting-technologies/docker-logo.png" 
+    - "images/internet-things/supporting-technologies/aws-logo.png"
+    - "images/internet-things/supporting-technologies/azure-logo.png"
+    - "images/internet-things/supporting-technologies/git-logo.png"
+    - "images/internet-things/supporting-technologies/linux-logo.png"
+    - "images/internet-things/supporting-technologies/uboot-logo.png"
+    - "images/internet-things/supporting-technologies/yocto-logo.jpg"
+    - "images/internet-things/supporting-technologies/aws.png"
+    - "images/internet-things/supporting-technologies/bluetooth.png"
+    - "images/internet-things/supporting-technologies/wifi.png"
 
 iot_webdev_team:
   title: "IoT webdev team"
   subtitle: "DEPENDING ON THE NEEDS AND REQUIREMENTS, WE CARRY OUT TASKS IN THE FOLLOWING IT AREAS"
   services:
-    - icon: "/images/internet-things/icons/project-management.png"
+    - icon: "images/internet-things/icons/project-management.png"
       title: "PROJECT MANAGEMENT"
       description: "We plan to work on project to achieve the goals within the allotted time"
-    - icon: "/images/internet-things/icons/ui.png"
+    - icon: "images/internet-things/icons/ui.png"
       title: "UX / UI DESIGN"
       description: "Positive user experience is the basis in everyday work with the product, which we carefully design the interfaces of our applications"
-    - icon: "/images/internet-things/icons/backend.png"
+    - icon: "images/internet-things/icons/backend.png"
       title: "BACKEND"
       description: "We create logic and algorithmic. We are responsible for handling the data processed in the system"
-    - icon: "/images/internet-things/icons/database.png"
+    - icon: "images/internet-things/icons/database.png"
       title: "DATABASE"
       description: "We safely collect digital resources of our clients"
-    - icon: "/images/internet-things/icons/frontend.png"
+    - icon: "images/internet-things/icons/frontend.png"
       title: "FRONTEND"
       description: "We provide the possibility of user communication with the application logic thanks to the Graphical User Interface"
 
 why_webdev_team:
   title: "Why is it worth it"
   services:
-    - icon: "/images/internet-things/icons/benefits-1.png"
+    - icon: "images/internet-things/icons/benefits-1.png"
       title: "WE HAVE EXPERIENCE"
       description: "Our clients have different expectations, so we had the opportunity to undertake many complex projectss"
-    - icon: "/images/internet-things/icons/benefits-2.png"
+    - icon: "images/internet-things/icons/benefits-2.png"
       title: "WE CAN CREATE FROM THE FOUNDATIONS"
       description: "Sometimes an idea is enough, we will take care of its design and implementation"
-    - icon: "/images/internet-things/icons/benefits-3.png"
+    - icon: "images/internet-things/icons/benefits-3.png"
       title: "WE KNOW HOW TO OPTIMIZE"
       description: "Correct operation alone is not enough, the key is the efficiency and optimization of the proposed solutions"
-    - icon: "/images/internet-things/icons/benefits-4.png"
+    - icon: "images/internet-things/icons/benefits-4.png"
       title: "WE FOCUS ON TESTS AND SAFETY"
       description: "Correct validation and test automation guarantee the security of sensitive resources"
 

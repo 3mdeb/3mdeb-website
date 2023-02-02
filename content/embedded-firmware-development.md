@@ -1,13 +1,13 @@
 ---
 title: "Embedded Firmware"
 description: ""
-image: "/images/embedded-firmware-header-bg.jpg"
+image: "images/embedded-firmware-header-bg.jpg"
 keywords: [""]
 draft: false
 layout: "embedded-firmware-development"
 
 introduction:
-  image: "/images/services/embedded.png"
+  image: "images/services/embedded.png"
   content: |
     ## Introduction
     {.h3}
@@ -19,13 +19,13 @@ introduction:
     This is the point where we enter the stage. We are a group of experienced and dedicated engineers with special ability to create an exceptional, efficient, secure and stable firmware. If you need an embedded firmware, you need us.
 
 used_technology:
-  - "/images/used-technology/yocto.png"
-  - "/images/used-technology/buildroot.jpg"
-  - "/images/open-source-hardware/aws.png"
-  - "/images/used-technology/linux-logo.png"
+  - "images/used-technology/yocto.png"
+  - "images/used-technology/buildroot.jpg"
+  - "images/open-source-hardware/aws.png"
+  - "images/used-technology/linux-logo.png"
 
 our_capabilities:
-  image: "/images/embedded-firmware/chip-circuit-circuit-board.jpg"
+  image: "images/embedded-firmware/chip-circuit-circuit-board.jpg"
   content: |
     ## What can we do?
     {.h3}
@@ -81,17 +81,17 @@ reference_platforms:
       * Texas Instruments AM335x, CC3100/CC3200, CC2541/CC2650, MSP430
 
     images: 
-      - "/images/open-source-hardware/intel-1.png"
-      - "/images/open-source-hardware/amd-2.png"
-      - "/images/open-source-hardware/nxp-3.png"
-      - "/images/open-source-hardware/espressif-4.jpg"
-      - "/images/open-source-hardware/broadcom-5.png"
-      - "/images/open-source-hardware/allwinner-6.jpg"
-      - "/images/open-source-hardware/texas-7.png"
-      - "/images/open-source-hardware/rasppi-8.png"
-      - "/images/open-source-hardware/marvell-9.png"
-      - "/images/open-source-hardware/rockchip-10.jpg"
-      - "/images/open-source-hardware/microxhip-11.png"
+      - "images/open-source-hardware/intel-1.png"
+      - "images/open-source-hardware/amd-2.png"
+      - "images/open-source-hardware/nxp-3.png"
+      - "images/open-source-hardware/espressif-4.jpg"
+      - "images/open-source-hardware/broadcom-5.png"
+      - "images/open-source-hardware/allwinner-6.jpg"
+      - "images/open-source-hardware/texas-7.png"
+      - "images/open-source-hardware/rasppi-8.png"
+      - "images/open-source-hardware/marvell-9.png"
+      - "images/open-source-hardware/rockchip-10.jpg"
+      - "images/open-source-hardware/microxhip-11.png"
 
   - content: |
       ## We are experienced <br> in architectures:
@@ -121,13 +121,13 @@ reference_platforms:
       *   OpenSSL and OpenSSL engines
 
     images: 
-      - "/images/training/yocto.png"
-      - "/images/used-technology/buildroot.jpg"
-      - "/images/used-technology/python.png"
-      - "/images/used-technology/cplus.png"
-      - "/images/used-technology/linux-logo.png"
-      - "/images/used-technology/go.png"
-      - "/images/used-technology/c.png"
+      - "images/training/yocto.png"
+      - "images/used-technology/buildroot.jpg"
+      - "images/used-technology/python.png"
+      - "images/used-technology/cplus.png"
+      - "images/used-technology/linux-logo.png"
+      - "images/used-technology/go.png"
+      - "images/used-technology/c.png"
 
 why_us:
   content: |

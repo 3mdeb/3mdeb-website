@@ -9,7 +9,7 @@
       <div class="col-12 text-center">
         <span class="h4 d-flex align-items-center mb-5 pb-5 justify-content-center">
           <span class="me-3">{{.info_name}}</span>
-          <a class="lh-0 text-primary text-break border bg-light rounded-3 py-2 px-3 d-inline-flex align-items-center" href="{{.url}}">
+          <a class="lh-0 text-primary text-break border bg-light rounded-3 py-2 px-3 d-inline-flex align-items-center" href="{{.url | relURL}}">
             {{ partial "image.html" (dict "Src" .flag "Alt" "multilingual" "Class" "me-3 border rounded-circle border-danger") }}
             {{.url | humanize}}
           </a>

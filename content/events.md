@@ -17,7 +17,7 @@ all_events:
     - title: "FOSDEM **2023**"
       status: "upcoming"
       date: "04-05.02.2022"
-      event_poster: "/images/events/fosdem.jpeg"
+      event_poster: "images/events/fosdem.jpeg"
       additional_info: |
         ### FOSDEM 2023 [**Official Page**](https://fosdem.org/2023/)
 
@@ -215,7 +215,7 @@ all_events:
     - title: "3mdeb **Hackathon**"
       status: ""
       date: "09.12.2022"
-      event_poster: "/images/events/2022/hackathon.png"
+      event_poster: "images/events/2022/hackathon.png"
       additional_info: |
         ### 3mdeb Hackathon [**Official Page**](https://hackathon.3mdeb.com/)
         The best place to know more about open-source firmware and coreboot and why you should try it.
@@ -230,7 +230,7 @@ all_events:
     - title: "Yocto Project **Summit**"
       status: ""
       date: "29.11-01.12.2022"
-      event_poster: "/images/events/2022/yocto-project_virtual-summit.png"
+      event_poster: "images/events/2022/yocto-project_virtual-summit.png"
       additional_info: |
         ### Yocto Project Summit [**Official Page**](https://www.yoctoproject.org/yocto-project-summit-2022-11/)
 
@@ -250,7 +250,7 @@ all_events:
     - title: "Open Source **Firmware Conference**"
       status: ""
       date: "19-21.09.2022"
-      event_poster: "/images/events/2022/FWVcWpTXgAUMInR-1024x535.jpeg"
+      event_poster: "images/events/2022/FWVcWpTXgAUMInR-1024x535.jpeg"
       additional_info: |
         ### OSFC 2022 [**Official Page**](https://www.osfc.io/)
 
@@ -282,7 +282,7 @@ all_events:
     - title: "Qubes OS **summit 2022**"
       status: ""
       date: "09-11.09.2022"
-      event_poster: "/images/events/2022/QubesOS_summit_2022-1024x724.png"
+      event_poster: "images/events/2022/QubesOS_summit_2022-1024x724.png"
       additional_info: |
         ### Qubes OS summit 2022 [**Official Page**](https://qubesos.3mdeb.com/)
         Full schedule: [link](https://cfp.3mdeb.com/qubes-os-summit-2022/schedule/)
@@ -343,7 +343,7 @@ all_events:
     - title: "Dasharo OSF vPub Spring 2022 **(aka 3mdeb vPub vol. 5)**"
       status: ""
       date: "26.05.2022"
-      event_poster: "/images/events/2022/dasharo-osf-vpub-spring-2022-poster-1024x724.png"
+      event_poster: "images/events/2022/dasharo-osf-vpub-spring-2022-poster-1024x724.png"
       additional_info: |
         ### vPub 0x5 [**Official Page**](https://vpub.dasharo.com/archive/vpub-0x5/)
 
@@ -362,14 +362,14 @@ all_events:
     - title: "FOSDEM 2022"
       status: ""
       date: "05-06.02.2022"
-      event_poster: "/images/events/fosdem.jpeg"
+      event_poster: "images/events/fosdem.jpeg"
       additional_info: |
         ### FOSDEM 2022 [**Official Page**](https://fosdem.org/2022/)
 
       # segments:
       segments:
         - date: "05.02.2022"
-          image: "/images/events/2022/devroom_afterhours-1024x726.png"
+          image: "images/events/2022/devroom_afterhours-1024x726.png"
           youtube_video_id: ""
           additional_info: |
             ### OSF, BMC and Bootloader devroom [**Official Page**](https://fosdem.org/2022/schedule/track/open_source_firmware_bmc_and_bootloader/)
@@ -401,7 +401,7 @@ all_events:
     - title: "Dasharo OSF vPub Winter 2022 **(aka 3mdeb vPub vol. 4)**"
       status: ""
       date: "17.02.2022"
-      event_poster: "/images/events/2022/Dasharo_OSF_vPub_Winter-1024x724.jpg"
+      event_poster: "images/events/2022/Dasharo_OSF_vPub_Winter-1024x724.jpg"
       additional_info: |
         ### vPub 0x4 [**Official Page**](https://vpub.dasharo.com/archive/vpub-0x4/)
 
@@ -422,7 +422,7 @@ all_events:
     - title: "Yocto Project **Virtual Summit**"
       status: ""
       date: "31.11-02.12.2021"
-      event_poster: "/images/events/2021/yocto-project_virtual-summit_300x181px.png"
+      event_poster: "images/events/2021/yocto-project_virtual-summit_300x181px.png"
       additional_info: |
         ### Yocto Project Virtual Summit [**Official Page**](https://pretalx.com/yocto-project-summit-2021-11/)
 
@@ -442,7 +442,7 @@ all_events:
     - title: "Dasharo OSF vPub Fall 2021 **(aka 3mdeb vPub vol. 3)**"
       status: ""
       date: "16.11.2021"
-      event_poster: "/images/events/2021/vPUB-Virtual-Community-Pub-1024x726.png"
+      event_poster: "images/events/2021/vPUB-Virtual-Community-Pub-1024x726.png"
       additional_info: |
         ### vPub 0x3 [**Official Page**](https://vpub.dasharo.com/archive/vpub-0x3/)
 
@@ -461,7 +461,7 @@ all_events:
     - title: "TrenchBoot **Developers Forum**"
       status: ""
       date: "16.11.2021"
-      event_poster: "/images/events/2021/hqdefault.jpg"
+      event_poster: "images/events/2021/hqdefault.jpg"
       additional_info: |
         ### TrenchBoot Developers Forum
 
@@ -496,7 +496,7 @@ all_events:
     - title: "OpenPOWER **Summit**"
       status: ""
       date: "28.10.2021"
-      event_poster: "/images/events/2021/1g9qv3GH.png"
+      event_poster: "images/events/2021/1g9qv3GH.png"
       additional_info: |
         ### OpenPOWER Summit [Official Page](https://events.linuxfoundation.org/openpower-summit-north-america/)
 
@@ -516,7 +516,7 @@ all_events:
     - title: "TPM.dev **2021 MiniConf**"
       status: ""
       date: "21-22.09.2021"
-      event_poster: "/images/events/2021/TPMdev-2021-MiniConf.png"
+      event_poster: "images/events/2021/TPMdev-2021-MiniConf.png"
       additional_info: |
         ### TPM.dev 2021 MiniConf [Official Page](https://developers.tpm.dev/)
 
@@ -536,7 +536,7 @@ all_events:
     - title: "Linux Plumbers **Conference**"
       status: ""
       date: "20-24.09.2021"
-      event_poster: "/images/events/2021/index.jpeg"
+      event_poster: "images/events/2021/index.jpeg"
       additional_info: |
         ### Linux Plumbers Conference [Official Page](https://lpc.events/event/11/)
         
@@ -556,7 +556,7 @@ all_events:
     - title: "Euro**BSDCon**"
       status: ""
       date: "17-19.09.2021"
-      event_poster: "/images/events/2021/Beastie-in-Lech.png"
+      event_poster: "images/events/2021/Beastie-in-Lech.png"
       additional_info: |
         ### EuroBSDCon **[Official Page](https://2021.eurobsdcon.org/)**
 
@@ -576,7 +576,7 @@ all_events:
     - title: "Qubes OS **Minisummit**"
       status: ""
       date: "03 & 10.08.2021"
-      event_poster: "/images/events/2021/qubesos-724x1024.jpg"
+      event_poster: "images/events/2021/qubesos-724x1024.jpg"
       additional_info: |
         ### Qubes OS Minisummit **[Official Page](https://www.qubes-os.org/news/2021/07/30/minisummit-agenda/)**
 
@@ -623,7 +623,7 @@ all_events:
     - title: "Zephyr Developer **Summit**"
       status: ""
       date: "08-10.06.2021"
-      event_poster: "/images/events/2021/zephyr-project-dev-summit.png"
+      event_poster: "images/events/2021/zephyr-project-dev-summit.png"
       additional_info: |
         ### Zephyr Developer Summit **[Official Page](https://zephyrproject.org/event/zephyr-developer-summit/)**
 
@@ -642,7 +642,7 @@ all_events:
     - title: "Xen Developer **& Design Summit**"
       status: ""
       date: "25-28.05.2021"
-      event_poster: "/images/events/2021/Screen-Shot-2019-05-09-at-10.35.13-AM.png"
+      event_poster: "images/events/2021/Screen-Shot-2019-05-09-at-10.35.13-AM.png"
       additional_info: |
         ### Xen Developer & Design Summit **[Official Page](https://events.linuxfoundation.org/archive/2021/xen-summit/)**
 
@@ -661,7 +661,7 @@ all_events:
     - title: "Yocto Project **Summit 2021**"
       status: ""
       date: "25-26.05.2021"
-      event_poster: "/images/events/2021/yocto-project_virtual-summit_300x181px.png"
+      event_poster: "images/events/2021/yocto-project_virtual-summit_300x181px.png"
       additional_info: |
         ### Yocto Project Summit **[Official Page](https://www.yoctoproject.org/yocto-project-virtual-summit-2021/)**
 
@@ -692,7 +692,7 @@ all_events:
     - title: "NGI **Forum 2021**"
       status: ""
       date: "18-19.05.2021"
-      event_poster: "/images/events/2021/NGIForum21-rgb-300x93.jpg"
+      event_poster: "images/events/2021/NGIForum21-rgb-300x93.jpg"
       additional_info: |
         ### NGI Forum 2021 **[Official Page](https://2021.ngiforum.eu/)**
 
@@ -718,7 +718,7 @@ all_events:
     - title: "vPub **0x2**"
       status: ""
       date: "07.05.2021"
-      event_poster: "/images/events/2021/E0xnJ-IWQAIHWM5-724x1024.jpeg"
+      event_poster: "images/events/2021/E0xnJ-IWQAIHWM5-724x1024.jpeg"
       additional_info: |
         ### vPub 0x2 **[Official Page](https://vpub.dasharo.com/archive/vpub-0x2/)**
 
@@ -738,7 +738,7 @@ all_events:
     - title: "TrenchBoot **Developers Forum 2021**"
       status: ""
       date: "24.03.2021"
-      event_poster: "/images/events/2021/logo.svg"
+      event_poster: "images/events/2021/logo.svg"
       additional_info: |
         ### TrenchBoot Developers Forum
 
@@ -757,7 +757,7 @@ all_events:
     - title: "vBeer **0x1**"
       status: ""
       date: "18.02.2021"
-      event_poster: "/images/events/2021/EsqQwjAWMAAyntw-789x1024.jpg"
+      event_poster: "images/events/2021/EsqQwjAWMAAyntw-789x1024.jpg"
       additional_info: |
         ### vBeer 0x1 **[Official Page](https://vpub.dasharo.com/archive/vbeer-0x1/)**
 
@@ -777,7 +777,7 @@ all_events:
     - title: "FOSDEM **2021**"
       status: ""
       date: "06-07.02.2021"
-      event_poster: "/images/events/fosdem.jpeg"
+      event_poster: "images/events/fosdem.jpeg"
       additional_info: |
         ### FOSDEM 2021 [**Official Page**](https://archive.fosdem.org/2021/)
 
@@ -804,7 +804,7 @@ all_events:
     - title: "Open Source **Firmware Conference 2020**"
       status: ""
       date: "01-03.12.2020"
-      event_poster: "/images/events/2020/osfc-1024x420.png"
+      event_poster: "images/events/2020/osfc-1024x420.png"
       additional_info: |
         ### OSFC 2020 [**Official Page**](https://www.osfc.io/archive/2020/)
 
@@ -838,7 +838,7 @@ all_events:
     - title: "GRUB **mini-summit**"
       status: ""
       date: "03 & 10 & 17 & 24.11.2020"
-      event_poster: "/images/events/2020/grub-mini-summit-1024x470.jpeg"
+      event_poster: "images/events/2020/grub-mini-summit-1024x470.jpeg"
       additional_info: |
         ### GRUB mini-summit
 
@@ -890,7 +890,7 @@ all_events:
     - title: "Yocto Project **Summit 2020**"
       status: ""
       date: "29-30.10.2020"
-      event_poster: "/images/events/2021/yocto-project_virtual-summit_300x181px.png"
+      event_poster: "images/events/2021/yocto-project_virtual-summit_300x181px.png"
       additional_info: |
         ### Yocto Project Summit **[Official Page](https://www.yoctoproject.org/yocto-projectr-summit-virtual-europe-2020/)**
 
@@ -920,7 +920,7 @@ all_events:
     - title: "TPM.dev **2020 MiniConf**"
       status: ""
       date: "21-22.10.2020"
-      event_poster: "/images/events/2020/EkuGwoaWAAI1K1T-1024x1024.jpg"
+      event_poster: "images/events/2020/EkuGwoaWAAI1K1T-1024x1024.jpg"
       additional_info: |
         ### TPM.dev 2020 MiniConf **[Official Page](https://hopin.com/events/tpm-dev-2020-miniconf)**
 
@@ -941,7 +941,7 @@ all_events:
     - title: "X.org Developers **Conference**"
       status: ""
       date: "16-18.09.2020"
-      event_poster: "/images/events/2020/Ed8KxwbWoAQpjWL-1024x625.png"
+      event_poster: "images/events/2020/Ed8KxwbWoAQpjWL-1024x625.png"
       additional_info: |
         ### X.Org Developers Conference **[Official Page](https://lpc.events/event/9/)**
 
@@ -962,7 +962,7 @@ all_events:
     - title: "OpenPOWER **Summit 2020**"
       status: ""
       date: "15.09.2020"
-      event_poster: "/images/events/2020/OpenPower_NA20_VirtualEventGraphics_Sept15_Snackable-1024x536.png"
+      event_poster: "images/events/2020/OpenPower_NA20_VirtualEventGraphics_Sept15_Snackable-1024x536.png"
       additional_info: |
         ### OpenPOWER Summit **[Official Page](https://openpowerna2020.sched.com/)**
 
@@ -983,7 +983,7 @@ all_events:
     - title: "Linux Plumbers **Conference 2020**"
       status: ""
       date: "24-28.08.2020"
-      event_poster: "/images/events/2020/linux-plumbers.png"
+      event_poster: "images/events/2020/linux-plumbers.png"
       additional_info: |
         ### Linux Plumbers Conference **[Official Page](https://lpc.events/event/7/)**
 
@@ -1006,7 +1006,7 @@ all_events:
     - title: "virtual Xen Developer and **Design Summit**"
       status: ""
       date: "06.07.2020"
-      event_poster: "/images/events/2020/logo_xenproject.png"
+      event_poster: "images/events/2020/logo_xenproject.png"
       additional_info: |
         ### virtual Xen Developer and Design Summit **[Official Page](https://xen2020.sched.com/)**
 
@@ -1027,7 +1027,7 @@ all_events:
     - title: "Qubes OS and **3mdeb minisummit**"
       status: ""
       date: "20.05-10.06.2020"
-      event_poster: "/images/events/2020/qubesos.jpeg"
+      event_poster: "images/events/2020/qubesos.jpeg"
       additional_info: |
         ### Qubes OS and 3mdeb minisummit
 
@@ -1108,7 +1108,7 @@ all_events:
     - title: "Embedded **World**"
       status: ""
       date: "25-27.02.2020"
-      event_poster: "/images/events/2020/embeddedworld2020-1-400x250-1.png"
+      event_poster: "images/events/2020/embeddedworld2020-1-400x250-1.png"
       additional_info: |
         ### Embedded World **[Official Page](https://www.embedded-world.de/en/all-about-the-exhibition)**
 
@@ -1129,7 +1129,7 @@ all_events:
     - title: "FOSDEM **2020**"
       status: ""
       date: "01-02.02.2020"
-      event_poster: "/images/events/fosdem.jpeg"
+      event_poster: "images/events/fosdem.jpeg"
       additional_info: |
         ### FOSDEM 2020 **[Official Page](https://archive.fosdem.org/2020/)**
 
@@ -1174,7 +1174,7 @@ all_events:
     - title: "GRUB2 and **3mdeb minisummit**"
       status: ""
       date: "17.12.2019"
-      event_poster: "/images/events/2019/grub2_minisummit.png"
+      event_poster: "images/events/2019/grub2_minisummit.png"
       additional_info: |
         ### GRUB2 and 3mdeb minisummit <br/>
 
@@ -1245,7 +1245,7 @@ all_events:
     - title: "Web **Summit**"
       status: ""
       date: "17.12.2019"
-      event_poster: "/images/events/2019/6r40cl0c9ghrdx3tq911.png"
+      event_poster: "images/events/2019/6r40cl0c9ghrdx3tq911.png"
       additional_info: |
         ### Web Summit [Official Page](https://websummit.com/2019-schedule) <br/>
 
@@ -1263,7 +1263,7 @@ all_events:
     - title: "Embedded Linux **Conference Europe**"
       status: ""
       date: "28-30.10.2019"
-      event_poster: "/images/events/2019/LF_Event_Snackables_071919_v1_ac_1200x628_ELCEU-1-1024x536.png"
+      event_poster: "images/events/2019/LF_Event_Snackables_071919_v1_ac_1200x628_ELCEU-1-1024x536.png"
       additional_info: |
         ### Embedded Linux Conference Europe **[Official Page](https://websummit.com/2019-schedule)**
 
@@ -1305,7 +1305,7 @@ all_events:
     - title: "Linux Plumbers **Conference 2019**"
       status: ""
       date: "09-11.09.2019"
-      event_poster: "/images/events/2019/773-512-max-1.jpg"
+      event_poster: "images/events/2019/773-512-max-1.jpg"
       additional_info: |
         ### Linux Plumbers Conference **[Official Page](https://lpc.events/event/4/)**
 
@@ -1340,7 +1340,7 @@ all_events:
     - title: "Open Source **Firmware Conference 2019**"
       status: ""
       date: "03-06.09.2019"
-      event_poster: "/images/events/2019/osfc4.png"
+      event_poster: "images/events/2019/osfc4.png"
       additional_info: |
         ### OSFC 2019 **[Official Page](https://www.osfc.io/archive/2019/)**
 
@@ -1391,7 +1391,7 @@ all_events:
     - title: "Qubes OS and **3mdeb minisummit 2019**"
       status: ""
       date: "15.05.2019"
-      event_poster: "/images/events/2019/qubesos_3mdeb_minisummit.png"
+      event_poster: "images/events/2019/qubesos_3mdeb_minisummit.png"
       additional_info: |
         ### Qubes OS and 3mdeb minisummit**
 
@@ -1458,7 +1458,7 @@ all_events:
     - title: "Embedded **World 2019**"
       status: ""
       date: "26-28.02.2019"
-      event_poster: "/images/events/2019/embedded-world-2019-Logo-farbig-mit-Zahl-colored-RGB-300dpi-1-1024x170.jpg"
+      event_poster: "images/events/2019/embedded-world-2019-Logo-farbig-mit-Zahl-colored-RGB-300dpi-1-1024x170.jpg"
       additional_info: |
         ### Embedded World **[Official Page](https://www.embedded-world.de/en/all-about-the-exhibition)**
 
@@ -1488,7 +1488,7 @@ all_events:
     - title: "Open Source **Firmware Conference 2018**"
       status: ""
       date: "12-15.09.2018"
-      event_poster: "/images/events/2018/osfc-1536x765-2-1024x510.png"
+      event_poster: "images/events/2018/osfc-1536x765-2-1024x510.png"
       additional_info: |
         ### OSFC 2018 **[Official Page](https://www.osfc.io/archive/2018/)** <br/>
 
@@ -1535,7 +1535,7 @@ all_events:
     - title: "European Coreboot **Conference**"
       status: ""
       date: "26-29.10.2017"
-      event_poster: "/images/events/2017/ecc.png"
+      event_poster: "images/events/2017/ecc.png"
       additional_info: |
         ### European Coreboot Conference **[Official Page](https://ecc2017.com/)** <br/>
 
@@ -1569,7 +1569,7 @@ all_events:
     - title: "**NetVision**"
       status: ""
       date: "21-23.04.2016"
-      event_poster: "/images/events/2016/netvision-1.png"
+      event_poster: "images/events/2016/netvision-1.png"
       additional_info: |
         ### NetVision
 

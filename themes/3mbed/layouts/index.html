@@ -9,8 +9,7 @@
           {{ range .slider }}
           <div class="swiper-slide">
             {{ if .link }}
-            <a href="{{.link | safeURL}}" class="stretched-link">{{ partial "image.html" (dict "Src" .image "Alt"
-              "dasharo" )}}</a>
+            <a href="{{.link | safeURL}}" class="stretched-link">{{ partial "image.html" (dict "Src" .image "Alt" "dasharo" )}}</a>
             {{ else }}
             {{ partial "image.html" (dict "Src" .image "Alt" "dasharo" )}}
             {{ end }}
@@ -51,7 +50,7 @@
       <div class="col-sm-5 col-lg-5 col-xl-3 links h-100">
         {{ range .important_links }}
         <div class="overflow-hidden w-100 position-relative">
-          <a href="{{.link}}">
+          <a href="{{.link | absURL}}">
             {{ partial "image.html" (dict "Src" .image "Alt" "our clients" "Class" "link-image" ) }}
             <span class="link-text fs-1 fw-bold d-block position-absolute top-50 translate-middle-y text-white w-100 text-center">
               {{.title | markdownify}}
@@ -145,11 +144,11 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 gy-5 gx-md-4 services">
           {{ range .services }}
           <div class="col">
-            <a href="{{.link | safeURL}}" class="text-dark text-center">
+            <a href="{{.link | relURL}}" class="text-dark text-center">
               {{ partial "image.html" (dict "Src" .icon "Alt" (.title | markdownify) "Class" "mb-4") }}
             </a>
             <h5 class="fw-normal text-center">
-              <a href="{{.link | safeURL}}" class="text-dark text-center">{{.title | markdownify}}</a>
+              <a href="{{.link | relURL}}" class="text-dark text-center">{{.title | markdownify}}</a>
             </h5>
           </div>
           {{ end }}
@@ -175,11 +174,11 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 gy-5 gx-md-4 registered">
           {{ range .organizations }}
           <div class="col">
-            <a href="{{.link | safeURL}}" class="text-dark text-center">
+            <a href="{{.link | relURL}}" class="text-dark text-center">
               {{ partial "image.html" (dict "Src" .icon "Alt" (.title | markdownify) "Class" "mb-4") }}
             </a>
             <h5 class="fw-normal text-center">
-              <a href="{{.link | safeURL}}" class="text-dark text-center">{{.title | markdownify}}</a>
+              <a href="{{.link | relURL}}" class="text-dark text-center">{{.title | markdownify}}</a>
             </h5>
           </div>
           {{ end }}

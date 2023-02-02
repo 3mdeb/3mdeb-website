@@ -1,14 +1,14 @@
 ---
 title: "Hardware Support"
 description: ""
-image: "/images/hardware-support-header-bg.jpg"
+image: "images/hardware-support-header-bg.jpg"
 keywords: [""]
 draft: false
 layout: "hardware-development-support"
 
 
 hardware_support:
-  - image: "/images/services/support.png"
+  - image: "images/services/support.png"
     content: |
       ## Introduction
       {.h3}
@@ -19,7 +19,7 @@ hardware_support:
 
       We offer continuous support, meaning that you will never walk alone. History of our long term collaboration with many companies from over the world shows objectively, that we should be considered trustworthy partners. We are able to keep up with your hardware, and together combine your device with our firmware into the product.
       
-  - image: "/images/registered/coreboot.png"
+  - image: "images/registered/coreboot.png"
     content: |
       ## Coreboot Development and Support
       {.h3}
@@ -30,7 +30,7 @@ hardware_support:
 
       Our dedicated and experienced engineers will make your device firmware grow alongside our coreboot branch and will let you explore features, that you haven’t even imagined (i.e. debbuging with extracting the boot log over the pc-speaker, or boot up in 400ms).
 
-  - image: "/images/open-source-hardware/TPM-2.0-Trusted-Platform-Module.png"
+  - image: "images/open-source-hardware/TPM-2.0-Trusted-Platform-Module.png"
     content: |
       ## Support of Hardware Security
       {.h3} 
@@ -50,6 +50,6 @@ why_us:
 
     If you are looking for a partner for a long term hardware project, you’ve just found it. Don’t waste your time, and **[contact us](/contact/)**, or **[book a call](https://calendly.com/3mdeb)**.
 
-  image: "/images/hardware-security/pcengines.png" 
+  image: "images/hardware-security/pcengines.png" 
 
 ---

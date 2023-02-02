@@ -10,7 +10,7 @@ url: "praca"
 
 multilingual:
   info_name: "Site ENG :"
-  url: "/careers/"
+  url: "careers/"
   flag: "images/ml-british-flag.svg"
 
 table_of_contents:
@@ -579,6 +579,6 @@ cta:
   title: "Kontakt **z nami**"
   subtitle: "Jeśli masz jakieś pytania skontaktuj się z nami."
   button_label: "KONTAKT"
-  button_link: "/contact"
+  button_link: "contact"
 
 ---

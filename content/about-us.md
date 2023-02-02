@@ -1,7 +1,7 @@
 ---
 title: "About Us"
 description: ""
-image: "/images/bg-about-us.jpg"
+image: "images/bg-about-us.jpg"
 keywords: [""]
 draft: false
 layout: "about-us"

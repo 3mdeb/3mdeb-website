@@ -30,13 +30,13 @@
     breakpoints: {
       // when window width is >= 480px
       0: {
-        slidesPerView: 1
+        slidesPerView: 1,
       },
       // when window width is >= 480px
       480: {
-        slidesPerView: 2
+        slidesPerView: 2,
       },
-    }
+    },
   });
 
   // Sticky Header and Back to Top
@@ -50,19 +50,19 @@
       backToTop.classList.remove("active");
       header.classList.remove("sticky");
     }
-  })
+  });
 
   backToTop.addEventListener("click", (e) => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth"
-    })
-  })
+      behavior: "smooth",
+    });
+  });
 
   // Open accordian and scroll to accordion
   let headerHeight = document.querySelector("header").offsetHeight;
   let accordionBtns = document.querySelectorAll(".accordion-button");
-  accordionBtns.forEach(btn => {
+  accordionBtns.forEach((btn) => {
     btn.addEventListener("click", () => {
       if (!btn.classList.contains("collapsed")) {
         setTimeout(() => {
@@ -78,8 +78,8 @@
   // Open accordian and scroll to event accordion
   let eventlinks = document.querySelectorAll(".accordion-links-wrapper a");
 
-  eventlinks.forEach(link => {
-    let targetElement = link.getAttribute("href").split("/")[2];
+  eventlinks.forEach((link) => {
+    let targetElement = link.getAttribute("href").split("/").at(-1);
 
     link.addEventListener("click", (e) => {
       let accordion = document.querySelector(`${targetElement}`);
@@ -106,19 +106,20 @@
     }
   }
 
-  const eventsAccordion = document.querySelectorAll('.events-accordion')
-  eventsAccordion.forEach(data => {
-    data.addEventListener('shown.bs.collapse', event => {
-      let expandedButtons = document.querySelectorAll(".accordion-button[aria-expanded='true']");
-      let currentTarget = event.target.getAttribute('id');
-      if (expandedButtons.length > 1) { 
+  const eventsAccordion = document.querySelectorAll(".events-accordion");
+  eventsAccordion.forEach((data) => {
+    data.addEventListener("shown.bs.collapse", (event) => {
+      let expandedButtons = document.querySelectorAll(
+        ".accordion-button[aria-expanded='true']"
+      );
+      let currentTarget = event.target.getAttribute("id");
+      if (expandedButtons.length > 1) {
         expandedButtons.forEach((btn) => {
-          if (btn.getAttribute('aria-controls') !== currentTarget) {
+          if (btn.getAttribute("aria-controls") !== currentTarget) {
             btn.click();
           }
-        })
+        });
       }
-    })
-  })
-
+    });
+  });
 })();

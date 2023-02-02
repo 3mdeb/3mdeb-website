@@ -1,13 +1,13 @@
 ---
 title: "Open Source Software"
 description: ""
-image: "/images/artificial-intelligence-coding.jpg"
+image: "images/artificial-intelligence-coding.jpg"
 keywords: [""]
 draft: false
 layout: "open-source-software"
 
 open_source_software_feature:
-  image: "/images/services/software.png"
+  image: "images/services/software.png"
   content: |
     Tired of severely vulnerable closed, non-free software?  
     Want your hardware to reach new summits of performance, stability, and security?  
@@ -44,13 +44,13 @@ familiar_with:
 
 used_technology:
   images:
-    - "/images/used-technology/yocto.png"
-    - "/images/used-technology/buildroot.jpg"
-    - "/images/used-technology/python.png"
-    - "/images/used-technology/cplus.png"
-    - "/images/used-technology/linux-logo.png"
-    - "/images/used-technology/go.png"
-    - "/images/used-technology/c.png" 
+    - "images/used-technology/yocto.png"
+    - "images/used-technology/buildroot.jpg"
+    - "images/used-technology/python.png"
+    - "images/used-technology/cplus.png"
+    - "images/used-technology/linux-logo.png"
+    - "images/used-technology/go.png"
+    - "images/used-technology/c.png" 
 
 message:
   content: |

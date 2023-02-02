@@ -34,8 +34,8 @@ customer:
 
     <br>
     
-    {{< image src="/images/partners/libretrend.png" alt="libretrend" class="d-block d-md-inline mx-auto" >}}
-    {{< image src="/images/partners/protectli.png" alt="protectli" class="d-block d-md-inline mx-auto" >}}
+    {{< image src="images/partners/libretrend.png" alt="libretrend" class="d-block d-md-inline mx-auto" >}}
+    {{< image src="images/partners/protectli.png" alt="protectli" class="d-block d-md-inline mx-auto" >}}
 
 
 industrial:

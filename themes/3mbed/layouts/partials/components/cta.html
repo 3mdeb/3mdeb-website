@@ -11,7 +11,7 @@
         <h2 class="fw-semibold mb-b">{{.title | markdownify}}</h3>
         {{with .subtitle}}<p class="mb-5">{{. | markdownify}}</p>{{end}}
         {{ if .button_link}}
-        <a href="{{.button_link}}" class="btn btn-primary">{{.button_label}}</a>
+        <a href="{{.button_link | relURL}}" class="btn btn-primary">{{.button_label}}</a>
         {{ end }}
       </div>
     </div>

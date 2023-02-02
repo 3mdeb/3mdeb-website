@@ -38,7 +38,7 @@
         {{ with .Params.events_download }}
         <div class="text-center section-title">
           <h2 class="h3">{{.title | markdownify}}</h2>
-          <a class="fs-2" href="{{.link | safeURL}}">{{.label | markdownify}}</a>
+          <a class="fs-2" href="{{.link | relURL}}">{{.label | markdownify}}</a>
         </div>
         {{ end }}
 
@@ -52,7 +52,7 @@
               {{ $link := replace (.title | plainify | urlize) "." ""}}
 
               {{ if $eventLink }}
-              <li class="mb-1"><a href="/events/#_{{$link}}">{{.title | markdownify}}</a></li>
+              <li class="mb-1"><a href="{{`events/` | absURL}}#_{{$link}}">{{.title | markdownify}}</a></li>
               {{ else }}
               <li class="mb-1">{{.title | markdownify}}</li>
               {{ end }}

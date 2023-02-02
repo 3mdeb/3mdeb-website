@@ -38,7 +38,7 @@ cooperation_with_us:
 
     - title: "Verify the received product"
       content: |
-        After the product is delivered and tested, our cooperation can proceed to the next project or include additional maintenance. <br/> [Our Services](/service-catalogues/)
+        After the product is delivered and tested, our cooperation can proceed to the next project or include additional maintenance.
 
 
 lets_work_together:

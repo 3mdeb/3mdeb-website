@@ -1,13 +1,13 @@
 ---
 title: "Software and Hardware Security"
 description: ""
-image: "/images/hardware-security/header-bg.jpg"
+image: "images/hardware-security/header-bg.jpg"
 keywords: [""]
 draft: false
 layout: "software-and-hardware-security"
 
 introduction:
-  image: "/images/services/security.png"
+  image: "images/services/security.png"
   content: |
     ## Hardware Security
     {.h3}
@@ -26,11 +26,11 @@ introduction:
 
     **[3mdeb](/)** is also a training provider. We can prepare you a boot camp, where you and your staff will learn how to deal with all the security issues. We are experienced trainers and have a lot of training materials. If you are interested just [**contact us**](/contact/) or **[book a call](https://calendly.com/3mdeb)**.
   images:
-    - "/images/open-source-hardware/microchip.png"
-    - "/images/coreboot.png"
+    - "images/open-source-hardware/microchip.png"
+    - "images/coreboot.png"
 
 software_security:
-  image: "/images/hardware-security/security.jpg"
+  image: "images/hardware-security/security.jpg"
   content: |
     ## Software Security
     {.h3}

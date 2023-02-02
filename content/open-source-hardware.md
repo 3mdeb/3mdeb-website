@@ -1,7 +1,7 @@
 ---
 title: "Open Source Hardware"
 description: ""
-image: "/images/chips-circuit-circuit-board.jpg"
+image: "images/chips-circuit-circuit-board.jpg"
 keywords: [""]
 draft: false
 layout: "open-source-hardware"
@@ -52,7 +52,7 @@ open_source_hardware_features:
       Check our satisfied clients, projects we participate, and **[contact us.](/contact/)**
 
       [**Congratulations, you have just found the solution**.](/)
-      {{< image src="/images/markets/aws.png" alt="aws" class="d-block mx-auto">}}
+      {{< image src="images/markets/aws.png" alt="aws" class="d-block mx-auto">}}
 
 
 reference_platforms_for:
@@ -90,23 +90,23 @@ reference_platforms_for:
           * Texas Instruments AM335x, CC3100/CC3200, CC2541/CC2650, MSP430
 
 used_technology:
-  - "/images/open-source-hardware/intel-1.png"
-  - "/images/open-source-hardware/amd-2.png"
-  - "/images/open-source-hardware/nxp-3.png"
-  - "/images/open-source-hardware/espressif-4.jpg"
-  - "/images/open-source-hardware/broadcom-5.png"
-  - "/images/open-source-hardware/allwinner-6.jpg"
-  - "/images/open-source-hardware/texas-7.png"
-  - "/images/open-source-hardware/rasppi-8.png"
-  - "/images/open-source-hardware/marvell-9.png"
-  - "/images/open-source-hardware/rockchip-10.jpg"
-  - "/images/open-source-hardware/microchip.png"
+  - "images/open-source-hardware/intel-1.png"
+  - "images/open-source-hardware/amd-2.png"
+  - "images/open-source-hardware/nxp-3.png"
+  - "images/open-source-hardware/espressif-4.jpg"
+  - "images/open-source-hardware/broadcom-5.png"
+  - "images/open-source-hardware/allwinner-6.jpg"
+  - "images/open-source-hardware/texas-7.png"
+  - "images/open-source-hardware/rasppi-8.png"
+  - "images/open-source-hardware/marvell-9.png"
+  - "images/open-source-hardware/rockchip-10.jpg"
+  - "images/open-source-hardware/microchip.png"
 
 products:
   - title: muxPi
-    product_image: "/images/open-source-hardware/muxPi.png"
+    product_image: "images/open-source-hardware/muxPi.png"
     product_description:
-      - image: "/images/open-source-hardware/muxpi_v1_4.jpg"
+      - image: "images/open-source-hardware/muxpi_v1_4.jpg"
         content: |
           ## muxPi v1.4
           {.h3}
@@ -124,8 +124,8 @@ products:
 
           MuxPi is equipped with many interfaces to interfere with the user and the Device Under Test: UART, USB, ETH, microSD card, dedicated Samsung USB interface, HDMI, LED display, push buttons and LEDs.
           
-          {{< image src="/images/open-source-hardware/nanopi-1.png" alt="nanopi" >}}
-          {{< image src="/images/open-source-hardware/usb.png" alt="usb" >}}
+          {{< image src="images/open-source-hardware/nanopi-1.png" alt="nanopi" >}}
+          {{< image src="images/open-source-hardware/usb.png" alt="usb" >}}
 
       - image:
         content: |
@@ -152,7 +152,7 @@ products:
   - title: "OpenVizsla"
     product_image: "images/open-source-hardware/OpenVizsla-usb2.0-analyzer.png"
     product_description:
-      - image: "/images/open-source-hardware/OpenVizsla-usb2.0-analyzer.png"
+      - image: "images/open-source-hardware/OpenVizsla-usb2.0-analyzer.png"
         content: |
           ## OpenVizsla v3.2
           {.h3} 
@@ -170,7 +170,7 @@ products:
 
           **[Explore examples of using OpenVizsla by visiting our Blog](https://blog.3mdeb.com/2019/2019-04-24-usb-sniffing-with-openvizsla/)** 
           
-          {{< image src="/images/open-source-hardware/usb.png" alt="usb-logo" >}}
+          {{< image src="images/open-source-hardware/usb.png" alt="usb-logo" >}}
 
       - image:
         content: |
@@ -191,9 +191,9 @@ products:
           {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/product/openvizsla" >}}
 
   - title: "RTE"
-    product_image: "/images/open-source-hardware/rte-remote-testing-environment.png"
+    product_image: "images/open-source-hardware/rte-remote-testing-environment.png"
     product_description:
-      - image: "/images/open-source-hardware/rte-remote-testing-environment.jpg"
+      - image: "images/open-source-hardware/rte-remote-testing-environment.jpg"
         content: |
           ## Remote Testing Environment
           {.h3}
@@ -208,11 +208,11 @@ products:
 
           In the result we have a tool which makes easier work with firmware debugging tasks. With RTE, your everyday work routines become much faster and easier to maintain from places not related to current setup location. Those include debugging tasks, flashing firmware, controlling GPIOs and power management for Device Under Test.  
           
-          {{< image src="/images/used-technology/linux-logo.png" alt="linux-logo" class="d-inline-block me-4" >}}
+          {{< image src="images/used-technology/linux-logo.png" alt="linux-logo" class="d-inline-block me-4" >}}
 
-          {{< image src="/images/open-source-hardware/orange.png" alt="orange" class="d-inline-block me-4" >}}
+          {{< image src="images/open-source-hardware/orange.png" alt="orange" class="d-inline-block me-4" >}}
 
-          {{< image src="/images/used-technology/yocto.png" alt="orange" class="d-inline-block me-4" >}}
+          {{< image src="images/used-technology/yocto.png" alt="orange" class="d-inline-block me-4" >}}
 
       - image:
         content: |
@@ -230,9 +230,9 @@ products:
 
   
   - title: "TPM modules"
-    product_image: "/images/open-source-hardware/TPM-2.0-Trusted-Platform-Module.png"
+    product_image: "images/open-source-hardware/TPM-2.0-Trusted-Platform-Module.png"
     product_description:
-      - image: "/images/open-source-hardware/TPM-2.0-Trusted-Platform-Module.png"
+      - image: "images/open-source-hardware/TPM-2.0-Trusted-Platform-Module.png"
         content: |
           ## TPM modules
           {.h3}
@@ -261,7 +261,7 @@ products:
           *   Binding: Encrypts data using the TPM bind key, a unique RSA key descended from a storage key.
           *   Sealing: Similar to binding, but in addition, specifies the TPM state for the data to be decrypted (unsealed).
 
-      - image: "/images/open-source-hardware/TPM2.0-Trusted-Platform-Module.jpg"
+      - image: "images/open-source-hardware/TPM2.0-Trusted-Platform-Module.jpg"
         content: |
           ## TPM2 compatibility  
           and firmware update

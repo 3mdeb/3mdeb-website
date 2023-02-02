@@ -27,7 +27,7 @@
               {{ range .Params.social }}
                 <li class="list-inline-item">
                   <a
-                    href="{{ .link | safeURL }}"
+                    href="{{ .link | relURL }}"
                     
                     rel="noopener noreferrer"
                     ><i class="{{ .icon }}"></i

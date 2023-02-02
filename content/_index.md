@@ -19,15 +19,15 @@ banner:
   important_links:
   - title: "Open Source Software"
     image: "images/banner/open-source-software.jpg"
-    link: "/open-source-software/"
+    link: "open-source-software/"
 
   - title: "Careers"
     image: "images/banner/careers.jpg"
-    link: "/careers/"
+    link: "careers/"
     
   - title: "Training"
     image: "images/banner/training.jpg"
-    link: "/training/"
+    link: "training/"
 
   clients_image: "images/clients.jpg"
 
@@ -39,31 +39,31 @@ cooperation_with_us:
   coop_lists:
     - title: "Contact Us"
       content: |
-        If you are interested in collaboration with 3mdeb, let us know by the <br/> [Contact Form](/contact/) <br/> [Book a call](https://calendly.com/3mdeb)
+        If you are interested in collaboration with 3mdeb, let us know by the <br/> [Contact Form](contact/) <br/> [Book a call](https://calendly.com/3mdeb)
 
     - title: "Complete the optional survey"
       content: |
-        You can receive an initial, customized survey on e-mail. Your answers will help us to prepare a Project Discovery for further cooperation. <br/> [Contact Us](/contact/)
+        You can receive an initial, customized survey on e-mail. Your answers will help us to prepare a Project Discovery for further cooperation. <br/> [Contact Us](contact/)
 
     - title: "Let’s Meet"
       content: |
-        In the next step, we will arrange a free meeting, during which we will answer your preliminary questions. <br/> [Contact Us](/contact/)
+        In the next step, we will arrange a free meeting, during which we will answer your preliminary questions. <br/> [Contact Us](contact/)
 
     - title: "Define the requirements"
       content: |
-        When agreed, on the basis of NDA contract, we will prepare a Project Discovery within 5-10 working days. Having it all set, we will contact you to discuss an initial plan of cooperation. <br/> [Contact Us](/contact/)
+        When agreed, on the basis of NDA contract, we will prepare a Project Discovery within 5-10 working days. Having it all set, we will contact you to discuss an initial plan of cooperation. <br/> [Contact Us](contact/)
 
     - title: "Discuss the project plan"
       content: |
-        In the next step, we will present a full project design, including quote. At this stage, we will be able to clarify the list of requirements and prepare the terms of the contract. <br/> [Contact Us](/contact/)
+        In the next step, we will present a full project design, including quote. At this stage, we will be able to clarify the list of requirements and prepare the terms of the contract. <br/> [Contact Us](contact/)
 
     - title: "Sign a contract"
       content: |
-        After signing the contract, we will proceed to the implementation of the project, informing you about the progress. <br/> [Contact Us](/contact/)
+        After signing the contract, we will proceed to the implementation of the project, informing you about the progress. <br/> [Contact Us](contact/)
 
     - title: "Verify the received product"
       content: |
-        After the product is delivered and tested, our cooperation can proceed to the next project or include additional maintenance. <br/> [Our Services](/service-catalogues/)
+        After the product is delivered and tested, our cooperation can proceed to the next project or include additional maintenance. <br/> [Our Services](service-catalogues/)
 
 
 where_is_3mdeb:
@@ -79,43 +79,43 @@ where_we_do:
   services:
   - title: "Open Source <br> **Software**"
     icon: "images/services/software.png"
-    link: "/open-source-software/"
+    link: "open-source-software/"
     
   - title: "Open Source <br> **Hardware**"
     icon: "images/services/hardware.png"
-    link: "/open-source-hardware/"
+    link: "open-source-hardware/"
 
   - title: "Training"
     icon: "images/services/training.png"
-    link: "/training/"
+    link: "training/"
 
   - title: "Embedded <br> **Firmware**"
     icon: "images/services/embedded.png"
-    link: "/embedded-firmware-development/"
+    link: "embedded-firmware-development/"
 
   - title: "Operating <br> **System**"
     icon: "images/services/system.png"
-    link: "/operating-systems-development/"
+    link: "operating-systems-development/"
 
   - title: "Hypervisors"
     icon: "images/services/hypervisor.png"
-    link: "/hypervisors-development/"
+    link: "hypervisors-development/"
 
   - title: "Software and <br> **Hardware Security**"
     icon: "images/services/security.png"
-    link: "/software-and-hardware-security/"
+    link: "software-and-hardware-security/"
 
   - title: "Hardware <br> **Support**"
     icon: "images/services/support.png"
-    link: "/hardware-development-support/"
+    link: "hardware-development-support/"
 
   - title: "Internet of Things <br> **Solutions**"
     icon: "images/services/iot-icon.png"
-    link: "/internet-of-things-solutions/"
+    link: "internet-of-things-solutions/"
 
   - title: "Automated <br> **Validation**"
     icon: "images/services/validation.png"
-    link: "/automated-validation/"
+    link: "automated-validation/"
 
 
 we_are_registered:
@@ -124,23 +124,23 @@ we_are_registered:
   organizations:
   - title: "UEFI <br> **Adopters**"
     icon: "images/registered/uefi.png"
-    link: "/about-us/#uefi-adopters"
+    link: "about-us/#uefi-adopters"
 
   - title: "Yocto <br> **Participants**"
     icon: "images/registered/yocto.png"
-    link: "/about-us/#yocto-participants"
+    link: "about-us/#yocto-participants"
     
   - title: "Licensed provider for quality <br> **coreboot consulting services**"
     icon: "images/registered/coreboot.png"
-    link: "/about-us/#coreboot-consultants"
+    link: "about-us/#coreboot-consultants"
     
   - title: "LVFS <br> **consultant**"
     icon: "images/registered/lvfs.png"
-    link: "/about-us/#lvfs-consultants"
+    link: "about-us/#lvfs-consultants"
     
   - title: "OpenPOWER <br> **Foundation members**"
     icon: "images/registered/openpower.png"
-    link: "/about-us/#openpower-foundation-members"
+    link: "about-us/#openpower-foundation-members"
 
 
 cta:
@@ -148,5 +148,5 @@ cta:
   title: "Have a **question?**"
   subtitle: ""
   button_label: "Contact Us"
-  button_link: "/contact"
+  button_link: "contact"
 ---
