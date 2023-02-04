@@ -6,8 +6,8 @@ banner:
     image: "images/banner/our-software.jpg"
     link: ""
 
-  - title: "Open Source <br> **Software**"
-    subtitleimages/services/software.png: ""
+  - title: ""
+    subtitle: ""
     image: "images/banner/testimonial.jpg"
     link: ""
 

@@ -9,9 +9,9 @@
           {{ range .slider }}
           <div class="swiper-slide">
             {{ if .link }}
-            <a href="{{.link | safeURL}}" class="stretched-link">{{ partial "image.html" (dict "Src" .image "Alt" "dasharo" )}}</a>
+            <a href="{{.link | safeURL}}" class="stretched-link">{{ partial "image.html" (dict "Src" .image "Alt" "dasharo" "Webp" false "Resize" false )}}</a>
             {{ else }}
-            {{ partial "image.html" (dict "Src" .image "Alt" "dasharo" )}}
+            {{ partial "image.html" (dict "Src" .image "Alt" "dasharo" "Webp" false "Resize" false )}}
             {{ end }}
 
             <div class="text">
