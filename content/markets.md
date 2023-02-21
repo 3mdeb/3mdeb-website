@@ -1,5 +1,5 @@
 ---
-title: "Markets"customer
+title: "Markets"
 description: ""
 image: "images/markets/header-bg.jpg"
 keywords: [""]
