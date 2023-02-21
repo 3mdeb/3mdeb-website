@@ -29,7 +29,7 @@ open_source_hardware_features:
 
       This is like a recipe. If you can cook it by yourself – fair enough. But keep in mind, that we are professional and dedicated chefs. Consider being our customer as visiting a good restaurant.
 
-      In our **[shop](https://shop.3mdeb.com/shop)** we offer some open source hardware products assembled by us or like **[RTE](https://shop.3mdeb.com/shop/product/rte/)** or **[TMP2 modules](https://shop.3mdeb.com/shop/product/tpm2/)** designed by us. Other examples of Open Hardware we support are **[MuxPi](https://shop.3mdeb.com//shop/product/muxpi/)**.
+      In our **[shop](https://shop.3mdeb.com/shop)** we offer some open source hardware products assembled by us or like **[RTE](https://shop.3mdeb.com/shop/product/rte/)** or **[TMP2 modules](https://shop.3mdeb.com/shop/product/tpm2/)** designed by us. Other examples of Open Hardware we support are **[MuxPi](https://shop.3mdeb.com/shop/product/muxpi/)**.
 
   - image: "images/open-source-hardware/OpenVizsla-usb2.0-analyzer.png"
     content: |
