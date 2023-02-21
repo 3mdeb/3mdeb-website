@@ -29,7 +29,7 @@ open_source_hardware_features:
 
       This is like a recipe. If you can cook it by yourself – fair enough. But keep in mind, that we are professional and dedicated chefs. Consider being our customer as visiting a good restaurant.
 
-      In our **[shop](https://shop.3mdeb.com/)** we offer some open source hardware products assembled by us or like **[RTE](https://shop.3mdeb.com/product/rte/)** or **[TMP2 modules](https://shop.3mdeb.com/product/tpm2/)** designed by us. Other examples of Open Hardware we support are **[OpenVizsla](https://shop.3mdeb.com/product/openvizsla/)** and **[MuxPi](https://shop.3mdeb.com/product/muxpi/)**.
+      In our **[shop](https://shop.3mdeb.com/shop)** we offer some open source hardware products assembled by us or like **[RTE](https://shop.3mdeb.com/shop/product/rte/)** or **[TMP2 modules](https://shop.3mdeb.com/shop/product/tpm2/)** designed by us. Other examples of Open Hardware we support are **[MuxPi](https://shop.3mdeb.com/shop/product/muxpi/)**.
 
   - image: "images/open-source-hardware/OpenVizsla-usb2.0-analyzer.png"
     content: |
@@ -147,7 +147,7 @@ products:
 
           Countless ports are waiting for you, Cyber Sailor!
 
-          {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/product/muxpi" >}}
+          {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/shop/product/muxpi" >}}
 
   - title: "OpenVizsla"
     product_image: "images/open-source-hardware/OpenVizsla-usb2.0-analyzer.png"
@@ -188,7 +188,7 @@ products:
 
           **[For more details check OpenVizsla specification](https://cloud.3mdeb.com/index.php/s/jj2r8kwBYsNBgEW)**
 
-          {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/product/openvizsla" >}}
+          {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/shop/product/openvizsla" >}}
 
   - title: "RTE"
     product_image: "images/open-source-hardware/rte-remote-testing-environment.png"
@@ -226,7 +226,7 @@ products:
 
           **RTE makes the difference!**
 
-          {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/product/rte/" >}}
+          {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/shop/product/rte/" >}}
 
   
   - title: "TPM modules"
@@ -274,7 +274,7 @@ products:
 
           **Details below refer to models our company has in offer**
 
-          **[TMP2 Module](https://shop.3mdeb.com/product/tpm2/)** and **[TPM2 module for Librebox](https://shop.3mdeb.com/product/tpm2-module-for-librebox/)**
+          **[TMP2 Module](https://shop.3mdeb.com/shop/product/tpm2/)** and **[TPM2 module for Librebox](https://shop.3mdeb.com/shop/product/tpm2-module-for-librebox/)**
 
           * Infienon TPM SLB9665TT20FW561XUMA1
           * Operating voltage 3-3.3V
@@ -283,6 +283,6 @@ products:
           * Full personalization with Endorsement Key (EK) and EK certificate
           * Supports the LPC interface and interrupts are communicated with the serial interrupt (SERIRQ) protocol
 
-          {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/product/tpm2" >}}
+          {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/shop/product/tpm2" >}}
       
 ---
