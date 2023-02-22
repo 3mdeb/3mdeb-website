@@ -76,7 +76,7 @@ service_details:
       ## QA technologies
       {.h3}
 
-      Technologies that are supported by [**Regression Testing Solutions**](https://shop.3mdeb.com/shop/product/regression-testing-solutions/) can be part of the validation package requested by the client:
+      Technologies that are supported by [**Regression Testing Solutions**](https://shop.3mdeb.com/product/regression-testing-solutions/) can be part of the validation package requested by the client:
 
       *   **Installation validation**
           *   **Linux based systems** (Debian, Ubuntu, Voyage)
