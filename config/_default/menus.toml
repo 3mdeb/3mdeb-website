@@ -230,7 +230,7 @@ weight = 30
 
 [[main]]
 name = "Account"
-url = "/"
+url = "https://3mdeb.com/my-account/"
 weight = 35
 
 [[footer]]
