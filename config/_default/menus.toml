@@ -220,7 +220,7 @@ weight = 20
 
 [[main]]
 name = "Shop"
-url = "https://shop.3mdeb.com/shop/"
+url = "https://3mdeb.com/shop/"
 weight = 25
 
 [[main]]
@@ -230,7 +230,7 @@ weight = 30
 
 [[main]]
 name = "Account"
-url = "https://shop.3mdeb.com/my-account/"
+url = "https://3mdeb.com/my-account/"
 weight = 35
 
 [[footer]]

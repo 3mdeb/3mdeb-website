@@ -20,13 +20,13 @@ customer:
   title: "Consumer"
   icon: "images/about-us/customer.png"
   content: |
-    Our company offer many products and services that may be considered not only for industrial or commercial usage. I.e. if you have a private network in your house, where you keep valuable private stuff, it would be reasonable to protect it with good firewall, like **[Protectli Vault](https://shop.3mdeb.com/shop/product/protectli-vault/)**, **lpnGate** or Librebox, especially **[flashed](https://shop.3mdeb.com/shop/product/flashing-microcontroller-service/)** with appropriate and secure firmware.
+    Our company offer many products and services that may be considered not only for industrial or commercial usage. I.e. if you have a private network in your house, where you keep valuable private stuff, it would be reasonable to protect it with good firewall, like **[Protectli Vault](https://shop.3mdeb.com/product/protectli-vault/)**, **lpnGate** or Librebox, especially **[flashed](https://shop.3mdeb.com/product/flashing-microcontroller-service/)** with appropriate and secure firmware.
 
     If you already have such a device, flashing it still is a good idea. It will make your device more stable, secure and even boost its performance.
 
-    You may also be an electronics and microcontrollers enthusiast. In this case you surely be interested in our **[Remote Testing Environment](https://shop.3mdeb.com/shop/product/rte/)** which will provide you a boost in a number of possible ways you can control your devices.
+    You may also be an electronics and microcontrollers enthusiast. In this case you surely be interested in our **[Remote Testing Environment](https://shop.3mdeb.com/product/rte/)** which will provide you a boost in a number of possible ways you can control your devices.
 
-    Assuming you are keen on security and protocols – **[OpenVizsla](https://shop.3mdeb.com/shop/product/openvizsla/)** will open before you the door of USB analyzes and sniffing.
+    Assuming you are keen on security and protocols – **[OpenVizsla](https://shop.3mdeb.com/product/openvizsla/)** will open before you the door of USB analyzes and sniffing.
 
     Interested in what are we doing? Check out our **[Blog](https://blog.3mdeb.com/)** and follow us on **[Twitter](https://twitter.com/3mdeb_com)** and **[Facebook](https://www.facebook.com/3mdeb)**.
 
