@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main  # Set a branch name to trigger deployment
+      - develop
   pull_request:
 
 jobs:
@@ -25,12 +26,45 @@ jobs:
           hugo-version: '0.110.0'
           extended: true
 
+      - name: Setup Env
+        if: ${{ github.ref == 'refs/heads/main' }}
+        run: |
+          echo 'On main branch - setting URLs to production...'
+          sed -e 's/https:\/\/beta.3mdeb.com/https:\/\/3mdeb.com/g' -i ../config/_default/config.toml
+          sed -e 's/\[Beta\] //g' -i ../config/_default/config.toml
+
       - name: Build
-        run: npm install && hugo --minify
+        run: |
+          echo 'Building from branch: ${GITHUB_REF}'
+          npm install && hugo --minify
+
+      - name: Save artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: static-content
+          path: |
+            scripts/deploy.sh
+            ./public
+
+      - name: Install sshpass
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sshpass
+      - name: Download artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: static-content
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+      #  uses: peaceiris/actions-gh-pages@v3
+      #  if: ${{ github.ref == 'refs/heads/main' }}
+      #  with:
+      #    github_token: ${{ secrets.GITHUB_TOKEN }}
+      #    publish_dir: ./public
+        env:
+          FTP_DIR_PROD: ${{ secrets.FTP_DIR_PROD }}
+          FTP_DIR_DEV: ${{ secrets.FTP_DIR_DEV }}
+          FTP_LOGIN: ${{ secrets.FTP_LOGIN }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_DOMAIN: ${{ secrets.FTP_DOMAIN }}
+        run: cd ${GITHUB_WORKSPACE}/scripts && bash deploy.sh
