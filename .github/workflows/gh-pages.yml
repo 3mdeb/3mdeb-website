@@ -14,6 +14,7 @@ jobs:
       contents: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
+    environment: prod
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
