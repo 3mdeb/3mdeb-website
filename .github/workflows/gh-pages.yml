@@ -5,19 +5,21 @@ on:
     branches:
       - main  # Set a branch name to trigger deployment
       - develop
-  pull_request:
 
 jobs:
-  deploy:
+  build_and_deploy:
     runs-on: ubuntu-22.04
-    permissions:
-      contents: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     environment: prod
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
           node-version: 16
 
@@ -39,29 +41,12 @@ jobs:
           echo 'Building from branch: ${GITHUB_REF}'
           npm install && hugo --minify
 
-      - name: Save artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: static-content
-          path: |
-            scripts/deploy.sh
-            ./public
-
       - name: Install sshpass
         run: |
           sudo apt-get update
           sudo apt-get install -y sshpass
-      - name: Download artifacts
-        uses: actions/download-artifact@v2
-        with:
-          name: static-content
 
       - name: Deploy
-      #  uses: peaceiris/actions-gh-pages@v3
-      #  if: ${{ github.ref == 'refs/heads/main' }}
-      #  with:
-      #    github_token: ${{ secrets.GITHUB_TOKEN }}
-      #    publish_dir: ./public
         env:
           FTP_DIR_PROD: ${{ secrets.FTP_DIR_PROD }}
           FTP_DIR_DEV: ${{ secrets.FTP_DIR_DEV }}
