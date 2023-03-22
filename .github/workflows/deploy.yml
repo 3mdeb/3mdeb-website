@@ -1,0 +1,56 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Set a branch name to trigger deployment
+      - develop
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-22.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    environment: prod
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.110.0'
+          extended: true
+
+      - name: Setup Env
+        if: ${{ github.ref == 'refs/heads/main' }}
+        run: |
+          echo 'On main branch - setting URLs to production...'
+          sed -e 's/https:\/\/beta.3mdeb.com/https:\/\/3mdeb.com/g' -i ../config/_default/config.toml
+          sed -e 's/\[Beta\] //g' -i ../config/_default/config.toml
+
+      - name: Build
+        run: |
+          echo 'Building from branch: ${GITHUB_REF}'
+          npm install && hugo --minify
+
+      - name: Install sshpass
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sshpass
+
+      - name: Deploy
+        env:
+          FTP_DIR_PROD: ${{ secrets.FTP_DIR_PROD }}
+          FTP_DIR_DEV: ${{ secrets.FTP_DIR_DEV }}
+          FTP_LOGIN: ${{ secrets.FTP_LOGIN }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_DOMAIN: ${{ secrets.FTP_DOMAIN }}
+        run: cd ${GITHUB_WORKSPACE}/scripts && bash deploy.sh
