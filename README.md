@@ -1,5 +1,15 @@
 # 3mdeb-website
 
+## Deployment status
+
+Production deploy status:
+
+[![Build status](https://github.com/3mdeb/3mdeb-website/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/3mdeb/3mdeb-website/actions/workflows/deploy.yml)
+
+Beta deploy status:
+
+[![Build status](https://github.com/3mdeb/3mdeb-website/actions/workflows/deploy.yml/badge.svg?branch=develop)](https://github.com/3mdeb/3mdeb-website/actions/workflows/deploy.yml)
+
 ## Local preview
 
 1. Run local server: `./scripts/local-preview.sh -b http://<IP-ADDRESS>`
