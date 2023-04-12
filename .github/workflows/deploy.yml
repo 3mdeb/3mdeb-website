@@ -33,6 +33,8 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         run: |
           echo 'On main branch - setting URLs to production...'
+          pwd
+          ls
           sed -e 's/https:\/\/beta.3mdeb.com/https:\/\/3mdeb.com/g' -i config/_default/config.toml
           sed -e 's/\[Beta\] //g' -i config/_default/config.toml
 
