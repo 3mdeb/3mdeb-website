@@ -35,6 +35,7 @@ vat_info = "3mdeb Sp. z o.o. VAT ID: PL5842812770"
 address = "Abrahama 1A / 2.05 <br> 80-307 Gdańsk, Poland"
 mobile = "+48 58 718 91 79"
 email = "contact@3mdeb.com"
+sales = "leads@3mdeb.com"
 invoicing = "3mdeb Sp. z o.o. <br> ul. Abrahama 1A/2.05 <br> 80-307 Gdańsk, Poland <br> VAT ID: PL5842812770"
 
 # Newsletter
