@@ -1,0 +1,315 @@
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType text/css "access 1 month"
+ExpiresByType text/html "access 1 month"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 1 month"
+</IfModule>
+## EXPIRES CACHING ##
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/$
+RewriteCond %{QUERY_STRING} !amp=1$ [NC]
+RewriteCond %{HTTP_USER_AGENT} (android|blackberry|ipad|iphone|ipod|iemobile|opera\ mobile|palmos|webos|googlebot-mobile) [NC]
+RewriteRule ^ %{REQUEST_URI}?amp=1 [L,R=302]
+AddType application/x-httpd-php74 .php
+# BEGIN HTTPS Redirection Plugin
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !^443$
+# WP Fastest Cache compatability
+RewriteCond %{REQUEST_URI} !wp-content\/cache\/(all|wpfc-mobile-cache)
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+# END HTTPS Redirection Plugin
+Options -Indexes
+RewriteEngine on
+Rewritecond %{HTTP_HOST} ^www.demo.3mdeb.com$
+Rewriterule ^(.*) https://demo.3mdeb.com/$1 [QSA,L,R=301]
+RewriteEngine on
+Rewritecond %{HTTP_HOST} ^www.blog.3mdeb.com$
+Rewriterule ^(.*) https://blog.3mdeb.com/$1 [QSA,L,R=301]
+Redirect 301 /blog/ https://blog.3mdeb.com/
+Redirect 301 /news-ideas/ https://blog.3mdeb.com/
+Redirect 301 /pl/o-firmie/projekt-unijny/ https://3mdeb.com/pl/projekty-wspolfinansowane-przez-ue/
+Redirect 301 /firmware/building-coreboot-on-minnowboard/ https://blog.3mdeb.com/2018/2018-04-17-building-coreboot-on-minnowboard-turbot/
+Redirect 301 /firmware/amd-cpu-boost/ https://blog.3mdeb.com/2019/2019-02-14-enabling-cpb-on-pcengines-apu2/
+Redirect 301 /firmware/enabling-ecc-on-pc-engines-platforms/ https://blog.3mdeb.com/2018/2018-10-16-enabling-ecc-on-pc-engines-apu2/
+Redirect 301 /app-dev/chromium-gstreamer-backed-for-i-mx6-research/ https://blog.3mdeb.com/2016/2016-11-01-chromium-gstreamer-backed-for-i-mx6-research/
+Redirect 301 /shop-online/ https://3mdeb.com/shop
+Redirect 301 /os-dev/yocto-meta-rte-is-now-open-for-everyone/ https://blog.3mdeb.com/2019/2019-03-13-yocto-meta-rte-migrate-to-github/
+Redirect 301 /miscellaneous/3mdeb-at-embedded-world-2019/ https://blog.3mdeb.com/2019/2019-02-22-3mdeb-at-embedded-world-2019/
+Redirect 301 /os-dev/get-started-kas-yocto/ https://blog.3mdeb.com/2019/2019-02-07-kas/
+Redirect 301 /hardware-content-marketing/ https://3mdeb.com/open-source-hardware/
+Redirect 301 /rte/ https://3mdeb.com/open-source-hardware/rte/
+Redirect 301 /firmware/how-to-boot-xen-over-pxe-and-nfs-on-pc-engines-apu2/ https://blog.3mdeb.com/2018/2018-07-18-how-to-boot-xen-over-pxe-and-nfs-on-pc-engines-apu2/
+Redirect 301 /firmware/flashing-emmc-on-hummingboard-edge-using-fastboot-part-1/ https://blog.3mdeb.com/2018/2018-03-20-flashing-emmc-on-hummingboard-edge-using-fastboot-part-1/
+Redirect 301 /team/ https://3mdeb.com/about-us/
+Redirect 301 /services/embedded-firmware/ https://3mdeb.com/embedded-firmware-development/
+Redirect 301 /services/operating-systems/ https://3mdeb.com/operating-systems-development/
+Redirect 301 /services/hypervisors/ https://3mdeb.com/hypervisors-development/
+Redirect 301 /services/hardware-support/ https://3mdeb.com/hardware-development-support/
+Redirect 301 /company/partners/ https://3mdeb.com/customers/
+Redirect 301 /trainings-coreboot-uefi/ https://3mdeb.com/training/
+Redirect 301 /os-dev/linux-rpi-and-usb-over-ip-updated/ https://blog.3mdeb.com/2015/2015-10-27-linux-rpi-and-usb-over-ip-updated/
+Redirect 301 /app-dev/how-to-use-ansible-via-python/ https://blog.3mdeb.com/2017/2017-06-14-how-to-use-ansible-via-python/
+Redirect 301 /os-dev/emulate-rapberry-pi-2-in-qemu/ https://blog.3mdeb.com/2015/2015-12-30-emulate-rapberry-pi-2-in-qemu/
+Redirect 301 /app-dev/swupdate-for-feature-rich-iot-applications/ https://blog.3mdeb.com/2017/2017-05-21-swupdate-for-feature-rich-iot-applications/
+Redirect 301 /firmware/nrf51822-programming-with-openocd-under-linux/ https://blog.3mdeb.com/2017/2017-01-22-nrf51822-programming-with-openocd-under-linux/
+Redirect 301 /firmware/linux-rpi-and-usb-over-ip/ https://blog.3mdeb.com/2014/2014-08-18-linux-rpi-and-usb-over-ip/
+Redirect 301 /app-dev/robot-framework-using-request-library-for-control-rpi-gpios/ https://blog.3mdeb.com/2018/2018-01-18-robot-framework-using-request-library-for-control-rpi-gpios/
+Redirect 301 /firmware/installing-openwrt-on-apu3-platform/ https://blog.3mdeb.com/2017/2017-05-12-installing-openwrt-on-apu3-platform/
+Redirect 301 /firmware/power-on-of-esp-12-esp8266/ https://blog.3mdeb.com/2015/2015-01-24-power-on-of-esp-12-esp8266/
+Redirect 301 /firmware/starting-with-nucleo-f411re-and-mbed-os-for-command-line-enthusiasts/ https://blog.3mdeb.com/2016/2016-11-23-starting-with-nucleo-f411re-and-mbed-os-for-command-line-enthusiasts/
+Redirect 301 /os-dev/building-android-4-2-livesuit-image-for-cubietruck-allwinner-a20/ https://blog.3mdeb.com/2015/2015-09-16-building-android-4-2-livesuit-image-for-cubietruck-allwinner-a20/
+Redirect 301 /firmware/openocd-and-development-environment-for-zephyr-on-nxp-frdm-k64f/ https://blog.3mdeb.com/2017/2017-03-18-openocd-and-development-environment-for-zephyr-on-nxp-frdm-k64f/
+Redirect 301 /programming/basics-of-x86-assembly-att-syntax/ https://blog.3mdeb.com/2018/2018-05-17-basics-of-x86-assembly/
+Redirect 301 /app-dev/pxe-server-with-raspberry-pi-1/ https://blog.3mdeb.com/2016/2016-03-12-pxe-server-with-raspberry-pi-1/
+Redirect 301 /os-dev/0x5-qemu-network-configuration-and-tftp-for-virtual-development-board/ https://blog.3mdeb.com/2013/2013-06-07-0x5-qemu-network-configuration-and-tftp-for-virtual-development-board/
+Redirect 301 /firmware/uefiedk-ii-corebootpayloadpkg-on-pc-engines-apu2/ https://blog.3mdeb.com/2017/2017-11-03-uefiedk-ii-corebootpayloadpkg-on-pc-engines-apu2/
+Redirect 301 /capabilities/ https://3mdeb.com/
+Redirect 301 /firmware/flashing-minnowboard-turbot-with-raspberry-pi-zero-w/ https://blog.3mdeb.com/2017/2017-11-20-flashing-minnowboard-turbot-with-raspberry-pi-zero-w/
+Redirect 301 /firmware/esp-12-update-to-sdk-v0-9-5-and-at-v0-21-0-0-noobs-tutorial/ https://blog.3mdeb.com/2015/2015-01-25-esp-12-update-to-sdk-v0-9-5-and-at-v0-21-0-0-noobs-tutorial/
+Redirect 301 /firmware/uefi-application-development-in-ovmf/ https://blog.3mdeb.com/2015/2015-11-21-uefi-application-development-in-ovmf/
+Redirect 301 /services-firmware-development/ https://3mdeb.com/embedded-firmware-development/
+Redirect 301 /clients https://3mdeb.com/customers/
+Redirect 301 /firmware/how-to-handle-a-dht22-sensor-using-arm-mbed-os/ https://blog.3mdeb.com/2017/2017-08-01-how-to-handle-a-dht22-sensor-using-arm-mbed-os/
+Redirect 301 /os-dev/pc-engines-apu2-netboot-debian-installation/ https://blog.3mdeb.com/2016/2016-03-26-pc-engines-apu2-netboot-debian-installation/
+Redirect 301 /firmware/samg55-oled1-xplained-pro-hello-world/ https://blog.3mdeb.com/2016/2016-10-20-samg55-oled1-xplained-pro-hello-world/
+Redirect 301 /firmware/nerves-project-triage-on-beaglebone-black/ https://blog.3mdeb.com/2017/2017-03-10-nerves-project-triage-on-beaglebone-black/
+Redirect 301 /category/firmware/ https://3mdeb.com/services/embedded-firmware-development/
+Redirect 301 /firmware/pc-engines-apu2-python-robot-framework-validation-automation/ https://blog.3mdeb.com/2017/2017-11-02-pc-engines-apu2-python-robot-framework-validation-automation/
+Redirect 301 /firmware/coreboot-for-qemu-armv7-vexpress-a9-emulated-mainboard/ https://blog.3mdeb.com/2014/2014-08-07-coreboot-for-qemu-armv7-vexpress-a9-emulated-mainboard/
+Redirect 301 /os-dev/setup-for-linux-kernel-development-on-cubietruck/ https://blog.3mdeb.com/2015/2015-09-01-setup-for-linux-kernel-development-on-cubietruck/
+Redirect 301 /os-dev/0x6-root-file-system-for-embedded-system/ https://blog.3mdeb.com/2013/2013-06-07-0x6-root-file-system-for-embedded-system/
+Redirect 301 /category/ https://blog.3mdeb.com/categories/
+Redirect 301 /os-dev/0x1-qemu-as-an-environment-for-embedded-board-emulation/ https://blog.3mdeb.com/2013/2013-06-07-0x1-qemu-as-an-environment-for-embedded-board-emulation/
+Redirect 301 /firmware/the-art-of-disassembly/ https://blog.3mdeb.com/2018/2018-04-27-the-art-of-disassembly/
+Redirect 301 /firmware/building-uefi-based-firmware-on-minnowboard/ https://blog.3mdeb.com/2018/2018-04-17-building-coreboot-on-minnowboard-turbot/
+Redirect 301 /os-dev/ssh-reverse-tunnel-for-pxe-nfs-and-dhcp-setup-on-qubesos/ https://blog.3mdeb.com/2017/2017-12-05-ssh-reverse-tunnel-for-pxe-nfs-and-dhcp-setup-on-qubesos/
+Redirect 301 /firmware/optimize-performance-in-docker-containers/ https://blog.3mdeb.com/2018/2018-09-27-optimize-performance-in-docker/
+Redirect 301 /firmware/zephyr-initial-triage-on-nucleo-64-stm32f411re/ https://blog.3mdeb.com/2017/2017-01-14-zephyr-initial-triage-on-nucleo-64-stm32f411re/
+Redirect 301 /embedded-products/ https://3mdeb.com/services/embedded-firmware-development/
+Redirect 301 /app-dev/netcat-how-to-transfer-files-without-scp-or-ftp/ https://blog.3mdeb.com/2016/2016-03-12-netcat-how-to-transfer-files-without-scp-or-ftp/
+Redirect 301 /firmware/using-platformio-with-ti-msp430-lunchpads/ https://blog.3mdeb.com/2015/2015-12-08-using-platformio-with-ti-msp430-lunchpads/
+Redirect 301 /job/junior-embedded-firmware-developer/ https://3mdeb.com/careers/
+Redirect 301 /h/1583505.html/ https://3mdeb.com/
+Redirect 301 /firmware/xen-hvm-guests-on-pc-engines-apu2/ https://blog.3mdeb.com/2018/2018-08-16-pfsense-as-hvm-on-pc-engines-apu2/
+Redirect 301 /order-rte/ https://3mdeb.com/open-source-hardware/rte/
+Redirect 301 /feeds/robot-framework-using-request-library-for-control-rpi-gpios/ https://blog.3mdeb.com/2018/2018-01-18-robot-framework-using-request-library-for-control-rpi-gpios/
+Redirect 301 /job/mlodszy-programista-systemow-wbudowanych/ https://3mdeb.com/careers/
+Redirect 301 /index.html/ https://3mdeb.com/
+Redirect 301 /os-dev/building-arm-toolchain-part-2-gcc-and-eglibc/ https://blog.3mdeb.com/2012/2012-04-12-building-arm-toolchain-part-2-gcc-and-eglibc/
+Redirect 301 /miscellaneous/thunderbird-to-mutt-migration-tips-tricks/ https://blog.3mdeb.com/2013/2013-05-15-thunderbird-to-mutt-migration-tips-tricks/
+Redirect 301 /os-dev/0x4-linux-kernel-for-embedded-system/ https://blog.3mdeb.com/2013/2013-06-07-0x4-linux-kernel-for-embedded-system/
+Redirect 301 /firmware/minnowboard-turbot-remote-firmware-flashing-with-rte-remote-testing-environment/ https://blog.3mdeb.com/2018/2018-03-23-minnowboard-turbot-remote-firmware-flashing-with-remote-testing-environment/
+Redirect 301 /tag/ https://blog.3mdeb.com/tags/
+Redirect 301 /firmware/debugging-coreboot-in-qemu-environment-part-2/ https://blog.3mdeb.com/2012/2012-04-18-debugging-coreboot-in-qemu-environment-part-2/
+Redirect 301 /firmware/0x3-embedded-board-bootloader/ https://blog.3mdeb.com/2013/2013-06-07-0x3-embedded-board-bootloader/
+Redirect 301 /os-dev/our-first-look-at-debos-new-debian-images-generator/ https://blog.3mdeb.com/2018/2018-07-27-our-first-look-at-debos-new-debian-images-generator/
+Redirect 301 /job/mlodszy-programista-testow-automatycznych/ https://3mdeb.com/careers/
+Redirect 301 /os-dev/linux-debian-wheezy-on-lenovo-y510p/ https://blog.3mdeb.com/2014/2014-08-23-how-to-fix-backlight-issue-on-ideapad-y510p/
+Redirect 301 /job/junior-embedded-systems-developer/ https://3mdeb.com/careers/
+Redirect 301 /product/tpm2/ https://3mdeb.com/shop/modules/modules-lpn-plant/tpm-2-0/
+Redirect 301 /firmware/failure-of-ecc508a-crypto-coprocessor-initial-triage-with-sam-g55-xplained-pro-evaluation-kit/ https://blog.3mdeb.com/2016/2016-11-24-failure-of-ecc508a-crypto-coprocessor-initial-triage-with-sam-g55-xplained-pro-evaluation-kit/
+Redirect 301 /product/muxpi/ https://3mdeb.com/shop/open-source-hardware/open-source-hardware-3mdeb/muxpi/
+Redirect 301 /firmware/debugging-coreboot-in-qemu-environment-part-1/ https://blog.3mdeb.com/2012/2012-03-12-debugging-coreboot-in-qemu-environment-part-1/
+Redirect 301 /firmware/pc-engines-apu2-platform-validation-with-rte/ https://blog.3mdeb.com/2018/2018-09-13-apu2-validation-with-rte/
+Redirect 301 /product/openvizsla/ https://3mdeb.com/shop/open-source-hardware/open-source-hardware-3mdeb/openvizsla/
+Redirect 301 /firmware/flashing-emmc-fastboot-2/ https://blog.3mdeb.com/2019/2019-03-08-flashing-emmc-on-hummingboard-edge-using-fastboot-part-2/
+Redirect 301 /job/full-stack-web-developer/ https://3mdeb.com/careers/
+Redirect 301 /job/senior-systems-administrator/ https://3mdeb.com/careers/
+Redirect 301 /app-dev/robot-framework-control-rpi-gpios/ https://blog.3mdeb.com/2018/2018-01-18-robot-framework-using-request-library-for-control-rpi-gpios/
+Redirect 301 /job/electronics-engineer/ https://3mdeb.com/careers/
+Redirect 301 /job/junior-web-developer-frontend/ https://3mdeb.com/careers/
+Redirect 301 /job/office-assistant/ https://3mdeb.com/careers/
+Redirect 301 /os-dev/quick-build-of-arm-unknown-linux-gnueabi-with-crosstool-ng/ https://blog.3mdeb.com/2013/2013-04-03-yet-another-quick-build-of-arm-unknown-linux-gnueabi/
+Redirect 301 /miscellaneous/mutt-tutorial-part-4-html-mails-address-book-and-other-useful-features/ https://blog.3mdeb.com/2012/2012-05-13-mutt-tutorial-part-4-html-mails-address-book-and-other-useful-features/
+Redirect 301 /firmware/how-to-begin-with-coreboot/ https://blog.3mdeb.com/2012/2012-01-06-how-to-begin-with-coreboot/
+Redirect 301 /job/embedded-c-developer/ https://3mdeb.com/careers/
+Redirect 301 /job/hardware-technician/ https://3mdeb.com/careers/
+Redirect 301 /products/trainings/ https://3mdeb.com/training/
+Redirect 301 /trainings/ https://3mdeb.com/training/
+Redirect 301 /author/mpijanowski/ https://3mdeb.com/about-us/
+Redirect 301 /author/pietrushnic/ https://3mdeb.com/about-us/
+Redirect 301 /author/mzygowski/ https://3mdeb.com/about-us/
+Redirect 301 /author/mrucinski/ https://3mdeb.com/about-us/
+Redirect 301 /author/arturrag/ https://3mdeb.com/about-us/
+Redirect 301 /miscellaneous/mutt-tutorial-part-3-sidebar-urls-in-e-mails/ https://blog.3mdeb.com/2012/2012-05-13-mutt-tutorial-part-3-sidebar-urls-in-e-mails/
+Redirect 301 /os-dev/debos-in-docker-the-second-attempt/ https://blog.3mdeb.com/2018/2018-08-23-debos-in-docker-the-second-attempt/
+Redirect 301 /os-dev/yet-another-quick-build-of-arm-unknown-linux-gnueabi/ https://blog.3mdeb.com/2013/2013-04-03-yet-another-quick-build-of-arm-unknown-linux-gnueabi/
+Redirect 301 /job/c-developer/ https://3mdeb.com/careers/
+Redirect 301 /firmware/flashing-emmc-fastboot/ https://blog.3mdeb.com/2018/2018-03-20-flashing-emmc-on-hummingboard-edge-using-fastboot-part-1/
+Redirect 301 /miscellaneous/hostname-generator/ https://blog.3mdeb.com/2012/2012-02-20-hostname-generator/
+Redirect 301 /firmware/0x0-intro-to-virtual-development-board-building/ https://blog.3mdeb.com/2013/2013-06-07-0x0-intro-to-virtual-development-board-building/
+Redirect 301 /cookie-policy/ https://3mdeb.com/privacy-policy/
+Redirect 301 /app-dev/sqlite3-gem-not-supported-on-heroku/ https://blog.3mdeb.com/2012/2012-11-18-sqlite3-gem-not-supported-on-heroku/
+Redirect 301 /firmware/rte-for-automated-kernel-deployment-and-everyday-use/ https://blog.3mdeb.com/2018/2018-10-03-rte-for-automated-kernel-deployment-and-everyday-use/
+Redirect 301 /job/junior-social-media-seo-specialist/ https://3mdeb.com/careers/
+Redirect 301 /job/administrative-assistant/ https://3mdeb.com/careers/
+Redirect 301 /embedded-systems-blog/ https://blog.3mdeb.com/
+Redirect 301 /job/mlodszy-programista-systemow-wbudowanych-praktykant/ https://3mdeb.com/careers/
+Redirect 301 /miscellaneous/tmux-as-screen-replacement-and-productivity-accelerator/ https://blog.3mdeb.com/2012/2012-01-06-tmux-as-screen-replacement-and-productivity-accelerator/
+Redirect 301 /feed-items/how-to-boot-xen-over-pxe-and-nfs-on-pc-engines-apu2/ https://blog.3mdeb.com/2018/2018-07-18-how-to-boot-xen-over-pxe-and-nfs-on-pc-engines-apu2/
+Redirect 301 /feeds/flashing-emmc-on-hummingboard-edge-using-fastboot-part-1/ https://blog.3mdeb.com/2018/2018-03-20-flashing-emmc-on-hummingboard-edge-using-fastboot-part-1/
+Redirect 301 /os-dev/building-arm-toolchain-part-1-libs-and-binutils/ https://blog.3mdeb.com/2012/2012-03-20-building-arm-toolchain-part-1-libs-and-binutils/
+Redirect 301 /miscellaneous/mutt-tutorial-part-1-setup-imap-account/ https://blog.3mdeb.com/2012/2012-05-13-mutt-tutorial-part-1-setup-imap-account/
+Redirect 301 /os-dev/debos-new-debian-images-generator/ https://blog.3mdeb.com/2018/2018-07-27-our-first-look-at-debos-new-debian-images-generator/
+Redirect 301 /os-dev/raspberry-pi-kernel-repository-aggregating-patches-for-linux-mainline/ https://blog.3mdeb.com/2014/2014-10-15-raspberry-pi-kernel-repository-aggregating-patches-for-linux-mainline/
+Redirect 301 /job/team-leader/ https://3mdeb.com/careers/
+Redirect 301 /trainings-coreboot-uefi/ https://3mdeb.com/training/
+Redirect 301 /firmware/enabling-ecc-on-pc-engines-platforms/ https://blog.3mdeb.com/2018/2018-10-16-enabling-ecc-on-pc-engines-apu2/
+Redirect 301 /h/7858912.html/ https://3mdeb.com/
+Redirect 301 /app-dev/virtualbox-dkms-fix-alloc_netdev-problems-when-compiling-with-3-17-0-rcx-headers/ https://blog.3mdeb.com/2014/2014-09-20-virtualbox-dkms-fix-alloc_netdev-problems-when-compiling-with-3-17-0-rcx-headers/
+Redirect 301 /firmware/flashing-emmc-hummingboard-edge-fastboot/ https://blog.3mdeb.com/2018/2018-03-20-flashing-emmc-on-hummingboard-edge-using-fastboot-part-1/
+Redirect 301 /miscellaneous/mutt-tutorial-part-2-secure-login/ https://blog.3mdeb.com/2012/2012-05-13-mutt-tutorial-part-2-secure-login/
+Redirect 301 /app-dev/how-to-use-ansible-via-python/ https://blog.3mdeb.com/2017/2017-06-14-how-to-use-ansible-via-python/
+Redirect 301 /miscellaneous/improve-productivity-with-goolge-history-using-bookmarks-andchrome-extensions/ https://blog.3mdeb.com/2013/2013-07-30-improve-productivity-with-goolge-history-using-bookmarks-and-chrome-extensions/
+Redirect 301 /firmware/powering-on-lemaker-hikey-armv8/ https://blog.3mdeb.com/2016/2016-05-19-powering-on-lemaker-hikey-armv8/
+Redirect 301 /miscellaneous/first-steps-to-improve-work-productivity-in-linux-environment/ https://blog.3mdeb.com/2012/2012-02-05-first-steps-to-improve-work-productivity-in-linux-environment/
+Redirect 301 /firmware/boot-xen-pxe-and-nfs-on-pc-engines-apu2/ https://blog.3mdeb.com/2018/2018-07-18-how-to-boot-xen-over-pxe-and-nfs-on-pc-engines-apu2/
+Redirect 301 /os-dev/0x2-toolchain-for-virtual-development-board/ https://blog.3mdeb.com/2013/2013-06-07-0x2-toolchain-for-virtual-development-board/
+Redirect 301 /os-dev/debos-image-for-hummingboard-edge/ https://blog.3mdeb.com/2018/2018-10-10-debos-image-for-hummingboard-edge/
+Redirect 301 /2013/06/07/linux-kernel-for-embedded-system/ https://blog.3mdeb.com/2013/2013-06-07-0x4-linux-kernel-for-embedded-system/
+Redirect 301 /firmware/optimize-performance-in-docker-containers-used-by-embedded-systems-consulting-business/ https://blog.3mdeb.com/2018/2018-09-27-optimize-performance-in-docker/
+Redirect 301 /os-dev/debos-hummingboard-edge-arm-board/ https://blog.3mdeb.com/2018/2018-10-10-debos-image-for-hummingboard-edge/
+Redirect 301 /firmware/fwts-on-armv8-platform-hikey-lemaker-version-from-scratch/ https://blog.3mdeb.com/2016/2016-07-25-fwts-on-armv8-platform-hikey-lemaker-version-from-scratch/
+Redirect 301 /os-dev/ https://blog.3mdeb.com/categories/os-dev/
+Redirect 301 /2013/06/07/toolchain-for-virtual-development-board/ https://blog.3mdeb.com/2013/2013-06-07-0x2-toolchain-for-virtual-development-board/
+Redirect 301 /miscellaneous/directory-scheme-for-multiple-projects/ https://blog.3mdeb.com/2016/2016-07-05-directory-scheme-for-multiple-projects/
+Redirect 301 /firmware/flashrom-and-shuttle-av18e2/ https://blog.3mdeb.com/2012/2012-01-06-flashrom-and-shuttle-av18e2/
+Redirect 301 /miscellaneous/uefi-from-linux-enthusiast-perspective/ https://blog.3mdeb.com/2012/2012-01-15-uefi-from-linux-enthusiast-perspective/
+Redirect 301 /product-category/electronic/ https://3mdeb.com/shop
+Redirect 301 /2012/03/12/debugging-coreboot-in-qemu-enviroment/ https://blog.3mdeb.com/2012/2012-04-18-debugging-coreboot-in-qemu-environment-part-2/
+Redirect 301 /miscellaneous/how-to-download-videos-from-videos-linux-com/ https://blog.3mdeb.com/2012/2012-04-06-how-to-download-videos-from-videos-linux-com/
+Redirect 301 /os-dev/our-first-look-at-debos-new-debian-images-generator/ https://blog.3mdeb.com/2018/2018-07-27-our-first-look-at-debos-new-debian-images-generator/
+Redirect 301 /firmware/robot-framework-validation-automation/ https://blog.3mdeb.com/2017/2017-11-02-pc-engines-apu2-python-robot-framework-validation-automation/
+Redirect 301 /firmware/uefi-edk2-corebootpayloadpkg-on-apu2/ https://blog.3mdeb.com/2017/2017-11-03-uefiedk-ii-corebootpayloadpkg-on-pc-engines-apu2/
+Redirect 301 /job/firmware-reverse-engineer/ https://3mdeb.com/careers/
+Redirect 301 /product/rte-rpi-hat/ https://3mdeb.com/shop/open-source-hardware/open-source-hardware-3mdeb/rte-rpi-hat/
+Redirect 301 /firmware/minnowboard-turbot-remote-firmware-flashing-with-rte/ https://blog.3mdeb.com/2017/2017-11-20-flashing-minnowboard-turbot-with-raspberry-pi-zero-w/
+Redirect 301 /miscellaneous/workflow-imporovement-with-open-source-tools-part-1/ https://blog.3mdeb.com/2013/2013-05-16-workflow-imporovement-with-open-source-tools-part-1/
+Redirect 301 /open-minded-solutions/ https://3mdeb.com/open-source-software/
+Redirect 301 /2016/03/26/pc-engines-apu2-debian-installation/ https://blog.3mdeb.com/2016/2016-03-26-pc-engines-apu2-netboot-debian-installation/
+Redirect 301 /os-dev/how-to-fix-backlight-issue-on-ideapad-y510p/ https://blog.3mdeb.com/2014/2014-08-23-how-to-fix-backlight-issue-on-ideapad-y510p/
+Redirect 301 /firmware/zephyr-initial-triage-on-nucleo-64-stm32f411re/2016/11/23/startingwith-mdeb-os-for-linux-and-command-line-enthusiast/ https://blog.3mdeb.com/2017/2017-01-14-zephyr-initial-triage-on-nucleo-64-stm32f411re/
+Redirect 301 /job/ https://3mdeb.com/careers/
+Redirect 301 /job/aws-devops/ https://3mdeb.com/careers/
+Redirect 301 /miscellaneous/short-hint-for-all-those-who-use-vim-and-pathogen/ https://blog.3mdeb.com/2013/2013-01-15-short-hint-for-all-those-who-use-vim-and-pathogen/
+Redirect 301 /miscellaneous/vim-as-a-blogger-editor/ https://blog.3mdeb.com/2012/2012-04-21-vim-as-a-blogger-editor/
+Redirect 301 /2013/06/07/qemu-network-configuration-and-tftp-for-virtual-development-board/ https://blog.3mdeb.com/2013/2013-06-07-0x5-qemu-network-configuration-and-tftp-for-virtual-development-board/
+Redirect 301 /2015/01/25/esp-12-upgrade-to-esp-iot-sdk-v0-dot-9-5-using-esp-open-sdk-toolchain/ https://blog.3mdeb.com/2015/2015-01-25-esp-12-update-to-sdk-v0-9-5-and-at-v0-21-0-0-noobs-tutorial/
+Redirect 301 /2017/01/22/nrf51822-programing-with-openocd-under-linux/ https://blog.3mdeb.com/2017/2017-01-22-nrf51822-programming-with-openocd-under-linux/
+Redirect 301 /2017/05/12/openwrt_on_apu3/ https://blog.3mdeb.com/2017/2017-05-12-installing-openwrt-on-apu3-platform/
+Redirect 301 /miscellaneous/arbtt-as-productivity-improver-for-linux-enviroment/ https://blog.3mdeb.com/2012/2012-02-06-arbtt-as-productivity-improver-for-linux-enviroment/
+Redirect 301 /miscellaneous/improve-productivity-by-tracking-work-environment-with-git-vim/ https://blog.3mdeb.com/2012/2012-02-20-improve-productivity-by-tracking-work-environment-with-git-vim/
+Redirect 301 /app-dev/prepare-for-ruby-on-rails-on-debian-wheezy/ https://blog.3mdeb.com/2012/2012-11-18-prepare-for-ruby-on-rails-on-debian-wheezy/
+Redirect 301 /miscellaneous/music-for-programming/ https://blog.3mdeb.com/2013/2013-03-30-music-for-programming/
+Redirect 301 /categories/os-dev/our-first-look-at-debos-new-debian-images-generator/ https://blog.3mdeb.com/2018/2018-07-27-our-first-look-at-debos-new-debian-images-generator/
+Redirect 301 /company/markets/safety-and-mission-critical/ https://3mdeb.com/markets/#safety-and-mission-critical
+Redirect 301 /company/markets/industrial/ https://3mdeb.com/markets/#industrial
+Redirect 301 /company/markets/iot-embedded/ https://3mdeb.com/markets/#iot-embedded
+Redirect 301 /company/markets/consumer/ https://3mdeb.com/markets/#consumer
+Redirect 301 /pl/o-firmie/obszary-dzialalnosci/systemy-o-znaczeniu-krytycznym/ https://3mdeb.com/pl/obszary-dzialalnosci/#systemy-o-znaczeniu-krytycznym
+Redirect 301 /pl/o-firmie/obszary-dzialalnosci/zastosowania-przemyslowe/ https://3mdeb.com/pl/obszary-dzialalnosci/#zastosowania-przemyslowe
+Redirect 301 /pl/o-firmie/obszary-dzialalnosci/internet-rzeczy-iot-i-systemy-wbudowane/ https://3mdeb.com/pl/obszary-dzialalnosci/#internet-rzeczy-iot-i-systemy-wbudowane
+Redirect 301 /pl/o-firmie/obszary-dzialalnosci/zastosowania-indywidualne/ https://3mdeb.com/pl/obszary-dzialalnosci/#zastosowania-indywidualne
+Redirect 301 /pl/o-firmie/nasi-klienci/ https://3mdeb.com/pl/informacje-o-firmie/#nasi-klienci
+Redirect 301 /pl/o-firmie/kim-jestesmy/ https://3mdeb.com/pl/informacje-o-firmie/#kim-jestesmy
+Redirect 301 /company/customers/ https://3mdeb.com/about-us/#customers
+Redirect 301 /company/we-are-registered/ https://3mdeb.com/about-us/#we-are
+Redirect 301 /company/the-eu-project/ https://3mdeb.com/logo-policy/
+Redirect 301 /o-firmie/projekty-wspolfinansowane-przez-ue/ https://3mdeb.com/pl/polityka-logo
+Redirect 301 /pl/o-firmie/wizje-zespolow/ https://3mdeb.com/pl/praca/
+Redirect 301 /company/team-visions/ https://3mdeb.com/careers/
+Redirect 301 /pl/produkty/sprzet-open-source/rte/ https://3mdeb.com/pl/sprzet-open-source/#rte
+Redirect 301 /pl/produkty/sprzet-open-source/muxpi/ https://3mdeb.com/pl/sprzet-open-source/#muxpi
+Redirect 301 /pl/produkty/sprzet-open-source/moduly-tpm/ https://3mdeb.com/pl/sprzet-open-source/#moduly-tpm
+Redirect 301 /pl/produkty/sprzet-open-source/openvizsla/ https://3mdeb.com/pl/sprzet-open-source/#openvizsla
+Redirect 301 /products/open-source-hardware/rte/ https://3mdeb.com/open-source-hardware/#rte
+Redirect 301 /products/open-source-hardware/muxpi/ https://3mdeb.com/open-source-hardware/#muxpi
+Redirect 301 /products/open-source-hardware/tpm-modules/ https://3mdeb.com/open-source-hardware/#tpm-modules
+Redirect 301 /products/open-source-hardware/openvizsla/ https://3mdeb.com/open-source-hardware/#openvizsla
+Redirect 301 /pl/3mdeb-embedded-systems-consulting-pl/ https://3mdeb.com/pl/polish
+Redirect 301 /company/customers/ https://3mdeb.com/customers/
+Redirect 301 /company/careers/ https://3mdeb.com/careers/
+Redirect 301 /company/markets/ https://3mdeb.com/markets/
+Redirect 301 /company/faq/ https://3mdeb.com/faq/
+Redirect 301 /company/logo-policy/ https://3mdeb.com/logo-policy/
+Redirect 301 /products/open-source-software/ https://3mdeb.com/open-source-software/
+Redirect 301 /products/open-source-hardware/ https://3mdeb.com/open-source-hardware/
+Redirect 301 /products/products-documentation/ https://3mdeb.com/products-documentation/
+Redirect 301 /products/training/ https://3mdeb.com/training/
+Redirect 301 /services/embedded-firmware/ https://3mdeb.com/embedded-firmware/
+Redirect 301 /services/operating-systems/ https://3mdeb.com/operating-systems/
+Redirect 301 /services/hypervisors/ https://3mdeb.com/hypervisors/
+Redirect 301 /services/software-and-hardware-security/ https://3mdeb.com/software-and-hardware-security/
+Redirect 301 /services/hardware-support/ https://3mdeb.com/hardware-support/
+Redirect 301 /services/internet-of-things-solutions/ https://3mdeb.com/internet-of-things-solutions/
+Redirect 301 /services/automated-validation/ https://3mdeb.com/automated-validation/
+Redirect 301 /services/service-catalogues/ https://3mdeb.com/service-catalogues/
+Redirect 301 /news/events/ https://3mdeb.com/events/
+Redirect 301 /news/press-releases/ https://3mdeb.com/press-releases/
+Redirect 301 /pl/o-firmie/informacje-o-firmie/ https://3mdeb.com/pl/informacje-o-firmie/
+Redirect 301 /pl/o-firmie/praca/ https://3mdeb.com/pl/praca/
+Redirect 301 /pl/o-firmie/obszary-dzialalnosci/ https://3mdeb.com/pl/obszary-dzialalnosci/
+Redirect 301 /pl/o-firmie/faq/ https://3mdeb.com/pl/faq/
+Redirect 301 /pl/o-firmie/polityka-logo/ https://3mdeb.com/pl/polityka-logo/
+Redirect 301 /pl/produkty/oprogramowanie-open-source/ https://3mdeb.com/pl/oprogramowanie-open-source/
+Redirect 301 /pl/produkty/sprzet-open-source/ https://3mdeb.com/pl/sprzet-open-source/
+Redirect 301 /pl/produkty/dokumentacja-produktowa/ https://3mdeb.com/pl/dokumentacja-produktowa/
+Redirect 301 /pl/produkty/szkolenia/ https://3mdeb.com/pl/szkolenia/
+Redirect 301 /pl/uslugi/oprogramowanie-wbudowane/ https://3mdeb.com/pl/oprogramowanie-wbudowane/
+Redirect 301 /pl/uslugi/systemy-operacyjne/ https://3mdeb.com/pl/systemy-operacyjne/
+Redirect 301 /pl/uslugi/hypervisory/ https://3mdeb.com/pl/hypervisory/
+Redirect 301 /pl/uslugi/bezpieczenstwo-oprogramowania-i-sprzetu/ https://3mdeb.com/pl/bezpieczenstwo-oprogramowania-i-sprzetu/
+Redirect 301 /pl/uslugi/wsparcie-rozwoju-hardwareu/ https://3mdeb.com/pl/wsparcie-rozwoju-hardwareu/
+Redirect 301 /pl/uslugi/internet-rzeczy/ https://3mdeb.com/pl/internet-rzeczy/
+Redirect 301 /pl/uslugi/automatyczna-walidacja/ https://3mdeb.com/pl/automatyczna-walidacja/
+Redirect 301 /pl/uslugi/katalogi-uslug/ https://3mdeb.com/pl/katalogi-uslug/
+Redirect 301 /pl/aktualnosci/wydarzenia/ https://3mdeb.com/pl/wydarzenia/
+Redirect 301 /pl/aktualnosci/artykuly-w-sieci/ https://3mdeb.com/pl/artykuly-w-sieci/
+Redirect 301 /rte https://3mdeb.com/open-source-hardware/#rte
+Redirect 301 /open-source-hardware/rte https://3mdeb.com/open-source-hardware/#rte
+Redirect 301 /product-category/adapters/segger-microcontroller/ https://3mdeb.com/shop/adapters/adapters-segger-microcontroller/segger-j-link-6-pin-needle-adapter/
+Redirect 301 /product-category/open-source-hardware/3mdeb-en/ https://3mdeb.com/shop/all-products/?filters=product_cat[1021]
+Redirect 301 /product-category/system-boards/pc-engines-en/ https://3mdeb.com/shop/all-products/?filters=product_cat[984]
+#RewriteCond %{HTTP_HOST} ^3mdeb.com$ [NC]
+#RewriteCond %{REQUEST_URI} ^/blog/
+#RewriteRule (.*) https://blog.3mdeb.com/ [R=301,L]
+# BEGIN WPSuperCache
+# The directives (lines) between "BEGIN WPSuperCache" and "END WPSuperCache" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+# END WPSuperCache
+
+# BEGIN Really Simple SSL Redirect 5.3.5
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+</IfModule>
+# END Really Simple SSL Redirect
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
