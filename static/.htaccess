@@ -43,7 +43,7 @@ Redirect 301 /firmware/building-coreboot-on-minnowboard/ https://blog.3mdeb.com/
 Redirect 301 /firmware/amd-cpu-boost/ https://blog.3mdeb.com/2019/2019-02-14-enabling-cpb-on-pcengines-apu2/
 Redirect 301 /firmware/enabling-ecc-on-pc-engines-platforms/ https://blog.3mdeb.com/2018/2018-10-16-enabling-ecc-on-pc-engines-apu2/
 Redirect 301 /app-dev/chromium-gstreamer-backed-for-i-mx6-research/ https://blog.3mdeb.com/2016/2016-11-01-chromium-gstreamer-backed-for-i-mx6-research/
-Redirect 301 /shop-online/ https://3mdeb.com/shop
+Redirect 301 /shop-online/ https://shop.3mdeb.com/shop
 Redirect 301 /os-dev/yocto-meta-rte-is-now-open-for-everyone/ https://blog.3mdeb.com/2019/2019-03-13-yocto-meta-rte-migrate-to-github/
 Redirect 301 /miscellaneous/3mdeb-at-embedded-world-2019/ https://blog.3mdeb.com/2019/2019-02-22-3mdeb-at-embedded-world-2019/
 Redirect 301 /os-dev/get-started-kas-yocto/ https://blog.3mdeb.com/2019/2019-02-07-kas/
@@ -117,12 +117,12 @@ Redirect 301 /os-dev/our-first-look-at-debos-new-debian-images-generator/ https:
 Redirect 301 /job/mlodszy-programista-testow-automatycznych/ https://3mdeb.com/careers/
 Redirect 301 /os-dev/linux-debian-wheezy-on-lenovo-y510p/ https://blog.3mdeb.com/2014/2014-08-23-how-to-fix-backlight-issue-on-ideapad-y510p/
 Redirect 301 /job/junior-embedded-systems-developer/ https://3mdeb.com/careers/
-Redirect 301 /product/tpm2/ https://3mdeb.com/shop/modules/modules-lpn-plant/tpm-2-0/
+Redirect 301 /product/tpm2/ https://shop.3mdeb.com/shop/modules/modules-lpn-plant/tpm-2-0/
 Redirect 301 /firmware/failure-of-ecc508a-crypto-coprocessor-initial-triage-with-sam-g55-xplained-pro-evaluation-kit/ https://blog.3mdeb.com/2016/2016-11-24-failure-of-ecc508a-crypto-coprocessor-initial-triage-with-sam-g55-xplained-pro-evaluation-kit/
-Redirect 301 /product/muxpi/ https://3mdeb.com/shop/open-source-hardware/open-source-hardware-3mdeb/muxpi/
+Redirect 301 /product/muxpi/ https://shop.3mdeb.com/shop/open-source-hardware/open-source-hardware-3mdeb/muxpi/
 Redirect 301 /firmware/debugging-coreboot-in-qemu-environment-part-1/ https://blog.3mdeb.com/2012/2012-03-12-debugging-coreboot-in-qemu-environment-part-1/
 Redirect 301 /firmware/pc-engines-apu2-platform-validation-with-rte/ https://blog.3mdeb.com/2018/2018-09-13-apu2-validation-with-rte/
-Redirect 301 /product/openvizsla/ https://3mdeb.com/shop/open-source-hardware/open-source-hardware-3mdeb/openvizsla/
+Redirect 301 /product/openvizsla/ https://shop.3mdeb.com/shop/open-source-hardware/open-source-hardware-3mdeb/openvizsla/
 Redirect 301 /firmware/flashing-emmc-fastboot-2/ https://blog.3mdeb.com/2019/2019-03-08-flashing-emmc-on-hummingboard-edge-using-fastboot-part-2/
 Redirect 301 /job/full-stack-web-developer/ https://3mdeb.com/careers/
 Redirect 301 /job/senior-systems-administrator/ https://3mdeb.com/careers/
@@ -186,14 +186,14 @@ Redirect 301 /2013/06/07/toolchain-for-virtual-development-board/ https://blog.3
 Redirect 301 /miscellaneous/directory-scheme-for-multiple-projects/ https://blog.3mdeb.com/2016/2016-07-05-directory-scheme-for-multiple-projects/
 Redirect 301 /firmware/flashrom-and-shuttle-av18e2/ https://blog.3mdeb.com/2012/2012-01-06-flashrom-and-shuttle-av18e2/
 Redirect 301 /miscellaneous/uefi-from-linux-enthusiast-perspective/ https://blog.3mdeb.com/2012/2012-01-15-uefi-from-linux-enthusiast-perspective/
-Redirect 301 /product-category/electronic/ https://3mdeb.com/shop
+Redirect 301 /product-category/electronic/ https://shop.3mdeb.com/shop
 Redirect 301 /2012/03/12/debugging-coreboot-in-qemu-enviroment/ https://blog.3mdeb.com/2012/2012-04-18-debugging-coreboot-in-qemu-environment-part-2/
 Redirect 301 /miscellaneous/how-to-download-videos-from-videos-linux-com/ https://blog.3mdeb.com/2012/2012-04-06-how-to-download-videos-from-videos-linux-com/
 Redirect 301 /os-dev/our-first-look-at-debos-new-debian-images-generator/ https://blog.3mdeb.com/2018/2018-07-27-our-first-look-at-debos-new-debian-images-generator/
 Redirect 301 /firmware/robot-framework-validation-automation/ https://blog.3mdeb.com/2017/2017-11-02-pc-engines-apu2-python-robot-framework-validation-automation/
 Redirect 301 /firmware/uefi-edk2-corebootpayloadpkg-on-apu2/ https://blog.3mdeb.com/2017/2017-11-03-uefiedk-ii-corebootpayloadpkg-on-pc-engines-apu2/
 Redirect 301 /job/firmware-reverse-engineer/ https://3mdeb.com/careers/
-Redirect 301 /product/rte-rpi-hat/ https://3mdeb.com/shop/open-source-hardware/open-source-hardware-3mdeb/rte-rpi-hat/
+Redirect 301 /product/rte-rpi-hat/ https://shop.3mdeb.com/shop/open-source-hardware/open-source-hardware-3mdeb/rte-rpi-hat/
 Redirect 301 /firmware/minnowboard-turbot-remote-firmware-flashing-with-rte/ https://blog.3mdeb.com/2017/2017-11-20-flashing-minnowboard-turbot-with-raspberry-pi-zero-w/
 Redirect 301 /miscellaneous/workflow-imporovement-with-open-source-tools-part-1/ https://blog.3mdeb.com/2013/2013-05-16-workflow-imporovement-with-open-source-tools-part-1/
 Redirect 301 /open-minded-solutions/ https://3mdeb.com/open-source-software/
@@ -278,9 +278,9 @@ Redirect 301 /pl/aktualnosci/wydarzenia/ https://3mdeb.com/pl/wydarzenia/
 Redirect 301 /pl/aktualnosci/artykuly-w-sieci/ https://3mdeb.com/pl/artykuly-w-sieci/
 Redirect 301 /rte https://3mdeb.com/open-source-hardware/#rte
 Redirect 301 /open-source-hardware/rte https://3mdeb.com/open-source-hardware/#rte
-Redirect 301 /product-category/adapters/segger-microcontroller/ https://3mdeb.com/shop/adapters/adapters-segger-microcontroller/segger-j-link-6-pin-needle-adapter/
-Redirect 301 /product-category/open-source-hardware/3mdeb-en/ https://3mdeb.com/shop/all-products/?filters=product_cat[1021]
-Redirect 301 /product-category/system-boards/pc-engines-en/ https://3mdeb.com/shop/all-products/?filters=product_cat[984]
+Redirect 301 /product-category/adapters/segger-microcontroller/ https://shop.3mdeb.com/shop/adapters/adapters-segger-microcontroller/segger-j-link-6-pin-needle-adapter/
+Redirect 301 /product-category/open-source-hardware/3mdeb-en/ https://shop.3mdeb.com/shop/all-products/?filters=product_cat[1021]
+Redirect 301 /product-category/system-boards/pc-engines-en/ https://shop.3mdeb.com/shop/all-products/?filters=product_cat[984]
 #RewriteCond %{HTTP_HOST} ^3mdeb.com$ [NC]
 #RewriteCond %{REQUEST_URI} ^/blog/
 #RewriteRule (.*) https://blog.3mdeb.com/ [R=301,L]
