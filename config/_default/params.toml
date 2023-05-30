@@ -54,7 +54,7 @@ button_link = "contact"
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
 keywords = ["Boilerplate", "Hugo", "Themefisher", "GetHugoThemes"]
-description = "Open source firmware is an embedded system software that is available to the public for free. Learn how open source firmware can benefit your business, and why consulting with experts can help you implement it properly."
+description = "3mdeb: Your Trusted Partner in Embedded Systems and Firmware Security. Enhance your product's reliability and security with our expert consulting services, firmware development, and hardware design solutions. We specialize in open-source firmware, secure boot, and IoT security. Contact us for tailored solutions to meet your embedded system needs."
 author = "Themefisher"
 image = "images/favicon.png"                                       # this image will be used as fallback if a page has no image of its own
 
