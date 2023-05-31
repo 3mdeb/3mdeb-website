@@ -52,7 +52,7 @@
         {{ else }}
         <li class="{{if $active}}active{{end}}">
           <div class="anchor-wrapper d-flex justify-content-between">
-            <a {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}} href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else if eq .URL (`/` | relURL) }}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
+            <a {{if findRE `^http` .URL}}target="_self" rel="noopener" {{end}} href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else if eq .URL (`/` | relURL) }}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
           </div>
         </li>
         {{ end }}
