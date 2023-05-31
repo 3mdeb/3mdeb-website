@@ -6,7 +6,7 @@ keywords: [""]
 draft: false
 ---
 
-Thank you for shopping at shop.3mdeb.com. If you are not entirely satisfied with your purchase, we’re here to help.
+Thank you for shopping at shop.3mdeb.com/shop. If you are not entirely satisfied with your purchase, we’re here to help.
 
 <br>
 
@@ -30,10 +30,10 @@ Once we receive your item, we will inspect it and notify you that we have receiv
 
 3mdeb Sp. z o.o.
 
-Abrahama 1A / 2.05
+Piastowska 7 / 20A
 
 +48 58 718 91 79
 
-80-307 Gdansk,
+80-332 Gdansk,
 
 Poland

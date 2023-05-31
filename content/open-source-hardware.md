@@ -29,7 +29,7 @@ open_source_hardware_features:
 
       This is like a recipe. If you can cook it by yourself – fair enough. But keep in mind, that we are professional and dedicated chefs. Consider being our customer as visiting a good restaurant.
 
-      In our **[shop](https://shop.3mdeb.com/)** we offer some open source hardware products assembled by us or like **[RTE](https://shop.3mdeb.com/product/rte/)** or **[TMP2 modules](https://shop.3mdeb.com/product/tpm2/)** designed by us. Other examples of Open Hardware we support are **[OpenVizsla](https://shop.3mdeb.com/product/openvizsla/)** and **[MuxPi](https://shop.3mdeb.com/product/muxpi/)**.
+      In our **[shop](https://shop.3mdeb.com/shop)** we offer some open source hardware products assembled by us or like **[RTE](https://shop.3mdeb.com/shop/product/rte/)** or **[TMP2 modules](https://shop.3mdeb.com/shop/product/tpm2/)** designed by us. Other examples of Open Hardware we support are **[MuxPi](https://shop.3mdeb.com/shop/product/muxpi/)**.
 
   - image: "images/open-source-hardware/OpenVizsla-usb2.0-analyzer.png"
     content: |
@@ -42,14 +42,14 @@ open_source_hardware_features:
 
   - image: "images/open-source-hardware/muxpi.jpg"
     content: |
-      ### Why to choose 3mdeb for development of your hardware?
+      ### Why to choose 3mdeb for development of your hardware?
       {.h3}
 
-      Because we are the best. Seriously. We have specialists in any field you can imagine. Doesn’t matter if it’s about creating hardware, making it work, [**RISC-V**](https://riscv.org/), [**AWS Services**](https://aws.amazon.com/), **[building Hypervisors](https://en.wikipedia.org/wiki/Hypervisor)**, **[customizing Linux](https://www.yoctoproject.org/)** or anything else.
+      Because we are the best. Seriously. We have specialists in any field you can imagine. Doesn’t matter if it’s about creating hardware, making it work, [**RISC-V**](https://riscv.org/), [**AWS Services**](https://aws.amazon.com/), **[building Hypervisors](https://en.wikipedia.org/wiki/Hypervisor)**, **[customizing Linux](https://www.yoctoproject.org/)** or anything else.
 
       Size of our company makes us flexible and agile, our hardware and embedded engineers will fully cooperate for your satisfaction, and all the resources will be allocated efficiently. We are continuously enlarging our potential to handle more and more sophisticated projects.
 
-      Check our satisfied clients, projects we participate, and **[contact us.](/contact/)**
+      Check our satisfied clients, projects we participate, and **[contact us.](/contact/)**
 
       [**Congratulations, you have just found the solution**.](/)
       {{< image src="images/markets/aws.png" alt="aws" class="d-block mx-auto">}}
@@ -147,7 +147,7 @@ products:
 
           Countless ports are waiting for you, Cyber Sailor!
 
-          {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/product/muxpi" >}}
+          {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/shop/product/muxpi" >}}
 
   - title: "OpenVizsla"
     product_image: "images/open-source-hardware/OpenVizsla-usb2.0-analyzer.png"
@@ -188,7 +188,7 @@ products:
 
           **[For more details check OpenVizsla specification](https://cloud.3mdeb.com/index.php/s/jj2r8kwBYsNBgEW)**
 
-          {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/product/openvizsla" >}}
+          {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/shop/product/openvizsla" >}}
 
   - title: "RTE"
     product_image: "images/open-source-hardware/rte-remote-testing-environment.png"
@@ -226,7 +226,7 @@ products:
 
           **RTE makes the difference!**
 
-          {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/product/rte/" >}}
+          {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/shop/product/rte/" >}}
 
   
   - title: "TPM modules"
@@ -247,11 +247,11 @@ products:
 
       - image:
         content: |
-          ## What is TPM for? Is it really necessary?
+          ## What is TPM for? Is it really necessary?
 
           Digital security is the computer equivalent of disaster insurance. Few people care very much about it or give it much thought, and everyone hates paying for it… until a catastrophe hits. Then we are either really glad we had it or really sad that we didn’t have enough of it or didn’t have it at all.
 
-          The TPM was designed as one of the core building blocks for digital security solutions. The November 2013 **[“Report to the President: Immediate Opportunities for Strengthening the Nation’s Cybersecurity”](https://www.broadinstitute.org/files/sections/about/PCAST/2013%20pcast-cybersecurity.pdf)** recommends “the universal adoption of the Trusted Platform Module (TPM), an industry-standard microchip designed to provide basic security-related functions, primarily involving encryption keys, including for phones and tablets.” Computers and devices that incorporate a TPM are able to create cryptographic keys and encrypt them so they can be decrypted only by the TPM.
+          The TPM was designed as one of the core building blocks for digital security solutions. The November 2013 **[“Report to the President: Immediate Opportunities for Strengthening the Nation’s Cybersecurity”](https://www.broadinstitute.org/files/sections/about/PCAST/2013%20pcast-cybersecurity.pdf)** recommends “the universal adoption of the Trusted Platform Module (TPM), an industry-standard microchip designed to provide basic security-related functions, primarily involving encryption keys, including for phones and tablets.” Computers and devices that incorporate a TPM are able to create cryptographic keys and encrypt them so they can be decrypted only by the TPM.
 
           **Trusted Platform Module provides:**
 
@@ -269,12 +269,12 @@ products:
 
           Our TPM2 modules firmware has been upgraded to 5.63.3144.0 version, which mitigates ROCA vulnerability. We provide TPM2 compatible with 2x10p LPC header and TPM2 compatible with 2x5p LPC header (populated on Librebox platform).
 
-          ## TPM2 module features
+          ## TPM2 module features
           {.h3}
 
           **Details below refer to models our company has in offer**
 
-          **[TMP2 Module](https://shop.3mdeb.com/product/tpm2/)** and **[TPM2 module for Librebox](https://shop.3mdeb.com/product/tpm2-module-for-librebox/)**
+          **[TMP2 Module](https://shop.3mdeb.com/shop/product/tpm2/)** and **[TPM2 module for Librebox](https://shop.3mdeb.com/shop/product/tpm2-module-for-librebox/)**
 
           * Infienon TPM SLB9665TT20FW561XUMA1
           * Operating voltage 3-3.3V
@@ -283,6 +283,6 @@ products:
           * Full personalization with Endorsement Key (EK) and EK certificate
           * Supports the LPC interface and interrupts are communicated with the serial interrupt (SERIRQ) protocol
 
-          {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/product/tpm2" >}}
+          {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/shop/product/tpm2" >}}
       
 ---
