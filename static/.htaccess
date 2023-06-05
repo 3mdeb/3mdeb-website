@@ -36,6 +36,7 @@ Rewriterule ^(.*) https://demo.3mdeb.com/$1 [QSA,L,R=301]
 RewriteEngine on
 Rewritecond %{HTTP_HOST} ^www.blog.3mdeb.com$
 Rewriterule ^(.*) https://blog.3mdeb.com/$1 [QSA,L,R=301]
+RewriteRule ^shop/(.*)$ https://shop.3mdeb.com/shop/$1 [R=301,L]
 RewriteRule ^open-source-firmware/(.*)$ https://dl.3mdeb.com/open-source-firmware/$1 [R=302,L]
 Redirect 301 /blog/ https://blog.3mdeb.com/
 Redirect 301 /news-ideas/ https://blog.3mdeb.com/
