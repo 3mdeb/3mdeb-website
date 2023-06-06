@@ -32,11 +32,11 @@ preloader = "" # use jpg, png, svg or gif format.
 # contact info
 [contact_info]
 vat_info = "3mdeb Sp. z o.o. VAT ID: PL5842812770"
-address = "Abrahama 1A / 2.05 <br> 80-307 Gdańsk, Poland"
-mobile = "+48 58 718 91 79"
+address = "Piastowska 7 / 20A <br> 80-332 Gdańsk, Poland"
+mobile = "+48 790 573 075"
 email = "contact@3mdeb.com"
 sales = "leads@3mdeb.com"
-invoicing = "3mdeb Sp. z o.o. <br> ul. Abrahama 1A/2.05 <br> 80-307 Gdańsk, Poland <br> VAT ID: PL5842812770"
+invoicing = "3mdeb Sp. z o.o. <br> ul. Piastowska 7/20A <br> 80-332 Gdańsk, Poland <br> VAT ID: PL5842812770"
 
 # Newsletter
 [newsletter]
