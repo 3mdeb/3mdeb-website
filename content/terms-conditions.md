@@ -183,7 +183,7 @@ Any ambiguities in the interpretation of these Terms of Service shall not be con
 
 ### Section 18 – **Governing Law**
 
-These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of Abrahama 1A/2.05, Gdańsk, PM, 80-307, Poland.
+These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of Piastowska 7/20, Gdańsk, PM, 80-332, Poland.
 
 <br>
 
