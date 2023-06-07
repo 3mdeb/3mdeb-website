@@ -4,9 +4,12 @@
   itemscope
   itemtype="http://schema.org/WebPage">
   <head>
+    {{ if .Site.Params.googleAnalytics }}
+      {{ partial "essentials/analytics-gtag.html" . }}
+    {{ end }}
+
     <!-- head (don't cache it) -->
     {{ partial "essentials/head.html" . }}
-
 
     <!-- cache partial only in production -->
     {{ if hugo.IsProduction }}
