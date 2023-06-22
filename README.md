@@ -27,6 +27,23 @@ to use the local IP address of the host machine. Feel free to replace
 
 ## Good practices
 
+### Development workflow
+
+This repository uses `develop` -> `main` merge requirements. This provides
+additional layer of control and verification in the beta/prod environment.
+
+1. Whenever creating new branch for your changes, first, remember to checkout to
+   up to date `develop` branch.
+2. After pushing changes to your branch, set a Pull Request to `develop` branch,
+   instead of `main`. Reporter will verify patch and publish beta env to the
+   production later.
+   * beta website: https://beta.3mdeb.com/
+   * prod website: https://3mdeb.com/
+
+> **NOTE**: If you forgot about rule Ad. 1, you can change the source branch
+> by rebasing you branch: `git rebase --onto <new-parent> <old-parent>`. For
+> example: `git rebase --onto develop main`.
+
 ### Grammarly - a must have for content verification
 
 Grammarly is a great, free tool for all bloggers and anyone who needs to write
