@@ -6,11 +6,6 @@ keywords: [""]
 draft: false
 layout: "careers"
 
-multilingual:
-  info_name: "Site PL :"
-  url: "praca/"
-  flag: "images/ml-polish-flag.svg"
-
 table_of_contents:
   - title: "Careers"
     icon: "images/careers/stairs.png"
@@ -32,10 +27,7 @@ careers:
     
     * Share the results of your work with us and show us your code. If you have already contributed to open-source projects, be sure to tell us about them during the recruitment interview. We'd love to see the results of your work, so feel free to send or show us your repository with your CV.
 
-    * Show us what tools and programming languages you know. Check out our project details and source code in our repositories:
-    [https://github.com/3mdeb](https://github.com/3mdeb), [https://gitlab.com/3mdeb](https://gitlab.com/3mdeb), [https://github.com/Dasharo](https://github.com/Dasharo) and to see if they align with your skills and interests. We value candidates with experience in at least one of the programming languages we work with every day that can immediately support us in daily projects.
-
-    * Familiarize yourself with our products, services, and projects listed at [https://shop.3mdeb.com/](https://shop.3mdeb.com/). During the recruitment interview, we will ask you about your knowledge of our areas of operation and what products and services we offer. We want to make sure that your interests coincide with our business profile.
+    * Familiarize yourself with our products, services, and projects listed at [https://shop.3mdeb.com/](https://shop.3mdeb.com/shop). During the recruitment interview, we will ask you about your knowledge of our areas of operation and what products and services we offer. We want to make sure that your interests coincide with our business profile.
 
     For non-technical candidates, we are seeking individuals who are interested in the technology industry and have a passion for learning. We value candidates with a strong work ethic and excellent communication skills, paying attention to the details, and who are eager to contribute to our team.
 
