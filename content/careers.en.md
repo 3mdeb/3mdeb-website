@@ -6,10 +6,10 @@ keywords: [""]
 draft: false
 layout: "careers"
 
-multilingual:
-  info_name: "Site PL :"
-  url: "praca/"
-  flag: "images/ml-polish-flag.svg"
+# multilingual:
+#  info_name: "Site PL :"
+#  url: "praca/"
+#  flag: "images/ml-polish-flag.svg"
 
 table_of_contents:
   - title: "Careers"
@@ -24,119 +24,70 @@ careers:
   title: "Careers"
   icon: "images/careers/stairs.png"
   content: |
-    We are a small but worldwide-recognized embedded firmware development consultancy that leverages years of industry experience to provide innovative solutions. We help hardware OEMs and ODMs to achieve the full potential, security, and reliability of delivered products through Dasharo open-source firmware distributions. Dasharo combines coreboot, EDKII (UEFI reference implementation), LinuxBoot, U-Boot, and other open-source firmware projects to provide clean and simple code, long-term maintenance, transparent validation, privacy-respecting implementation, liberty for the owners, and trustworthiness for all. We support the medical industry using Verified Boot and Secure Boot technologies for Real-Time Operating Systems and Embedded Linux. Hyper-scale cloud providers get our firmware design and security skills to secure their computing infrastructure. Trusted Computing and Trusted Execution Environment applications are used and developed by us every day. There is no embedded software, firmware, or close-to hardware-related challenge we would not consider.
+    At 3mdeb, we always seek passionate and driven individuals interested in open-source, technology, and security. We are dedicated to open-source and have a cypherpunk and libre philosophy in mind. We believe in the power of collaboration and welcome individuals who understand and share that approach. Whether you are an Embedded Firmware Developer, an Embedded Systems Developer, a Hardware Validation Developer, an Office Assistant, a Sales Manager, a Marketing Specialist, or a Project Manager, we welcome individuals who share our values and philosophy and can contribute to our team in various ways.
+  
+    For technical candidates, we put a strong emphasis on their contributions to open-source. We want to work with individuals who have a proven track record of contributing to open-source projects, whether it's through bug fixes, code contributions, or community support.
 
-    Our activity on high-profile professional conferences (Platform Security Summit, FOSDEM, Xen Developers Summit, and others), organization and co-organization of various events (Qubes OS mini-summit, GRUB2 mini-summit, LPC System Boot and Security Microconference) position us as a recognized community member and leader in evangelizing the use of open-source solutions.
+    To make it easier for you to join our R&D team, here are some tips for success: 
+    
+    * Share the results of your work with us and show us your code. If you have already contributed to open-source projects, be sure to tell us about them during the recruitment interview. We'd love to see the results of your work, so feel free to send or show us your repository with your CV.
 
-    Over the years, the community recognized us as coreboot licensed service providers, UEFI Adopters, LVFS Consultants, and Yocto Participants and accepted our membership in OpenPOWER Foundation.
+    * Show us what tools and programming languages you know. Check out our project details and source code in our repositories:
+    [https://github.com/3mdeb](https://github.com/3mdeb), [https://github.com/Dasharo](https://github.com/Dasharo) and to see if they align with your skills and interests. We value candidates with experience in at least one of the programming languages we work with every day that can immediately support us in daily projects.
 
-    Our team consists of passionate engineers and developers from open-source software, firmware, and hardware communities, frequent conference speakers, and people who love to tinker with bits. Every day we develop bleeding-edge low-level security solutions using top open-source frameworks.
+    * Familiarize yourself with our products, services, and projects listed at [https://shop.3mdeb.com/](https://shop.3mdeb.com/shop). During the recruitment interview, we will ask you about your knowledge of our areas of operation and what products and services we offer. We want to make sure that your interests coincide with our business profile.
 
-    If you overclock your hardware, root your devices, harden your system, are passionate about learning how hardware and computer architectures work, 3mdeb is the place for you. We are an informal group of old-type hackers with cypherpunk and libre philosophy in mind, so if the above description resonates with you, give us a chance to meet you.
+    For non-technical candidates, we are seeking individuals who are interested in the technology industry and have a passion for learning. We value candidates with a strong work ethic and excellent communication skills, paying attention to the details, and who are eager to contribute to our team.
 
-    Send your CV to career@3mdeb.com or use the form below.
+    When applying to 3mdeb for a non-technical position, here are some tips to help you stand out:
+
+    * Familiarize yourself with our company's philosophy. Show us that you have a general understanding of what we do and that our values resonate with you.
+
+    * Highlight your interest in technology and security. Let us know how you stay up-to-date with technical industry trends and news, as it is important for all team members to remain informed.
+
+    * Demonstrate your strong communication and organizational skills. We value individuals who can effectively communicate with clients, partners and team members, and help keep the company organized and projects on track.
+
+    If you're interested in learning more about a career at 3mdeb, don't hesitate to reach out to us at career@3mdeb.com. We look forward to hearing from you!
 
 current_openings:
   enable: true
   title: "Current Openings:"
   button_label: "Apply Now"
   jobs:
-  - title: "Embedded Systems **Developer/Engineer**"
+  - title: "Embedded **Firmware Developer**"
     description:
-    - title: "Requirements:"
+    - title: "Description:"
       content: |
-        * Good knowledge of C
-        * Experience with software for embedded systems (microcontrollers, Embedded Linux)
-        * Basic knowledge of at least one scripting language (we mostly use BASH and Python)
-        * Good knowledge of Linux and git version control system
-        * Excellent organizational skills and ability to learn a variety of tools
+        We are seeking an exceptional candidate who is not only deeply passionate about open-source but also has a documented history of contributing to open-source projects. Strong C programming knowledge is required for this position, and commercial experience would be a great advantage. At our company, we value hard work, attention to detail, and expertise in navigating open-source tools and open-source community. If you demonstrate a strong interest in open-source and have experience in security, we would love to hear from you!
 
-    - title: "Responsibilities:"
-      content: |
-        * Designing and implementing functionality for embedded systems
-        * Documenting and reporting on work progress
-        * Debugging and analyzing problems related to the operation of hardware and embedded software
-        * Analyzing and improving the security of embedded systems
-        * Supporting Yocto-based Linux distributions
+        Our team utilizes an array of advanced technologies, tools, and programming languages to create the best solutions for our Clients, including:
+        * C,
+        * bash and Python scripting languages,
+        * GCC and Make build tools,
+        * git version control system,
+        * x86 architecture (IA-32/x64), ARM, POWER and RISC-V,
+        * systems on chip (i.MX6/8, Rockchip),
+        * single-board computers (e.g., Raspberry Pi, Orange Pi),
+        * coreboot, UEFI/EDK II, and other open-source firmware frameworks,
+        * U-Boot configuration and compilation,
+        * Linux kernel configuration and compilation,
+        * tools for building Linux-based systems (e.g., Yocto/OpenBMC, Buildroot),
+        * real-time operating systems (e.g., Zephyr, MbedOS),
+        * SWUpdate,
+        * docker and CI/CD tools (e.g., GitHub Actions, self-hosted GitLab runners),
+        * reverse engineering tools and techniques.
 
-    - title: "What we offer:"
-      content: |
-        * Working on an IoT project
-        * Possibility to travel on firmware-related conferences
-        * The real impact on the product and its final shape
-        * Professional development
-        * Opportunity to work flexible hours
-        * Flexible employment conditions    
-        * Improvement of qualifications with our training program and certification  
-        * Co-financing of training
-        * Work on Open Source projects - opportunity to work with the community and build your own portfolio based on contributions    
-        * Flexible working hours   
-        * Medical care
-        * Medicover Sport cards 
-        * Group insurance  
-        * Friendly atmosphere
-        * Work in small teams    
-        * Attractive salary depending on skills and experience    
-        * Opportunities for development in your own direction    
-        * Work in an office in a great location in Oliwa
+        Please note that although the skills and technologies listed above are highly valued for this position; we understand that not every candidate will have experience with all of them. We welcome candidates who are passionate about open-source and resonate with our company culture, regardless of their level of experience with specific technologies. Whether you have experience working with firmware, operating systems, or other aspects of embedded development, we believe that with passion and authenticity, we can teach the necessary skills to the right candidate. So, if you're excited about working with us and making a difference in the open-source community, we encourage you to apply, even if you only have experience with some of the technologies listed. Our company values continuous learning and growth, and we are committed to supporting our team members in developing their skills and pursuing their career goals.
 
-    - title: "Nice to have:"
-      content: |
-        * Knowledge of real-time systems (e.g., Zephyr, FreeRTOS, MbedOS)
-        * Experience in  working with SBC (e.g., Raspberry Pi)
-        * Skills in configuring and compiling the Linux kernel
-        * Knowledge of tools for building Linux-based systems (OpenEmbedded, Yocto, buildroot, debootstrap)
-        * Knowledge of Docker and CI/CD tools (Jenkins, Travis, Gitlab CI)
-        * Commitment to the open source community
+        We offer the opportunity to work on open-source projects and collaborate with the community of world-class industry leaders as well as work with some of the most prominent vendors to build your own portfolio through contributions. As a team member, you'll impact the product and its final shape with opportunities for professional development, flexible working hours, and employment conditions.
+    
+        We also provide training and certification to help our team members build their skills and advance in their careers. Our comprehensive benefits package includes medical care, financial support for sports cards, group insurance, and the ability to work in a hybrid or fully remote system, depending on individual arrangements.
 
-  - title: "Embedded C **Developer/Engineer**"
-    description:
-    - title: "Requirements:"
-      content: |
-        * Good knowledge of C
-        * Good knowledge of Linux and git version control system
-        * Good knowledge of spoken and written English
-        * Excellent organizational skills and ability to learn a variety of tools
+        In addition, we offer opportunities to attend international open-source conferences, some of which we co-organize with other companies, providing our team members with a chance to showcase their skills and expertise. We also organize and host our community events, such as workshops and community calls, where team members can share their knowledge and network with other industry professionals.
 
-    - title: "Responsibilities:"
-      content: |
-        * Documenting and reporting on work progress
-        * Debugging and analysis of problems related to the operation of hardware and embedded software
-        * Design and implementation of functionality for embedded systems
-        * Analyzing and improving the security of embedded systems
-        * Assisting in the maintenance of Linux distributions based on Yocto
+        If you are passionate about open-source, enjoy a challenge, and value a supportive and collaborative work environment, apply and become a part of our team.
 
-    - title: "What we offer:"
-      content: |
-        * Working on an IoT project
-        * Possibility to travel on firmware-related conferences
-        * The real impact on the product and its final shape
-        * Professional development
-        * Opportunity to work flexible hours
-        * Flexible employment conditions    
-        * Improvement of qualifications with our training program and certification  
-        * Co-financing of training    
-        * Work on Open Source projects - opportunity to work with the community and build your own portfolio based on contributions    
-        * Flexible working hours   
-        * Medical care
-        * Medicover Sport cards 
-        * Group insurance  
-        * Friendly atmosphere
-        * Work in small teams    
-        * Attractive salary depending on skills and experience    
-        * Opportunities for development in your own direction    
-        * Work in an office in a great location in Oliwa
-
-    - title: "Nice to have:"
-      content: |
-        * Experience (hobby or commercial) with embedded systems software (microcontrollers, Embedded Linux)
-        * Basic knowledge of at least one scripting language (we usually use BASH and Python)
-        * Knowledge of real-time systems (e.g., Zephyr, FreeRTOS, MbedOS)
-        * Experience in working with SBC (e.g., Raspberry Pi)
-        * Ability to configure and compile the Linux kernel
-        * Knowledge of tools for building Linux-based systems (OpenEmbedded, Yocto, buildroot, debootstrap)
-        * Knowledge of Docker and CI/CD tools (Jenkins, Travis, Gitlab CI)
-        * Commitment to the open-source community
+        Be a part of our mission to make a difference in the open-source community!
         
   - title: "Hardware Validation **Developer/Engineer**"
     description:
@@ -155,7 +106,7 @@ current_openings:
         * Analyzing and improving the security of embedded systems
         * Supporting Yocto-based Linux distributions
 
-    - title: "What we offer:"
+    - title: "We offer:"
       content: |
         * Flexible terms of employment with flexible work-hours (e. g. for students);
         * Possibility to travel on firmware-related conferences;
@@ -170,7 +121,7 @@ current_openings:
         * Opportunities to develop in your direction;
         * Office in a great location – Gdansk Oliwa (with the possibility of work in hybrid mode).
 
-    - title: "Nice to have:"
+    - title: "The following will be appreciated:"
       content: |
         * Soldering
         * Interest in embedded systems
@@ -200,7 +151,7 @@ current_openings:
         * Creating lists of materials and components 
         * Responding to problems on an ongoing basis
 
-    - title: "What we offer:"
+    - title: "We offer:"
       content: |
         * Flexible employment conditions
         * Improvement of qualifications through training and certification
@@ -214,63 +165,105 @@ current_openings:
         * Opportunities to develop in your chosen direction
         * Work in an office in a great location in Oliwa
 
-    - title: "Nice to have:"
+    - title: "The following will be appreciated:"
       content: |
         * Experience in PCB design
         * Ability to use a logic analyzer and oscilloscope
         * Experience in creating BOM's
         
-  - title: "Office **Assistant**"
+  - title: "Sales **Engineer**"
     description:
     - title: "Requirements:"
       content: |
-        * min. 1 year of experience in a similar position
-        * focus on efficiency in action
-        * commitment and accuracy
-        * very good organization of work,
-        * very good knowledge of Libre Office and Google docs
-        * Knowledge of English at a minimum B2 level
-        * ability to work independently and in a team,
-        * positive attitude, initiative in action,
-        * communicativeness,
-        * high personal culture
-        * willingness to learn modern tools
+        * Basic knowledge of computer technology (laptops, desktops, routers, other IoT devices),
+        * Minimum one-year sales experience (preferred in hardware or software field),
+        * Fluent communication skills in English (working with English-speaking customers),
+        * Analytical, technical thinking skills and ability to solve technical problems,
+        * Ability to accurately assess the actual needs and potential of the customer,
+        * Determination to achieve goals, 
+        * Independence and good organization of own work,
+        * Commitment, initiative, and willingness to learn.
 
     - title: "Responsibilities:"
       content: |
-        * Comprehensive office administrative services 
-        * Archiving of invoices, accounting and HR documents
-        * Maintenance of databases
-        * Support of benefit systems
-        * Organizing meetings and handling the calendar of meetings
-        * Ordering groceries, office supplies, including preparing orders
-        * Coordinating incoming and outgoing correspondence, organizing the correct circulation of correspondence and other documentation, as well as its scanning and archiving,
-        * Contacting clients and contractors 
-        * Support in the organization of trips to international conferences
-        * Support of the logistics department
-        * Support of the HR department
-        * Supporting the recruitment process
-        * Performing various tasks ordered by the management
+        * Building, developing, and maintaining a network of contacts and business relationships with clients,
+        * Participating in customer communication (meetings, negotiations),
+        * Creating offers for customers, including identifying customer needs and offering 3mdeb products to satisfy them,
+        * Monitoring the status of quotation requests and operating the CRM system,
+        * Developing 3mdeb's portfolio of products and services and structuring it (including creating documentation),
+        * Market monitoring, participation in trade shows and conferences,
+        * Analyzing and implementing the company's sales plans,
+        * Creating e-mail campaigns to promote 3mdeb's products and services (including the online store).
 
-    - title: "What we offer:"
+    - title: "We offer:"
       content: |
-        * Flexible terms of employment with flexible work-hours (e. g. for students);
-        * Improvement of qualifications with our training program and certification;
-        * Co-financing of training;
-        * Medical care;
-        * Medicover Sport cards 
-        * Group life insurance;
-        * Flexible working time;
-        * Attitude on integration, friendly atmosphere without corporate processes;
-        * Attractive salary depending on skills and experience;
-        * Opportunities to develop in your direction;
-        * Office in a great location – Gdansk Oliwa (with the possibility of work in hybrid mode).
+        * Technical induction training for the position,
+        * Flexible terms of employment and working hours,
+        * Possibility of hybrid and remote work,
+        * Attractive performance-based salary (base + sales commission),
+        * Influence on the direction of development of the Sales & Marketing department,
+        * Friendly atmosphere without corporate processes,
+        * Opportunity to travel to industry conferences around the world, 
+        * Co-financing for training and certification,
+        * Medical care,
+        * Group insurance, 
+        * Co-financing for sports cards,
+        * An incentive bonus system,
+        * Opportunity to participate in the Employee Referral Program,
+        * Opportunities for development in the direction of your choice.
 
-    - title: "Nice to have:"
+    - title: "The following will be appreciated:"
       content: |
-        * Experience working in the IT industry
-        * Experience working onUBUNTU operating system
-        * Experience working with Jira
+        * Marketing experience,
+        * Practical knowledge of the IT industry,
+        * Knowledge of Jira and Git tools.
+
+  - title: "Internship"
+    description:
+    - title: "Description:"
+      content: |
+        Do you want to combine your studies with work experience in focused an open-source solutions and dynamic IT organization and help bring groundbreaking, technology-based capabilities to life?
+
+        If so, apply for a unique work experience to join our team of IT professionals using IT and business skills daily.
+
+        We consistently search for passionate and motivated individuals with a keen interest in open-source and technology. We value open-source culture because it emphasizes transparency, collaboration, and community-driven development. We love sharing ideas, knowledge, expertise and encourage people to contribute to our projects in meaningful ways.
+
+        It makes us happy that open-source culture has become increasingly popular in the tech industry, where it has led to the creation of much successful software products and platforms. However, it is also being embraced by other fields, such as science, education, and art, as a way to foster creativity, innovation, and inclusivity.
+
+        With years of industry experience, our small but globally recognized consultancy specializes in developing embedded firmware and providing innovative solutions. We strongly believe in the potential of collaboration and warmly welcome personalities who comprehend and embrace this approach.
+
+        Our preference is for open-source solutions, and we advise our clients to consider them as well.
+
+        As an intern with us, you'll gain valuable experience working with cutting-edge technology and collaborating with a team of experienced professionals. Whether you're interested in programming, debugging or testing, we'll provide you with the tools and resources you need to succeed.
+
+        One of our departments (Embedded System Team, Firmware Team, Hardware Validation Team) will be assigned to you based on your interests and level of knowledge.
+
+        You will assist with a wide range of tasks, such as troubleshooting technical issues, interpreting and analyzing technical documentation and writing diagrams, diagnosing the condition of electronic components, and providing technical support to our hackers.
+
+        Do you have the soul of a hacker in you? Do you like to improve or design the code and solve complex security puzzles? Can you be characterized by a deep curiosity and fascination with technology? Can you be described as motivated by a desire to understand how systems work and to push the limits of what is possible?
+
+        We strongly believe that information should not be owned or controlled by any one person or organization but should be freely available to developers who can copy and adapt this information, creating new open-source solutions. After all, that philosophy has led to open-source software development!
+
+        Throughout the weekdays ahead, you'll encounter a diverse array of challenges, including but not limited to:
+
+        * analyzing processes running on embedded systems and working on their optimization,
+        * creation and maintenance of CI/CD pipeline,
+        * examining firmware and hardware performance problems at a granular level,
+        * evaluating and enhancing the security of low-level software and increasing the safety of laptops and other devices,
+        * integrating new features into embedded systems,
+        * engaging in documentation and reporting to track the advancement of your work.
+
+        Are you someone who has just stumbled upon a newfound interest in soldering? We can help you cultivate and enhance your skills in this field!
+
+        But it's not just about the technical skills! We also emphasize the development of soft critical skills such as communication, teamwork, and problem-solving. You'll have the opportunity to work on real-world projects and make meaningful contributions to our organization, all while building a solid foundation for your future career.
+
+        We also pride ourselves on the international character of the team, and we exchange experiences with top-class specialists in the open-source community. Plus - you will work with a team of supportive and friendly people who are passionate about their work.
+
+        This is a paid internship, and we offer flexible scheduling to accommodate your academic commitments.
+
+        Our company presents chances for team members to exhibit their proficiency and  capabilities by attending global open-source conferences. Some of these conferences are co-organized with well-organized international brands. Additionally, we conduct our own community events, including workshops and community calls, where industry experts can share knowledge and build professional connections.
+
+        So why wait? Start your journey towards a rewarding and fulfilling career in IT! See you soon!
 
 apply_form:
   title: "Apply **now!**"

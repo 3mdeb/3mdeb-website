@@ -25,7 +25,16 @@ about_us:
   title: "Who we **are**"
   image: "images/about-us/who-we-are.jpg"
   content: |
-    We’re hands-on firmware experts with years of experience writing elegant, scalable and custom code for clients. Our team of engineers brings broad and expansive Linux knowledge to the projects we take on. We are experts at firmware development, OS development and application development, with a special focus on Embedded Linux solutions.
+   We are a small but worldwide-recognized embedded firmware development consultancy that leverages years of industry experience to provide innovative solutions. We help hardware OEMs and ODMs to achieve their full potential, security, and reliability of delivered products through Dasharo open-source firmware distributions. Dasharo combines coreboot, EDKII (UEFI reference implementation), LinuxBoot, U-Boot, and other open-source firmware projects to provide clean and simple code, long-term maintenance, transparent validation, privacy-respecting implementation, liberty for the owners, and trustworthiness for all.
+
+   We support the medical industry using Verified Boot and Secure Boot technologies for Real-Time Operating Systems and Embedded Linux. Hyper-scale cloud providers get our firmware design and security skills to secure their computing infrastructure. Trusted Computing and Trusted Execution Environment applications are used and developed by us every day. There is no embedded software, firmware, or close-to hardware related challenge we would not consider.
+
+   Our activity on high-profile professional conferences (Platform Security Summit, FOSDEM, Xen Developers Summit, and others), organization and co-organization of various events (Qubes OS mini-summit, GRUB2 mini-summit, LPC System Boot and Security Microconference) position us as a recognized community member and leader in evangelizing the use of open-source solutions.
+
+   Over the years, the community recognized us as coreboot licensed service providers, UEFI Adopters, LVFS Consultants, and Yocto Participants and accepted our membership in OpenPOWER Foundation.
+
+   Our team consists of passionate engineers and developers from open source software, firmware, and hardware communities, frequent conference speakers, and people who love to tinker with bits. Every day we develop bleeding-edge low-level security solutions using top open-source frameworks.
+
 
     {{< button link="https://cloud.3mdeb.com/index.php/s/Q5Tjd5yFSqot4JJ" label="COMPANY PRESENTATION" class="btn btn-primary w-fit mt-5 d-block" >}}
 
