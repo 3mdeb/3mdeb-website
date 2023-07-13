@@ -42,7 +42,7 @@ products:
 
       **MuxPi** is an open-hardware and open-software small board designed to aid remote automation testing. It features remote validation of the connected platform at the same time reducing necessary external connections to a minimum.
 
-      [Datasheet](https://cloud.3mdeb.com/index.php/s/QgqnFLnm2XKy2yw)    
+      [Datasheet](https://cloud.3mdeb.com/index.php/s/QgqnFLnm2XKy2yw)
 
   - image: "images/open-source-hardware/OpenVizsla-usb2.0-analyzer.png"
     content: |
