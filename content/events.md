@@ -345,7 +345,7 @@ all_events:
       date: "26.05.2022"
       event_poster: "images/events/2022/dasharo-osf-vpub-spring-2022-poster-1024x724.png"
       additional_info: |
-        ### vPub 0x5 [**Official Page**](https://vpub.dasharo.com/archive/vpub-0x5/)
+        ### vPub 0x5 [**Official Page**](https://vpub.dasharo.com/e/6/dasharo-osf-vpub-spring-2022)
 
       # segments:
       segments:
@@ -403,7 +403,7 @@ all_events:
       date: "17.02.2022"
       event_poster: "images/events/2022/Dasharo_OSF_vPub_Winter-1024x724.jpg"
       additional_info: |
-        ### vPub 0x4 [**Official Page**](https://vpub.dasharo.com/archive/vpub-0x4/)
+        ### vPub 0x4 [**Official Page**](https://vpub.dasharo.com/e/5/dasharo-osf-vpub-winter-2022)
 
       # segments:
       segments:
@@ -415,7 +415,7 @@ all_events:
             Topic: **Dasharo OSF vPub Winter 2022**  <br>
             Presenters: **3mdeb Team**
 
-            * [**Slides**](https://vpub.dasharo.com/archive/pdfs/vpub-0x4.pdf)
+            * [**Slides**](https://raw.githubusercontent.com/Dasharo/vpub/main/docs/archive/pdfs/vpub-0x4.pdf)
 
   - year: "20**21**"
     events:
@@ -444,7 +444,7 @@ all_events:
       date: "16.11.2021"
       event_poster: "images/events/2021/vPUB-Virtual-Community-Pub-1024x726.png"
       additional_info: |
-        ### vPub 0x3 [**Official Page**](https://vpub.dasharo.com/archive/vpub-0x3/)
+        ### vPub 0x3 [**Official Page**](https://vpub.dasharo.com/e/4/dasharo-osf-vpub-fall-2021)
 
       # segments:
       segments:
@@ -456,7 +456,7 @@ all_events:
             Topic: **Dasharo OSF vPub Fall 2021**  <br>
             Presenter: **3mdeb Team**
 
-            * [**Slides**](https://vpub.dasharo.com/archive/pdfs/vpub-0x3.pdf)
+            * [**Slides**](https://raw.githubusercontent.com/Dasharo/vpub/main/docs/archive/pdfs/vpub-0x3.pdf)
 
     - title: "TrenchBoot **Developers Forum**"
       status: ""
@@ -510,7 +510,6 @@ all_events:
             Topic: **coreboot on Power9**  <br>
             Presenter: **Piotr Król**
 
-            * [**Direct link**](https://cfp.openpower.foundation/summit2021/talk/QALSZW/)
             * [**Slides**](https://shop.3mdeb.com/wp-content/uploads/2022/08/coreboot-on-POWER9.pdf)
 
     - title: "TPM.dev **2021 MiniConf**"
@@ -759,7 +758,7 @@ all_events:
       date: "18.02.2021"
       event_poster: "images/events/2021/EsqQwjAWMAAyntw-789x1024.jpg"
       additional_info: |
-        ### vBeer 0x1 **[Official Page](https://vpub.dasharo.com/archive/vbeer-0x1/)**
+        ### vBeer 0x1 **[Official Page](https://vpub.dasharo.com/e/2/vbeer-0x1-2021)**
 
         Our first OSF vBeer gathering, with lots of fun & really interesting talk about the open-source firmware/hardware with 50 masters from all over the world!
 
