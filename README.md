@@ -12,7 +12,7 @@ Beta deploy status:
 
 ## Local preview
 
-1. Run local server: `./scripts/local-preview.sh -b http://<IP-ADDRESS>`
+1. Run local server: `./scripts/local-preview.sh http://<IP-ADDRESS>`
 1. Go to [http://<IP-ADDRESS>:1313/](http://localhost:1313/) to view the changes.
 
 > _NOTE_: Using `localhost` could end in partial resource import, therefore try
