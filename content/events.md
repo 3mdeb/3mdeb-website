@@ -719,7 +719,7 @@ all_events:
       date: "07.05.2021"
       event_poster: "images/events/2021/E0xnJ-IWQAIHWM5-724x1024.jpeg"
       additional_info: |
-        ### vPub 0x2 **[Official Page](https://vpub.dasharo.com/archive/vpub-0x2/)**
+        ### vPub 0x2 **[Official Page](https://vpub.dasharo.com/e/3/)**
 
         Our second OSF vPub gathering, with lots of fun & really interesting talk about the open-source firmware/hardware with 50 masters from all over the world!
 
@@ -1278,7 +1278,7 @@ all_events:
             Presenter: **Piotr Król** <br/>
 
             - [White papers](https://shop.3mdeb.com/wp-content/uploads/2021/06/TrenchBoot.pdf)
-            - [Misc](https://shop.shop.3mdeb.com/wp-content/uploads/2021/06/ELCE_PosterForm-A1.pdf)
+            - [Misc](https://shop.3mdeb.com/wp-content/uploads/2021/06/ELCE_PosterForm-A1.pdf)
 
     - title: "Platform Security **Summit**"
       status: ""

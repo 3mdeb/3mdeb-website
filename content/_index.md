@@ -39,27 +39,27 @@ cooperation_with_us:
   coop_lists:
     - title: "Contact Us"
       content: |
-        If you are interested in collaboration with 3mdeb, let us know by the <br/> [Contact Form](contact/) <br/> [Book a call](https://calendly.com/3mdeb)
+        If you are interested in collaboration with 3mdeb, let us know by the <br/> [Contact Form](/contact/) <br/> [Book a call](https://calendly.com/3mdeb)
 
     - title: "Complete the optional survey"
       content: |
-        You can receive an initial, customized survey on e-mail. Your answers will help us to prepare a Project Discovery for further cooperation. <br/> [Contact Us](contact/)
+        You can receive an initial, customized survey on e-mail. Your answers will help us to prepare a Project Discovery for further cooperation. <br/> [Contact Us](/contact/)
 
     - title: "Let’s Meet"
       content: |
-        In the next step, we will arrange a free meeting, during which we will answer your preliminary questions. <br/> [Contact Us](contact/)
+        In the next step, we will arrange a free meeting, during which we will answer your preliminary questions. <br/> [Contact Us](/contact/)
 
     - title: "Define the requirements"
       content: |
-        When agreed, on the basis of NDA contract, we will prepare a Project Discovery within 5-10 working days. Having it all set, we will contact you to discuss an initial plan of cooperation. <br/> [Contact Us](contact/)
+        When agreed, on the basis of NDA contract, we will prepare a Project Discovery within 5-10 working days. Having it all set, we will contact you to discuss an initial plan of cooperation. <br/> [Contact Us](/contact/)
 
     - title: "Discuss the project plan"
       content: |
-        In the next step, we will present a full project design, including quote. At this stage, we will be able to clarify the list of requirements and prepare the terms of the contract. <br/> [Contact Us](contact/)
+        In the next step, we will present a full project design, including quote. At this stage, we will be able to clarify the list of requirements and prepare the terms of the contract. <br/> [Contact Us](/contact/)
 
     - title: "Sign a contract"
       content: |
-        After signing the contract, we will proceed to the implementation of the project, informing you about the progress. <br/> [Contact Us](contact/)
+        After signing the contract, we will proceed to the implementation of the project, informing you about the progress. <br/> [Contact Us](/contact/)
 
     - title: "Verify the received product"
       content: |

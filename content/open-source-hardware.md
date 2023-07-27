@@ -188,7 +188,7 @@ products:
 
           **[For more details check OpenVizsla specification](https://cloud.3mdeb.com/index.php/s/jj2r8kwBYsNBgEW)**
 
-          {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/shop/product/openvizsla" >}}
+          {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/product-category/open-source-hardware/" >}}
 
   - title: "RTE"
     product_image: "images/open-source-hardware/rte-remote-testing-environment.png"
