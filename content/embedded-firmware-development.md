@@ -80,7 +80,7 @@ reference_platforms:
       * Rockchip RK3066, RK3288
       * Texas Instruments AM335x, CC3100/CC3200, CC2541/CC2650, MSP430
 
-    images: 
+    images:
       - "images/open-source-hardware/intel-1.png"
       - "images/open-source-hardware/amd-2.png"
       - "images/open-source-hardware/nxp-3.png"
@@ -103,7 +103,7 @@ reference_platforms:
       * x86
       * x86\_64
 
-    images: 
+    images:
 
   - content: |
       ## Things that we do for fun:
@@ -120,7 +120,7 @@ reference_platforms:
       *   Hardware-backed crypto authentication (TPM, Microchip ECC508A)
       *   OpenSSL and OpenSSL engines
 
-    images: 
+    images:
       - "images/training/yocto.png"
       - "images/used-technology/buildroot.jpg"
       - "images/used-technology/python.png"

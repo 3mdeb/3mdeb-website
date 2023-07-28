@@ -241,7 +241,7 @@ all_events:
           youtube_video_id: ""
           additional_info: |
             Presentation **#1**  <br>
-            Topic: **Enabling UEFI Secure Boot on x86 platform with Yocto - getting started with meta-secure-core**  <br> 
+            Topic: **Enabling UEFI Secure Boot on x86 platform with Yocto - getting started with meta-secure-core**  <br>
             Presenters: **Tomasz Żyjewski**
 
             * [**Direct link**](https://summit.yoctoproject.org/yocto-project-summit-2022-11/talk/KJDAFF/)
@@ -789,7 +789,7 @@ all_events:
           youtube_video_id: "18M8iO36vSs"
           additional_info: |
             Presentation **#1**  <br>
-            Topic: **Open Source Firmware status on AMD platforms 2021** 
+            Topic: **Open Source Firmware status on AMD platforms 2021**
             Presenter: **Piotr Król, Marek Kasiewicz**
 
             * [**Direct link**](https://archive.fosdem.org/2021/schedule/event/firmware_osfsoap2/)

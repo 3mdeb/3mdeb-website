@@ -1,0 +1,3 @@
+[codespell]
+skip = *.svg,*.pl.md,themes/3mbed/assets/*.js
+ignore-words-list = "doubleclick"

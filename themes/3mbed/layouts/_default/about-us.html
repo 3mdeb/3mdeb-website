@@ -133,7 +133,7 @@
         </div>
       </div>
       <div class="col-lg-7 mx-auto">
-        <div class="testimonial-slider overflow-hidden position-relative"> 
+        <div class="testimonial-slider overflow-hidden position-relative">
             <div class="swiper-wrapper">
               {{ range .testimonials }}
               <div class="swiper-slide">
@@ -142,7 +142,7 @@
                 </div>
               </div>
               {{ end }}
-            </div> 
+            </div>
             <div class="swiper-pagination">
             </div>
         </div>
@@ -164,7 +164,7 @@
           <h2 class="fw-semibold">{{.title | markdownify}}</h2>
         </div>
       </div>
-      <div class="col-lg-7 mx-auto"> 
+      <div class="col-lg-7 mx-auto">
         {{ partial "image.html" (dict "Src" .map_image "Alt" (.title | plainify) "Class" "mb-5" "Webp" false "Resize" false) }}
       </div>
     </div>
@@ -190,7 +190,7 @@
           <h2 class="fw-semibold">{{.title | markdownify}}</h2>
         </div>
       </div>
-      <div class="col-lg-8 mx-auto d-flex flex-column"> 
+      <div class="col-lg-8 mx-auto d-flex flex-column">
         {{ range .organizations }}
         <div class="row flex-column flex-md-row align-items-center align-items-md-start" style="padding-top:60px" id="{{.section_id}}">
           <div class="col-8 col-md-4 p-4">

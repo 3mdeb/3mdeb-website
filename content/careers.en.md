@@ -25,11 +25,11 @@ careers:
   icon: "images/careers/stairs.png"
   content: |
     At 3mdeb, we always seek passionate and driven individuals interested in open-source, technology, and security. We are dedicated to open-source and have a cypherpunk and libre philosophy in mind. We believe in the power of collaboration and welcome individuals who understand and share that approach. Whether you are an Embedded Firmware Developer, an Embedded Systems Developer, a Hardware Validation Developer, an Office Assistant, a Sales Manager, a Marketing Specialist, or a Project Manager, we welcome individuals who share our values and philosophy and can contribute to our team in various ways.
-  
+
     For technical candidates, we put a strong emphasis on their contributions to open-source. We want to work with individuals who have a proven track record of contributing to open-source projects, whether it's through bug fixes, code contributions, or community support.
 
-    To make it easier for you to join our R&D team, here are some tips for success: 
-    
+    To make it easier for you to join our R&D team, here are some tips for success:
+
     * Share the results of your work with us and show us your code. If you have already contributed to open-source projects, be sure to tell us about them during the recruitment interview. We'd love to see the results of your work, so feel free to send or show us your repository with your CV.
 
     * Show us what tools and programming languages you know. Check out our project details and source code in our repositories:
@@ -80,7 +80,7 @@ current_openings:
         Please note that although the skills and technologies listed above are highly valued for this position; we understand that not every candidate will have experience with all of them. We welcome candidates who are passionate about open-source and resonate with our company culture, regardless of their level of experience with specific technologies. Whether you have experience working with firmware, operating systems, or other aspects of embedded development, we believe that with passion and authenticity, we can teach the necessary skills to the right candidate. So, if you're excited about working with us and making a difference in the open-source community, we encourage you to apply, even if you only have experience with some of the technologies listed. Our company values continuous learning and growth, and we are committed to supporting our team members in developing their skills and pursuing their career goals.
 
         We offer the opportunity to work on open-source projects and collaborate with the community of world-class industry leaders as well as work with some of the most prominent vendors to build your own portfolio through contributions. As a team member, you'll impact the product and its final shape with opportunities for professional development, flexible working hours, and employment conditions.
-    
+
         We also provide training and certification to help our team members build their skills and advance in their careers. Our comprehensive benefits package includes medical care, financial support for sports cards, group insurance, and the ability to work in a hybrid or fully remote system, depending on individual arrangements.
 
         In addition, we offer opportunities to attend international open-source conferences, some of which we co-organize with other companies, providing our team members with a chance to showcase their skills and expertise. We also organize and host our community events, such as workshops and community calls, where team members can share their knowledge and network with other industry professionals.
@@ -88,7 +88,7 @@ current_openings:
         If you are passionate about open-source, enjoy a challenge, and value a supportive and collaborative work environment, apply and become a part of our team.
 
         Be a part of our mission to make a difference in the open-source community!
-        
+
   - title: "Hardware Validation **Developer/Engineer**"
     description:
     - title: "Requirements:"
@@ -129,7 +129,7 @@ current_openings:
         * Ability to use a logic state analyzer and oscilloscope 
         * Knowledge of Linux systems and the git tool 
         * Knowledge of Python
-        
+
   - title: "Electronics **Technician**"
     description:
     - title: "Requirements:"
@@ -170,7 +170,7 @@ current_openings:
         * Experience in PCB design
         * Ability to use a logic analyzer and oscilloscope
         * Experience in creating BOM's
-        
+
   - title: "Sales **Engineer**"
     description:
     - title: "Requirements:"
@@ -180,7 +180,7 @@ current_openings:
         * Fluent communication skills in English (working with English-speaking customers),
         * Analytical, technical thinking skills and ability to solve technical problems,
         * Ability to accurately assess the actual needs and potential of the customer,
-        * Determination to achieve goals, 
+        * Determination to achieve goals,
         * Independence and good organization of own work,
         * Commitment, initiative, and willingness to learn.
 
@@ -203,10 +203,10 @@ current_openings:
         * Attractive performance-based salary (base + sales commission),
         * Influence on the direction of development of the Sales & Marketing department,
         * Friendly atmosphere without corporate processes,
-        * Opportunity to travel to industry conferences around the world, 
+        * Opportunity to travel to industry conferences around the world,
         * Co-financing for training and certification,
         * Medical care,
-        * Group insurance, 
+        * Group insurance,
         * Co-financing for sports cards,
         * An incentive bonus system,
         * Opportunity to participate in the Employee Referral Program,
@@ -288,9 +288,9 @@ team_visions:
         A powerful vision statement stays with you, such as Disney’s “to make people happy” or Instagram’s “capture and share the world’s moments.” But for many companies, vision statements are relegated to unassuming posters in the office lobby or staff lounge, forgotten even before they are hung up. OSFV vision should not only be meaningful to leverage the team engagement, but also throw light on its specifics for potential members. This document describes the purpose of creating open-source firmware Validation Team, its vision concluded with strategy and its members’ possible career development paths.
 
       intro: |
-        We understand what **the software should do** <br> 
+        We understand what **the software should do** <br>
         and have enough knowledge **to verify it does.**
-        
+
       about_this_vision:
         - image: "images/careers/writing-notes-idea.jpg"
           title: "Introduction"
@@ -355,7 +355,7 @@ team_visions:
         the firmware is **its spinal column.** <br/>
         Any serious malfunction of it **paralyzes the whole organism.** <br/>
         What we do is making firmware **as hard to break as possible.** <br/>
-        
+
       about_this_vision:
         - image: "images/careers/writing-notes-idea.jpg"
           title: "Introduction"
@@ -413,7 +413,7 @@ team_visions:
 
       intro: |
         **We prepare a whole system from a scratch, make it secure,** <br>  stable and last, but not least let it reach extraordinary performance
-        
+
       about_this_vision:
         - image: "images/careers/writing-notes-idea.jpg"
           title: "Introduction"
@@ -450,20 +450,20 @@ team_visions:
         - image: "images/careers/notebook.jpg"
           title: "Everyday **challenges**"
           content: |
-            * embedded systems development and debugging 
-            * hardware issues resolving 
-            * porting computers to open-source firmware and operating systems 
-            * contribution to open-source projects 
-            * reverse engineering 
-            * security analysis 
-            * self-verification 
-            * documentation creation 
+            * embedded systems development and debugging
+            * hardware issues resolving
+            * porting computers to open-source firmware and operating systems
+            * contribution to open-source projects
+            * reverse engineering
+            * security analysis
+            * self-verification
+            * documentation creation
             * porting newly created solutions to existing environments
 
         - image: "images/careers/silhouette-of-man.jpg"
           title: "Full **readiness**"
           content: |
-            Embedded topics are typically vast and the time required for full readiness may reach even years. The most important for an embedded systems engineer is self-improvement. Time spent on reading additional specifications and standards, getting to know new technologies and hardware pays off.  
+            Embedded topics are typically vast and the time required for full readiness may reach even years. The most important for an embedded systems engineer is self-improvement. Time spent on reading additional specifications and standards, getting to know new technologies and hardware pays off.
 
             For junior (or rather inexperienced candidate) it should take 3 to 6 months to achieve basic readiness to work as a firmware engineer at 3mdeb. While for regular engineer the time required is estimated to 1 month to be capable of working as a self-reliant person.
 

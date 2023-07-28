@@ -19,7 +19,7 @@ open_source_hardware_features:
       First of all – it maximizes the ability of third-party programmers and partners to work with a given device. In most cases, hardware manufacturers provide only a basic level of programmability by releasing software development kits (SDKs) or limited documentation about hardware specifications. Sometimes additional hardware information is available through partner programs. But with open source hardware, all information is freely available to the public.
 
       If you wondered sometimes does your webcam is spying on you, or someone is listening in your microphone the main reason is that you’re not sure about all the possible features of these devices. That’s another big advantage of open hardware – you know exactly what the device is doing and how it works. If you understand it in a sufficient degree you can develop it, add features and customize it to infinity
-      
+
   - image: "images/open-source-hardware/tpm-2.png"
     content: |
       ## If it is Open Source, why are you selling it?
@@ -36,7 +36,7 @@ open_source_hardware_features:
       ## What can we do?
       {.h3}
 
-      Let’s imagine you have a business solution, an IoT device that will make life easier, and your wallet thicker. You know what you want, but you don’t have enough resources or knowledge to make it work. We have both. Prepare with our help a project charter that will describe your expectations, and we will create the device from scratch, develop firmware and integrate it with IoT. We’ll prepare all the documentation required to implement industrial manufacturing and maintain further development of your project.  
+      Let’s imagine you have a business solution, an IoT device that will make life easier, and your wallet thicker. You know what you want, but you don’t have enough resources or knowledge to make it work. We have both. Prepare with our help a project charter that will describe your expectations, and we will create the device from scratch, develop firmware and integrate it with IoT. We’ll prepare all the documentation required to implement industrial manufacturing and maintain further development of your project.
 
       Sometimes you already have your product, but there are some modifications required. Maybe they will affect your firmware and make it obsolete. We can also help in this matter. It could happen, that you had to improve the security of your hardware. Yes, we also can do that.
 
@@ -58,7 +58,7 @@ open_source_hardware_features:
 reference_platforms_for:
     title: "We have reference platforms for:"
     subtitle: "Hardware hands-on experience (CPU/SoC):"
-    lists: 
+    lists:
         - |
           * AMD embedded G Series SoCs
             * Steppe Eagle
@@ -110,20 +110,20 @@ products:
         content: |
           ## muxPi v1.4
           {.h3}
-          
+
           **The highest density of interfaces per square meter for a decent price**
 
           MuxPi is an open hardware device consists of two main parts:
 
           * Main board
           * NanoPi NEO
-            
+
           MuxPi might be considered as some kind of motherboard for NanoPi NEO SBC but it can operate without NanoPi NEO. However, in such a scenario its functionality is heavily reduced.
 
           The primary purpose of the muxPi board is to enable fully remote work with devices being tested, where hardware setup can be separated from the developer. The main advantage of this board is a large number of various interfaces, making muxPi very versatile testing board.
 
           MuxPi is equipped with many interfaces to interfere with the user and the Device Under Test: UART, USB, ETH, microSD card, dedicated Samsung USB interface, HDMI, LED display, push buttons and LEDs.
-          
+
           {{< image src="images/open-source-hardware/nanopi-1.png" alt="nanopi" >}}
           {{< image src="images/open-source-hardware/usb.png" alt="usb" >}}
 
@@ -155,7 +155,7 @@ products:
       - image: "images/open-source-hardware/OpenVizsla-usb2.0-analyzer.png"
         content: |
           ## OpenVizsla v3.2
-          {.h3} 
+          {.h3}
 
           **USB traffic catching has never been easier!**
 
@@ -163,13 +163,13 @@ products:
           * Provides streaming out a textual representation of USB traffic to stdout
           * Indispensable in debugging USB devices
 
-            
+
           ##### OpenVizsla is an open hardware USB 2.0 sniffer and analyzer that provides user ability to see all the data flow between a host and target device.
 
           One of the useful application of OpenVizsla is a collection of bursty data that is possible by special buffer memory. It allows the capture and inspection of USB traffic and helps with the reverse engineering and debugging of proprietary USB devices. It also can be a valuable tool for developers working with USB and especially those who are using USB in embedded designs.
 
-          **[Explore examples of using OpenVizsla by visiting our Blog](https://blog.3mdeb.com/2019/2019-04-24-usb-sniffing-with-openvizsla/)** 
-          
+          **[Explore examples of using OpenVizsla by visiting our Blog](https://blog.3mdeb.com/2019/2019-04-24-usb-sniffing-with-openvizsla/)**
+
           {{< image src="images/open-source-hardware/usb.png" alt="usb-logo" >}}
 
       - image:
@@ -206,8 +206,8 @@ products:
 
           We developed RTE to enable programmers from around the world at a low level firmware development without hassle of expensive and bloated remote Keyboard-Video-Mouse devices.
 
-          In the result we have a tool which makes easier work with firmware debugging tasks. With RTE, your everyday work routines become much faster and easier to maintain from places not related to current setup location. Those include debugging tasks, flashing firmware, controlling GPIOs and power management for Device Under Test.  
-          
+          In the result we have a tool which makes easier work with firmware debugging tasks. With RTE, your everyday work routines become much faster and easier to maintain from places not related to current setup location. Those include debugging tasks, flashing firmware, controlling GPIOs and power management for Device Under Test.
+
           {{< image src="images/used-technology/linux-logo.png" alt="linux-logo" class="d-inline-block me-4" >}}
 
           {{< image src="images/open-source-hardware/orange.png" alt="orange" class="d-inline-block me-4" >}}
@@ -228,7 +228,7 @@ products:
 
           {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/shop/product/rte/" >}}
 
-  
+
   - title: "TPM modules"
     product_image: "images/open-source-hardware/TPM-2.0-Trusted-Platform-Module.png"
     product_description:
@@ -239,8 +239,8 @@ products:
 
           > In anticipation of emerging trusted platform module (TPM) product capabilities, as well as requirements for device identification, authentication, encryption, measurement, and device integrity, DoD Components will ensure new computer assets (e.g., server, desktop, laptop, thin client, tablet, smartphone, personal digital assistant, mobile phone) procured to support DoD will include a TPM version 1.2 or higher where required by DISA STIGs and where such technology is available.
 
-          US Department of Defence  
-          [**Instruction NUMBER 8500.01**](https://cloud.3mdeb.com/index.php/s/J8THR9XYHNgrw4w)  
+          US Department of Defence
+          [**Instruction NUMBER 8500.01**](https://cloud.3mdeb.com/index.php/s/J8THR9XYHNgrw4w)
           March 14, 2014
 
           **TPM (Trusted Platform Module)** is an international standard for a secure cryptoprocessor, a dedicated microcontroller designed to secure hardware through integrated cryptographic keys.
@@ -263,7 +263,7 @@ products:
 
       - image: "images/open-source-hardware/TPM2.0-Trusted-Platform-Module.jpg"
         content: |
-          ## TPM2 compatibility  
+          ## TPM2 compatibility
           and firmware update
           {.h3}
 
@@ -284,5 +284,5 @@ products:
           * Supports the LPC interface and interrupts are communicated with the serial interrupt (SERIRQ) protocol
 
           {{< button label="CHECK AVAILABILITY" link="https://shop.3mdeb.com/shop/product/tpm2" >}}
-      
+
 ---

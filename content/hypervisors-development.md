@@ -17,7 +17,7 @@ introduction:
     We can distinguish two kinds of hypervisors:
 
     *   **Type 1 –** deployed directly atop the system’s hardware without any underlying operating systems or other software. These are called “bare metal” hypervisors and are the most common and popular type of hypervisor.
-    *   **Type 2 –** run as a software layer atop a host operating system and are usually called “hosted” hypervisors (their performance is significantly lower than Type 1 hypervisors). 
+    *   **Type 2 –** run as a software layer atop a host operating system and are usually called “hosted” hypervisors (their performance is significantly lower than Type 1 hypervisors).
 
 
 hypervisors_usage:

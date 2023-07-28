@@ -18,7 +18,7 @@ service_catalogues:
         ## [OSFV Service Catalogue](https://cloud.3mdeb.com/index.php/s/fARxPgKHeDmjQsm)
         {.h3}
 
-        Huge responsibilities of Validation Team in a project delivery process are something worth mentioning. One may say that the validation part of the successful product deployment is not as great as we claim, but we are not changing our minds. We focus on verification every, even the smallest project requirement and preparing detailed customer documentation and final reports. Check out our catalogue with many reference projects and technologies in which we have experience.        
+        Huge responsibilities of Validation Team in a project delivery process are something worth mentioning. One may say that the validation part of the successful product deployment is not as great as we claim, but we are not changing our minds. We focus on verification every, even the smallest project requirement and preparing detailed customer documentation and final reports. Check out our catalogue with many reference projects and technologies in which we have experience.
     image: ""
 
   - content: |

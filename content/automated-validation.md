@@ -36,7 +36,7 @@ regression_testing:
       *   new features have been implemented
       *   there is a change in the embedded firmware framework version (for example coreboot version)
       *   there is a change in the specification that embedded firmware relies upon on (for example UEFI, ACPI, SMBIOS)
-      
+
   - content: |
       ## Key features
       {.h3}
@@ -114,5 +114,5 @@ supporting_technologies:
   - "images/automated-validation/tech/xen.png"
   - "images/automated-validation/tech/intel.png"
 
-  
+
 ---

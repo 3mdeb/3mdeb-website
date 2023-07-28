@@ -24,7 +24,7 @@ banner:
   - title: "Careers"
     image: "images/banner/careers.jpg"
     link: "careers/"
-    
+
   - title: "Training"
     image: "images/banner/training.jpg"
     link: "training/"
@@ -80,7 +80,7 @@ where_we_do:
   - title: "Open Source <br> **Software**"
     icon: "images/services/software.png"
     link: "open-source-software/"
-    
+
   - title: "Open Source <br> **Hardware**"
     icon: "images/services/hardware.png"
     link: "open-source-hardware/"
@@ -129,15 +129,15 @@ we_are_registered:
   - title: "Yocto <br> **Participants**"
     icon: "images/registered/yocto.png"
     link: "about-us/#yocto-participants"
-    
+
   - title: "Licensed provider for quality <br> **coreboot consulting services**"
     icon: "images/registered/coreboot.png"
     link: "about-us/#coreboot-consultants"
-    
+
   - title: "LVFS <br> **consultant**"
     icon: "images/registered/lvfs.png"
     link: "about-us/#lvfs-consultants"
-    
+
   - title: "OpenPOWER <br> **Foundation members**"
     icon: "images/registered/openpower.png"
     link: "about-us/#openpower-foundation-members"
