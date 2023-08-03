@@ -118,5 +118,5 @@ features_and_mission:
 
   - title: "Our mission"
     content: |
-      **[Contact us](/contact/)** if you have a startup or more mature company in the IoT area. We are able to build IoT embedded firmware from scratch, enable all features detailed in a project charter, and validate it. If you want to further develop your device, we can provide constant support and [**full regression service**.](https://cloud.3mdeb.com/index.php/s/ZibPXHjnkHfd7ne)
+      **[Contact us](https://3mdeb.com/contact/)** if you have a startup or more mature company in the IoT area. We are able to build IoT embedded firmware from scratch, enable all features detailed in a project charter, and validate it. If you want to further develop your device, we can provide constant support and [**full regression service**.](https://cloud.3mdeb.com/index.php/s/ZibPXHjnkHfd7ne)
 ---

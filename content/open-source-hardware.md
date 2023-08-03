@@ -49,7 +49,7 @@ open_source_hardware_features:
 
       Size of our company makes us flexible and agile, our hardware and embedded engineers will fully cooperate for your satisfaction, and all the resources will be allocated efficiently. We are continuously enlarging our potential to handle more and more sophisticated projects.
 
-      Check our satisfied clients, projects we participate, and **[contact us.](/contact/)**
+      Check our satisfied clients, projects we participate, and **[contact us.](https://3mdeb.com/contact/)**
 
       [**Congratulations, you have just found the solution**.](/)
       {{< image src="images/markets/aws.png" alt="aws" class="d-block mx-auto">}}

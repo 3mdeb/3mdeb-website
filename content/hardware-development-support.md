@@ -48,7 +48,7 @@ why_us:
 
     We have decent experience in continuous collaboration with hardware companies, like i.e. **[PC Engines](https://pcengines.github.io/)**, our engineers have mastered countless technologies, we’ve got proper infrastructure and we are capable of rebuild or modify device for purpose of enhancing its possibilities.
 
-    If you are looking for a partner for a long term hardware project, you’ve just found it. Don’t waste your time, and **[contact us](/contact/)**, or **[book a call](https://calendly.com/3mdeb)**.
+    If you are looking for a partner for a long term hardware project, you’ve just found it. Don’t waste your time, and **[contact us](https://3mdeb.com/contact/)**, or **[book a call](https://calendly.com/3mdeb)**.
 
   image: "images/hardware-security/pcengines.png"
 

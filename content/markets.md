@@ -30,7 +30,7 @@ customer:
 
     Interested in what are we doing? Check out our **[Blog](https://blog.3mdeb.com/)** and follow us on **[Twitter](https://twitter.com/3mdeb_com)** and **[Facebook](https://www.facebook.com/3mdeb)**.
 
-    If you have any doubts or questions, please **[contact us](/contact/)** or **[schedule a call](https://calendly.com/3mdeb)**.
+    If you have any doubts or questions, please **[contact us](https://3mdeb.com/contact/)** or **[schedule a call](https://calendly.com/3mdeb)**.
 
     <br>
 
