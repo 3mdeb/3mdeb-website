@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<section class="page-header" {{ partial `bg-image.html` (dict `Src` "/images/events/header-bg.jpg" ) | safeHTMLAttr }}>
+<section class="page-header" {{ partial `bg-image.html` (dict `Src` "images/events/header-bg.jpg" ) | safeHTMLAttr }}>
   <div class="container">
     <h1>Events</h1>
   </div>
@@ -56,7 +56,7 @@
               {{ else }}
               <li class="mb-1">{{.title | markdownify}}</li>
               {{ end }}
-              
+
               {{ end }}
             </ul>
           </div>

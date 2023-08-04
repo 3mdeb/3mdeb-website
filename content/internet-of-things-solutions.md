@@ -36,10 +36,10 @@ introductions:
 
 technologies:
   title: "Technologies supporting IoT"
-  images: 
+  images:
     - "images/internet-things/supporting-technologies/node-js.png"
     - "images/internet-things/supporting-technologies/react-logo.png"
-    - "images/internet-things/supporting-technologies/docker-logo.png" 
+    - "images/internet-things/supporting-technologies/docker-logo.png"
     - "images/internet-things/supporting-technologies/aws-logo.png"
     - "images/internet-things/supporting-technologies/azure-logo.png"
     - "images/internet-things/supporting-technologies/git-logo.png"
@@ -115,8 +115,8 @@ features_and_mission:
       *   We’ll enable security features that will make the whole system a fortress, secured with cryptographic keys to ensure you, that your data won’t be changed or stolen. We have hands-on experience with Hardware Security Modules (such as TPM or Microchip ECC) integration and our security standards refer to US Department of Defence Instructions.
       *   Our Validation Team, which is a group of exceptionally experienced and gifted specialists, will make a full bunch of stress tests, that will verify the product in the most tricky boundary conditions.
       *   An over-the-air (OTA) update is a mechanism for remotely updating internet-connected hardware with new settings, software, and/or firmware. It’s incredibly important for such an update to be secure and verified. It may be unpleasant to be locked outside a rental property by bricked smart lock, but imagine a horror being a driver of a car that is remotely controlled by hackers. And yes, we can prepare IoT solutions that consist of secure OTA update for both the node and the gateway.
-    
+
   - title: "Our mission"
-    content: | 
-      **[Contact us](/contact/)** if you have a startup or more mature company in the IoT area. We are able to build IoT embedded firmware from scratch, enable all features detailed in a project charter, and validate it. If you want to further develop your device, we can provide constant support and [**full regression service**.](https://cloud.3mdeb.com/index.php/s/ZibPXHjnkHfd7ne)
+    content: |
+      **[Contact us](https://3mdeb.com/contact/)** if you have a startup or more mature company in the IoT area. We are able to build IoT embedded firmware from scratch, enable all features detailed in a project charter, and validate it. If you want to further develop your device, we can provide constant support and [**full regression service**.](https://cloud.3mdeb.com/index.php/s/ZibPXHjnkHfd7ne)
 ---

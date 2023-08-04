@@ -17,7 +17,7 @@ introduction:
     We can distinguish two kinds of hypervisors:
 
     *   **Type 1 –** deployed directly atop the system’s hardware without any underlying operating systems or other software. These are called “bare metal” hypervisors and are the most common and popular type of hypervisor.
-    *   **Type 2 –** run as a software layer atop a host operating system and are usually called “hosted” hypervisors (their performance is significantly lower than Type 1 hypervisors). 
+    *   **Type 2 –** run as a software layer atop a host operating system and are usually called “hosted” hypervisors (their performance is significantly lower than Type 1 hypervisors).
 
 
 hypervisors_usage:
@@ -62,7 +62,7 @@ why_3mdeb:
   content: |
     3mdeb took a part of many projects where embedded hypervisors were a part of the system. We are familiar with building hypervisors using **[Bareflank](https://bareflank.github.io/hypervisor/)**, [**ACRN**](https://projectacrn.org/) and other technologies, and adjusting system tables to make it work correctly. Moreover, we can combine it in an environment with coreboot and our dedicated firmware, what can provide you a complete, fully operational system.
 
-    Don’t waste your precious time! **[Contact Us](/contact/)** or [**book a call**.](https://calendly.com/3mdeb)
+    Don’t waste your precious time! **[Contact Us](https://3mdeb.com/contact/)** or [**book a call**.](https://calendly.com/3mdeb)
 
   technologies:
     - "images/hypervisor/acrn.jpg"

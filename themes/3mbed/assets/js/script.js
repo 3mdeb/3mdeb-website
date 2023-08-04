@@ -59,7 +59,7 @@
     });
   });
 
-  // Open accordian and scroll to accordion
+  // Open accordion and scroll to accordion
   let headerHeight = document.querySelector("header").offsetHeight;
   let accordionBtns = document.querySelectorAll(".accordion-button");
   accordionBtns.forEach((btn) => {
@@ -75,7 +75,7 @@
     });
   });
 
-  // Open accordian and scroll to event accordion
+  // Open accordion and scroll to event accordion
   let eventlinks = document.querySelectorAll(".accordion-links-wrapper a");
 
   eventlinks.forEach((link) => {
