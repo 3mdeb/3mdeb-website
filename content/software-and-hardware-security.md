@@ -24,7 +24,7 @@ introduction:
 
     **But why should you buy a fish, if you can buy a fishing rod?**
 
-    **[3mdeb](/)** is also a training provider. We can prepare you a boot camp, where you and your staff will learn how to deal with all the security issues. We are experienced trainers and have a lot of training materials. If you are interested just [**contact us**](/contact/) or **[book a call](https://calendly.com/3mdeb)**.
+    **[3mdeb](/)** is also a training provider. We can prepare you a boot camp, where you and your staff will learn how to deal with all the security issues. We are experienced trainers and have a lot of training materials. If you are interested just [**contact us**](https://3mdeb.com/contact/) or **[book a call](https://calendly.com/3mdeb)**.
   images:
     - "images/open-source-hardware/microchip.png"
     - "images/coreboot.png"
@@ -50,5 +50,5 @@ how_to_improve_security:
     ## How to enhance your Security?
     {.h3}
 
-    Simple. Just **[contact us](/contact/)** and prepare a project charter. Then send us your device. First of all we’ll test it for any security issues, then we’ll suggest hardware and software solutions that will increase its security (and stability, and performance and so on…). We’ll use our offensive security validation to prove the improvement, and we’ll be happy to follow you during developing process.
+    Simple. Just **[contact us](https://3mdeb.com/contact/)** and prepare a project charter. Then send us your device. First of all we’ll test it for any security issues, then we’ll suggest hardware and software solutions that will increase its security (and stability, and performance and so on…). We’ll use our offensive security validation to prove the improvement, and we’ll be happy to follow you during developing process.
 ---

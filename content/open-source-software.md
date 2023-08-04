@@ -9,15 +9,15 @@ layout: "open-source-software"
 open_source_software_feature:
   image: "images/services/software.png"
   content: |
-    Tired of severely vulnerable closed, non-free software?  
-    Want your hardware to reach new summits of performance, stability, and security?  
-    Let our specialists take it over, and dare to imagine the unimaginable.  
+    Tired of severely vulnerable closed, non-free software?
+    Want your hardware to reach new summits of performance, stability, and security?
+    Let our specialists take it over, and dare to imagine the unimaginable.
 
     **Our firmware and embedded teams can create really sophisticated, custom solutions for your hardware.**
 
 familiar_with:
     title: "We are familiar with:"
-    lists: 
+    lists:
       - |
         * Amazon Web Services integration for Embedded Applications
         * BSP Development (Yocto, Buildroot, custom)
@@ -50,7 +50,7 @@ used_technology:
     - "images/used-technology/cplus.png"
     - "images/used-technology/linux-logo.png"
     - "images/used-technology/go.png"
-    - "images/used-technology/c.png" 
+    - "images/used-technology/c.png"
 
 message:
   content: |

@@ -46,7 +46,7 @@ trainings:
     buttons: |
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/7Bt72SWnJ2GnCQq">}}
-      
+
   - title: "Building and Development &nbsp; **of Embedded Linux Systems**"
     image: "images/training/linux.png"
     overview: |
@@ -84,7 +84,7 @@ trainings:
     buttons: |
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/ooHTPK6D5Cym5kX">}}
-      
+
   - title: "OST2 Arch4001, Arch4021, TC3001, TC3011, TC3211 &nbsp; **- Intel Root of Trust training**"
     image: "images/training/ost2.png"
     overview: |
@@ -98,7 +98,7 @@ trainings:
       *   Workshops using Intel Skylake-based COMe module showing the process of enabling Boot Guard and practical examples of its features
 
     audience: |
-      Experienced software and security engineers.  
+      Experienced software and security engineers.
       Up to **10 participants** per session.
 
     duration: |
@@ -110,7 +110,7 @@ trainings:
     language: "English"
     buttons: |
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
-      
+
   - title: "OST2 Arch2001, Arch4001, Arch4021 &nbsp; **- System Security training**"
     image: "images/training/ost2.png"
     overview: |
@@ -128,7 +128,7 @@ trainings:
       *   Introduction to Roots of Trust and Trusted Computing Technologies
 
     audience: |
-      Beginner software and security engineers.  
+      Beginner software and security engineers.
       Up to **8 participants** per session.
 
 
@@ -141,7 +141,7 @@ trainings:
     language: "English"
     buttons: |
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
-      
+
   - title: "Yocto Project &nbsp; **Development**"
     image: "images/training/yocto.png"
     overview: |
@@ -183,7 +183,7 @@ trainings:
     buttons: |
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/DRW89CQo366JAPB">}}
-      
+
   - title: "UEFI &nbsp; **offensive security**"
     image: "images/registered/uefi.png"
     overview: |
@@ -216,7 +216,7 @@ trainings:
     buttons: |
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/Ta4DCfXsxbDaX7c">}}
-      
+
   - title: "UEFI &nbsp; **advanced concepts**"
     image: "images/registered/uefi.png"
     overview: |
@@ -243,7 +243,7 @@ trainings:
     buttons: |
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/8e6Dp27c9QXyMbR">}}
-      
+
   - title: "UEFI &nbsp; **fundamentals**"
     image: "images/registered/uefi.png"
     overview: |
@@ -305,7 +305,7 @@ trainings:
     buttons: |
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/M3RqcjGCTnXn2Rc">}}
-   
+
 faq:
   title: "Frequently asked **questions**"
   faqs:
@@ -316,7 +316,7 @@ faq:
         pace = speed
         pace = pacing, synchronization with something else, e.g. open and closed information streams
         pace = customized pace of course for each customer/audience
-        
+
         The meaning of PET can also be explained as Privacy Enhancing Technologies.
 
     - title: "Value proposition"

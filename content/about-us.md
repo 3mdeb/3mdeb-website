@@ -12,10 +12,10 @@ table_of_contents:
 
   - icon: "images/about-us/customer.png"
     title: "Partners & <br> **Customers**"
-    
+
   - icon: "images/about-us/testimonial.png"
     title: "Clients <br> **Testimonials**"
-    
+
   - icon: "images/about-us/hands.png"
     title: "We Are <br> **Registered**"
 
@@ -51,23 +51,23 @@ our_team:
       designation: "Vice President"
       image: "images/team/ewa.krol_.png"
       top_rank: true
-      
+
     - name: "Maciej <br> **Pijanowski**"
       designation: "Engineering Manager"
       image: "images/team/maciej.pijanowski.png"
-      
+
     - name: "Małgorzata <br> **Werecka-Styba**"
       designation: "Director of Finance and Administration"
       image: "images/team/małgorzata-styba-1.jpg"
-      
+
     - name: "Michał <br> **Żygowski**"
       designation: "Firmware Engineer"
       image: "images/team/michał-Żygowski.png"
-      
+
     - name: "Artur <br> **Raglis**"
       designation: "Project Manager"
       image: "images/team/artur.png"
-      
+
     - name: "Rafał <br> **Kochanowski**"
       designation: "Senior Project Manager"
       image: "images/team/rafal.png"
@@ -132,7 +132,7 @@ we_are_registered:
       The Unified Extensible Firmware Interface (UEFI) is a specification that defines a software interface between an operating system and platform firmware. UEFI replaces the Basic Input/Output System (BIOS) firmware interface originally present in all IBM PC-compatible personal computers, with most UEFI firmware implementations providing legacy support for BIOS services. UEFI can support remote diagnostics and repair of computers, even with no operating system installed.
 
       Intel developed the original Extensible Firmware Interface (EFI) specification. Some of the EFI’s practices and data formats mirror those from Microsoft Windows. In 2005, UEFI deprecated EFI 1.10 (the final release of EFI). The Unified EFI Forum is the industry body that manages the UEFI specification.
-    
+
   - title: "Licensed provider for quality **coreboot consulting services**"
     icon: "images/registered/coreboot.png"
     section_id: "coreboot-consultants"
@@ -143,14 +143,14 @@ we_are_registered:
 
       One of the coreboot variants is Libreboot, a variant of coreboot aiming to be fully free of proprietary blobs.
 
-    
+
   - title: "LVFS **consultant**"
     icon: "images/registered/lvfs.png"
     section_id: "lvfs-consultants"
     content: |
       The Linux Vendor Firmware Service is a secure portal that brings together firmware updates uploaded by renowned hardware vendors. The LVFS provides reliable firmware alongside with the detailed metadata for clients such as GNOME Software or fwupdmgr for controlling updates remotely through a terminal. There is no charge to vendors for the hosting or distribution of content and open source nature of this project provides additional value to the market with contributors from dozens of people from different companies. Consulting companies can offer advice on specific request implementation or help with custom plugins integration for fwupd allowing different protocols to be supported. We have experience in introducing new solutions (libflashrom API and fwupd flashrom plugin) into the current LVFS ecosystem and are not afraid to accept the most demanding firmware security challenges. We can become the maintainer of the firmware for your platform at any time!
 
-    
+
   - title: "OpenPOWER **foundation members**"
     icon: "images/registered/openpower.png"
     section_id: "openpower-foundation-members"

@@ -7,9 +7,9 @@ keywords: [""]
 draft: false
 ---
 
-Here is an example of headings. You can use this heading by the following markdown rules. For example: use `#` for heading 1 and use `######` for heading 6.
-
-# Heading 1
+Here is an example of headings. You can use this heading by the following
+markdown rules. For example: use `##` for heading 2 and use `######` for
+heading 6.
 
 ## Heading 2
 
@@ -20,8 +20,6 @@ Here is an example of headings. You can use this heading by the following markdo
 ##### Heading 5
 
 ###### Heading 6
-
-<hr>
 
 ### Emphasis
 
@@ -35,8 +33,6 @@ Strike through uses two tildes. ~~Scratch this.~~
 
 {{< button "hello" "#" >}}
 
-<hr>
-
 ### Link
 
 [I'm an inline-style link](https://www.google.com)
@@ -45,7 +41,7 @@ Strike through uses two tildes. ~~Scratch this.~~
 
 [I'm a reference-style link][Arbitrary case-insensitive reference text]
 
-[I'm a relative reference to a repository file](../events)
+[I'm a relative reference to a repository file](events.md)
 
 [You can use numbers for reference-style link definitions][1]
 
@@ -61,13 +57,9 @@ Some text to show that the reference links can follow later.
 [1]: https://gethugothemes.com
 [link text itself]: https://www.getjekyllthemes.com
 
-<hr>
-
 ### Paragraph
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.
-
-<hr>
+Some example text here.
 
 ### Ordered List
 
@@ -77,8 +69,6 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 4. List item
 5. List item
 
-<hr>
-
 ### Unordered List
 
 * List item
@@ -86,8 +76,6 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 * List item
 * List item
 * List item
-
-<hr>
 
 ### Tab
 
@@ -145,8 +133,6 @@ echo "Hello World!"
 {{< /tab >}}
 {{< /tabs >}}
 
-<hr>
-
 ### Collapse
 
 {{< collapse "Why should you need to do this?" >}}
@@ -170,8 +156,6 @@ echo "Hello World!"
 * Lorem ipsum dolor sit amet consectetur
 {{< /collapse >}}
 
-<hr>
-
 ### Code and Syntax Highlighting
 
 This is an `Inline code` sample.
@@ -186,27 +170,13 @@ s = "Python syntax highlighting"
 print s
 ```
 
-<hr>
-
 ### Blockquote
 
 > This is a blockquote example.
 
-<hr>
-
 ### Inline HTML
 
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
-<hr>
+Avoid using inline html.
 
 ### Tables
 
@@ -227,26 +197,43 @@ Markdown | Less | Pretty
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
-<hr>
-
 ### Image
 
-{{< image src="images/favicon.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
-
-<hr>
+{{< image
+    src="images/favicon.png"
+    caption="" alt="alter-text"
+    height="" width=""
+    position="center"
+    command="fill"
+    option="q100"
+    class="img-fluid"
+    title="image title"
+    webp="false" >}}
 
 ### Gallery
 
-{{< gallery dir="images/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
-
-<hr>
+{{< gallery
+    dir="images/gallery"
+    class=""
+    height="400"
+    width="400"
+    webp="true"
+    command="Fit"
+    option=""
+    zoomable="true" >}}
 
 ### Youtube video
 
 {{< youtube ResipmZmpDU >}}
 
-<hr>
-
 ### Custom video
 
-{{< video src="https://www.w3schools.com/html/mov_bbb.mp4" width="500" height="auto" autoplay="false" loop="false" muted="false" controls="true" class="" >}}
+{{< video
+    src="<https://www.w3schools.com/html/mov_bbb.mp4>"
+    width="500"
+    height="auto"
+    autoplay="false"
+    loop="false"
+    muted="false"
+    controls="true"
+    class="" >}}

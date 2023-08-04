@@ -30,10 +30,10 @@ customer:
 
     Interested in what are we doing? Check out our **[Blog](https://blog.3mdeb.com/)** and follow us on **[Twitter](https://twitter.com/3mdeb_com)** and **[Facebook](https://www.facebook.com/3mdeb)**.
 
-    If you have any doubts or questions, please **[contact us](/contact/)** or **[schedule a call](https://calendly.com/3mdeb)**.
+    If you have any doubts or questions, please **[contact us](https://3mdeb.com/contact/)** or **[schedule a call](https://calendly.com/3mdeb)**.
 
     <br>
-    
+
     {{< image src="images/partners/libretrend.png" alt="libretrend" class="d-block d-md-inline mx-auto" >}}
     {{< image src="images/partners/protectli.png" alt="protectli" class="d-block d-md-inline mx-auto" >}}
 
@@ -42,8 +42,8 @@ industrial:
   title: "Industrial"
   icon: "images/markets/industrial.png"
   content: |
-    Smart Manufacturing or Industry 4.0 are terms often used to refer to the trend of bringing IoT technology to the manufacturing industry. Industry 4.0 enables and supports new scenarios in manufacturing where humans, machines, production lines, software systems, and the products themselves communicate and cooperate with each other in real time to enable decentralized decision making and a self-organized production. 
-    
+    Smart Manufacturing or Industry 4.0 are terms often used to refer to the trend of bringing IoT technology to the manufacturing industry. Industry 4.0 enables and supports new scenarios in manufacturing where humans, machines, production lines, software systems, and the products themselves communicate and cooperate with each other in real time to enable decentralized decision making and a self-organized production.
+
     The basic idea is that devices used in the industry connect cloud using a gateway, exchange data (which may be instructions for the devices), and the cloud communicates with end users via API. An end user may be a person or another device.
 
   security_and_auditability:
@@ -67,7 +67,7 @@ industrial:
     - title: "Embedded Linux"
       image: "images/used-technology/linux.png"
       link: "https://elinux.org/Main_Page"
-      
+
     - title: "Docker on ARM platforms"
       image: "images/used-technology/docker.png"
       link: "https://www.docker.com/"
@@ -75,7 +75,7 @@ industrial:
     - title: "Xen"
       image: "images/used-technology/xen.png"
       link: "https://xenproject.org/"
-      
+
     - title: "coreboot"
       image: "images/used-technology/coreboot.png"
       link: "https://www.coreboot.org/consulting.html"
@@ -109,7 +109,7 @@ iot_embedded:
     image: "images/markets/aws.png"
     content: |
       3mdeb have decent experience in support IoT companies by creating embedded firmware, that allows the real-time connection, data transfer, online control, and system upgrades. All of that secured with cryptographic keys to ensure You, that none of Your data will be changed or stolen.
-      
+
       We are engaged in AWS IoT development from begging of that service and even used Thing Fabric from 2lementry, which was acquired by Amazon and transformed into AWS IoT. We know all necessary concepts, like Thing Shadow, MQTT and gained enough experience to design a correct system, which lead us to be leaders in embedded systems integration with AWS IoT.
 
   why_us:
@@ -142,6 +142,6 @@ safety_and_mission_critical:
     image: "images/careers/computer-hands-on-laptop.jpg"
     content: |
       <b>Our specialty</b>. We put a great emphasis on the professional ethics involved in balancing these IoT considerations. We use a wide range of sophisticated technologies, both server-side and client-side encryption using the most trusted methods, hardware protection and very deep validation of our firmware to make it reliable. We trust in our products because we know what we are doing.
-    
+
 
 ---

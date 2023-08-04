@@ -26,7 +26,7 @@ careers:
   title: "Praca"
   icon: "images/careers/stairs.png"
   content: |
-    Jesteśmy uznaną na całym świecie firmą konsultingową zajmującą się rozwojem oprogramowania wbudowanego, która wykorzystuje lata doświadczeń w branży, aby zapewnić innowacyjne usługi. Pomagamy projektantom oraz producentom sprzętu w osiągnięciu pełnego potencjału, bezpieczeństwa i niezawodności dostarczanych produktów.  
+    Jesteśmy uznaną na całym świecie firmą konsultingową zajmującą się rozwojem oprogramowania wbudowanego, która wykorzystuje lata doświadczeń w branży, aby zapewnić innowacyjne usługi. Pomagamy projektantom oraz producentom sprzętu w osiągnięciu pełnego potencjału, bezpieczeństwa i niezawodności dostarczanych produktów.
     Nasz zespół składa się z inżynierów, programistów, pasjonatów ze społeczności oprogramowania open source, otwartego oprogramowania sprzętowego, prelegentów konferencyjnych oraz ludzi, którzy uwielbiają majsterkować niskopoziomowo ale też osób nietechnicznych, dla których temat prywatności i bezpieczeństwa nie jest obojętny.
     <br> <br>
     Jeśli chcesz stać się jego częścią, daj nam się poznać i aplikuj.
@@ -125,7 +125,7 @@ current_openings:
         *   Znajomość narzędzi do budowania systemów opartych o Linux (Yocto, Buildroot)
         *   Znajomość Docker oraz narzędzi CI/CD (GitLab CI, Travis)
         *   Zaangażowanie w społeczności open-source
-        
+
   - title: "Hardware Validation **Developer/Engineer**"
     description:
     - title: "Wymagania:"
@@ -168,7 +168,7 @@ current_openings:
         *   Umiejętność korzystania z analizatora stanów logicznych oraz oscyloskopu 
         *   Znajomość obsługi systemów Linux i narzędzia git 
         *   Znajomość Python’a
-        
+
   - title: "Technik **Elektronik**"
     description:
     - title: "Wymagania:"
@@ -208,7 +208,7 @@ current_openings:
         *   Doświadczenie przy projektowaniu płytek PCB
         *   Umiejętność korzystania z analizatora stanów logicznych oraz oscyloskopu
         *   Doświadczenie przy tworzeniu BOM’u
-        
+
   - title: "Office **Assistant**"
     description:
     - title: "Wymagania:"
@@ -394,7 +394,7 @@ team_visions:
 
       intro: |
         Rozumiemy, co oprogramowanie **powinno robić i wiemy,** <br> jak sprawdzić, że faktycznie **robi to co powinno.**
-        
+
       about_this_vision:
         - image: "images/careers/writing-notes-idea.jpg"
           title: "Wprowadzenie"
@@ -435,7 +435,7 @@ team_visions:
             *   konfiguracja i wsparcie długoterminowe sprzętu stosowanego w walidacji (RTE, MuxPi)
             *   utrzymanie testów regresji cyklicznej
             *   uzupełnianie i ustawianie zestawów testowych
-            *   automatyzacja wielu aspektów codziennej pracy (bash scripts, Dockerfiles,  
+            *   automatyzacja wielu aspektów codziennej pracy (bash scripts, Dockerfiles,
                 etc.)
             *   proces dokumentowania usterek (szczegółowy opis dla szybszego rozwoju)
             *   przygotowanie przejrzystej dokumentacji końcowej dla klientów
@@ -456,13 +456,13 @@ team_visions:
       content: |
 
       intro: |
-          Jeżeli CPU możemy nazwać sercem **systemu wbudowanego,**  
-          to analogicznie, firmware **będzie jego kręgosłupem.**  
-          I tak jak każde uszkodzenie kręgosłupa **paraliżuje organizm,**  
-          jego poważna usterka **paraliżuje cały system.**  
-          Naszym zadaniem jest uczynienie go **przy pomocy zabezpieczeń**  
+          Jeżeli CPU możemy nazwać sercem **systemu wbudowanego,**
+          to analogicznie, firmware **będzie jego kręgosłupem.**
+          I tak jak każde uszkodzenie kręgosłupa **paraliżuje organizm,**
+          jego poważna usterka **paraliżuje cały system.**
+          Naszym zadaniem jest uczynienie go **przy pomocy zabezpieczeń**
           tak trudnym do złamania, **jak to tylko możliwe.**
-        
+
       about_this_vision:
         - image: "images/careers/writing-notes-idea.jpg"
           title: "Wprowadzenie"
@@ -521,7 +521,7 @@ team_visions:
 
       intro: |
         **Tworzymy wbudowane systemy operacyjne od zera tak,** <br> żeby były bezpieczne, stabilne i ekstremalnie wydajne.
-        
+
       about_this_vision:
         - image: "images/careers/writing-notes-idea.jpg"
           title: "Wprowadzenie"
@@ -562,7 +562,7 @@ team_visions:
             *   rozwiązywanie problemów sprzętowych
             *   przenoszenie ("portowanie") komputerów do otwartego oprogramowania sprzętowego
             *   wkład w projekty open-source
-            *   inżynieria odwrotna (reverse engeneering)
+            *   inżynieria odwrotna (reverse engineering)
             *   analiza zabezpieczeń
             *   autoweryfikacja
             *   tworzenie dokumentacji
@@ -571,7 +571,7 @@ team_visions:
           title: "Osiągnięcie **samodzielności**"
           content: |
             Tematy związane z embedded są zazwyczaj obszerne, a czas niezbędny do osiągnięcia pełnej gotowości może wynosić nawet kilka lat. Najważniejszym dla inżyniera systemów wbudowanych jest samodoskonalenie. Czas poświęcony na czytanie dodatkowych specyfikacji i standardów, zapoznanie się z nowymi technologiami i sprzętem na pewno się opłaci.
-                        
+
             Dla młodszych (lub raczej niedoświadczonych) kandydatów powinno to zająć od 3 do 6 miesięcy, aby osiągnąć podstawową gotowość do pracy jako inżynier systemów wbudowanych w 3mdeb. Natomiast dla inżynierów na poziomie "regular" szacujemy ,że 1 miesiąc jest wystarczającym czasem, aby być w stanie pracować samodzielnie.
 
 cta:
