@@ -202,6 +202,12 @@ weight = 5
 
 [[main]]
 parent = "News"
+name = "Newest Video"
+url = "newest-video/"
+weight = 15
+
+[[main]]
+parent = "News"
 name = "Press Releases"
 url = "press-releases/"
 weight = 10
