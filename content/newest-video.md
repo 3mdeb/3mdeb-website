@@ -34,6 +34,8 @@ on the role of open source in shaping the digital landscape.
 
 ## Release date: August 13, 2023, 6:00PM UTC+2
 
+### Polish language + English subtitles for a global audience
+
 {{< youtube wDiLGMqoc6c >}}
 
 ---
