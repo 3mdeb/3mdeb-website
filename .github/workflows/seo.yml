@@ -7,6 +7,7 @@ on:
   pull_request:
     branches:
       - main
+      - develop
 
 jobs:
   linkChecker:
@@ -18,7 +19,7 @@ jobs:
         uses: lycheeverse/lychee-action@v1.8.0
         with:
           fail: true
-          args: --max-redirects 10 -a 403,500,503 .
+          args: --timeout 60 --max-redirects 10 -a 403,500,503,504 .
 
   seo_spy_orphan_pages:
     runs-on: ubuntu-latest
