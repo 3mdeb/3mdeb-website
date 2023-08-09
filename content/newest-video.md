@@ -9,9 +9,9 @@ draft: false
 
 Following video is an insightful and thought-provoking documentary film that
 delves into the intricate world of technology's true liberation through
-open source firmware. Mateusz Chrobok takes his audiences on a captivating
-journey through the realms of open-source software and hardware, exploring
-the profound impact it has on our digital lives.
+open source firmware. [Mateusz Chrobok](https://www.youtube.com/@MateuszChrobok)
+takes his audiences on a captivating journey through the realms of open-source
+software and hardware, exploring the profound impact it has on our digital lives.
 With a unique focus on the Polish tech scene, the film presents the role of
 Dasharo and 3mdeb as a significant participants  in the open source firmware
 domain.
