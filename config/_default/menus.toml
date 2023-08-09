@@ -202,7 +202,7 @@ weight = 5
 
 [[main]]
 parent = "News"
-name = "Newest Video"
+name = "Why we fight for freedom?"
 url = "newest-video/"
 weight = 15
 
