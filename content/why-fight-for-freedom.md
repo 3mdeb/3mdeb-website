@@ -1,5 +1,5 @@
 ---
-title: "Why we fight for freedom?"
+title: "Why fight for freedom?"
 description: ""
 image: "images/operating-system.jpg"
 draft: false
