@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+{{ partial "components/page-header.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+        <div class="content">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ with .Params.thumbnail }}
+  {{ if .enable }}
+  {{ $image := resources.Get .img }}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+        <img src="{{ $image.RelPermalink }}">
+      </div>
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
+  {{ with .Params.ctavideo }}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+        <div class="content">
+          {{ .content | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</section>
+
+{{ partial "components/cta.html" (dict "Context" . "Class" "bg-light") }}
+
+{{ end }}
