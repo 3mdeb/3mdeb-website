@@ -14,7 +14,7 @@
   </div>
   {{ with .Params.thumbnail }}
   {{ if .enable }}
-  {{ $image := resources.Get "images/newest-video/why-fight-for-freedom.png" }}
+  {{ $image := resources.Get .img }}
   <div class="container">
     <div class="row">
       <div class="col-md-10 mx-auto">
