@@ -245,16 +245,21 @@ url = "/terms-conditions/"
 weight = 1
 
 [[footer]]
+name = "Dasharo Terms of Service"
+url = "/dasharo-terms-of-service/"
+weight = 5
+
+[[footer]]
 name = "Privacy Policy"
 url = "/privacy-policy/"
-weight = 5
+weight = 10
 
 [[footer]]
 name = "Return & Refund Policy"
 url = "/return-refund-policy/"
-weight = 10
+weight = 15
 
 [[footer]]
 name = "Contact Us"
 url = "/contact/"
-weight = 15
+weight = 20
