@@ -22,7 +22,9 @@ repos:
     rev: v0.34.0
     hooks:
       - id: markdownlint
+        args: [-c.markdown.yaml]
       - id: markdownlint-fix
+        args: [-c.markdown.yaml]
 
   - repo: https://github.com/talos-systems/conform
     rev: v0.1.0-alpha.27
@@ -35,6 +37,10 @@ repos:
     rev: v2.2.4
     hooks:
       - id: codespell
+        args: [
+          -L,
+          'regon'
+        ]
 
   - repo: local
     hooks:

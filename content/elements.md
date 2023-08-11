@@ -23,11 +23,9 @@ heading 6.
 
 ### Emphasis
 
-The emphasis, aka italics, with *asterisks* or *underscores*.
-
 Strong emphasis, aka bold, with **asterisks** or **underscores**.
 
-The combined emphasis with **asterisks and *underscores***.
+The combined emphasis with **asterisks and _underscores_**.
 
 Strike through uses two tildes. ~~Scratch this.~~
 
@@ -194,7 +192,7 @@ raw Markdown line up prettily. You can also use inline Markdown.
 
 Markdown | Less | Pretty
 --- | --- | ---
-*Still* | `renders` | **nicely**
+_Still_ | `renders` | **nicely**
 1 | 2 | 3
 
 ### Image
