@@ -57,7 +57,6 @@ draft: false
     the terms specified in the document available at
     <https://3mdeb.com/privacy-policy/>.
 
-
 ---
 
 ### § 2. Rights and obligations
@@ -107,7 +106,6 @@ b) they will not use the Services to obtain assistance for the purpose of
 
 c) they will not use the Services for the unlawful depletion of any public
    receivables, e.g. for the purpose of committing a criminal tax offense.
-
 
 ---
 
@@ -226,7 +224,6 @@ c) they will not use the Services for the unlawful depletion of any public
     after prior notification of the delay setting a deadline for its removal and
     ineffective expiry of this deadline.
 
-
 ---
 
 ### § 5. Costs and date of shipment
@@ -265,7 +262,6 @@ c) they will not use the Services for the unlawful depletion of any public
     failure to comply with the Service Provider\'s instructions may prevent or
     hinder and prolong the implementation of the Service.
 
-
 ---
 
 ### § 6. Guarantee
@@ -302,12 +298,13 @@ b) No traces of Customer interference in the platform or any element of the
 a) Service Recipient accesses the latest version of Dasharo and an exclusive
    newsletter containing curated content and invaluable insights relevant to
    their interests and requirements:
-   - comprehensive and meaningful release notes,
-   - in-depth feature documentation,
-   - initial deployment and update procedures,
-   - Software Bill of Materials (SBOM) details,
-   - Compliant Supply Chain Information,
-   - full access to Test Results Spreadsheet and test logs;
+
+- comprehensive and meaningful release notes,
+- in-depth feature documentation,
+- initial deployment and update procedures,
+- Software Bill of Materials (SBOM) details,
+- Compliant Supply Chain Information,
+- full access to Test Results Spreadsheet and test logs;
 
 b) Service Recipient receives special updates, including early access to updates
    enhancing privacy, security, performance, and compatibility. These updates
