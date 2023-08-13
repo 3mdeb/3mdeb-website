@@ -5,8 +5,7 @@ image: "images/operating-system.jpg"
 draft: false
 layout: newest-video
 thumbnail:
-  enable: true
-  img: "images/newest-video/why-fight-for-freedom.png"
+  enable: false
 ctavideo:
   content: |
     ---
@@ -54,10 +53,6 @@ the film raises essential questions about the accessibility, security,
 and sustainability of modern technology while offering a fresh perspective
 on the role of open source in shaping the digital landscape.
 
-<!--
-## Release date: August 13, 2023, 6:00PM UTC+2
-
 ### Polish language + English subtitles for a global audience
 
 {{< youtube wDiLGMqoc6c >}}
--->
