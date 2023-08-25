@@ -284,7 +284,7 @@ all_events:
       date: "09-11.09.2022"
       event_poster: "images/events/2022/QubesOS_summit_2022-1024x724.png"
       additional_info: |
-        ### Qubes OS summit 2022 [**Official Page**](https://qubesos.3mdeb.com/)
+        ### Qubes OS summit 2022 [**Official Page**](https://vpub.dasharo.com/o/1)
         Full schedule: [link](https://cfp.3mdeb.com/qubes-os-summit-2022/schedule/)
 
       # segments:
