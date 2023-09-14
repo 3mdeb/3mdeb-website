@@ -14,12 +14,12 @@ events_download:
 all_events:
   - year: "Up**coming**"
     events:
-    - title: "FOSDEM **2023**"
+    - title: "Dasharo User Group (DUG) #3 **& Developers vPub 0x8**"
       status: "upcoming"
-      date: "04-05.02.2022"
-      event_poster: "images/events/fosdem.jpeg"
+      date: "28.09.2023"
+      event_poster: "images/events/2023/dug3.jpg"
       additional_info: |
-        ### FOSDEM 2023 [**Official Page**](https://fosdem.org/2023/)
+        ### DUG #3 [**Official Page**](https://vpub.dasharo.com/e/8/dasharo-user-group-3)
 
       # segments:
       segments:
@@ -202,6 +202,22 @@ all_events:
       date: ""
       event_poster: ""
       additional_info: |
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+
+  - year: "20**23**"
+    events:
+    - title: "FOSDEM **2023**"
+      status: "upcoming"
+      date: "04-05.02.2022"
+      event_poster: "images/events/fosdem.jpeg"
+      additional_info: |
+        ### FOSDEM 2023 [**Official Page**](https://fosdem.org/2023/)
 
       # segments:
       segments:
