@@ -213,7 +213,7 @@ all_events:
   - year: "20**23**"
     events:
     - title: "FOSDEM **2023**"
-      status: "upcoming"
+      status: ""
       date: "04-05.02.2022"
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
