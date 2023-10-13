@@ -218,52 +218,45 @@ current_openings:
         * Practical knowledge of the IT industry,
         * Knowledge of Jira and Git tools.
 
-  - title: "Internship"
+  - title: "Open-Source **Intern Program**"
     description:
     - title: "Description:"
       content: |
-        Do you want to combine your studies with work experience in focused an open-source solutions and dynamic IT organization and help bring groundbreaking, technology-based capabilities to life?
+        🌟 Join Our Open-Source Intern Program at 3mdeb! 🌟
 
-        If so, apply for a unique work experience to join our team of IT professionals using IT and business skills daily.
+        **At 3mdeb, we believe in the power of open-source software and the vibrant communities that drive innovation.** Open-source encourages collaboration among individuals and organizations. It allows people from diverse backgrounds and locations to work together on projects, leading to the development of high-quality software, tools, and solutions.
 
-        We consistently search for passionate and motivated individuals with a keen interest in open-source and technology. We value open-source culture because it emphasizes transparency, collaboration, and community-driven development. We love sharing ideas, knowledge, expertise and encourage people to contribute to our projects in meaningful ways.
+        **3mdeb is a leading advocate for open-source technology, committed to fostering collaboration and pushing the boundaries of what's possible. Our community comprises programmers, engineers, and enthusiasts who share a common goal: to create impactful open-source projects.**
 
-        It makes us happy that open-source culture has become increasingly popular in the tech industry, where it has led to the creation of much successful software products and platforms. However, it is also being embraced by other fields, such as science, education, and art, as a way to foster creativity, innovation, and inclusivity.
+        **We are thrilled to announce our Open-Source Intern Program,** designed to provide aspiring programmers and tech enthusiasts hands-on experience in the open-source world. **We want you to be a part of it!**
 
-        With years of industry experience, our small but globally recognized consultancy specializes in developing embedded firmware and providing innovative solutions. We strongly believe in the potential of collaboration and warmly welcome personalities who comprehend and embrace this approach.
+        Do you possess a sincere enthusiasm for technology, and are you ready to contribute to exciting open-source projects? You are the one we are waiting for!
 
-        Our preference is for open-source solutions, and we advise our clients to consider them as well.
+        **What's in Store for You as an Open-Source Intern:**
 
-        As an intern with us, you'll gain valuable experience working with cutting-edge technology and collaborating with a team of experienced professionals. Whether you're interested in programming, debugging or testing, we'll provide you with the tools and resources you need to succeed.
+        * Dive into engaging projects spanning diverse domains.
+        * Collaborate with experienced mentors and fellow interns.
+        * Learn about open-source best practices and development workflows.
+        * Make tangible contributions, be it through code, documentation, or other elements, to actual real-world projects.
+        * Develop a portfolio spotlighting your impactful contributions, a testament to your burgeoning skills in the field.
 
-        One of our departments (Embedded System Team, Firmware Team, Hardware Validation Team) will be assigned to you based on your interests and level of knowledge.
+        During your internship, you will have the opportunity to contribute to a diverse range of projects that encompass a broad spectrum of open-source technologies. **Your daily tasks will revolve around problem-solving, debugging, and documentation writing utilizing GitHub and Gitlab for version control, working with projects using Jira, and collaborating with other open-source tools.**
 
-        You will assist with a wide range of tasks, such as troubleshooting technical issues, interpreting and analyzing technical documentation and writing diagrams, diagnosing the condition of electronic components, and providing technical support to our hackers.
+        There are also many benefits:
 
-        Do you have the soul of a hacker in you? Do you like to improve or design the code and solve complex security puzzles? Can you be characterized by a deep curiosity and fascination with technology? Can you be described as motivated by a desire to understand how systems work and to push the limits of what is possible?
+        * Valuable experience for your resume.
+        * Receive mentorship and guidance from seasoned developers.
+        * Expand your professional network by connecting with industry experts.
+        * Earn a certificate upon successful completion.
+        * Open doors to potential future collaborations and job prospects.
+        * Paid program.
+        * Adaptable scheduling to accommodate your academic obligations.
 
-        We strongly believe that information should not be owned or controlled by any one person or organization but should be freely available to developers who can copy and adapt this information, creating new open-source solutions. After all, that philosophy has led to open-source software development!
+        We are looking for individuals interested in software development, including students and recent graduates. **If you are an enthusiastic individual passionate about open-source projects, you are more than welcome!** People of all backgrounds and skill levels are encouraged to participate!
 
-        Throughout the weekdays ahead, you'll encounter a diverse array of challenges, including but not limited to:
+        To apply for our Open-Source Intern Program, please upload your CV to career@3mdeb.com. You can also upload any relevant work samples and write a brief statement of interest explaining why you're passionate about open source and what you hope to achieve through this program.
 
-        * analyzing processes running on embedded systems and working on their optimization,
-        * creation and maintenance of CI/CD pipeline,
-        * examining firmware and hardware performance problems at a granular level,
-        * evaluating and enhancing the security of low-level software and increasing the safety of laptops and other devices,
-        * integrating new features into embedded systems,
-        * engaging in documentation and reporting to track the advancement of your work.
-
-        Are you someone who has just stumbled upon a newfound interest in soldering? We can help you cultivate and enhance your skills in this field!
-
-        But it's not just about the technical skills! We also emphasize the development of soft critical skills such as communication, teamwork, and problem-solving. You'll have the opportunity to work on real-world projects and make meaningful contributions to our organization, all while building a solid foundation for your future career.
-
-        We also pride ourselves on the international character of the team, and we exchange experiences with top-class specialists in the open-source community. Plus - you will work with a team of supportive and friendly people who are passionate about their work.
-
-        This is a paid internship, and we offer flexible scheduling to accommodate your academic commitments.
-
-        Our company presents chances for team members to exhibit their proficiency and  capabilities by attending global open-source conferences. Some of these conferences are co-organized with well-organized international brands. Additionally, we conduct our own community events, including workshops and community calls, where industry experts can share knowledge and build professional connections.
-
-        So why wait? Start your journey towards a rewarding and fulfilling career in IT! See you soon!
+        Don't hesitate! **Apply today and seize the opportunity to dive into the open-source world, improve your skills, and make a significant impact.**
 
 apply_form:
   title: "Apply **now!**"
