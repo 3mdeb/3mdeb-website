@@ -12,10 +12,156 @@ events_download:
   link: "https://calendar.google.com/calendar/ical/events%403mdeb.com/public/basic.ics"
 
 all_events:
-  - year: "Up**coming**"
+  - year: "Upcoming **2023-2024**"
     events:
-    - title: "FOSDEM **2023**"
+    - title: "Dasharo User Group 0x4 **& Developers vPub 0x9**"
       status: "upcoming"
+      date: "07.12.2023"
+      event_poster: ""
+      additional_info: |
+        ### More info coming soon
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+
+    - title: "TPMdev **MiniConf**"
+      status: "upcoming"
+      date: "TBD"
+      event_poster: ""
+      additional_info: |
+        ### More info coming soon
+
+    - title: "FOSDEM **2024**"
+      status: "upcoming"
+      date: "03-04.02.2024"
+      event_poster: "images/events/fosdem.jpeg"
+      additional_info: |
+        ### FOSDEM 2024 [**Official Page**](https://fosdem.org/2024/)
+
+  - year: "20**23**"
+    events:
+    - title: "Qubes OS **Summit 2023**"
+      status: ""
+      date: "06-08.10.2023"
+      event_poster: "images/events/2023/qubes2023.png"
+      additional_info: |
+        ### Qubes OS Summit 2023 [**Official Page**](https://vpub.dasharo.com/e/9/qubes-os-summit-2023)
+
+      # segments:
+      segments:
+        - date: "06.10.2023"
+          image: ""
+          youtube_video_id: "_UxndcxIngw"
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Qubes OS Summit 2023 Day 1**  <br>
+
+            * [**Video**](https://www.youtube.com/live/_UxndcxIngw?si=wtZFUJ0o-qs9AuLC)
+
+        - date: "07.10.2023"
+          image: ""
+          youtube_video_id: "xo2BVTn7ohs"
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Qubes OS Summit 2023 Day 2**  <br>
+
+            * [**Video**](https://www.youtube.com/live/xo2BVTn7ohs?si=3N-5byETq1Mrmi-M)
+
+    - title: "Dasharo User Group 0x3 **& Developers vPub 0x8**"
+      status: ""
+      date: "28.09.2023"
+      event_poster: "images/events/2023/dug_3.jpg"
+      additional_info: |
+        ### Dasharo User Group #3 [**Official Page**](https://vpub.dasharo.com/e/8/dasharo-user-group-3)<br><br>
+
+        * Slides & Videos will be available on 15th of November
+
+    - title: "Dasharo User Group 0x2 **& Developers vPub 0x7**"
+      status: ""
+      date: "06.07.2023"
+      event_poster: "images/events/2023/dug_2.png"
+      additional_info: |
+        ### Dasharo User Group #2 [**Official Page**](https://vpub.dasharo.com/e/7/dasharo-user-group-2)<br><br>
+
+        * [**Slides**](http://dl.3mdeb.com/dasharo/dug/2/)
+        * [**Video**](https://www.youtube.com/live/ZyctrnJNTPc?si=aMLbG0yId0DYiZ6q)
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+
+    - title: "Yocto Project at **Embedded Open-Source Summit**"
+      status: ""
+      date: "26.06.2023"
+      event_poster: ""
+      additional_info: |
+        ### Yocto Project at Embedded Open-Source Summit 2023 [**Official Page**](https://www.yoctoproject.org/yocto-project-at-embedded-open-source-summit-2023/)
+
+      # segments:
+      segments:
+        - date: "26.06.2023"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Updates of Yocto-Based Projects: Effective strategies for ongoing maintenance**  <br>
+            Presenters: **Tomasz Żyjewski**
+
+            * [**Direct link**](https://www.yoctoproject.org/yocto-project-at-embedded-open-source-summit-2023/)
+            * [**Slides**](https://summit.yoctoproject.org/media/devday-at-eoss-2023/submissions/XZYTCW/resources/presentation_v1.1_R3aJg51.pdf)
+            * [**Video**](https://youtu.be/KeXh0kTkz_w?si=028QuKy0t3PMemda)
+
+        - date: "26.06.2023"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Unveiling OpenBMC: Exploring features and preparing the build environment**  <br>
+            Presenters: **Tomasz Żyjewski, Maciej Pijanowski**
+
+            * [**Direct link**](https://www.yoctoproject.org/yocto-project-at-embedded-open-source-summit-2023/)
+            * [**Slides**](https://summit.yoctoproject.org/media/devday-at-eoss-2023/submissions/JPX8ND/resources/Unveiling_OpenBMC__Exploring_features_a_xkqHpmo.pdf)
+            * [**Video**](https://youtu.be/ljQg8dnyhLU?si=WT_uQ6qmyVf1shgT)
+
+    - title: "Xen Developer **& Design Summit**"
+      status: ""
+      date: "24-26.06.2023"
+      event_poster: "images/events/2023/xen2023.png"
+      additional_info: |
+        ### Xen Developer & Design Summit [**Official Page**](https://events.linuxfoundation.org/xen-project-summit/)
+
+      # segments:
+      segments:
+        - date: "24.06.2023"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Paving the Path for TrenchBoot DRTM in Xen Hypervisor**  <br>
+            Presenters: **Michał Żygowski**
+
+            * [**Direct link**](https://events.linuxfoundation.org/xen-project-summit/program/schedule/)
+            * [**Slides**](https://static.sched.com/hosted_files/xen2023/e6/Paving%20the%20Path%20for%20TrenchBoot%20DRTM%20in%20Xen%20Hypervisor.pdf)
+
+    - title: "Dasharo User Group 0x1 **& Developers vPub 0x6**"
+      status: ""
+      date: "16.03.2023"
+      event_poster: "images/events/2023/dug_1.png"
+      additional_info: |
+        ### Dasharo User Group #1 [**Official Page**](https://vpub.dasharo.com/e/1/dasharo-user-group-1)<br><br>
+
+        * [**Slides**](http://dl.3mdeb.com/dasharo/dug/1/)
+        * [**Video**](https://www.youtube.com/live/fUfjWyljKNs?si=E6uc0RRx6bOFVM8x)
+
+    - title: "FOSDEM **2023**"
+      status: ""
       date: "04-05.02.2022"
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
@@ -23,192 +169,41 @@ all_events:
 
       # segments:
       segments:
-        - date: ""
+        - date: "05.02.2023"
           image: ""
           youtube_video_id: ""
           additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Open Source Firmware status on AMD platforms 2023 - 4th edition**  <br>
+            Presenters: **Michał Żygowski**
 
-    - title: "Dasharo Code Lab Q1'23"
-      status: "upcoming"
-      date: ""
-      event_poster: ""
-      additional_info: |
+            * [**Direct link**](https://archive.fosdem.org/2023/schedule/event/osf_amd_4th/)
+            * [**Slides**](https://archive.fosdem.org/2023/schedule/event/osf_amd_4th/attachments/slides/5853/export/events/attachments/osf_amd_4th/slides/5853/Open_Source_Firmware_status_on_AMD_platforms_2023_4th_edition.pdf)
+            * [**Video**](https://video.fosdem.org/2023/K.4.201/osf_amd_4th.webm)
 
-      # segments:
-      segments:
-        - date: ""
+        - date: "05.02.2023"
           image: ""
           youtube_video_id: ""
           additional_info: |
+            Presentation **#2**  <br>
+            Topic: **Overview of Secure Boot state in the ARM-based SoCs - 2nd edition**  <br>
+            Presenters: **Tomasz Żyjewski**
 
-    - title: "Dasharo Community Corner Q1'23"
-      status: "upcoming"
-      date: ""
-      event_poster: ""
-      additional_info: |
+            * [**Direct link**](https://archive.fosdem.org/2023/schedule/event/arm_secure_boot_2/)
+            * [**Slides**](https://archive.fosdem.org/2023/schedule/event/arm_secure_boot_2/attachments/slides/5852/export/events/attachments/arm_secure_boot_2/slides/5852/Overview_of_Secure_Boot_in_Arm_based_SoCs_2nd_Edition.pdf)
+            * [**Video**](https://video.fosdem.org/2023/K.4.201/arm_secure_boot_2.webm)
 
-      # segments:
-      segments:
-        - date: ""
+        - date: "05.02.2023"
           image: ""
           youtube_video_id: ""
           additional_info: |
+            Presentation **#3**  <br>
+            Topic: **Trustworthy Platform Module - An attempt to create open-source firmware for TPM**  <br>
+            Presenters: **Maciej Pijanowski**
 
-    - title: "OST Community Call vol.1"
-      status: "upcoming"
-      date: ""
-      event_poster: ""
-      additional_info: |
-
-      # segments:
-      segments:
-        - date: ""
-          image: ""
-          youtube_video_id: ""
-          additional_info: |
-
-    - title: "TPMdev 2023 MiniConf"
-      status: "upcoming"
-      date: ""
-      event_poster: ""
-      additional_info: |
-
-      # segments:
-      segments:
-        - date: ""
-          image: ""
-          youtube_video_id: ""
-          additional_info: |
-
-    - title: "Dasharo Code Lab Q2'23"
-      status: "upcoming"
-      date: ""
-      event_poster: ""
-      additional_info: |
-
-      # segments:
-      segments:
-        - date: ""
-          image: ""
-          youtube_video_id: ""
-          additional_info: |
-
-    - title: "Dasharo Community Corner Q2'23"
-      status: "upcoming"
-      date: ""
-      event_poster: ""
-      additional_info: |
-
-      # segments:
-      segments:
-        - date: ""
-          image: ""
-          youtube_video_id: ""
-          additional_info: |
-
-    - title: "Qubes OS Summit 2023"
-      status: "upcoming"
-      date: ""
-      event_poster: ""
-      additional_info: |
-
-      # segments:
-      segments:
-        - date: ""
-          image: ""
-          youtube_video_id: ""
-          additional_info: |
-
-    - title: "Dasharo Community Corner Q3'23"
-      status: "upcoming"
-      date: ""
-      event_poster: ""
-      additional_info: |
-
-      # segments:
-      segments:
-        - date: ""
-          image: ""
-          youtube_video_id: ""
-          additional_info: |
-
-    - title: "Platform Security Summit 2023"
-      status: "upcoming"
-      date: ""
-      event_poster: ""
-      additional_info: |
-
-      # segments:
-      segments:
-        - date: ""
-          image: ""
-          youtube_video_id: ""
-          additional_info: |
-
-    - title: "Open Source Firmware Conference"
-      status: "upcoming"
-      date: ""
-      event_poster: ""
-      additional_info: |
-
-      # segments:
-      segments:
-        - date: ""
-          image: ""
-          youtube_video_id: ""
-          additional_info: |
-
-    - title: "Dasharo Code Lab Q4'23"
-      status: "upcoming"
-      date: ""
-      event_poster: ""
-      additional_info: |
-
-      # segments:
-      segments:
-        - date: ""
-          image: ""
-          youtube_video_id: ""
-          additional_info: |
-
-    - title: "OST Community Call vol. 2"
-      status: "upcoming"
-      date: ""
-      event_poster: ""
-      additional_info: |
-
-      # segments:
-      segments:
-        - date: ""
-          image: ""
-          youtube_video_id: ""
-          additional_info: |
-
-    - title: "Dasharo Community Corner Q4'23"
-      status: "upcoming"
-      date: ""
-      event_poster: ""
-      additional_info: |
-
-      # segments:
-      segments:
-        - date: ""
-          image: ""
-          youtube_video_id: ""
-          additional_info: |
-
-    - title: "Dasharo Code Lab Q1'23"
-      status: "upcoming"
-      date: ""
-      event_poster: ""
-      additional_info: |
-
-      # segments:
-      segments:
-        - date: ""
-          image: ""
-          youtube_video_id: ""
-          additional_info: |
+            * [**Direct link**](https://archive.fosdem.org/2023/schedule/event/twpm_osf_tpm/)
+            * [**Slides**](https://archive.fosdem.org/2023/schedule/event/twpm_osf_tpm/attachments/slides/5728/export/events/attachments/twpm_osf_tpm/slides/5728/Trustworthy_Platform_Module_An_attempt_to_create_open_source_firmware_for_TPM.pdf)
+            * [**Video**](https://video.fosdem.org/2023/K.4.201/twpm_osf_tpm.webm)
 
   - year: "20**22**"
     events:
@@ -217,7 +212,7 @@ all_events:
       date: "09.12.2022"
       event_poster: "images/events/2022/hackathon.png"
       additional_info: |
-        ### 3mdeb Hackathon [**Official Page**](https://hackathon.3mdeb.com/)
+        ### 3mdeb Hackathon [**Official Page**](https://hackathon.3mdeb.com/)<br><br>
         The best place to know more about open-source firmware and coreboot and why you should try it.
 
       # segments:
@@ -284,7 +279,7 @@ all_events:
       date: "09-11.09.2022"
       event_poster: "images/events/2022/QubesOS_summit_2022-1024x724.png"
       additional_info: |
-        ### Qubes OS summit 2022 [**Official Page**](https://vpub.dasharo.com/o/1)
+        ### Qubes OS summit 2022 [**Official Page**](https://vpub.dasharo.com/o/1)<br><br>
         Full schedule: [link](https://cfp.3mdeb.com/qubes-os-summit-2022/schedule/)
 
       # segments:
@@ -359,7 +354,7 @@ all_events:
 
             * [**Slides**](https://shop.3mdeb.com/wp-content/uploads/2022/08/Dasharo-OSF-vPub-Spring-2022-aka-3mdeb-vPub-vol.-5.pdf)
 
-    - title: "FOSDEM 2022"
+    - title: "FOSDEM **2022**"
       status: ""
       date: "05-06.02.2022"
       event_poster: "images/events/fosdem.jpeg"
@@ -460,11 +455,6 @@ all_events:
 
     - title: "TrenchBoot **Developers Forum**"
       status: ""
-      date: "16.11.2021"
-      event_poster: "images/events/2021/hqdefault.jpg"
-      additional_info: |
-        ### TrenchBoot Developers Forum
-
       # segments:
       segments:
         - date: "16.11.2021"
@@ -537,7 +527,7 @@ all_events:
       date: "20-24.09.2021"
       event_poster: "images/events/2021/index.jpeg"
       additional_info: |
-        ### Linux Plumbers Conference [Official Page](https://lpc.events/event/11/)
+        ### Linux Plumbers Conference **[Official Page](https://lpc.events/event/11/)**<br><br>
 
         - [System Boot and Security Microconference](https://www.linuxplumbersconf.org/blog/2021/index.php/2021/07/29/system-boot-and-security-microconference-accepted-into-2021-linux-plumbers-conference/)
 
@@ -607,7 +597,7 @@ all_events:
       date: "24.06"
       event_poster: ""
       additional_info: |
-        ### OpenPOWER Community Call
+        ### OpenPOWER Community Call<br><br>
 
         - [Agenda / Notes](https://pad.riseup.net/p/Mf9UCB4ui4YPH4CFhGeD-keep)
 
@@ -719,7 +709,7 @@ all_events:
       date: "07.05.2021"
       event_poster: "images/events/2021/E0xnJ-IWQAIHWM5-724x1024.jpeg"
       additional_info: |
-        ### vPub 0x2 **[Official Page](https://vpub.dasharo.com/e/3/)**
+        ### vPub 0x2 **[Official Page](https://vpub.dasharo.com/e/3/)**<br><br>
 
         Our second OSF vPub gathering, with lots of fun & really interesting talk about the open-source firmware/hardware with 50 masters from all over the world!
 
@@ -758,7 +748,7 @@ all_events:
       date: "18.02.2021"
       event_poster: "images/events/2021/EsqQwjAWMAAyntw-789x1024.jpg"
       additional_info: |
-        ### vBeer 0x1 **[Official Page](https://vpub.dasharo.com/e/2/vbeer-0x1-2021)**
+        ### vBeer 0x1 **[Official Page](https://vpub.dasharo.com/e/2/vbeer-0x1-2021)**<br><br>
 
         Our first OSF vBeer gathering, with lots of fun & really interesting talk about the open-source firmware/hardware with 50 masters from all over the world!
 
@@ -778,7 +768,7 @@ all_events:
       date: "06-07.02.2021"
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
-        ### FOSDEM 2021 [**Official Page**](https://archive.fosdem.org/2021/)
+        ### FOSDEM 2021 [**Official Page**](https://archive.fosdem.org/2021/)<br><br>
 
         Open Source Firmware BMC and Bootloader devroom: [Blogpost](https://blog.3mdeb.com/2021/2021-02-02-fosdem2021/)
 
@@ -839,7 +829,7 @@ all_events:
       date: "03 & 10 & 17 & 24.11.2020"
       event_poster: "images/events/2020/grub-mini-summit-1024x470.jpeg"
       additional_info: |
-        ### GRUB mini-summit
+        ### GRUB mini-summit<br><br>
 
         Summary: [Blogpost](https://blog.3mdeb.com/2020/2020-11-02-grub2mini-summit/)
 
@@ -984,7 +974,7 @@ all_events:
       date: "24-28.08.2020"
       event_poster: "images/events/2020/linux-plumbers.png"
       additional_info: |
-        ### Linux Plumbers Conference **[Official Page](https://lpc.events/event/7/)**
+        ### Linux Plumbers Conference **[Official Page](https://lpc.events/event/7/)**<br><br>
 
         **3mdeb** - co-organiser of the event
 
@@ -1028,9 +1018,9 @@ all_events:
       date: "20.05-10.06.2020"
       event_poster: "images/events/2020/qubesos.jpeg"
       additional_info: |
-        ### Qubes OS and 3mdeb minisummit
+        ### Qubes OS and 3mdeb minisummit<br><br>
 
-        Summary: [Blogpost #1](https://blog.3mdeb.com/2020/2020-05-15-qubesos/)
+        Summary: [Blogpost #1](https://blog.3mdeb.com/2020/2020-05-15-qubesos/)<br>
         Summary: [Blogpost #2](https://blog.3mdeb.com/2020/2020-06-17-qubes_summation/)
 
       # segments:
@@ -1109,7 +1099,7 @@ all_events:
       date: "25-27.02.2020"
       event_poster: "images/events/2020/embeddedworld2020-1-400x250-1.png"
       additional_info: |
-        ### Embedded World **[Official Page](https://www.embedded-world.de/en/all-about-the-exhibition)**
+        ### Embedded World **[Official Page](https://www.embedded-world.de/en/all-about-the-exhibition)**<br><br>
 
         Summary: [Blogpost](https://blog.3mdeb.com/2020/2020-02-18-ew2020-btg-demo/)
 
@@ -1175,7 +1165,7 @@ all_events:
       date: "17.12.2019"
       event_poster: "images/events/2019/grub2_minisummit.png"
       additional_info: |
-        ### GRUB2 and 3mdeb minisummit <br/>
+        ### GRUB2 and 3mdeb minisummit <br><br>
 
         Summary: [Blogpost](https://blog.3mdeb.com/2020/2020-02-19-grub2_and_3mdeb_minisummit/)
 
@@ -1392,7 +1382,7 @@ all_events:
       date: "15.05.2019"
       event_poster: "images/events/2019/qubesos_3mdeb_minisummit.png"
       additional_info: |
-        ### Qubes OS and 3mdeb minisummit**
+        ### Qubes OS and 3mdeb minisummit<br><br>
 
         Summary: [Blogpost](https://blog.3mdeb.com/2019/2019-08-07-qubes-os-and-3mdeb-minisummit/)
 
