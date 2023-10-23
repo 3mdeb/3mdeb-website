@@ -1261,7 +1261,7 @@ all_events:
       date: "28-30.10.2019"
       event_poster: "images/events/2019/LF_Event_Snackables_071919_v1_ac_1200x628_ELCEU-1-1024x536.png"
       additional_info: |
-        ### Embedded Linux Conference Europe **[Official Page](https://websummit.com/2019-schedule)**
+        ### Embedded Linux Conference Europe **[Official Page](https://events19.linuxfoundation.org/events/embedded-linux-conference-europe-2019/)**
 
       # segments:
       segments:
