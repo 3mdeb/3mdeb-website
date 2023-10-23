@@ -42,6 +42,13 @@ all_events:
       additional_info: |
         ### FOSDEM 2024 [**Official Page**](https://fosdem.org/2024/)
 
+    - title: "Qubes OS **Summit 2024**"
+      status: "upcoming"
+      date: "TBD"
+      event_poster: ""
+      additional_info: |
+        ### Qubes OS Summit 2024 Official Page Coming Soon
+
   - year: "20**23**"
     events:
     - title: "Qubes OS **Summit 2023**"
