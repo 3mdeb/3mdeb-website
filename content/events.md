@@ -44,7 +44,7 @@ all_events:
 
     - title: "Qubes OS **Summit 2024**"
       status: "upcoming"
-      date: "TBD"
+      date: "Date Coming Soon"
       event_poster: ""
       additional_info: |
         ### Qubes OS Summit 2024 Official Page Coming Soon
@@ -1243,7 +1243,7 @@ all_events:
       date: "17.12.2019"
       event_poster: "images/events/2019/6r40cl0c9ghrdx3tq911.png"
       additional_info: |
-        ### Web Summit [Official Page](https://websummit.com/2019-schedule) <br/>
+        ### Web Summit **[Official Page](https://websummit.com/)**<br><br>
 
         Summary: [Blogpost](https://blog.3mdeb.com/2019/2019-11-22-websummit-2019/)
 
