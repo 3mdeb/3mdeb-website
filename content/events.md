@@ -40,7 +40,7 @@ all_events:
       date: "03-04.02.2024"
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
-        ### FOSDEM 2024 [**Official Page**](https://fosdem.org/2024/)
+        ### FOSDEM 2024 **[Official Page](https://fosdem.org/2024/)**
 
     - title: "Qubes OS **Summit 2024**"
       status: "upcoming"
@@ -56,7 +56,7 @@ all_events:
       date: "06-08.10.2023"
       event_poster: "images/events/2023/qubes2023.png"
       additional_info: |
-        ### Qubes OS Summit 2023 [**Official Page**](https://vpub.dasharo.com/e/9/qubes-os-summit-2023)
+        ### Qubes OS Summit 2023 **[Official Page](https://vpub.dasharo.com/e/9/qubes-os-summit-2023)**
 
       # segments:
       segments:
@@ -83,7 +83,7 @@ all_events:
       date: "28.09.2023"
       event_poster: "images/events/2023/dug_3.jpg"
       additional_info: |
-        ### Dasharo User Group #3 [**Official Page**](https://vpub.dasharo.com/e/8/dasharo-user-group-3)<br><br>
+        ### Dasharo User Group #3 **[Official Page](https://vpub.dasharo.com/e/8/dasharo-user-group-3)**<br><br>
 
         * Slides & Videos will be available on 15th of November
 
@@ -92,30 +92,33 @@ all_events:
       date: "06.07.2023"
       event_poster: "images/events/2023/dug_2.png"
       additional_info: |
-        ### Dasharo User Group #2 [**Official Page**](https://vpub.dasharo.com/e/7/dasharo-user-group-2)<br><br>
-
-        * [**Slides**](http://dl.3mdeb.com/dasharo/dug/2/)
-        * [**Video**](https://www.youtube.com/live/ZyctrnJNTPc?si=aMLbG0yId0DYiZ6q)
+        ### Dasharo User Group #2 **[Official Page](https://vpub.dasharo.com/e/7/dasharo-user-group-2)**<br><br>
 
       # segments:
       segments:
         - date: ""
           image: ""
-          youtube_video_id: ""
+          youtube_video_id: "ZyctrnJNTPc"
           additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Dasharo User Group #2**  <br>
+            Presenters: **3mdeb Team with Guests**
+
+            * [**Slides**](http://dl.3mdeb.com/dasharo/dug/2/)
+
 
     - title: "Yocto Project at **Embedded Open-Source Summit**"
       status: ""
       date: "26.06.2023"
       event_poster: ""
       additional_info: |
-        ### Yocto Project at Embedded Open-Source Summit 2023 [**Official Page**](https://www.yoctoproject.org/yocto-project-at-embedded-open-source-summit-2023/)
+        ### Yocto Project at Embedded Open-Source Summit 2023 **[Official Page](https://www.yoctoproject.org/yocto-project-at-embedded-open-source-summit-2023/)**
 
       # segments:
       segments:
         - date: "26.06.2023"
           image: ""
-          youtube_video_id: ""
+          youtube_video_id: "KeXh0kTkz_w"
           additional_info: |
             Presentation **#1**  <br>
             Topic: **Updates of Yocto-Based Projects: Effective strategies for ongoing maintenance**  <br>
@@ -123,11 +126,10 @@ all_events:
 
             * [**Direct link**](https://www.yoctoproject.org/yocto-project-at-embedded-open-source-summit-2023/)
             * [**Slides**](https://summit.yoctoproject.org/media/devday-at-eoss-2023/submissions/XZYTCW/resources/presentation_v1.1_R3aJg51.pdf)
-            * [**Video**](https://youtu.be/KeXh0kTkz_w?si=028QuKy0t3PMemda)
 
         - date: "26.06.2023"
           image: ""
-          youtube_video_id: ""
+          youtube_video_id: "ljQg8dnyhLU"
           additional_info: |
             Presentation **#1**  <br>
             Topic: **Unveiling OpenBMC: Exploring features and preparing the build environment**  <br>
@@ -135,14 +137,13 @@ all_events:
 
             * [**Direct link**](https://www.yoctoproject.org/yocto-project-at-embedded-open-source-summit-2023/)
             * [**Slides**](https://summit.yoctoproject.org/media/devday-at-eoss-2023/submissions/JPX8ND/resources/Unveiling_OpenBMC__Exploring_features_a_xkqHpmo.pdf)
-            * [**Video**](https://youtu.be/ljQg8dnyhLU?si=WT_uQ6qmyVf1shgT)
 
     - title: "Xen Developer **& Design Summit**"
       status: ""
       date: "24-26.06.2023"
       event_poster: "images/events/2023/xen2023.png"
       additional_info: |
-        ### Xen Developer & Design Summit [**Official Page**](https://events.linuxfoundation.org/xen-project-summit/)
+        ### Xen Developer & Design Summit **[Official Page](https://events.linuxfoundation.org/xen-project-summit/)**
 
       # segments:
       segments:
@@ -162,17 +163,27 @@ all_events:
       date: "16.03.2023"
       event_poster: "images/events/2023/dug_1.png"
       additional_info: |
-        ### Dasharo User Group #1 [**Official Page**](https://vpub.dasharo.com/e/1/dasharo-user-group-1)<br><br>
+        ### Dasharo User Group #1 **[Official Page](https://vpub.dasharo.com/e/1/dasharo-user-group-1)**<br><br>
 
-        * [**Slides**](http://dl.3mdeb.com/dasharo/dug/1/)
-        * [**Video**](https://www.youtube.com/live/fUfjWyljKNs?si=E6uc0RRx6bOFVM8x)
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: "fUfjWyljKNs"
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Dasharo User Group #1**  <br>
+            Presenters: **3mdeb Team with Guests**
+
+            * [**Slides**](http://dl.3mdeb.com/dasharo/dug/1/)
+
 
     - title: "FOSDEM **2023**"
       status: ""
       date: "04-05.02.2022"
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
-        ### FOSDEM 2023 [**Official Page**](https://fosdem.org/2023/)
+        ### FOSDEM 2023 **[Official Page](https://fosdem.org/2023/)**
 
       # segments:
       segments:
@@ -219,7 +230,7 @@ all_events:
       date: "09.12.2022"
       event_poster: "images/events/2022/hackathon.png"
       additional_info: |
-        ### 3mdeb Hackathon [**Official Page**](https://hackathon.3mdeb.com/)<br><br>
+        ### 3mdeb Hackathon **[Official Page](https://hackathon.3mdeb.com/)**<br><br>
         The best place to know more about open-source firmware and coreboot and why you should try it.
 
       # segments:
@@ -234,7 +245,7 @@ all_events:
       date: "29.11-01.12.2022"
       event_poster: "images/events/2022/yocto-project_virtual-summit.png"
       additional_info: |
-        ### Yocto Project Summit [**Official Page**](https://www.yoctoproject.org/yocto-project-summit-2022-11/)
+        ### Yocto Project Summit **[Official Page](https://www.yoctoproject.org/yocto-project-summit-2022-11/)**
 
       # segments:
       segments:
@@ -254,7 +265,7 @@ all_events:
       date: "19-21.09.2022"
       event_poster: "images/events/2022/FWVcWpTXgAUMInR-1024x535.jpeg"
       additional_info: |
-        ### OSFC 2022 [**Official Page**](https://www.osfc.io/)
+        ### OSFC 2022 **[Official Page](https://www.osfc.io/archive/2022/)**
 
       # segments:
       segments:
@@ -286,7 +297,7 @@ all_events:
       date: "09-11.09.2022"
       event_poster: "images/events/2022/QubesOS_summit_2022-1024x724.png"
       additional_info: |
-        ### Qubes OS summit 2022 [**Official Page**](https://vpub.dasharo.com/o/1)<br><br>
+        ### Qubes OS summit 2022 **[Official Page](https://vpub.dasharo.com/e/10/qubes-os-summit-2022)**<br><br>
         Full schedule: [link](https://cfp.3mdeb.com/qubes-os-summit-2022/schedule/)
 
       # segments:
@@ -345,9 +356,9 @@ all_events:
     - title: "Dasharo OSF vPub Spring 2022 **(aka 3mdeb vPub vol. 5)**"
       status: ""
       date: "26.05.2022"
-      event_poster: "images/events/2022/dasharo-osf-vpub-spring-2022-poster-1024x724.png"
+      event_poster: "images/events/2022/dasharo-osf-vpub-spring-2022-poster-1024x724.jpg"
       additional_info: |
-        ### vPub 0x5 [**Official Page**](https://vpub.dasharo.com/e/6/dasharo-osf-vpub-spring-2022)
+        ### vPub 0x5 **[Official Page](https://vpub.dasharo.com/e/6/dasharo-osf-vpub-spring-2022)**
 
       # segments:
       segments:
@@ -366,7 +377,7 @@ all_events:
       date: "05-06.02.2022"
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
-        ### FOSDEM 2022 [**Official Page**](https://fosdem.org/2022/)
+        ### FOSDEM 2022 **[Official Page](https://fosdem.org/2022/)**
 
       # segments:
       segments:
@@ -374,7 +385,7 @@ all_events:
           image: "images/events/2022/devroom_afterhours-1024x726.png"
           youtube_video_id: ""
           additional_info: |
-            ### OSF, BMC and Bootloader devroom [**Official Page**](https://fosdem.org/2022/schedule/track/open_source_firmware_bmc_and_bootloader/)
+            ### OSF, BMC and Bootloader devroom **[Official Page](https://fosdem.org/2022/schedule/track/open_source_firmware_bmc_and_bootloader/)**
 
         - date: "05.02.2022"
           image: ""
@@ -405,7 +416,7 @@ all_events:
       date: "17.02.2022"
       event_poster: "images/events/2022/Dasharo_OSF_vPub_Winter-1024x724.jpg"
       additional_info: |
-        ### vPub 0x4 [**Official Page**](https://vpub.dasharo.com/e/5/dasharo-osf-vpub-winter-2022)
+        ### vPub 0x4 **[Official Page](https://vpub.dasharo.com/e/5/dasharo-osf-vpub-winter-2022)**
 
       # segments:
       segments:
@@ -426,7 +437,7 @@ all_events:
       date: "31.11-02.12.2021"
       event_poster: "images/events/2021/yocto-project_virtual-summit_300x181px.png"
       additional_info: |
-        ### Yocto Project Virtual Summit [**Official Page**](https://pretalx.com/yocto-project-summit-2021-11/)
+        ### Yocto Project Virtual Summit **[Official Page](https://pretalx.com/yocto-project-summit-2021-11/)**
 
       # segments:
       segments:
@@ -446,7 +457,7 @@ all_events:
       date: "16.11.2021"
       event_poster: "images/events/2021/vPUB-Virtual-Community-Pub-1024x726.png"
       additional_info: |
-        ### vPub 0x3 [**Official Page**](https://vpub.dasharo.com/e/4/dasharo-osf-vpub-fall-2021)
+        ### vPub 0x3 **[Official Page](https://vpub.dasharo.com/e/4/dasharo-osf-vpub-fall-2021)**
 
       # segments:
       segments:
@@ -460,16 +471,15 @@ all_events:
 
             * [**Slides**](https://raw.githubusercontent.com/Dasharo/vpub/main/docs/archive/pdfs/vpub-0x3.pdf)
 
-    - title: "TrenchBoot **Developers Forum**"
+    - title: "Linux Secure Launch - **TrenchBoot Summit**"
       status: ""
+      date: "16.11.2021"
+      event_poster: "images/events/2021/LINUX-SECURE-LAUNCH-Trenchboot-summit1-1024x726.png"
+      additional_info: |
+        ### Linux Secure Launch - TrenchBoot Summit
+
       # segments:
       segments:
-        - date: "16.11.2021"
-          image: "images/events/2021/LINUX-SECURE-LAUNCH-Trenchboot-summit1-1024x726.png"
-          youtube_video_id: ""
-          additional_info: |
-            ### Linux Secure Launch - TrenchBoot Summit
-
         - date: "16.11.2021"
           image: ""
           youtube_video_id: "xZoCtNV8Qs0?start=1023"
@@ -495,7 +505,7 @@ all_events:
       date: "28.10.2021"
       event_poster: "images/events/2021/1g9qv3GH.png"
       additional_info: |
-        ### OpenPOWER Summit [Official Page](https://events.linuxfoundation.org/openpower-summit-north-america/)
+        ### OpenPOWER Summit **[Official Page](https://events.linuxfoundation.org/openpower-summit-north-america/)**
 
       # segments:
       segments:
@@ -514,7 +524,7 @@ all_events:
       date: "21-22.09.2021"
       event_poster: "images/events/2021/TPMdev-2021-MiniConf.png"
       additional_info: |
-        ### TPM.dev 2021 MiniConf [Official Page](https://developers.tpm.dev/)
+        ### TPM.dev 2021 MiniConf **[Official Page](https://developers.tpm.dev/)**
 
       # segments:
       segments:
@@ -552,7 +562,7 @@ all_events:
     - title: "Euro**BSDCon**"
       status: ""
       date: "17-19.09.2021"
-      event_poster: "images/events/2021/Beastie-in-Lech.png"
+      event_poster: "images/events/2021/Beastie-in-Lech.jpg"
       additional_info: |
         ### EuroBSDCon **[Official Page](https://2021.eurobsdcon.org/)**
 
@@ -690,7 +700,7 @@ all_events:
       date: "18-19.05.2021"
       event_poster: "images/events/2021/NGIForum21-rgb-300x93.jpg"
       additional_info: |
-        ### NGI Forum 2021 **[Official Page](https://2021.ngiforum.eu/)**
+        ### NGI Forum 2021 **[Official Page](https://www.ngi.eu/event/ngi-forum-2021/)**
 
       # segments:
       segments:
@@ -709,7 +719,9 @@ all_events:
           youtube_video_id: "ZFaJQCxHbhY"
           additional_info: |
             Video **#1**  <br>
-            Topic: **Visual recording for the "Open Source Model" session**
+            Topic: **Visual recording for the "Open Source Model" session**  <br>
+
+            * [**Video**](https://youtu.be/ZFaJQCxHbhY?si=pWUFXRQSIACbjO4K)
 
     - title: "vPub **0x2**"
       status: ""
@@ -775,7 +787,7 @@ all_events:
       date: "06-07.02.2021"
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
-        ### FOSDEM 2021 [**Official Page**](https://archive.fosdem.org/2021/)<br><br>
+        ### FOSDEM 2021 **[Official Page](https://archive.fosdem.org/2021/)** <br><br>
 
         Open Source Firmware BMC and Bootloader devroom: [Blogpost](https://blog.3mdeb.com/2021/2021-02-02-fosdem2021/)
 
@@ -842,7 +854,7 @@ all_events:
 
       # segments:
       segments:
-        - date: "03.11.202"
+        - date: "03.11.2020"
           image: ""
           youtube_video_id: "LEcM5C5hdjs"
           additional_info: |
