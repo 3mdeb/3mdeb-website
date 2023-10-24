@@ -17,9 +17,9 @@ all_events:
     - title: "Dasharo User Group 0x4 **& Developers vPub 0x9**"
       status: "upcoming"
       date: "07.12.2023"
-      event_poster: ""
+      event_poster: "images/events/2023/dug_4.png"
       additional_info: |
-        ### More info coming soon
+        ### Dasharo User Group #4 **[Official Page](https://vpub.dasharo.com/e/11/dasharo-user-group-4)**<br><br>
 
       # segments:
       segments:
