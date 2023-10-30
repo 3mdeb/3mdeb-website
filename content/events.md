@@ -48,13 +48,13 @@ all_events:
       event_poster: ""
       additional_info: |
         ### More information coming soon
-        
+
     - title: "Dasharo User Group 0x6 **& Developers vPub 0x11**"
       status: "upcoming"
       date: "06.06.2024"
       event_poster: ""
       additional_info: |
-        ### More information coming soon        
+        ### More information coming soon
 
     - title: "Qubes OS **Summit 2024**"
       status: "upcoming"
@@ -68,14 +68,14 @@ all_events:
       date: "12.09.2024"
       event_poster: ""
       additional_info: |
-        ### More information coming soon     
-        
+        ### More information coming soon
+
     - title: "Dasharo User Group 0x8 **& Developers vPub 0x13**"
       status: "upcoming"
       date: "05.12.2024"
       event_poster: ""
       additional_info: |
-        ### More information coming soon        
+        ### More information coming soon
 
   - year: "20**23**"
     events:
