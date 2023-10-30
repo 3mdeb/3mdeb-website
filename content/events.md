@@ -42,12 +42,40 @@ all_events:
       additional_info: |
         ### FOSDEM 2024 **[Official Page](https://fosdem.org/2024/)**
 
+    - title: "Dasharo User Group 0x5 **& Developers vPub 0x10**"
+      status: "upcoming"
+      date: "14.03.2024"
+      event_poster: ""
+      additional_info: |
+        ### More information coming soon
+
+    - title: "Dasharo User Group 0x6 **& Developers vPub 0x11**"
+      status: "upcoming"
+      date: "06.06.2024"
+      event_poster: ""
+      additional_info: |
+        ### More information coming soon
+
     - title: "Qubes OS **Summit 2024**"
       status: "upcoming"
       date: "Date Coming Soon"
       event_poster: ""
       additional_info: |
         ### Qubes OS Summit 2024 Official Page Coming Soon
+
+    - title: "Dasharo User Group 0x7 **& Developers vPub 0x12**"
+      status: "upcoming"
+      date: "12.09.2024"
+      event_poster: ""
+      additional_info: |
+        ### More information coming soon
+
+    - title: "Dasharo User Group 0x8 **& Developers vPub 0x13**"
+      status: "upcoming"
+      date: "05.12.2024"
+      event_poster: ""
+      additional_info: |
+        ### More information coming soon
 
   - year: "20**23**"
     events:
