@@ -928,7 +928,7 @@ all_events:
       date: "29-30.10.2020"
       event_poster: "images/events/2021/yocto-project_virtual-summit_300x181px.png"
       additional_info: |
-        ### Yocto Project Summit **[Official Page](https://www.yoctoproject.org/yocto-projectr-summit-virtual-europe-2020/)**
+        ### Yocto Project Summit **[Official Page](https://events.linuxfoundation.org/yocto-project-summit-europe/)**
 
       # segments:
       segments:
