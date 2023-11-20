@@ -51,6 +51,6 @@ cta:
     label: "BOOK A CALL"
 
 
-google_map_embed_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2322.9685454314395!2d18.577918215878118!3d54.39287058021158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd74d8e8464b2f%3A0x9cbc808c1f81fa99!2sAbrahama+1A%2C+80-264+Gda%C5%84sk!5e0!3m2!1spl!2spl!4v1555571733224!5m2!1spl!2spl"
+google_map_embed_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2321.9026361369906!2d18.56620737691726!3d54.41169549448095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd745dc864c3fd%3A0x692893a8b0074f23!2s3mdeb%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1700219555836!5m2!1spl!2spl"
 
 ---
