@@ -253,51 +253,59 @@ current_openings:
 
         To join our team, kindly submit your CV to: careers@3mdeb.com. We present you with an opportunity to fully engage in the open-source community, enhance your skill set, and make an impact. Apply today and grasp the opportunity to become involved in the open-source realm, advance your abilities, and effect real change.
 
-  - title: "Technik laboratorium **sieci komputerowych**"
+  - title: "IT Lab **Technician**"
     description:
-    - title: "Wymagania:"
+    - title: "Description:"
       content: |
-        * Doświadczenie w administracji systemów operacyjnych, w tym Linux
-        * Motywacja do pracy oraz pozyskiwania nowej wiedzy technicznej
-        * Znajomość konfiguracji sieci komputerowych, w tym protokołów i infrastruktury
-        * Zdolność do samodzielnego rozwiązywania problemów związanych z infrastrukturą sprzętową i programową
-        * Znajomość narzędzi do monitorowania sieci oraz rozwiązywania problemów z wydajnością
-        * Umiejętność dokumentowania procesów, procedur i konfiguracji technicznych
-        * Koncentracja na osiągnięciu celów i gotowość do wykonywania zadań
-        * Komunikatywność i zdolność do pracy w zespole
+        Our team is a diverse group of professionals, including engineers, developers, open-source software and hardware enthusiasts, and individuals who have the ability to work at various technical levels. Our expertise also covers not only technical aspects but also privacy and security issues, enabling us to meet the different needs of clients, regardless of their field of activity.
 
-    - title: "Obowiązki: "
-      content: |
-        * Diagnoza i rozwiązywanie problemów związanych z siecią i danymi
-        * Zarządzanie infrastrukturą laboratorium informatycznego, zapewnienie jego sprawnego działania
-        * Testowanie manualne sprzętu i oprogramowania zgodnie z harmonogramem projektów
-        * Dbanie o porządek w laboratorium, przygotowanie okablowania sieciowego
-        * Współpraca z zespołem IT w celu rozwiązywania problemów i realizacji projektów
-        * Raportowanie awarii, usterek sprzętu laboratoryjnego
+        The lab includes network infrastructure to connect devices and create networks. In addition, it is equipped with platforms with remote access, enabling the implementation of our solutions and their testing. The room also contains computers and IoT devices for dedicated use.
 
-    - title: "Co oferujemy: "
-      content: |
-        * Elastyczne warunki zatrudnienia i godziny pracy dostosowane do preferencji kandydata
-        * Nastawienie na integrację i przyjazna atmosfera, pozbawiona typowych korporacyjnych procedur
-        * Możliwość uczestniczenia w międzynarodowych konferencjach branżowych na całym świecie
-        * Możliwość ciągłego podnoszenia kwalifikacji poprzez dostęp do szkoleń i certyfikacji
-        * Dofinansowanie szkoleń
-        * Dofinansowanie do opieki zdrowotnej
-        * System premii motywacyjnych
-        * Dofinansowanie do pakietu sportowego
-        * Ubezpieczenie grupowe
-        * Możliwość rozwoju w wybranym obszarze
-        * Praca w trybie hybrydowym
-        * Praca w nowoczesnym biurze w atrakcyjnej lokalizacji w Oliwie
+        If you want to become part of our team, let us know and apply.
 
-    - title: "Mile widziane: "
+    - title: "Requirements:"
       content: |
-        * Doświadczenie w obszarze wdrażania i testowania manualnego sprzętu komputerowego
-        * Umiejętność analizy i rozwiązywania problemów z infrastrukturą laboratoryjną
-        * Pasja i zaangażowanie w dziedzinie bezpieczeństwa sieci komputerowych
-        * Przestrzeganie zasad bezpieczeństwa IT i praktyk związanych z ochroną danych
-        * Umiejętność lutowania ręcznego podzespołów oraz elementów elektronicznych
-        * Zainteresowanie tematyką open-source
+        * Experience in operating systems administration, including Linux
+        * Motivation to work and acquire new technical knowledge
+        * Knowledge of computer network configuration, including protocols and infrastructure
+        * Ability to independently troubleshoot hardware and software infrastructure issues
+        * Knowledge of network monitoring and performance troubleshooting tools
+        * Ability to document technical processes, procedures, and configurations
+        * Goal-oriented focus and willingness to complete tasks
+        * Communication skills and ability to work in a team environment
+
+    - title: "Responsibilities: "
+      content: |
+        * Diagnose and resolve network and data issues
+        * Managing the infrastructure of the IT lab, ensuring its smooth operation
+        * Manual testing of hardware and software according to project schedule
+        * Keeping the lab in order, preparing network cabling
+        * Collaborating with the IT team to solve problems and implement projects
+        * Reporting malfunctions, defects of laboratory equipment
+
+    - title: "Highly appreciated: "
+      content: |
+        * Experience in the area of manual hardware implementation and testing
+        * Ability to analyze and troubleshoot lab infrastructure problems
+        * Passion and commitment to computer network security
+        * Adherence to IT security principles and data protection practices
+        * Ability to hand-solder components and electronic components
+        * Interest in open-source technology
+
+    - title: "What we offer: "
+      content: |
+        * Flexible terms of employment and working hours tailored to the candidate's preferences
+        * Focus on integration and a friendly atmosphere, devoid of typical corporate procedures
+        * Opportunity to participate in international industry conferences around the world
+        * Possibility of continuous improvement of qualifications through access to training and certifications
+        * Co-financing of training
+        * Co-funding of health care
+        * Incentive bonus system
+        * Co-financing of sports package
+        * Group insurance
+        * Opportunity for development in the selected area
+        * Work in hybrid mode
+        * Work in a modern office in an attractive location in Oliva
 
   - title: "Internship"
     description:
