@@ -89,7 +89,7 @@ current_openings:
 
         Be a part of our mission to make a difference in the open-source community!
 
-  - title: "Hardware Validation **Developer/Engineer**"
+  - title: "Hardware **Validation Engineer**"
     description:
     - title: "Requirements:"
       content: |
