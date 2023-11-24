@@ -54,7 +54,7 @@ current_openings:
   title: "Current Openings:"
   button_label: "Apply Now"
   jobs:
-  - title: "Embedded **Firmware Developer**"
+  - title: "Embedded&nbsp; **Firmware Developer**"
     description:
     - title: "Description:"
       content: |
@@ -89,7 +89,7 @@ current_openings:
 
         Be a part of our mission to make a difference in the open-source community!
 
-  - title: "Hardware **Validation Engineer**"
+  - title: "Hardware&nbsp; **Validation Engineer**"
     description:
     - title: "Requirements:"
       content: |
@@ -130,7 +130,7 @@ current_openings:
         * Knowledge of Linux systems and the git tool 
         * Knowledge of Python
 
-  - title: "Electronics **Technician**"
+  - title: "Electronics&nbsp; **Technician**"
     description:
     - title: "Requirements:"
       content: |
@@ -171,7 +171,7 @@ current_openings:
         * Ability to use a logic analyzer and oscilloscope
         * Experience in creating BOM's
 
-  - title: "Sales **Engineer**"
+  - title: "Sales&nbsp; **Engineer**"
     description:
     - title: "Requirements:"
       content: |
@@ -218,7 +218,7 @@ current_openings:
         * Practical knowledge of the IT industry,
         * Knowledge of Jira and Git tools.
 
-  - title: "(Best) Junior Embedded **System Developer**"
+  - title: "(Best) Junior Embedded&nbsp; **System Developer**"
     description:
     - title: "Description:"
       content: |
@@ -253,7 +253,7 @@ current_openings:
 
         To join our team, kindly submit your CV to: careers@3mdeb.com. We present you with an opportunity to fully engage in the open-source community, enhance your skill set, and make an impact. Apply today and grasp the opportunity to become involved in the open-source realm, advance your abilities, and effect real change.
 
-  - title: "IT Lab **Technician**"
+  - title: "IT Lab&nbsp; **Technician**"
     description:
     - title: "Description:"
       content: |
