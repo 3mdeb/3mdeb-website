@@ -6,8 +6,8 @@ keywords: [""]
 draft: false
 ---
 
-Thank you for shopping at shop.3mdeb.com/shop. If you are not entirely satisfied
-with your purchase, we’re here to help.
+Thank you for shopping at [3mdeb shop](https://shop.3mdeb.com/shop/). If you
+are not entirely satisfied with your purchase, we’re here to help.
 
 ---
 
@@ -15,7 +15,7 @@ with your purchase, we’re here to help.
 
 Returns for any unaffected item are permitted within 30 days from the date of
 receipt of merchandise. Shipping and handling charges are not refundable.
-LPN Plant shall not be responsible for any shipping charges of merchandise
+3mdeb shall not be responsible for any shipping charges of merchandise
 being returned. All returned merchandise must be in its original packaging
 and clean condition. Merchandise that has been powered or reprogrammed cannot
 be returned. All returns must include all the factory accessories which came
@@ -47,6 +47,4 @@ Piastowska 7 / 20A
 
 +48 58 718 91 79
 
-80-332 Gdansk,
-
-Poland
+80-332 Gdansk, Poland
