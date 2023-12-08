@@ -6,8 +6,8 @@ keywords: [""]
 draft: false
 ---
 
-Thank you for shopping at [3mdeb shop](https://shop.3mdeb.com/). If you are
-not entirely satisfied with your purchase, we’re here to help.
+Thank you for shopping at [3mdeb shop](https://shop.3mdeb.com/shop/). If you
+are not entirely satisfied with your purchase, we’re here to help.
 
 ---
 
