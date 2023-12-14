@@ -14,19 +14,6 @@ events_download:
 all_events:
   - year: "Upcoming **2023-2024**"
     events:
-    - title: "Dasharo User Group 0x4 **& Developers vPub 0x9**"
-      status: "upcoming"
-      date: "07.12.2023"
-      event_poster: "images/events/2023/dug_4.png"
-      additional_info: |
-        ### Dasharo User Group #4 **[Official Page](https://vpub.dasharo.com/e/11/dasharo-user-group-4)**<br><br>
-
-      # segments:
-      segments:
-        - date: ""
-          image: ""
-          youtube_video_id: ""
-          additional_info: |
 
     - title: "TPMdev **MiniConf**"
       status: "upcoming"
@@ -58,7 +45,7 @@ all_events:
 
     - title: "Qubes OS **Summit 2024**"
       status: "upcoming"
-      date: "Date Coming Soon"
+      date: "20-22.09.2024"
       event_poster: ""
       additional_info: |
         ### Qubes OS Summit 2024 Official Page Coming Soon
@@ -72,13 +59,27 @@ all_events:
 
     - title: "Dasharo User Group 0x8 **& Developers vPub 0x13**"
       status: "upcoming"
-      date: "05.12.2024"
+      date: "12.12.2024"
       event_poster: ""
       additional_info: |
         ### More information coming soon
 
   - year: "20**23**"
     events:
+    - title: "Dasharo User Group 0x4 **& Developers vPub 0x9**"
+      status: "upcoming"
+      date: "07.12.2023"
+      event_poster: "images/events/2023/dug_4.png"
+      additional_info: |
+        ### Dasharo User Group #4 **[Official Page](https://vpub.dasharo.com/e/11/dasharo-user-group-4)**<br><br>
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+
     - title: "Qubes OS **Summit 2023**"
       status: ""
       date: "06-08.10.2023"
@@ -113,7 +114,18 @@ all_events:
       additional_info: |
         ### Dasharo User Group #3 **[Official Page](https://vpub.dasharo.com/e/8/dasharo-user-group-3)**<br><br>
 
-        * Slides & Videos will be available on 15th of November
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: "_wUekr4nQw4"
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Dasharo User Group #3**  <br>
+            Presenters: **3mdeb Team with Guests**
+
+            * [**Slides**](http://dl.3mdeb.com/dasharo/dug/3/)
+
 
     - title: "Dasharo User Group 0x2 **& Developers vPub 0x7**"
       status: ""
