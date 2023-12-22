@@ -124,7 +124,7 @@ all_events:
             Topic: **Dasharo User Group #3**  <br>
             Presenters: **3mdeb Team with Guests**
 
-            * [**Slides**](http://dl.3mdeb.com/dasharo/dug/3/)
+            * [**Slides**](https://dl.3mdeb.com/dasharo/dug/3/)
 
 
     - title: "Dasharo User Group 0x2 **& Developers vPub 0x7**"
@@ -144,7 +144,7 @@ all_events:
             Topic: **Dasharo User Group #2**  <br>
             Presenters: **3mdeb Team with Guests**
 
-            * [**Slides**](http://dl.3mdeb.com/dasharo/dug/2/)
+            * [**Slides**](https://dl.3mdeb.com/dasharo/dug/2/)
 
 
     - title: "Yocto Project at **Embedded Open-Source Summit**"
@@ -215,7 +215,7 @@ all_events:
             Topic: **Dasharo User Group #1**  <br>
             Presenters: **3mdeb Team with Guests**
 
-            * [**Slides**](http://dl.3mdeb.com/dasharo/dug/1/)
+            * [**Slides**](https://dl.3mdeb.com/dasharo/dug/1/)
 
 
     - title: "FOSDEM **2023**"
