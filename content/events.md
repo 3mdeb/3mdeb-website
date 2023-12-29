@@ -12,15 +12,8 @@ events_download:
   link: "https://calendar.google.com/calendar/ical/events%403mdeb.com/public/basic.ics"
 
 all_events:
-  - year: "Upcoming **2023-2024**"
+  - year: "Upcoming **2024**"
     events:
-
-    - title: "TPMdev **MiniConf**"
-      status: "upcoming"
-      date: "TBD"
-      event_poster: ""
-      additional_info: |
-        ### More info coming soon
 
     - title: "FOSDEM **2024**"
       status: "upcoming"
@@ -32,16 +25,16 @@ all_events:
     - title: "Dasharo User Group 0x5 **& Developers vPub 0x10**"
       status: "upcoming"
       date: "14.03.2024"
-      event_poster: ""
+      event_poster: "images/events/2024/dug_5.jpg"
       additional_info: |
-        ### More information coming soon
+        ### Dasharo User Group #5 **[Official Page](https://vpub.dasharo.com/e/12/dasharo-user-group-5)**<br><br>
 
     - title: "Dasharo User Group 0x6 **& Developers vPub 0x11**"
       status: "upcoming"
       date: "06.06.2024"
       event_poster: ""
       additional_info: |
-        ### More information coming soon
+        ### Dasharo User Group #6 **[Official Page](https://vpub.dasharo.com/e/13/dasharo-user-group-6)**<br><br>
 
     - title: "Qubes OS **Summit 2024**"
       status: "upcoming"
@@ -55,14 +48,14 @@ all_events:
       date: "12.09.2024"
       event_poster: ""
       additional_info: |
-        ### More information coming soon
+        ### Dasharo User Group #7 **[Official Page](https://vpub.dasharo.com/e/14/dasharo-user-group-7)**<br><br>
 
     - title: "Dasharo User Group 0x8 **& Developers vPub 0x13**"
       status: "upcoming"
       date: "12.12.2024"
       event_poster: ""
       additional_info: |
-        ### More information coming soon
+        ### Dasharo User Group #8 **[Official Page](https://vpub.dasharo.com/e/15/dasharo-user-group-8)**<br><br>
 
   - year: "20**23**"
     events:
