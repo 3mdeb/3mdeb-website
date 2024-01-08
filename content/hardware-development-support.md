@@ -28,7 +28,7 @@ hardware_support:
 
       Moreover, if you are a hardware producer you may, and you **should** be interested in enabling coreboot on your platform. coreboot is an extended firmware platform that delivers a lightning fast and secure boot experience on modern computers and embedded systems. As an Open Source project it provides auditability and maximum control over technology. We can enable it for you, maintain, and follow your device development process.
 
-      Our dedicated and experienced engineers will make your device firmware grow alongside our coreboot branch and will let you explore features, that you haven’t even imagined (i.e. debbuging with extracting the boot log over the pc-speaker, or boot up in 400ms).
+      Our dedicated and experienced engineers will make your device firmware grow alongside our coreboot branch and will let you explore features, that you haven’t even imagined (i.e. debugging with extracting the boot log over the pc-speaker, or boot up in 400ms).
 
   - image: "images/open-source-hardware/TPM-2.0-Trusted-Platform-Module.png"
     content: |
