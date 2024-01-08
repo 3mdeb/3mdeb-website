@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://beta.3mdeb.com"
 title = "[Beta] 3mdeb Sp. z o.o. — Embedded Firmware development consultancy"
-theme = ["3mbed"]
+theme = ["3mdeb"]
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "UTC"
 # post pagination
