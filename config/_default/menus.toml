@@ -225,6 +225,12 @@ url = "https://containers.3mdeb.com/"
 weight = 20
 
 [[main]]
+parent = "News"
+name = "New Landing Page"
+url = "ost2/"
+weight = 25
+
+[[main]]
 name = "Shop"
 url = "https://shop.3mdeb.com/shop/"
 weight = 25
