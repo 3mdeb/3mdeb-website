@@ -70,8 +70,13 @@ all_events:
       segments:
         - date: ""
           image: ""
-          youtube_video_id: ""
+          youtube_video_id: "EN5rBAAOdOk"
           additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Dasharo User Group #4**  <br>
+            Presenters: **3mdeb Team with Guests**
+
+            * [**Slides**](http://dl.3mdeb.com/dasharo/dug/4/)
 
     - title: "Qubes OS **Summit 2023**"
       status: ""
