@@ -28,11 +28,13 @@ export DOCKER_HOST="tcp://$REMOTE_HOST:2375"
 
 # Function to continuously sync local directory with remote directory
 start_sync() {
+    ssh $REMOTE_USER_HOST "rm -rf $REMOTE_SRC_DIR"
+    rsync -avz --exclude='.git/' $LOCAL_SRC_DIR $REMOTE_USER_HOST:$REMOTE_SRC_DIR
     inotifywait -m -r -e modify,create,delete --exclude '^\.git/' --format '%w%f' $LOCAL_SRC_DIR | while read file
     do
         # Check if the changed file is not inside .git directory
         if [[ $file != *".git"* ]]; then
-            rsync -avz --exclude='.git/' $LOCAL_SRC_DIR $REMOTE_USER_HOST:$REMOTE_SRC_DIR >> $LOG_FILE 2>&1
+            rsync -avz --exclude='.git/' $LOCAL_SRC_DIR $REMOTE_USER_HOST:$REMOTE_SRC_DIR
         fi
     done &
     INOTIFY_PID=$!
