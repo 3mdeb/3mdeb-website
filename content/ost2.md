@@ -1,57 +1,40 @@
 ---
-title: "OST2 Sponsor Landing Page"
+title: "Transparent Firmware & Embedded Solutions for Hardware Creators"
 description: ""
-image: "images/artificial-intelligence-coding.jpg"
+image: "images/chips-circuit-circuit-board.jpg"
 keywords: [""]
 draft: false
 layout: "ost2"
 
-open_source_software_feature:
-  image: "images/services/software.png"
-  content: |
-    OST2 Sponsor Landing Page
+new_landing_page_header:
+  title: Our products offering
 
-familiar_with:
-    title: "We are familiar with:"
-    lists:
-      - |
-        * Amazon Web Services integration for Embedded Applications
-        * BSP Development (Yocto, Buildroot, custom)
-        * Board bring up
-        * Boot time optimization
-        * Continuous Integration and Continuous Delivery for Embedded Systems
-        * Embedded Linux
-        * Embedded Systems Security (signed upgrades, verified boot, etc.)
-        * **[Remote Testing Environment](https://cloud.3mdeb.com/index.php/s/HArgg8jrDmASWGp)**
-        * Linux device drivers development
+new_landing_page_products:
+  pet:
+    link: "https://paceenterprisetraining.com"
+    title: "PET"
+    image: "images/pet-v0.4.0.png"
+    alt: "PET Logo"
+    size: 200x200
+    description: "Tailored training in firmware and embedded systems, for cutting-edge security and transparency."
+  estos:
+    link: "https://3mdeb.com/zavishaos"
+    title: "Zavisha OS"
+    image: "images/zavishaos_logo.png"
+    alt: "Zavisha OS Logo"
+    size: 200x200
+    description: "Advanced, secure, and adaptable Yocto-based OS for the demands of modern embedded systems."
+  dasharo:
+    link: "https://docs.dasharo.com"
+    title: "Dasharo"
+    image: "images/dasharo_logo.png"
+    alt: "Dasharo Logo"
+    size: 200x200
+    description: "Innovative firmware solutions with open-source at its core for enhanced security and trust of your hardware."
 
-      - |
-        * Linux userspace application development (C/C++/Go/Python)
-        * Platform maintenance and customization
-        * **[Continuous automated validation](https://cloud.3mdeb.com/index.php/s/ZibPXHjnkHfd7ne)**
-        * Software update (OTA)
-        * Hypervisors
-        * **[OpenVizsla](https://cloud.3mdeb.com/index.php/s/jj2r8kwBYsNBgEW)**
-        * Validation payload
-        * Developing UEFI BIOS
-        * **[Flashing firmware](https://cloud.3mdeb.com/index.php/s/oayEC3bScC9mP6Q)**
+contact_section:
+    title: "Questions? Get in Touch!"
+    content: |
+      Direct answers, tailored solutions. Whether it’s about firmware, embedded systems, or training, we're here to help. Reach out and let's make things happen!
 
-        **and many others!**
-
-used_technology:
-  images:
-    - "images/used-technology/yocto.png"
-    - "images/used-technology/buildroot.jpg"
-    - "images/used-technology/python.png"
-    - "images/used-technology/cplus.png"
-    - "images/used-technology/linux-logo.png"
-    - "images/used-technology/go.png"
-    - "images/used-technology/c.png"
-
-message:
-  content: |
-    But don’t be afraid, if there <strong>is some not listed above,</strong><br>
-    we’ll surely confront any <strong>platform you will provide us.</strong><br>
-    We can prepare a whole system <strong>from a scratch, make it secure,</strong><br>
-    stable and last, but not least let it <strong>reach extraordinary performance.</strong>
 ---

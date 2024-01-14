@@ -2,38 +2,41 @@
 
 {{ partial "components/page-header.html" . }}
 
+{{ with .Params.new_landing_page_products }}
+<section class="py-3 my-1">
+  <div class="container">
+    <div class="row">
+{{ range . }}
+<div class="col-md-4 mb-4">
+  <a href="{{ .link }}" target="_blank">
+    <div class="card">
+      <div class="card-body text-center">
+        <h2>{{ .title }}</h2>
+        {{ partial "image.html" (dict "Src" .image "Alt" "software" "Size" .size) }}
+        <div class="h4">
+          <p class="mt-2">{{ .description }}</p>
+        </div>
+        <button class="btn btn-primary mt-3">Read More</button>
+      </div>
+    </div>
+  </a>
+</div>
+{{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
 
-{{ with .Params.open_source_software_feature }}
+{{ with .Params.contact_section }}
 <section class="py-5 my-3">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-md-6">
-        {{.content | markdownify}}
-      </div>
-      <div class="col-md-6 text-center">
-        {{ partial "image.html" (dict "Src" .image "Alt" "software" "Size" "320x320") }}
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-
-{{ with .Params.familiar_with }}
-<section class="section bg-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
+      <div class="col-md-6 offset-md-3 text-center">
         <div class="section-title">
-          <h2 class="h3">{{.title | markdownify}}</h2>
-        </div>
-      </div>
-      <div class="col-9 mx-auto">
-        <div class="row gy-5">
-          {{ range .lists }}
-          <div class="col-md-6">
-            {{ . | markdownify }}
-          </div>
-          {{ end }}
+          <h2>{{.title | markdownify}}</h2>
+           <div class="h4">
+             <p>{{.content | markdownify}}</p>
+           </div>
         </div>
       </div>
     </div>
@@ -41,40 +44,21 @@
 </section>
 {{ end }}
 
-{{/* Used Tech */}}
-{{ with .Params.used_technology }}
-<section class="section pt-0">
+<section class="py-5 my-3">
   <div class="container">
-    <div class="row">
-      <div class="col-9 mx-auto">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 align-items-center">
-          {{ range .images }}
-          <div class="col text-center">
-            {{ partial "image.html" (dict "Src" . "Alt" "technology") }}
-          </div>
-          {{ end }}
-        </div>
+    <div class="row align-items-center">
+      <div class="col-md-6 offset-md-3 text-center">
+        <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+        <script>
+        hbspt.forms.create({
+        region: "eu1",
+        portalId: "143197783",
+        formId: "4a80dd35-9f25-4659-ac37-25b8cd444a62"
+        });
+        </script>
       </div>
     </div>
   </div>
 </section>
-{{ end }}
-
-
-{{with .Params.message}}
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 text-center mx-auto">
-        <h2 class="h3">
-          {{ .content | markdownify }}
-        </h2>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-
-{{ partial "components/cta.html" (dict "Context" . "Class" "bg-light") }}
 
 {{ end }}
