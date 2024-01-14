@@ -71,4 +71,3 @@ run_docker_container
 
 # After the Docker container exits, kill the background sync process
 kill $!
-
