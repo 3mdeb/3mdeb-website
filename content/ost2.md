@@ -18,7 +18,7 @@ new_landing_page_products:
     size: 200x200
     description: "Tailored training in firmware and embedded systems, for cutting-edge security and transparency."
   estos:
-    link: "https://3mdeb.com/zavishaos"
+    link: "https://3mdeb.com/operating-systems-development"
     title: "Zavisha OS"
     image: "images/zavishaos_logo.png"
     alt: "Zavisha OS Logo"
