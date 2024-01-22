@@ -4,7 +4,7 @@ description: ""
 image: "images/chips-circuit-circuit-board.jpg"
 keywords: [""]
 draft: false
-layout: "ost2"
+layout: "landing_page"
 
 new_landing_page_header:
   title: Our products offering

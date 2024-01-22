@@ -227,7 +227,7 @@ weight = 20
 [[main]]
 parent = "News"
 name = "New Landing Page"
-url = "ost2/"
+url = "landing_page/"
 weight = 25
 
 [[main]]
