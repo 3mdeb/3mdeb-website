@@ -37,7 +37,7 @@ software_security:
 
     Any compromise to integrity, authentication and availability makes a software insecure. Software systems can be attacked to steal information, monitor content, introduce vulnerabilities and damage the behavior of software.
 
-    Many companies produce devices that contain stock firmware. This is obvious, but if it is proprietary [**it may contain bugs or vulnerabilities**](https://www.computerworld.com/article/2505096/researcher-creates-proof-of-concept-malware-that-infects-bios--network-cards.html), you may not know about. That’s why we prefer an open-source software and firmware. We consider it safer and we are able to increase its security clearing any bugs or issues, that may impact overall safety.
+    Many companies produce devices that contain stock firmware. This is obvious, but if it is proprietary [**it may contain bugs or vulnerabilities**](https://www.computerworld.com/article/2724197/researcher-creates-proof-of-concept-malware-that-infects-bios--network-cards.html), you may not know about. That’s why we prefer an open-source software and firmware. We consider it safer and we are able to increase its security clearing any bugs or issues, that may impact overall safety.
 
     We can enable **[coreboot](https://www.coreboot.org/)** on your platform, what will significantly decrease possibility of any successful attacks. It is signed and can be safely updated, [**and will turn your device into Attacker-Unfriendly**.](https://www.wired.com/2015/02/firmware-vulnerable-hacking-can-done/)
 
