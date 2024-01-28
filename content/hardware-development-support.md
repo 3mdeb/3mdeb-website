@@ -6,7 +6,6 @@ keywords: [""]
 draft: false
 layout: "hardware-development-support"
 
-
 hardware_support:
   - image: "images/services/support.png"
     content: |
@@ -51,5 +50,4 @@ why_us:
     If you are looking for a partner for a long term hardware project, you’ve just found it. Don’t waste your time, and **[contact us](https://3mdeb.com/contact/)**, or **[book a call](https://calendly.com/3mdeb)**.
 
   image: "images/hardware-security/pcengines.png"
-
 ---
