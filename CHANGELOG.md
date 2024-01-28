@@ -153,4 +153,3 @@ All notable changes to this project will be documented in this file.
 ### Images
 
 - Optimize size of the images (fed7445)
-
