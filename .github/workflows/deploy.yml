@@ -15,19 +15,19 @@ jobs:
     environment: prod
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4.1.1
         with:
           fetch-depth: 1
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4.0.1
         with:
-          node-version: 16
+          node-version: 20
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v2.6.0
         with:
-          hugo-version: '0.110.0'
+          hugo-version: "0.111.3"
           extended: true
 
       - name: Setup Env
