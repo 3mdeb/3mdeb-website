@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.9.0] - 2024-01-29
+
+070c095...070c095
+
+### CHANGELOG.md
+
+- Add v0.9.0 (070c095)
+
+### CI/CD
+
+- Update versions of all actions used (c77f2fc)
+
+### Content
+
+- Fix pre-commit issues (ce7df01)
+
+### Pre-commit
+
+- Autoupdate hooks (49e7fe7)
+
+### README
+
+- Update development workflow (6b3aeb1)
+
+### Scripts
+
+- Update version of container used to match CI/CD (dfad18f)
+
 ## [0.8.0] - 2024-01-28
 
 ### About Us

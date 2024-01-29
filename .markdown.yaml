@@ -4,6 +4,10 @@ MD013:
   # Number of characters for code blocks
   code_block_line_length: 400
   tables: false
+MD024:
+  # If the parameter siblings_only is set to true, duplication is allowed for
+  # headings with different parents (as is common in changelogs)
+  siblings_only: true
 
 # MD041/first-line-heading/first-line-h1 - First line in a file should be a top-level heading
 MD041:
