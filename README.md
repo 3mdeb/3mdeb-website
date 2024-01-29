@@ -35,9 +35,11 @@ additional layer of control and verification in the beta/prod environment.
 1. Whenever creating new branch for your changes, first, remember to checkout to
    up to date `develop` branch.
 2. After pushing changes to your branch, set a Pull Request to `develop` branch,
-   instead of `main`. Reporter will verify patch and publish beta env to the
-   production later.
+   instead of `main`. Reporter will verify patch and publish beta env.
    * beta website: <https://beta.3mdeb.com/>
+3. After successful deployment on the beta environment, if a whole set of
+   patches is merged in the `develop` branch, open a new PR to `main`. The
+   reporter will verify changes and publish prod env.
    * prod website: <https://3mdeb.com/>
 
 > **NOTE**: If you forgot about rule Ad. 1, you can change the source branch

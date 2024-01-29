@@ -1,70 +1,56 @@
 ---
 banner:
   slider:
-  - title: "OUR SOFTWARE"
-    subtitle: "YOUR SOLUTION"
-    image: "images/banner/our-software.jpg"
-    link: ""
+    - title: "OUR SOFTWARE"
+      subtitle: "YOUR SOLUTION"
+      image: "images/banner/our-software.jpg"
+      link: ""
 
-  - title: ""
-    subtitle: ""
-    image: "images/banner/testimonial.jpg"
-    link: ""
+    - title: ""
+      subtitle: ""
+      image: "images/banner/testimonial.jpg"
+      link: ""
 
-  - title: "Break the cycle"
-    subtitle: "JOIN THE DASHARO FAMILY"
-    image: "images/banner/dasharo.png"
-    link: "https://dasharo.com/"
+    - title: "Break the cycle"
+      subtitle: "JOIN THE DASHARO FAMILY"
+      image: "images/banner/dasharo.png"
+      link: "https://dasharo.com/"
 
   important_links:
-  - title: "Open Source Software"
-    image: "images/banner/open-source-software.jpg"
-    link: "open-source-software/"
+    - title: "Open Source Software"
+      image: "images/banner/open-source-software.jpg"
+      link: "open-source-software/"
 
-  - title: "Careers"
-    image: "images/banner/careers.jpg"
-    link: "careers/"
+    - title: "Careers"
+      image: "images/banner/careers.jpg"
+      link: "careers/"
 
-  - title: "Training"
-    image: "images/banner/training.jpg"
-    link: "training/"
+    - title: "Training"
+      image: "images/banner/training.jpg"
+      link: "training/"
 
   clients_image: "images/clients.jpg"
-
 
 cooperation_with_us:
   enable: true
   title: "Cooperation with **3mdeb**"
 
   coop_lists:
-    - title: "Contact Us"
+    - title: "Initial Consultation"
       content: |
-        If you are interested in collaboration with 3mdeb, let us know by the <br/> [Contact Form](https://3mdeb.com/contact/) <br/> [Book a call](https://calendly.com/3mdeb)
+        Begin your journey with us through a consultation call. Here, we'll complete a detailed survey focusing on your Embedded Systems, Firmware & Training needs. <br/> [Book a call](https://cloud.3mdeb.com/index.php/apps/calendar/appointment/n7T65toSaD9t)
 
-    - title: "Complete the optional survey"
+    - title: "Documentation and Offer Preparation"
       content: |
-        You can receive an initial, customized survey on e-mail. Your answers will help us to prepare a Project Discovery for further cooperation. <br/> [Contact Us](https://3mdeb.com/contact/)
+        If needed, we'll handle additional paperwork, including NDAs, to fully understand your project. We then craft a tailored offer with terms and conditions based on your provided documentation and any further queries.
 
-    - title: "Let’s Meet"
+    - title: "Project Implementation and Delivery"
       content: |
-        In the next step, we will arrange a free meeting, during which we will answer your preliminary questions. <br/> [Contact Us](https://3mdeb.com/contact/)
+        Upon offer acceptance, we move into action, developing and testing your solution. Our commitment is to deliver high-quality results that meet your specifications.
 
-    - title: "Define the requirements"
+    - title: "Post-Delivery Support and Maintenance"
       content: |
-        When agreed, on the basis of NDA contract, we will prepare a Project Discovery within 5-10 working days. Having it all set, we will contact you to discuss an initial plan of cooperation. <br/> [Contact Us](https://3mdeb.com/contact/)
-
-    - title: "Discuss the project plan"
-      content: |
-        In the next step, we will present a full project design, including quote. At this stage, we will be able to clarify the list of requirements and prepare the terms of the contract. <br/> [Contact Us](https://3mdeb.com/contact/)
-
-    - title: "Sign a contract"
-      content: |
-        After signing the contract, we will proceed to the implementation of the project, informing you about the progress. <br/> [Contact Us](https://3mdeb.com/contact/)
-
-    - title: "Verify the received product"
-      content: |
-        After the product is delivered and tested, our cooperation can proceed to the next project or include additional maintenance. <br/> [Our Services](service-catalogues/)
-
+        Our relationship continues after delivery. We offer ongoing support and maintenance, ensuring your solution continues to perform at its best.
 
 where_is_3mdeb:
   enable: true
