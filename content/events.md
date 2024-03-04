@@ -213,7 +213,7 @@ all_events:
     - title: "Yocto Project at **Embedded Open-Source Summit**"
       status: ""
       date: "26.06.2023"
-      event_poster: ""
+      event_poster: "images/events/2023/Yocto_Project_logo.png"
       additional_info: |
         ### Yocto Project at Embedded Open-Source Summit 2023 **[Official Page](https://www.yoctoproject.org/yocto-project-at-embedded-open-source-summit-2023/)**
 
@@ -245,7 +245,7 @@ all_events:
       status: ""
       date: "24-26.06.2023"
       event_poster: "images/events/2023/xen2023.png"
-      additional_info: |
+      additional_info: 
         ### Xen Developer & Design Summit **[Official Page](https://events.linuxfoundation.org/xen-project-summit/)**
 
       # segments:
