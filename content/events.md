@@ -29,7 +29,7 @@ all_events:
       additional_info: |
         ### FOSSASIA Summit **[Official Page](https://eventyay.com/e/55d2a466)**<br><br>
 
-    - title: "Xeon Project **Summit**"
+    - title: "Xen Project **Summit**"
       status: "upcoming"
       date: "04-06.06.2024"
       event_poster: "images/events/2024/xen-summit-2024.png"
