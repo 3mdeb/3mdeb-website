@@ -15,19 +15,26 @@ all_events:
   - year: "Upcoming **2024**"
     events:
 
-    - title: "FOSDEM **2024**"
-      status: "upcoming"
-      date: "03-04.02.2024"
-      event_poster: "images/events/fosdem.jpeg"
-      additional_info: |
-        ### FOSDEM 2024 **[Official Page](https://fosdem.org/2024/)**
-
     - title: "Dasharo User Group 0x5 **& Developers vPub 0xA**"
       status: "upcoming"
       date: "14.03.2024"
       event_poster: "images/events/2024/dug_5.jpg"
       additional_info: |
         ### Dasharo User Group #5 **[Official Page](https://vpub.dasharo.com/e/12/dasharo-user-group-5)**<br><br>
+
+    - title: "FOSSASIA **Summit 2024**"
+      status: "upcoming"
+      date: "08-10.04.2024"
+      event_poster: "images/events/2024/fossasia-2024.png"
+      additional_info: |
+        ### FOSSASIA Summit **[Official Page](https://eventyay.com/e/55d2a466)**<br><br>
+
+    - title: "Xeon Project **Summit**"
+      status: "upcoming"
+      date: "04-06.06.2024"
+      event_poster: "images/events/2024/xen-summit-2024.png"
+      additional_info: |
+        ### Xen Project Summit **[Official Page](https://events.linuxfoundation.org/xen-project-summit/)**<br><br>
 
     - title: "Dasharo User Group 0x6 **& Developers vPub 0xB**"
       status: "upcoming"
@@ -50,6 +57,13 @@ all_events:
       additional_info: |
         ### Dasharo User Group #7 **[Official Page](https://vpub.dasharo.com/e/14/dasharo-user-group-7)**<br><br>
 
+    - title: "Linux Plumbers **Conference**"
+      status: "upcoming"
+      date: "19-20.09.2024"
+      event_poster: "images/events/2024/lpc_2024.png"
+      additional_info: |
+        ### Linux Plumbers Conference **[Official Page](https://lpc.events/)**<br><br>
+
     - title: "Dasharo User Group 0x8 **& Developers vPub 0xD**"
       status: "upcoming"
       date: "12.12.2024"
@@ -57,10 +71,61 @@ all_events:
       additional_info: |
         ### Dasharo User Group #8 **[Official Page](https://vpub.dasharo.com/e/15/dasharo-user-group-8)**<br><br>
 
+  - year: "20**24**"
+    events:
+    - title: "FOSDEM **2024**"
+      status: ""
+      date: "03-04.02.2024"
+      event_poster: "images/events/fosdem.jpeg"
+      additional_info: |
+        ### FOSDEM 2024 **[Official Page](https://fosdem.org/2024/)**<br><br>
+
+      # segments:
+      segments:
+        - date: "04.02.2023"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Open Source Firmware status on AMD platforms 2024 - 5th edition**  <br>
+            Presenters: **Michał Żygowski**
+
+            * [**Direct link**](https://fosdem.org/2024/schedule/event/fosdem-2024-2936-open-source-firmware-status-on-amd-platforms-2024-5th-edition/)
+            * [**Slides**](https://fosdem.org/2024/events/attachments/fosdem-2024-2936-open-source-firmware-status-on-amd-platforms-2024-5th-edition/slides/22753/Open_Source_Firmware_status_on_AMD_platforms_20_aQbCpfQ.pdf)
+            * [**Video**](https://video.fosdem.org/2024/aw1126/fosdem-2024-2936-open-source-firmware-status-on-amd-platforms-2024-5th-edition.av1.webm)
+
+        - date: "04.02.2023"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#2**  <br>
+            Topic: **TrenchBoot - project status update**  <br>
+            Presenters: **Maciej Pijanowski, Jagannathan Raman**
+
+            * [**Direct link**](https://fosdem.org/2024/schedule/event/fosdem-2024-3724-trenchboot-project-status-update/)
+            * [**Slides: DRTM status**](https://fosdem.org/2024/events/attachments/fosdem-2024-3724-trenchboot-project-status-update/slides/22916/DRTM-presentation-FOSDEM_Crm6zWi.pdf)
+            * [**Slides: TrenchBoot AEM status**](https://fosdem.org/2024/events/attachments/fosdem-2024-3724-trenchboot-project-status-update/slides/22916/TrenchBoot_AEM_Project_Status_P8H1V5D.pdf)
+            * [**Video**](https://video.fosdem.org/2024/aw1126/fosdem-2024-3724-trenchboot-project-status-update.av1.webm)
+
+        - date: "04.02.2023"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#3**  <br>
+            Topic: **Securing Embedded Systems with fTPM implemented as Trusted Application in TEE**  <br>
+            Presenters: **Tymoteusz Burak**
+
+            * [**Direct link**](https://fosdem.org/2024/schedule/event/fosdem-2024-3097-securing-embedded-systems-with-ftpm-implemented-as-trusted-application-in-tee/)
+            * [**Slides**](https://fosdem.org/2024/events/attachments/fosdem-2024-3097-securing-embedded-systems-with-ftpm-implemented-as-trusted-application-in-tee/slides/22864/Securing_Embedded_Systems_with_fTPM_implemente_imNOzSk.pdf)
+            * [**Video**](https://video.fosdem.org/2024/h2214/fosdem-2024-3097-securing-embedded-systems-with-ftpm-implemented-as-trusted-application-in-tee.av1.webm)
+
+
+
+
   - year: "20**23**"
     events:
     - title: "Dasharo User Group 0x4 **& Developers vPub 0x9**"
-      status: "upcoming"
+      status: ""
       date: "07.12.2023"
       event_poster: "images/events/2023/dug_4.png"
       additional_info: |
