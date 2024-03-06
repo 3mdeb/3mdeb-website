@@ -38,7 +38,7 @@ all_events:
 
     - title: "Dasharo User Group 0x6 **& Developers vPub 0xB**"
       status: "upcoming"
-      date: "06.06.2024"
+      date: "13.06.2024"
       event_poster: ""
       additional_info: |
         ### Dasharo User Group #6 **[Official Page](https://vpub.dasharo.com/e/13/dasharo-user-group-6)**<br><br>
