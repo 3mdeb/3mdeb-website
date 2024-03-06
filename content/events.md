@@ -245,7 +245,7 @@ all_events:
       status: ""
       date: "24-26.06.2023"
       event_poster: "images/events/2023/xen2023.png"
-      additional_info: 
+      additional_info:
         ### Xen Developer & Design Summit **[Official Page](https://events.linuxfoundation.org/xen-project-summit/)**
 
       # segments:
