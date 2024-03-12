@@ -13,7 +13,7 @@ repos:
       - id: mixed-line-ending
 
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.33.0
+    rev: v1.35.1
     hooks:
       - id: yamllint
         args: [-c=.yamllint]
@@ -27,7 +27,7 @@ repos:
         args: [-c.markdown.yaml]
 
   - repo: https://github.com/talos-systems/conform
-    rev: v0.1.0-alpha.27
+    rev: v0.1.0-alpha.30
     hooks:
       - id: conform
         stages:
