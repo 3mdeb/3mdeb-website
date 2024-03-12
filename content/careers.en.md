@@ -317,7 +317,7 @@ apply_form:
   input_cover_letter: "Your Cover Letter in PDF format (max 5mb)"
   input_how_did_you_hear: "How did you hear about the job offer? (required)"
   input_message: "Your Message"
-  input_agreement: "“I agree to the processing of my personal data by the company 3mdeb Piotr Król with its registered office in Gdańsk, ul. Burgaska 9d/10, for the needs of the recruitment process; in accordance with the provisions of the Personal Data Protection Act of 29.08.1997 (Journal of Laws of 2002 No. 101, item 926 as amended).”"
+  input_agreement: "“I agree to the processing of my personal data by the company 3mdeb Sp. z o.o. with its registered office in Gdańsk, ul. Piastowska 7/20A, for the needs of the recruitment process; in accordance with the provisions of the Personal Data Protection Act of 10.05.2018.”"
   input_button: "Send"
 
 team_visions:
