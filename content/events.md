@@ -48,7 +48,7 @@ all_events:
       date: "20-22.09.2024"
       event_poster: ""
       additional_info: |
-        ### Qubes OS Summit 2024 Official Page Coming Soon
+        ### Qubes OS Summit 2024 **[Official Page](https://vpub.dasharo.com/e/16/qubes-os-summit-2024)**<br><br>
 
     - title: "Dasharo User Group 0x7 **& Developers vPub 0xC**"
       status: "upcoming"
