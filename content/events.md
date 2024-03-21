@@ -67,7 +67,7 @@ all_events:
   - year: "20**24**"
     events:
     - title: "Dasharo User Group 0x5 **& Developers vPub 0xA**"
-      status: "upcoming"
+      status: ""
       date: "14.03.2024"
       event_poster: "images/events/2024/dug_5.jpg"
       additional_info: |
