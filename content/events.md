@@ -15,13 +15,6 @@ all_events:
   - year: "Upcoming **2024**"
     events:
 
-    - title: "Dasharo User Group 0x5 **& Developers vPub 0xA**"
-      status: "upcoming"
-      date: "14.03.2024"
-      event_poster: "images/events/2024/dug_5.jpg"
-      additional_info: |
-        ### Dasharo User Group #5 **[Official Page](https://vpub.dasharo.com/e/12/dasharo-user-group-5)**<br><br>
-
     - title: "FOSSASIA **Summit 2024**"
       status: "upcoming"
       date: "08-10.04.2024"
@@ -73,16 +66,25 @@ all_events:
 
   - year: "20**24**"
     events:
+    - title: "Dasharo User Group 0x5 **& Developers vPub 0xA**"
+      status: ""
+      date: "14.03.2024"
+      event_poster: "images/events/2024/dug_5.jpg"
+      additional_info: |
+        ### Dasharo User Group #5 **[Official Page](https://vpub.dasharo.com/e/12/dasharo-user-group-5)**<br><br>
+
+
     - title: "FOSDEM **2024**"
       status: ""
       date: "03-04.02.2024"
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
         ### FOSDEM 2024 **[Official Page](https://fosdem.org/2024/)**<br><br>
+        Open Source Firmware, BMC and Bootloader devroom [Direct link](https://fosdem.org/2024/schedule/track/open-source-firmware-bmc-and-bootloader/)
 
       # segments:
       segments:
-        - date: "04.02.2023"
+        - date: "04.02.2024"
           image: ""
           youtube_video_id: ""
           additional_info: |
@@ -94,7 +96,7 @@ all_events:
             * [**Slides**](https://fosdem.org/2024/events/attachments/fosdem-2024-2936-open-source-firmware-status-on-amd-platforms-2024-5th-edition/slides/22753/Open_Source_Firmware_status_on_AMD_platforms_20_aQbCpfQ.pdf)
             * [**Video**](https://video.fosdem.org/2024/aw1126/fosdem-2024-2936-open-source-firmware-status-on-amd-platforms-2024-5th-edition.av1.webm)
 
-        - date: "04.02.2023"
+        - date: "04.02.2024"
           image: ""
           youtube_video_id: ""
           additional_info: |
@@ -107,7 +109,7 @@ all_events:
             * [**Slides: TrenchBoot AEM status**](https://fosdem.org/2024/events/attachments/fosdem-2024-3724-trenchboot-project-status-update/slides/22916/TrenchBoot_AEM_Project_Status_P8H1V5D.pdf)
             * [**Video**](https://video.fosdem.org/2024/aw1126/fosdem-2024-3724-trenchboot-project-status-update.av1.webm)
 
-        - date: "04.02.2023"
+        - date: "04.02.2024"
           image: ""
           youtube_video_id: ""
           additional_info: |
@@ -118,8 +120,6 @@ all_events:
             * [**Direct link**](https://fosdem.org/2024/schedule/event/fosdem-2024-3097-securing-embedded-systems-with-ftpm-implemented-as-trusted-application-in-tee/)
             * [**Slides**](https://fosdem.org/2024/events/attachments/fosdem-2024-3097-securing-embedded-systems-with-ftpm-implemented-as-trusted-application-in-tee/slides/22864/Securing_Embedded_Systems_with_fTPM_implemente_imNOzSk.pdf)
             * [**Video**](https://video.fosdem.org/2024/h2214/fosdem-2024-3097-securing-embedded-systems-with-ftpm-implemented-as-trusted-application-in-tee.av1.webm)
-
-
 
 
   - year: "20**23**"
@@ -142,6 +142,37 @@ all_events:
             Presenters: **3mdeb Team with Guests**
 
             * [**Slides**](http://dl.3mdeb.com/dasharo/dug/4/)
+
+    - title: "Yocto Project **Summit**"
+      status: ""
+      date: "28-30.11.2023"
+      event_poster: "images/events/2023/Yocto_Project_logo.png"
+      additional_info: |
+        ### Yocto Project Summit **[Official Page](https://summit.yoctoproject.org/yocto-project-summit-2023-11/)**
+
+      # segments:
+      segments:
+        - date: "29.11.2023"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Dealing with UEFI Secure Boot support using Yocto Project**<br>
+            Presenters: **Tomasz Żyjewski**
+
+            * [**Direct link**](https://summit.yoctoproject.org/yocto-project-summit-2023-11/talk/HGTEGC/)
+            * [**Slides**](https://summit.yoctoproject.org/media/yocto-project-summit-2023-11/submissions/HGTEGC/resources/presentation_zq25ldK.pdf)
+
+        - date: "30.11.2023"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#2**  <br>
+            Topic: **FIDO Device Onboarding: Late-binding Provisioning & Tales from the Trenches of Bleeding Edge Tech**  <br>
+            Presenters: **Tymek Burak**
+
+            * [**Direct link**](https://summit.yoctoproject.org/yocto-project-summit-2023-11/talk/KXCZYK/)
+            * [**Slides**](https://summit.yoctoproject.org/media/yocto-project-summit-2023-11/submissions/KXCZYK/resources/FIDO_Device_Onboarding_YoctoSu_C14fiKE.pdf)
 
     - title: "Qubes OS **Summit 2023**"
       status: ""
@@ -210,12 +241,12 @@ all_events:
             * [**Slides**](https://dl.3mdeb.com/dasharo/dug/2/)
 
 
-    - title: "Yocto Project at **Embedded Open-Source Summit**"
+    - title: "Yocto Project **Dev Days**"
       status: ""
       date: "26.06.2023"
       event_poster: "images/events/2023/Yocto_Project_logo.png"
       additional_info: |
-        ### Yocto Project at Embedded Open-Source Summit 2023 **[Official Page](https://www.yoctoproject.org/yocto-project-at-embedded-open-source-summit-2023/)**
+        ### Yocto Project Dev Days **[Official Page](https://www.yoctoproject.org/yocto-project-at-embedded-open-source-summit-2023/)**
 
       # segments:
       segments:
@@ -286,7 +317,8 @@ all_events:
       date: "04-05.02.2022"
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
-        ### FOSDEM 2023 **[Official Page](https://fosdem.org/2023/)**
+        ### FOSDEM 2023 **[Official Page](https://fosdem.org/2023/)**<br><br>
+        Open Source Firmware, BMC and Bootloader devroom [Direct link](https://archive.fosdem.org/2023/schedule/track/open_source_firmware_bmc_and_bootloader/)
 
       # segments:
       segments:
@@ -348,7 +380,7 @@ all_events:
       date: "29.11-01.12.2022"
       event_poster: "images/events/2022/yocto-project_virtual-summit.png"
       additional_info: |
-        ### Yocto Project Summit **[Official Page](https://www.yoctoproject.org/yocto-project-summit-2022-11/)**
+        ### Yocto Project Summit **[Official Page](https://pretalx.com/yocto-project-summit-2022-11/schedule/)**
 
       # segments:
       segments:
@@ -360,7 +392,7 @@ all_events:
             Topic: **Enabling UEFI Secure Boot on x86 platform with Yocto - getting started with meta-secure-core**  <br>
             Presenters: **Tomasz Żyjewski**
 
-            * [**Direct link**](https://summit.yoctoproject.org/yocto-project-summit-2022-11/talk/KJDAFF/)
+            * [**Direct link**](https://pretalx.com/yocto-project-summit-2022-11/talk/KJDAFF/)
             * [**Slides**](https://summit.yoctoproject.org/media/yocto-project-summit-2022-11/submissions/KJDAFF/resources/slides_v1.1_WFR8xEf.pdf)
 
     - title: "Open Source **Firmware Conference**"
@@ -475,21 +507,37 @@ all_events:
 
             * [**Slides**](https://shop.3mdeb.com/wp-content/uploads/2022/08/Dasharo-OSF-vPub-Spring-2022-aka-3mdeb-vPub-vol.-5.pdf)
 
+    - title: "Yocto Project **Summit**"
+      status: ""
+      date: "17-19.05.2022"
+      event_poster: "images/events/2022/yocto-project_virtual-summit.png"
+      additional_info: |
+        ### Yocto Project Summit **[Official Page](https://pretalx.com/yocto-project-summit-2022-05/)**
+
+      # segments:
+      segments:
+        - date: "18.05.2022"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Support of the Nezha Allwinner D1 in meta-riscv**  <br>
+            Presenters: **Cezary Sobczak**
+
+            * [**Direct link**](https://pretalx.com/yocto-project-summit-2022-05/talk/JZ39EH/)
+            * [**Slides**](https://pretalx.com/media/yocto-project-summit-2022-05/submissions/JZ39EH/resources/Support_of_the_Nezha_Allwinner_JM0xuWz.pdf)
+            * [**Video**](https://youtu.be/QdBG6HUeE6w?si=HF-LqZyxCSThNRbf)
+
     - title: "FOSDEM **2022**"
       status: ""
       date: "05-06.02.2022"
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
-        ### FOSDEM 2022 **[Official Page](https://fosdem.org/2022/)**
+        ### FOSDEM 2022 **[Official Page](https://fosdem.org/2022/)**<br><br>
+        Open Source Firmware, BMC and Bootloader devroom [Direct link](https://fosdem.org/2022/schedule/track/open_source_firmware_bmc_and_bootloader/)
 
       # segments:
       segments:
-        - date: "05.02.2022"
-          image: "images/events/2022/devroom_afterhours-1024x726.png"
-          youtube_video_id: ""
-          additional_info: |
-            ### OSF, BMC and Bootloader devroom **[Official Page](https://fosdem.org/2022/schedule/track/open_source_firmware_bmc_and_bootloader/)**
-
         - date: "05.02.2022"
           image: ""
           youtube_video_id: ""
@@ -513,6 +561,17 @@ all_events:
             * [**Direct link**](https://archive.fosdem.org/2022/schedule/event/ost2/)
             * [**Slides**](https://shop.3mdeb.com/wp-content/uploads/2022/08/OST2_-A-new-way-to-grow-security-talent-for-open-source-projects.pdf)
             * [**Video**](https://ftp.heanet.ie/mirrors/fosdem-video/2022/D.firmware/ost2.mp4)
+
+        - date: "06.02.2022"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#3**  <br>
+            Topic: **Firmware updates for OPNsense and pfSense with fwupd/LVFS**  <br>
+            Presenters: **Norbert Kamiński**
+
+            * [**Direct link**](https://archive.fosdem.org/2022/schedule/event/firmware_updates_for_opnsense_and_pfsense/)
+            * [**Video**](https://mirrors.dotsrc.org/fosdem/2022/D.bsd/firmware_updates_for_opnsense_and_pfsense.mp4)
 
     - title: "Dasharo OSF vPub Winter 2022 **(aka 3mdeb vPub vol. 4)**"
       status: ""
@@ -891,8 +950,8 @@ all_events:
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
         ### FOSDEM 2021 **[Official Page](https://archive.fosdem.org/2021/)** <br><br>
-
-        Open Source Firmware BMC and Bootloader devroom: [Blogpost](https://blog.3mdeb.com/2021/2021-02-02-fosdem2021/)
+        Open Source Firmware, BMC and Bootloader devroom [Direct link](https://archive.fosdem.org/2021/schedule/track/open_source_firmware_bmc_and_bootloader/)
+        Open Source Firmware BMC and Bootloader devroom [Blogpost](https://blog.3mdeb.com/2021/2021-02-02-fosdem2021/)
 
       # segments:
       segments:
@@ -908,6 +967,30 @@ all_events:
             * [**Slides**](https://fosdem.org/2021/schedule/event/firmware_osfsoap2/attachments/slides/4669/export/events/attachments/firmware_osfsoap2/slides/4669/Open_Source_Firmware_status_on_AMD_platforms_2021.pdf)
 
             Videos & Slides from other presentations are available here: [link](https://fosdem.org/2021/schedule/track/open_source_firmware_bmc_and_bootloader/)
+
+        - date: "07.07.2021"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#2**  <br>
+            Topic: **Overview of Secure Boot state in the ARM-based SoCs**
+            Presenter: **Maciej Pijanowski**
+
+            * [**Direct link**](https://archive.fosdem.org/2021/schedule/event/tee_arm_secboot/)
+            * [**Slides**](https://archive.fosdem.org/2021/schedule/event/tee_arm_secboot/attachments/paper/4635/export/events/attachments/tee_arm_secboot/paper/4635/Overview_of_Secure_Boot_in_Arm_based_SoCs.pdf)
+            * [**Video**](https://mirrors.dotsrc.org/fosdem/2021/D.hardware.trusted/tee_arm_secboot.mp4)
+
+        - date: "07.07.2021"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#3**  <br>
+            Topic: **Porting fwupd to the BSD distributions**<br>
+            Presenter: **Norbert Kamiński**
+
+            * [**Direct link**](https://archive.fosdem.org/2021/schedule/event/porting_fwupd_to_the_bsd/)
+            * [**Slides**](https://archive.fosdem.org/2021/schedule/event/porting_fwupd_to_the_bsd/attachments/slides/4473/export/events/attachments/porting_fwupd_to_the_bsd/slides/4473/Porting_fwupd_to_the_BSD_distributions.pdf)
+            * [**Video**](https://mirrors.dotsrc.org/fosdem/2021/D.bsd/porting_fwupd_to_the_bsd.mp4)
 
 
   - year: "20**20**"
@@ -1242,7 +1325,8 @@ all_events:
       date: "01-02.02.2020"
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
-        ### FOSDEM 2020 **[Official Page](https://archive.fosdem.org/2020/)**
+        ### FOSDEM 2020 **[Official Page](https://archive.fosdem.org/2020/)**<br><br>
+        Open Source Firmware, BMC and Bootloader devroom [Direct link](https://archive.fosdem.org/2020/schedule/track/open_source_firmware_bmc_and_bootloader/)
 
       # segments:
       segments:
