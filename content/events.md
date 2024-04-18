@@ -15,13 +15,6 @@ all_events:
   - year: "Upcoming **2024**"
     events:
 
-    - title: "FOSSASIA **Summit 2024**"
-      status: "upcoming"
-      date: "08-10.04.2024"
-      event_poster: "images/events/2024/fossasia-2024.png"
-      additional_info: |
-        ### FOSSASIA Summit **[Official Page](https://eventyay.com/e/55d2a466)**<br><br>
-
     - title: "Xen Project **Summit**"
       status: "upcoming"
       date: "04-06.06.2024"
@@ -32,7 +25,7 @@ all_events:
     - title: "Dasharo User Group 0x6 **& Developers vPub 0xB**"
       status: "upcoming"
       date: "13.06.2024"
-      event_poster: ""
+      event_poster: "images/events/2024/dug_6.png"
       additional_info: |
         ### Dasharo User Group #6 **[Official Page](https://vpub.dasharo.com/e/13/dasharo-user-group-6)**<br><br>
 
@@ -46,7 +39,7 @@ all_events:
     - title: "Dasharo User Group 0x7 **& Developers vPub 0xC**"
       status: "upcoming"
       date: "12.09.2024"
-      event_poster: ""
+      event_poster: "images/events/2024/dug_7.png"
       additional_info: |
         ### Dasharo User Group #7 **[Official Page](https://vpub.dasharo.com/e/14/dasharo-user-group-7)**<br><br>
 
@@ -60,12 +53,19 @@ all_events:
     - title: "Dasharo User Group 0x8 **& Developers vPub 0xD**"
       status: "upcoming"
       date: "12.12.2024"
-      event_poster: ""
+      event_poster: "images/events/2024/dug_8.png"
       additional_info: |
         ### Dasharo User Group #8 **[Official Page](https://vpub.dasharo.com/e/15/dasharo-user-group-8)**<br><br>
 
   - year: "20**24**"
     events:
+    - title: "FOSSASIA **Summit 2024**"
+      status: ""
+      date: "08-10.04.2024"
+      event_poster: "images/events/2024/fossasia-2024.png"
+      additional_info: |
+        ### FOSSASIA Summit **[Official Page](https://eventyay.com/e/55d2a466)**<br><br>
+
     - title: "Dasharo User Group 0x5 **& Developers vPub 0xA**"
       status: ""
       date: "14.03.2024"
