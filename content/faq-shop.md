@@ -14,7 +14,7 @@ Yes, we offer worldwide shipping.
 
 ###### Q: What payment methods do you accept?
 
-We accept: PayPal, Credit Card via Stripe, Bank transfer.
+We accept: PayPal, Credit Card via Stripe, and Bank transfer.
 
 ### **Delivery**
 
@@ -26,23 +26,38 @@ prepared and ready for shipment.
 ###### Q: How long does order processing take?
 
 Order Processing Time is individual for every product, you can check it on the
-product page by clicking the Additional information.
+product page by clicking the "Additional information".
 
 ###### Q: Shipping cost?
 
-Shipping costs are dependent on your location and products on your order. The 
-exact cost will be calculated upon checkout, based on the shipping address.
+Shipping costs are dependent on your address/country and products in your
+shopping cart. The exact cost will be calculated upon checkout, based on the
+provided shipping address.
+
+###### Q: You are shipping Full PC Builds. How can I be sure that my package will arrive intact?
+
+Inspecting Your Shipment: Before the shipment of Full PC Builds we take pictures
+of both the hardware and packaging. After it leaves our office we do not have
+any control over it. It is the consignee’s responsibility to inspect their
+shipment for damages before the Freight driver leaves the delivery location.
+Should the packaging display any signs of damage, open it immediately to check
+the contents, requesting the driver's presence to inspect together. If your
+shipment has been damaged, document the damages on the delivery receipt in
+detail and have it signed by the driver. If possible, please take pictures of
+the damages to the box and the damages to the item. Please notify us immediately
+so that we can initiate a damage claim with Freight. Failure to inspect for
+damages at the time of delivery could result in Freight voiding any subsequent
+damage claims.
 
 ### **Products**
 
-###### Q: I have some questions about the certain products in your store.
+###### Q: I have some questions about the certain products in your store
 
 Please refer to the official Dasharo documentation:
 
 * SDWire FAQ: <https://docs.dasharo.com/transparent-validation/sd-wire/faq/>
 * MSI FAQ: <https://docs.dasharo.com/unified/msi/faq/>
 * Dasharo Entry Subscription supported hardware: <https://docs.dasharo.com/variants/overview/>
-
 
 ### **Other**
 
@@ -53,5 +68,5 @@ Please check our official Dasharo FAQ section:
 
 ###### Q: I value what you are doing and would like to support you. How can I do this?
 
-Please consider the following methods to support us if you value what we are doing:
-<https://docs.dasharo.com/ways-you-can-help-us/>
+Please consider the following methods to support us if you value what we are
+doing: <https://docs.dasharo.com/ways-you-can-help-us/>
