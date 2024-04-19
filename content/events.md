@@ -25,7 +25,7 @@ all_events:
     - title: "Dasharo User Group 0x6 **& Developers vPub 0xB**"
       status: "upcoming"
       date: "13.06.2024"
-      event_poster: "images/events/2024/dug_6.png"
+      event_poster: "images/events/2024/dug_6.jpg"
       additional_info: |
         ### Dasharo User Group #6 **[Official Page](https://vpub.dasharo.com/e/13/dasharo-user-group-6)**<br><br>
 
@@ -39,7 +39,7 @@ all_events:
     - title: "Dasharo User Group 0x7 **& Developers vPub 0xC**"
       status: "upcoming"
       date: "12.09.2024"
-      event_poster: "images/events/2024/dug_7.png"
+      event_poster: "images/events/2024/dug_7.jpg"
       additional_info: |
         ### Dasharo User Group #7 **[Official Page](https://vpub.dasharo.com/e/14/dasharo-user-group-7)**<br><br>
 
@@ -53,7 +53,7 @@ all_events:
     - title: "Dasharo User Group 0x8 **& Developers vPub 0xD**"
       status: "upcoming"
       date: "12.12.2024"
-      event_poster: "images/events/2024/dug_8.png"
+      event_poster: "images/events/2024/dug_8.jpg"
       additional_info: |
         ### Dasharo User Group #8 **[Official Page](https://vpub.dasharo.com/e/15/dasharo-user-group-8)**<br><br>
 
