@@ -1,3 +1,3 @@
 [codespell]
 skip = *.svg,*.pl.md,themes/3mdeb/assets/*.js
-ignore-words-list = "doubleclick"
+ignore-words-list = hsi
