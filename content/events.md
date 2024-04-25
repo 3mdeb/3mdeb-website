@@ -662,6 +662,16 @@ all_events:
 
             * [**Slides**](https://shop.3mdeb.com/wp-content/uploads/2022/08/Fobnail_-Attestation-in-Your-Pocket.pdf)
 
+        - date: "16.11.2021"
+          image: ""
+          youtube_video_id: "xZoCtNV8Qs0&t=6379s"
+          additional_info: |
+            Presentation **#3**  <br>
+            Topic: **LVFS Host Security ID (HSI) and Silicon-Based Core Security**  <br>
+            Presenter: **Piotr Król**
+
+            * [**Slides**](https://shop.3mdeb.com/wp-content/uploads/2024/04/LVFS-Host-Security-ID-HSI-and-Silicon-Based-Core-Security.pdf)
+
     - title: "OpenPOWER **Summit**"
       status: ""
       date: "28.10.2021"
