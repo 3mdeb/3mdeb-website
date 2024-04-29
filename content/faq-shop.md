@@ -8,35 +8,35 @@ draft: false
 
 ### **Ordering and payment**
 
-###### Q: Do you offer shipping to my country?
+#### Q: Do you offer shipping to my country?
 
 Yes, we offer worldwide shipping.
 
-###### Q: What payment methods do you accept?
+#### Q: What payment methods do you accept?
 
 We accept: PayPal, Credit Card via Stripe, and Bank transfer.
 
 ### **Delivery**
 
-###### Q: How can I track my order?
+#### Q: How can I track my order?
 
 We will send you the tracking number on your email when your order is
 prepared and ready for shipment.
 
-###### Q: How long does order processing take?
+#### Q: How long does order processing take?
 
 Order Processing Time is individual for every product, you can check it on the
 product page by clicking the "Additional information".
 
-###### Q: Shipping cost?
+#### Q: Shipping cost?
 
 Shipping costs are dependent on your address/country and products in your
 shopping cart. The exact cost will be calculated upon checkout, based on the
 provided shipping address.
 
-###### Q: You are shipping Full PC Builds. How can I be sure that my package will arrive intact?
+#### Q: How do you ensure the safe shipping of the full PC build?
 
-Inspecting Your Shipment: Before the shipment of Full PC Builds we take pictures
+Inspecting Your Shipment: Before the shipment of full PC builds we take pictures
 of both the hardware and packaging. After it leaves our office we do not have
 any control over it. It is the consignee’s responsibility to inspect their
 shipment for damages before the Freight driver leaves the delivery location.
@@ -51,7 +51,7 @@ damage claims.
 
 ### **Products**
 
-###### Q: I have some questions about the certain products in your store
+#### Q: I have some questions about the certain products in your store
 
 Please refer to the official Dasharo documentation:
 
@@ -61,12 +61,12 @@ Please refer to the official Dasharo documentation:
 
 ### **Other**
 
-###### Q: What is the Dasharo and why do I need it?
+#### Q: What is the Dasharo and why do I need it?
 
 Please check our official Dasharo FAQ section:
-<https://docs.dasharo.com/osf-trivia-list/dasharo/>
+<https://docs.dasharo.com/osf-trivia-list/dasharo/>.
 
-###### Q: I value what you are doing and would like to support you. How can I do this?
+#### Q: I value what you are doing, how can I support you?
 
 Please consider the following methods to support us if you value what we are
-doing: <https://docs.dasharo.com/ways-you-can-help-us/>
+doing: <https://docs.dasharo.com/ways-you-can-help-us/>.
