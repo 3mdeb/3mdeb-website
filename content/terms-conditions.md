@@ -372,8 +372,7 @@ not be construed against the drafting party.
 ### Section 18 – **Governing Law**
 
 These Terms of Service and any separate agreements whereby we provide you
-Services shall be governed by and construed in accordance with the laws of
-Piastowska 7/20, Gdańsk, PM, 80-332, Poland.
+Services shall be governed by and construed in accordance with Polish law.
 
 ---
 
