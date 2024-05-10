@@ -10,11 +10,11 @@ draft: false
 ## Overview
 
 {.h2}
-This website is operated by 3mdeb Embedded Systems Throughout the site, the
-terms “we”, “us” and “our” refer to 3mdeb Embedded Systems. 3mdeb Embedded
-Systems offers this website, including all information, tools and services
-available from this site to you, the user, conditioned upon your acceptance of
-all terms, conditions, policies and notices stated here.
+This website is operated by 3mdeb sp. z o.o. Throughout the site, the
+terms “we”, “us” and “our” refer to 3mdeb sp. z o.o. 3mdeb sp. z o.o. offers
+this website, including all information, tools and services available from this
+site to you, the user, conditioned upon your acceptance of all terms,
+conditions, policies and notices stated here.
 
 By visiting our site and/or purchasing something from us, you engage in our
 “Service” and agree to be bound by the following terms and conditions (“Terms
@@ -292,7 +292,7 @@ conditions of any kind, either express or implied, including all implied
 warranties or conditions of merchantability, merchantable quality, fitness for
 a particular purpose, durability, title, and non-infringement.
 
-In no case shall 3mdeb Embedded Systems, our directors, officers, employees
+In no case shall 3mdeb sp. z o.o., our directors, officers, employees
 affiliates, agents, contractors, interns, suppliers, service providers or
 licensors be liable for any injury, loss, claim, or any direct, indirect,
 incidental, punitive, special, or consequential damages of any kind, including,
@@ -313,7 +313,7 @@ liability shall be limited to the maximum extent permitted by law.
 
 ### Section 14 – **Indemnification**
 
-You agree to indemnify, defend and hold harmless 3mdeb Embedded Systems and our
+You agree to indemnify, defend and hold harmless 3mdeb sp. z o.o. and our
 parent, subsidiaries, affiliates, partners, officers, directors, agents,
 contractors, licensors, service providers, subcontractors, suppliers, interns
 and employees, harmless from any claim or demand, including reasonable
