@@ -26,7 +26,7 @@ If the product is damaged in any way, or you have initiated the return after
 
 If the package is returned to us due to the customer's failure to comply with
 customs clearance obligations, including non-payment of customs duties, the
-customer will receive a refund less the cost of transporting the package. 
+customer will receive a refund less the cost of transporting the package.
 
 ---
 
