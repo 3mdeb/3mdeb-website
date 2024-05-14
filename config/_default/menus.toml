@@ -240,7 +240,7 @@ url = "https://shop.3mdeb.com/my-account/"
 weight = 35
 
 [[footer]]
-name = "Terms & Conditions"
+name = "Terms & Conditions | Return & Refund Policy"
 url = "/terms-conditions/"
 weight = 1
 
@@ -248,11 +248,6 @@ weight = 1
 name = "Privacy Policy"
 url = "/privacy-policy/"
 weight = 5
-
-[[footer]]
-name = "Return & Refund Policy"
-url = "/return-refund-policy/"
-weight = 10
 
 [[footer]]
 name = "Contact Us"
