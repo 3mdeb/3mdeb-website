@@ -6,9 +6,7 @@ keywords: [""]
 draft: false
 ---
 
-## Terms & Conditions
-
-### Overview
+## Overview
 
 {.h2}
 This website is operated by 3mdeb sp. z o.o. Throughout the site, the
