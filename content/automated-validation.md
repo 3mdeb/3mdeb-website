@@ -1,6 +1,7 @@
 ---
 title: "Automated Validation | Highest testing quality for your solutions"
-description: ""
+description: |
+   "The basic concept of validation is to verify that solutions work as required. Our testing infrastructure will ensure the stability of your firmware / software."
 image: "images/automated-validation/header-bg.jpg"
 keywords: [""]
 draft: false

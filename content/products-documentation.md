@@ -1,6 +1,7 @@
 ---
 title: "Products Documentation | Get to know our products better"
-description: ""
+description: |
+    "Get to know our products better. Here you will find documentation of our products: RTE, TPM2, muxPi, OpenVizsla, Vitrobian Crystal."
 image: "images/product-documentation.jpg"
 keywords: [""]
 draft: false

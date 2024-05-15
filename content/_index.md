@@ -1,5 +1,7 @@
 ---
 title: "3mdeb | Our open source software your solution"
+description: |
+   "Your Trusted Partner in Embedded Systems and Firmware Security. Enhance your product's with our consulting services, firmware development, and hardware design."
 banner:
   slider:
     - title: "OUR SOFTWARE"

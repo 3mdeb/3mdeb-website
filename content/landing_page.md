@@ -1,6 +1,7 @@
 ---
 title: "Transparent Firmware & Embedded Solutions for Hardware Creators"
-description: ""
+description: |
+   "Direct answers, tailored solutions. Whether it’s about firmware, embedded systems, or training, we're here to help."
 image: "images/chips-circuit-circuit-board.jpg"
 keywords: [""]
 draft: false

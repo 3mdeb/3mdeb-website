@@ -1,6 +1,7 @@
 ---
 title: "Events | Be a part of our community and meet us during upcoming events"
-description: ""
+description: |
+   "3mdeb events offer in-depth conferences and workshops focused on embedded systems and firmware development. Join us and stay updated on the latest tech news."
 image: ""
 keywords: [""]
 draft: false

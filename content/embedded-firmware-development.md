@@ -1,6 +1,7 @@
 ---
 title: "Embedded Firmware | Take care of the heart of your device"
-description: ""
+description: |
+   "Firmware is the silent hero that gets things done. Manufacturers must ensure it's reliable and secure. If you need embedded firmware, you need us."
 image: "images/embedded-firmware-header-bg.jpg"
 keywords: [""]
 draft: false

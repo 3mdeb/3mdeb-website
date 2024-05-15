@@ -1,6 +1,7 @@
 ---
 title: "Careers & Team Visions | Become part of 3mdeb"
-description: ""
+description: |
+   "At 3mdeb, we always seek passionate and driven individuals interested in open-source, technology, and security. Check our current job offers and become part of 3mdeb."
 image: "images/careers-header-bg.jpg"
 keywords: [""]
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: "Internet of Things | Intelligent IoT solutions for efficiency."
-description: ""
+description: |
+   "We specialize in crafting IoT solutions, facilitating device communication, data management, and remote control, enhancing efficiency and space management."
 image: "images/internet-things/header-bg.jpg"
 keywords: [""]
 draft: false

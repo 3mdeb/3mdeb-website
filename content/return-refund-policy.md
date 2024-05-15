@@ -1,6 +1,7 @@
 ---
 title: "Return & Refund Policy | How you can return your purchase?"
-description: ""
+description: |
+   "Here you will know how you can return your purchase. You will find some simple rules you need to follow to make your refund successful."
 image: "images/refund.jpg"
 keywords: [""]
 draft: false

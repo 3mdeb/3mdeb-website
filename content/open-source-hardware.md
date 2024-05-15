@@ -1,6 +1,7 @@
 ---
 title: "Open Source Hardware | Increase transparency, endless customization"
-description: ""
+description: |
+   "Open hardware increase transparency, enabling endless customization and maximizing collaboration with third-party programmers and partners."
 image: "images/chips-circuit-circuit-board.jpg"
 keywords: [""]
 draft: false
