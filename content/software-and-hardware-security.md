@@ -1,5 +1,5 @@
 ---
-title: "Software and Hardware Security"
+title: "Software and Hardware Security | Security assessment and training"
 description: ""
 image: "images/hardware-security/header-bg.jpg"
 keywords: [""]

@@ -1,5 +1,5 @@
 ---
-title: "Open Source Hardware"
+title: "Open Source Hardware | Increase transparency, endless customization"
 description: ""
 image: "images/chips-circuit-circuit-board.jpg"
 keywords: [""]

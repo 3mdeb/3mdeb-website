@@ -1,5 +1,5 @@
 ---
-title: "Markets"
+title: "Markets | Ethical, advanced technology integration"
 description: ""
 image: "images/markets/header-bg.jpg"
 keywords: [""]

@@ -1,5 +1,5 @@
 ---
-title: "Embedded Firmware"
+title: "Embedded Firmware | Take care of the heart of your device"
 description: ""
 image: "images/embedded-firmware-header-bg.jpg"
 keywords: [""]

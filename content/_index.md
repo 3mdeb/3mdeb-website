@@ -1,4 +1,5 @@
 ---
+title: "3mdeb | Our open source software your solution"
 banner:
   slider:
     - title: "OUR SOFTWARE"

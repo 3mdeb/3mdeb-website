@@ -1,5 +1,5 @@
 ---
-title: "Events"
+title: "Events | Be a part of our community and meet us during upcoming events"
 description: ""
 image: ""
 keywords: [""]

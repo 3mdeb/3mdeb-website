@@ -1,5 +1,5 @@
 ---
-title: "Products <br> Documentation"
+title: "Products Documentation | Get to know our products better"
 description: ""
 image: "images/product-documentation.jpg"
 keywords: [""]

@@ -1,5 +1,5 @@
 ---
-title: "Privacy Policy"
+title: "Privacy Policy | How we are handling your personal information"
 description: ""
 image: "images/privacy-policy.jpeg"
 keywords: [""]

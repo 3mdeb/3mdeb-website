@@ -1,5 +1,5 @@
 ---
-title: "Service Catalogues"
+title: "Service Catalogues | Learn more about what we do"
 description: ""
 image: "images/catalogues/header-bg.jpg"
 keywords: [""]

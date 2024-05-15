@@ -1,5 +1,5 @@
 ---
-title: "Contact"
+title: "Contact | Begin your journey with us through a consultation call"
 description: ""
 image: "images/contact/header-bg.jpg"
 keywords: [""]

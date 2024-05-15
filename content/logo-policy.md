@@ -1,5 +1,5 @@
 ---
-title: "Logo Policy & Projects co-funded by the EU"
+title: "Logo Policy & Projects co-funded by the EU | Get to know 3mdeb logo"
 description: ""
 image: "images/logo-policy-header-bg.jpg"
 keywords: [""]

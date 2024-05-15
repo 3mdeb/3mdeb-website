@@ -1,5 +1,5 @@
 ---
-title: "Hardware Support"
+title: "Hardware Support | Firmware support for evolving hardware"
 description: ""
 image: "images/hardware-support-header-bg.jpg"
 keywords: [""]

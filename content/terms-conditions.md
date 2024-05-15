@@ -1,5 +1,5 @@
 ---
-title: "Terms & Conditions"
+title: "Terms & Conditions | Policy overview and compliance"
 description: ""
 image: "images/terms.jpeg"
 keywords: [""]

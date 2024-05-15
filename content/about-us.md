@@ -1,5 +1,5 @@
 ---
-title: "About Us"
+title: "About Us | Learn more about 3mdeb"
 description: ""
 image: "images/bg-about-us.jpg"
 keywords: [""]

@@ -1,5 +1,5 @@
 ---
-title: "Pace Enterprise Training"
+title: "Pace Enterprise Training | Bridging knowledge gaps"
 description: ""
 image: "images/training/header-bg.jpg"
 keywords: [""]

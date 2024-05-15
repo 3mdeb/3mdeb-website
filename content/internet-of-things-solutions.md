@@ -1,5 +1,5 @@
 ---
-title: "Internet of Things <br> Solutions"
+title: "Internet of Things | Intelligent IoT solutions for efficiency."
 description: ""
 image: "images/internet-things/header-bg.jpg"
 keywords: [""]

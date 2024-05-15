@@ -1,5 +1,5 @@
 ---
-title: "Return & Refund Policy"
+title: "Return & Refund Policy | How you can return your purchase?"
 description: ""
 image: "images/refund.jpg"
 keywords: [""]

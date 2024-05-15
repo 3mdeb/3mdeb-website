@@ -1,5 +1,5 @@
 ---
-title: "FAQ"
+title: "FAQ | Everything you wanted to know about us"
 description: ""
 image: "images/faq-header-bg.jpg"
 keywords: [""]
