@@ -1,6 +1,7 @@
 ---
-title: "Pace Enterprise Training"
-description: ""
+title: "Pace Enterprise Training | Bridging knowledge gaps"
+description: |
+   "Pace Enterprise Training by 3mdeb helps companies to bridge knowledge gaps delivered by trainers with years of hands-on experience."
 image: "images/training/header-bg.jpg"
 keywords: [""]
 draft: false

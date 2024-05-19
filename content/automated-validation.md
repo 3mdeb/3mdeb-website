@@ -1,6 +1,7 @@
 ---
-title: "Automated Validation"
-description: ""
+title: "Automated Validation | Highest testing quality for your solutions"
+description: |
+   "The basic concept of validation is to verify that solutions work as required. Our testing infrastructure will ensure the stability of your firmware / software."
 image: "images/automated-validation/header-bg.jpg"
 keywords: [""]
 draft: false
@@ -16,7 +17,7 @@ introduction:
 
     Assuming that the subject of a validation has a lot of features, the process may be long-lasting and doing it manually may be unreasonable. To spare a significant amount of time and make an effort productive it is a good idea to automate the whole process.
 
-    Our hardware and **[RobotFramework](https://robotframework.org/)** infrastructure is capable to support many of recently used boards to c onfirm their features. If You consider constant changes of revision of the onfirm their features. If You consider constant changes of revision of the onfirm their features. If You consider constant changes of revision of the subject it is suggested to take a regression test suite. With regression testing, we can confirm, that a recent version of the hardware and/or embedded firmware has not adversely affected existing features.
+    Our hardware and **[RobotFramework](https://robotframework.org/)** infrastructure is capable to support many of recently used boards to confirm their features. If You consider constant changes of revision of the confirm their features. If You consider constant changes of revision of the confirm their features. If You consider constant changes of revision of the subject it is suggested to take a regression test suite. With regression testing, we can confirm, that a recent version of the hardware and/or embedded firmware has not adversely affected existing features.
 
   technologies:
     - "images/automated-validation/robotframe.png"

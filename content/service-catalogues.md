@@ -1,6 +1,7 @@
 ---
-title: "Service Catalogues"
-description: ""
+title: "Service Catalogues | Learn more about what we do"
+description: |
+   "Explore our service catalogues covering embedded systems, firmware, validation, flashing, regression testing, and SRTM deployment, offering expertise in Yocto."
 image: "images/catalogues/header-bg.jpg"
 keywords: [""]
 draft: false

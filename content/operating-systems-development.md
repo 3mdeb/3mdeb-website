@@ -1,6 +1,7 @@
 ---
-title: "Operating Systems"
-description: ""
+title: "Operating Systems | Custom embedded open-source solutions"
+description: |
+   "We specialize in developing Embedded Operating Systems, providing tailored solutions from creating BSPs to delivering Yocto or other Linux Operating Systems."
 image: "images/operating-system.jpg"
 keywords: [""]
 draft: false

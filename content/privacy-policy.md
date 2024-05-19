@@ -1,6 +1,7 @@
 ---
-title: "Privacy Policy"
-description: ""
+title: "Privacy Policy | How we are handling your personal information"
+description: |
+   "This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from 3mdeb."
 image: "images/privacy-policy.jpeg"
 keywords: [""]
 draft: false

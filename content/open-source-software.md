@@ -1,6 +1,7 @@
 ---
-title: "Open Source Software"
-description: ""
+title: "Open Source Software | Enhanced software performance and security."
+description: |
+   "Elevate your hardware's performance, stability, and security with open-source firmware and embedded solutions, liberating you from vulnerable closed software."
 image: "images/artificial-intelligence-coding.jpg"
 keywords: [""]
 draft: false

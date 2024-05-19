@@ -1,6 +1,7 @@
 ---
-title: "Hypervisors"
-description: ""
+title: "Hypervisors | Expert hypervisor development and maintenance"
+description: |
+   "We are capable of developing and maintain hypervisors depending on your needs. Our focus are embedded hypervisors, but we are able to deal with any."
 image: "images/hyper-visor.jpg"
 keywords: [""]
 draft: false

@@ -1,6 +1,7 @@
 ---
-title: "Terms & Conditions"
-description: ""
+title: "Terms & Conditions | Policy overview and compliance"
+description: |
+   "Our website, operated by 3mdeb Embedded Systems, offers services and products conditioned upon acceptance of terms and conditions show on this page."
 image: "images/terms.jpeg"
 keywords: [""]
 draft: false

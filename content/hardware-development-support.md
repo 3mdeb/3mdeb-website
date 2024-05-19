@@ -1,6 +1,7 @@
 ---
-title: "Hardware Support"
-description: ""
+title: "Hardware Support | Firmware support for evolving hardware"
+description: |
+   "Our engineers ensure your firmware handles new hardware revisions, with continuous support to make your product stable and secure while meeting market demands."
 image: "images/hardware-support-header-bg.jpg"
 keywords: [""]
 draft: false

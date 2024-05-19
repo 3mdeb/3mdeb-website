@@ -1,6 +1,7 @@
 ---
-title: "Software and Hardware Security"
-description: ""
+title: "Software and Hardware Security | Security assessment and training"
+description: |
+   "Discover our expertise in hardware security evaluation, including vulnerability assessments for protection against threats."
 image: "images/hardware-security/header-bg.jpg"
 keywords: [""]
 draft: false

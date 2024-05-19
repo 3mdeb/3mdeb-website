@@ -1,6 +1,7 @@
 ---
-title: "Contact"
-description: ""
+title: "Contact | Begin your journey with us through a consultation call"
+description: |
+   "Here you will find complete information on how to start your journey with us. Book a call or fill out a survey and let us help you find a solution."
 image: "images/contact/header-bg.jpg"
 keywords: [""]
 draft: false

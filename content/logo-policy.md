@@ -1,6 +1,7 @@
 ---
-title: "Logo Policy & Projects co-funded by the EU"
-description: ""
+title: "Logo Policy & Projects co-funded by the EU | Get to know 3mdeb logo"
+description: |
+   "Our logo can be used freely, although we retain the right to regulate its use in some contexts. Logo policy will help you to use it properly."
 image: "images/logo-policy-header-bg.jpg"
 keywords: [""]
 draft: false

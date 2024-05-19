@@ -1,6 +1,7 @@
 ---
-title: "Press Releases"
-description: ""
+title: "Press Releases | Others write about 3mdeb activities"
+description: |
+   "Explore insights from those writing about 3mdeb on our site, offering diverse perspectives and opinions. Read more about our activities"
 image: "images/press-releases/header-bg.jpg"
 keywords: [""]
 draft: false

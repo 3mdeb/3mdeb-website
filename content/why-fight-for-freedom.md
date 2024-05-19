@@ -1,6 +1,7 @@
 ---
-title: "Why fight for freedom?"
-description: ""
+title: "Why fight for freedom? | Join the tech freedom movement"
+description: |
+   "Following video is an insightful and thought-provoking documentary film that delves into the world of technology's true liberation through open source firmware."
 image: "images/operating-system.jpg"
 draft: false
 layout: newest-video

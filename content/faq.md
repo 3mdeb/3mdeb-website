@@ -1,6 +1,7 @@
 ---
-title: "FAQ"
-description: ""
+title: "FAQ | Everything you wanted to know about us"
+description: |
+   "In the faq section, we try to answer questions about what we do and we are giving a brief overview of what our mission and values are."
 image: "images/faq-header-bg.jpg"
 keywords: [""]
 draft: false

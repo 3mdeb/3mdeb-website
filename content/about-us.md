@@ -1,6 +1,7 @@
 ---
-title: "About Us"
-description: ""
+title: "About Us | Learn more about 3mdeb"
+description: |
+   "Our team consists of passionate engineers who support our customers with Dasharo open-source, Verified Boot, Secure Boot and trusted computing solutions."
 image: "images/bg-about-us.jpg"
 keywords: [""]
 draft: false
