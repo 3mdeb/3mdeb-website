@@ -142,7 +142,7 @@ all_events:
             Topic: **Dasharo User Group #4**  <br>
             Presenters: **3mdeb Team with Guests**
 
-            * [**Slides**](http://dl.3mdeb.com/dasharo/dug/4/)
+            * [**Slides**](https://dl.3mdeb.com/dasharo/dug/4/)
 
     - title: "Yocto Project **Summit**"
       status: ""
