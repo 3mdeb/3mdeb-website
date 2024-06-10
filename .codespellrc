@@ -1,3 +1,4 @@
 [codespell]
 skip = *.svg,*.pl.md,themes/3mdeb/assets/*.js
-ignore-words-list = hsi
+ignore-words = ignore.txt
+dictionary = dict.txt

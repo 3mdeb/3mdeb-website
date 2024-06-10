@@ -190,7 +190,7 @@ trainings:
     overview: |
       *   modern x86 architecture
       *   boot flow from power on to system take off
-      *   understading Intel security features
+      *   understanding Intel security features
       *   attacking Intel security features
       *   overview most popular Uefi forensics tools
       *   firmware weakness analysis
