@@ -317,7 +317,7 @@ apply_form:
   input_cover_letter: "Your Cover Letter in PDF format (max 5mb)"
   input_how_did_you_hear: "How did you hear about the job offer? (required)"
   input_message: "Your Message"
-  input_agreement: "“I agree to the processing of my personal data by the company 3mdeb Sp. z o.o. with its registered office in Gdańsk, ul. Piastowska 7/20A, for the needs of the recruitment process; in accordance with the provisions of the Personal Data Protection Act of 10.05.2018.”"
+  input_agreement: "“I agree to the processing of my personal data by the company 3mdeb Sp. z o.o. with its registered office in Gdańsk, ul. Piastowska 7/20A, for the needs of the recruitment process, in accordance with the provisions of the Personal Data Protection Act of 10.05.2018. Additionally, I consent to the processing of my personal data by the company LWMA Sp. z o.o., with its registered office in Gdańsk, registered under KRS number 0000946555, holding NIP number 5833443439 and REGON number 520980119, for the purpose of automated CV analysis.”"
   input_button: "Send"
 
 team_visions:
