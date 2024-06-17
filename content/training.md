@@ -191,14 +191,14 @@ trainings:
       *   boot flow from power on to system take off
       *   understading Intel security features
       *   attacking Intel security features
-      *   overview most popular Uefi forensics tools
+      *   overview most popular UEFI forensics tools
       *   firmware weakness analysis
       *   SMM known attacks – theory and practice
       *   TPM
       *   Intel TXT and SGX
-      *   Uefi variables and S3 attacks
+      *   UEFI variables and S3 attacks
       *   Update mechanism exploitation
-      *   Non Uefi attack vectors WiFi/BT/3G/4G and USB
+      *   Non UEFI attack vectors WiFi/BT/3G/4G and USB
       *   DMA as an attack vector
       *   recent Lenovo and Dell vulnerabilities
 
