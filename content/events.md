@@ -14,13 +14,6 @@ events_download:
 all_events:
   - year: "Upcoming **2024**"
     events:
-    - title: "Dasharo User Group 0x6 **& Developers vPub 0xB**"
-      status: "upcoming"
-      date: "13.06.2024"
-      event_poster: "images/events/2024/dug_6.jpg"
-      additional_info: |
-        ### Dasharo User Group #6 **[Official Page](https://vpub.dasharo.com/e/13/dasharo-user-group-6)**<br><br>
-
     - title: "Qubes OS **Summit 2024**"
       status: "upcoming"
       date: "20-22.09.2024"
@@ -51,6 +44,13 @@ all_events:
 
   - year: "20**24**"
     events:
+    - title: "Dasharo User Group 0x6 **& Developers vPub 0xB**"
+      status: ""
+      date: "13.06.2024"
+      event_poster: "images/events/2024/dug_6.jpg"
+      additional_info: |
+        ### Dasharo User Group #6 **[Official Page](https://vpub.dasharo.com/e/13/dasharo-user-group-6)**<br><br>
+
     - title: "Xen Project **Summit**"
       status: ""
       date: "04-06.06.2024"
@@ -337,7 +337,7 @@ all_events:
 
     - title: "FOSDEM **2023**"
       status: ""
-      date: "04-05.02.2022"
+      date: "04-05.02.2023"
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
         ### FOSDEM 2023 **[Official Page](https://fosdem.org/2023/)**<br><br>
