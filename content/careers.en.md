@@ -260,6 +260,68 @@ current_openings:
         * Work in hybrid mode
         * Work in a modern office in an attractive location in Oliva
 
+  - title: "Junior&nbsp; **Project Manager**"
+    description:
+    - title: "Description:"
+      content: |
+        If you are a motivated Project Manager with a knack for driving projects to success, we want to hear from you! We are seeking individuals who are interested in the technology industry and have a passion for learning. We value candidates with a strong work ethic and excellent communication skills who pay attention to details and are eager to contribute to our team. Join our team and be a part of a group of professionals dedicated to delivering innovative solutions across various industries. Join us and make a difference in providing cutting-edge solutions to clients worldwide!
+
+    - title: "Requirements:"
+      content: |
+        * Minimum of 1 years of proven experience in IT project management.
+        * At least a basic understanding of what is inside a computer.
+        * Goal-oriented.
+        * Commitment to the highest quality of the product.
+        * Ability to work and manage a team.
+        * Ability to solve problems and learn quickly.
+        * At least B2 level knowledge of English.
+        * Excellent client-facing and internal communication skills.
+        * Strong organizational skills, including attention to detail and multitasking abilities.
+
+    - title: "Responsibilities: "
+      content: |
+        * Lead and manage project portfolio from inception to completion, ensuring projects are delivered on time, within scope, and budget.
+        * Work closely with the Engineering Manager to plan the team's work.
+        * Daily coordination of project activities: communication with developers and removing blockers.
+        * Conduct regular project status meetings, take meeting notes, and provide updates to all stakeholders.
+        * Develop detailed project plans and schedules and track performance using appropriate systems, tools, and techniques.
+        * Prepare projects reports and summaries.
+        * Participate in creating products development strategies with the Engineering Manager.
+        * Report to the client.
+        * Ensure best practices, techniques, and standards are used throughout the project lifecycle.
+
+    - title: "Highly appreciated: "
+      content: |
+        * Education in Computer Science, Information Technology, or a related field.
+        * Solid technical background, with understanding or hands-on experience in software development.
+        * Basic knowledge of JIRA or other project management software.
+        * Experience in working with Linux systems.
+        * Knowledge of Git version control.
+        * Familiarity with SCRUM and Kanban methodologies.
+
+    - title: "What we offer: "
+      content: |
+        * A very dynamic work environment with opportunities for growth and advancement - you will learn a lot!
+        * The opportunity to work with a team of passionate and highly skilled engineers in an open-source community.
+        * Flexible terms of employment with flexible work hours.
+        * Possibility to travel worldwide to open-source solutions-focused conferences (for those willing).
+        * Improvement of qualifications with our training program and certification.
+        * Co-financing of training.
+        * Co-financing of medical care.
+        * Co-financing of sports cards.
+        * Financing of life insurance.
+        * A friendly atmosphere without corporate processes.
+        * Attractive salary depending on skills and experience.
+        * Opportunities to develop in your direction.
+        * Office in a great location – Gdańsk Oliwa (with the possibility of hybrid work).
+
+    - title: "Tips for Applying: "
+      content: |
+        * Even if you think that 70-80% of your knowledge and experience fits this job offer, apply, because we may consider that these 70-80% are crucial for us, and we will help you fill in the rest that is missing.
+        * Familiarize yourself with our company's philosophy. Show us that you understand what we do and that our values resound with you.
+        * Highlight your interest in technology and security. Let us know how you stay up-to-date with IT industry trends and news, as it's important for all team members to remain informed.
+        * Demonstrate your strong communication and organizational skills. We value individuals who can effectively communicate with clients, partners, and team members, and help keep the company organized and projects on track.
+
   - title: "Internship"
     description:
     - title: "Description:"
