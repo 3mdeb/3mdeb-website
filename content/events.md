@@ -15,21 +15,6 @@ events_download:
 all_events:
   - year: "Upcoming **2024**"
     events:
-
-    - title: "Xen Project **Summit**"
-      status: "upcoming"
-      date: "04-06.06.2024"
-      event_poster: "images/events/2024/xen-summit-2024.png"
-      additional_info: |
-        ### Xen Project Summit **[Official Page](https://events.linuxfoundation.org/xen-project-summit/)**<br><br>
-
-    - title: "Dasharo User Group 0x6 **& Developers vPub 0xB**"
-      status: "upcoming"
-      date: "13.06.2024"
-      event_poster: "images/events/2024/dug_6.jpg"
-      additional_info: |
-        ### Dasharo User Group #6 **[Official Page](https://vpub.dasharo.com/e/13/dasharo-user-group-6)**<br><br>
-
     - title: "Qubes OS **Summit 2024**"
       status: "upcoming"
       date: "20-22.09.2024"
@@ -60,12 +45,50 @@ all_events:
 
   - year: "20**24**"
     events:
+    - title: "Dasharo User Group 0x6 **& Developers vPub 0xB**"
+      status: ""
+      date: "13.06.2024"
+      event_poster: "images/events/2024/dug_6.jpg"
+      additional_info: |
+        ### Dasharo User Group #6 **[Official Page](https://vpub.dasharo.com/e/13/dasharo-user-group-6)**<br><br>
+
+    - title: "Xen Project **Summit**"
+      status: ""
+      date: "04-06.06.2024"
+      event_poster: "images/events/2024/xen-summit-2024.png"
+      additional_info: |
+        ### Xen Project Summit **[Official Page](https://events.linuxfoundation.org/xen-project-summit/)**<br><br>
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Challenges and Status of Enabling TrenchBoot in Xen Hypervisor**  <br>
+            Presenters: **Michał Żygowski**
+
+            * [**Slides**](https://static.sched.com/hosted_files/xenprojectsummit2024/59/trenchboot_in_xen.pdf)
+
     - title: "FOSSASIA **Summit 2024**"
       status: ""
       date: "08-10.04.2024"
       event_poster: "images/events/2024/fossasia-2024.png"
       additional_info: |
         ### FOSSASIA Summit **[Official Page](https://eventyay.com/e/55d2a466)**<br><br>
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: "i3JPDNwGxGs?t=820s"
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Dasharo, open-source firmware distribution**  <br>
+            Presenters: **Piotr Król**
+
+            * [**Slides**](https://cloud.3mdeb.com/index.php/s/MGTLikJZLKGKbip)
 
     - title: "Dasharo User Group 0x5 **& Developers vPub 0xA**"
       status: ""
@@ -315,7 +338,7 @@ all_events:
 
     - title: "FOSDEM **2023**"
       status: ""
-      date: "04-05.02.2022"
+      date: "04-05.02.2023"
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
         ### FOSDEM 2023 **[Official Page](https://fosdem.org/2023/)**<br><br>
