@@ -86,7 +86,7 @@ trainings:
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/ooHTPK6D5Cym5kX">}}
 
-  - title: "DS02RTA: &nbsp; ** Intel Root of Trust training**"
+  - title: "DS02RTA: &nbsp; **Intel Root of Trust training**"
     image: "images/training/ost2.png"
     overview: |
       *   Based on OST2 Arch4001, Arch4021, TC3001, TC3011 and TC3211
@@ -113,7 +113,7 @@ trainings:
     buttons: |
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
 
-  - title: "DS03SSI &nbsp; **- System Security training**"
+  - title: "DS03SSI: &nbsp; **System Security training**"
     image: "images/training/ost2.png"
     overview: |
       *   Based on OST2 Arch2001, Arch4001 and Arch4021
