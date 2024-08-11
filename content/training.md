@@ -13,7 +13,7 @@ message:
    {.h3}
 
 trainings:
-  - title: "coreboot for &nbsp; **embedded linux developers**"
+  - title: "DS01CBI: coreboot for &nbsp; **embedded linux developers**"
     image: "images/coreboot-big.png"
     overview: |
       *   modern x86 architecture
@@ -48,7 +48,7 @@ trainings:
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/7Bt72SWnJ2GnCQq">}}
 
-  - title: "Building and Development &nbsp; **of Embedded Linux Systems**"
+  - title: "ZH01ELI: Building and Development &nbsp; **of Embedded Linux Systems**"
     image: "images/training/linux.png"
     overview: |
       *   Open source development overview
@@ -86,9 +86,10 @@ trainings:
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/ooHTPK6D5Cym5kX">}}
 
-  - title: "OST2 Arch4001, Arch4021, TC3001, TC3011, TC3211 &nbsp; **- Intel Root of Trust training**"
+  - title: "DS02RTA: &nbsp; ** Intel Root of Trust training**"
     image: "images/training/ost2.png"
     overview: |
+      *   Based on OST2 Arch4001, Arch4021, TC3001, TC3011 and TC3211
       *   UEFI introduction
       *   Modern x86 architecture
       *   Where is firmware and why blobs
@@ -112,9 +113,10 @@ trainings:
     buttons: |
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
 
-  - title: "OST2 Arch2001, Arch4001, Arch4021 &nbsp; **- System Security training**"
+  - title: "DS03SSI &nbsp; **- System Security training**"
     image: "images/training/ost2.png"
     overview: |
+      *   Based on OST2 Arch2001, Arch4001 and Arch4021
       *   x86 assembly
       *   x86 operating system internals
       *   x86 boot process
@@ -143,7 +145,7 @@ trainings:
     buttons: |
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
 
-  - title: "Yocto Project &nbsp; **Development**"
+  - title: "ZH02YPI: Yocto Project &nbsp; **Development**"
     image: "images/training/yocto.png"
     overview: |
       *   Overview of an Embedded Linux system architecture
@@ -185,7 +187,7 @@ trainings:
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/DRW89CQo366JAPB">}}
 
-  - title: "UEFI &nbsp; **offensive security**"
+  - title: "DS04UEA: UEFI &nbsp; **offensive security**"
     image: "images/registered/uefi.png"
     overview: |
       *   modern x86 architecture
@@ -218,7 +220,7 @@ trainings:
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/Ta4DCfXsxbDaX7c">}}
 
-  - title: "UEFI &nbsp; **advanced concepts**"
+  - title: "DS05UEA: UEFI &nbsp; **advanced concepts**"
     image: "images/registered/uefi.png"
     overview: |
       *   Memory protection mechanisms in UEFI
@@ -245,7 +247,7 @@ trainings:
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/8e6Dp27c9QXyMbR">}}
 
-  - title: "UEFI &nbsp; **fundamentals**"
+  - title: "DS06UEF: UEFI &nbsp; **fundamentals**"
     image: "images/registered/uefi.png"
     overview: |
       *   UEFI and PI specification overview
@@ -276,7 +278,7 @@ trainings:
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/gFqgCxFJTrZgdNf">}}
 
-  - title: "UEFI &nbsp; **practical firmware development**"
+  - title: "DS07UEI: UEFI &nbsp; **practical firmware development**"
     image: "images/registered/uefi.png"
     overview: |
       *   Tianocore structure and components
