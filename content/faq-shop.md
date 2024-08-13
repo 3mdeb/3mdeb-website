@@ -57,7 +57,7 @@ Please refer to the official Dasharo documentation:
 
 * SDWire FAQ: <https://docs.dasharo.com/transparent-validation/sd-wire/faq/>
 * MSI FAQ: <https://docs.dasharo.com/unified/msi/faq/>
-* Dasharo Entry Subscription supported hardware: <https://docs.dasharo.com/variants/overview/>
+* Dasharo Pro Package supported hardware: <https://docs.dasharo.com/variants/overview/>
 
 ### **Other**
 
