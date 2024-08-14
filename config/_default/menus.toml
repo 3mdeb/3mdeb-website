@@ -258,4 +258,4 @@ weight = 5
 [[footer]]
 name = "Contact Us"
 url = "/contact/"
-weight = 15
+weight = 10
