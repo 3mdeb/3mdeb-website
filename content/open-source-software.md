@@ -11,10 +11,10 @@ open_source_software_feature:
   image: "images/services/software.png"
   content: |
     Tired of severely vulnerable closed, non-free software?
-    Want your hardware to reach new summits of performance, stability, and security?
+    Want your hardware to reach new heights of performance, stability, and security?
     Let our specialists take it over, and dare to imagine the unimaginable.
 
-    **Our firmware and embedded teams can create really sophisticated, custom solutions for your hardware.**
+    **Our firmware and embedded teams can create highly sophisticated, custom solutions for your hardware.**
 
 familiar_with:
     title: "We are familiar with:"
