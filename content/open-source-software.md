@@ -56,7 +56,7 @@ used_technology:
 message:
   content: |
     But don’t worry if the <strong>technology you need isn’t listed above.</strong><br>
-    We can confidently work with any <strong>platform you provide.</strong><br>
-    We can prepare a complete system <strong>from scratch, making it secure, stable,</strong><br>
-    and, last but not least, capable <strong>of achieving extraordinary performance.</strong><br>
+    We can confidently work <strong>with any platform you provide.</strong><br>
+    We can prepare a <strong>complete system from scratch, </strong><br>
+    making it secure, stable and <strong>capable of achieving extraordinary performance.</strong><br>
 ---
