@@ -620,6 +620,7 @@ all_events:
             Presenters: **Norbert Kamiński**
 
             * [**Direct link**](https://archive.fosdem.org/2022/schedule/event/firmware_updates_for_opnsense_and_pfsense/)
+            * [**Slides**](https://shop.3mdeb.com/wp-content/uploads/2024/08/Firmware-updates-for-pfSense-and-OPNsense-with-fwupd_LVFS.pdf)
             * [**Video**](https://mirrors.dotsrc.org/fosdem/2022/D.bsd/firmware_updates_for_opnsense_and_pfsense.mp4)
 
     - title: "Dasharo OSF vPub Winter 2022 **(aka 3mdeb vPub vol. 4)**"
