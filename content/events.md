@@ -52,6 +52,19 @@ all_events:
       additional_info: |
         ### Dasharo User Group #6 **[Official Page](https://vpub.dasharo.com/e/13/dasharo-user-group-6)**<br><br>
 
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Dasharo User Group #6**  <br>
+            Presenters: **3mdeb Team with Guests**
+
+            * [**Playlist at YouTube**](https://youtube.com/playlist?list=PLuISieMwVBpIQqHtHwYqypru50eg5nxoz&si=YIUlnaW8D_b6Fpp2)
+            * [**Slides**](https://dl.3mdeb.com/dasharo/dug/6/)
+
     - title: "Xen Project **Summit**"
       status: ""
       date: "04-06.06.2024"
@@ -63,7 +76,7 @@ all_events:
       segments:
         - date: ""
           image: ""
-          youtube_video_id: ""
+          youtube_video_id: "RVK52BCM-ZM"
           additional_info: |
             Presentation **#1**  <br>
             Topic: **Challenges and Status of Enabling TrenchBoot in Xen Hypervisor**  <br>
@@ -97,6 +110,18 @@ all_events:
       additional_info: |
         ### Dasharo User Group #5 **[Official Page](https://vpub.dasharo.com/e/12/dasharo-user-group-5)**<br><br>
 
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Dasharo User Group #5**  <br>
+            Presenters: **3mdeb Team with Guests**
+
+            * [**Playlist at YouTube**](https://youtube.com/playlist?list=PLuISieMwVBpKBpfYlGZnDXOcqcQKXGXCX&si=BBCbFTQ9_anXK1ed)
+            * [**Slides**](https://dl.3mdeb.com/dasharo/dug/5/)
 
     - title: "FOSDEM **2024**"
       status: ""
@@ -178,7 +203,7 @@ all_events:
       segments:
         - date: "29.11.2023"
           image: ""
-          youtube_video_id: ""
+          youtube_video_id: "0YySIUjPTPo"
           additional_info: |
             Presentation **#1**  <br>
             Topic: **Dealing with UEFI Secure Boot support using Yocto Project**<br>
@@ -189,7 +214,7 @@ all_events:
 
         - date: "30.11.2023"
           image: ""
-          youtube_video_id: ""
+          youtube_video_id: "Wg1ZUdwTYNM"
           additional_info: |
             Presentation **#2**  <br>
             Topic: **FIDO Device Onboarding: Late-binding Provisioning & Tales from the Trenches of Bleeding Edge Tech**  <br>
@@ -270,7 +295,7 @@ all_events:
       date: "26.06.2023"
       event_poster: "images/events/2023/Yocto_Project_logo.png"
       additional_info: |
-        ### Yocto Project Dev Days **[Official Page](https://www.yoctoproject.org/yocto-project-at-embedded-open-source-summit-2023/)**
+        ### Yocto Project Dev Days **[Official Page](https://www.yoctoproject.org/yocto-project-at-embedded-open-source-summit-2023/)**<br><br>
 
       # segments:
       segments:
@@ -300,14 +325,14 @@ all_events:
       status: ""
       date: "24-26.06.2023"
       event_poster: "images/events/2023/xen2023.png"
-      additional_info:
-        ### Xen Developer & Design Summit **[Official Page](https://events.linuxfoundation.org/xen-project-summit/)**
+      additional_info: |
+        ### Xen Developer & Design Summit **[Official Page](https://events.linuxfoundation.org/xen-project-summit/)**<br><br>
 
       # segments:
       segments:
         - date: "24.06.2023"
           image: ""
-          youtube_video_id: ""
+          youtube_video_id: "p3Gb6C6K0To"
           additional_info: |
             Presentation **#1**  <br>
             Topic: **Paving the Path for TrenchBoot DRTM in Xen Hypervisor**  <br>
@@ -410,7 +435,7 @@ all_events:
       segments:
         - date: "01.12.2022"
           image: ""
-          youtube_video_id: ""
+          youtube_video_id: "OA9TKkwFFIE"
           additional_info: |
             Presentation **#1**  <br>
             Topic: **Enabling UEFI Secure Boot on x86 platform with Yocto - getting started with meta-secure-core**  <br>
@@ -595,6 +620,7 @@ all_events:
             Presenters: **Norbert Kamiński**
 
             * [**Direct link**](https://archive.fosdem.org/2022/schedule/event/firmware_updates_for_opnsense_and_pfsense/)
+            * [**Slides**](https://shop.3mdeb.com/wp-content/uploads/2024/08/Firmware-updates-for-pfSense-and-OPNsense-with-fwupd_LVFS.pdf)
             * [**Video**](https://mirrors.dotsrc.org/fosdem/2022/D.bsd/firmware_updates_for_opnsense_and_pfsense.mp4)
 
     - title: "Dasharo OSF vPub Winter 2022 **(aka 3mdeb vPub vol. 4)**"
@@ -629,7 +655,7 @@ all_events:
       segments:
         - date: "02.12.2021"
           image: ""
-          youtube_video_id: ""
+          youtube_video_id: "cmvwcJICliM"
           additional_info: |
             Presentation **#1**  <br>
             Topic: **Getting started with meta-selinux - enhancing system security on QEMU**  <br>
