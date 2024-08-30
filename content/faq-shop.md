@@ -67,8 +67,13 @@ To directly reach our experts, the best way is through our official
 [Dasharo Matrix Channel](https://matrix.to/#/#dasharo:matrix.org). It’s the
 fastest way to get technical answers to your questions about the products and
 services in our shop. Learn more about this topic at Dasharo Universe [Community
-Section](https://docs.dasharo.com/#community). For order-specific questions
-reach us at <shopping@3mdeb.com>.
+Section](https://docs.dasharo.com/#community).
+
+For order-specific questions reach us at <shopping@3mdeb.com>.
+
+You can also connect via the [Dasharo
+GitHub](https://github.com/Dasharo/dasharo-issues) and create a [new
+issue](https://github.com/Dasharo/dasharo-issues/issues/new/choose).
 
 ### **Other**
 
