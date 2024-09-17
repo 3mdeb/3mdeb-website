@@ -22,13 +22,6 @@ all_events:
       additional_info: |
         ### Qubes OS Summit 2024 **[Official Page](https://vpub.dasharo.com/e/16/qubes-os-summit-2024)**<br><br>
 
-    - title: "Dasharo User Group 0x7 **& Developers vPub 0xC**"
-      status: "upcoming"
-      date: "12.09.2024"
-      event_poster: "images/events/2024/dug_7.jpg"
-      additional_info: |
-        ### Dasharo User Group #7 **[Official Page](https://vpub.dasharo.com/e/14/dasharo-user-group-7)**<br><br>
-
     - title: "Linux Plumbers **Conference**"
       status: "upcoming"
       date: "19-20.09.2024"
@@ -45,6 +38,13 @@ all_events:
 
   - year: "20**24**"
     events:
+    - title: "Dasharo User Group 0x7 **& Developers vPub 0xC**"
+      status: ""
+      date: "12.09.2024"
+      event_poster: "images/events/2024/dug_7.jpg"
+      additional_info: |
+        ### Dasharo User Group #7 **[Official Page](https://vpub.dasharo.com/e/14/dasharo-user-group-7)**<br><br>
+
     - title: "Dasharo User Group 0x6 **& Developers vPub 0xB**"
       status: ""
       date: "13.06.2024"
