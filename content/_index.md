@@ -32,7 +32,7 @@ banner:
       image: "images/banner/training.jpg"
       link: "training/"
 
-  clients_image: "images/clients.jpg"
+  clients_image: ""
 
 cooperation_with_us:
   enable: true

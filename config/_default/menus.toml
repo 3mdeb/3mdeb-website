@@ -36,7 +36,7 @@ weight = 20
 
 [[main]]
 parent = "Company"
-name = "Logo Policy & Projects co-funded by the EU"
+name = "Logo Policy"
 url = "logo-policy/"
 weight = 20
 
