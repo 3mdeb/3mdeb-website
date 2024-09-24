@@ -15,20 +15,6 @@ events_download:
 all_events:
   - year: "Upcoming **2024**"
     events:
-    - title: "Qubes OS **Summit 2024**"
-      status: "upcoming"
-      date: "20-22.09.2024"
-      event_poster: ""
-      additional_info: |
-        ### Qubes OS Summit 2024 **[Official Page](https://vpub.dasharo.com/e/16/qubes-os-summit-2024)**<br><br>
-
-    - title: "Linux Plumbers **Conference**"
-      status: "upcoming"
-      date: "19-20.09.2024"
-      event_poster: "images/events/2024/lpc_2024.png"
-      additional_info: |
-        ### Linux Plumbers Conference **[Official Page](https://lpc.events/)**<br><br>
-
     - title: "Dasharo User Group 0x8 **& Developers vPub 0xD**"
       status: "upcoming"
       date: "12.12.2024"
@@ -38,6 +24,20 @@ all_events:
 
   - year: "20**24**"
     events:
+    - title: "Qubes OS **Summit 2024**"
+      status: ""
+      date: "20-22.09.2024"
+      event_poster: "images/events/2024/qubes_2024.jpg"
+      additional_info: |
+        ### Qubes OS Summit 2024 **[Official Page](https://vpub.dasharo.com/e/16/qubes-os-summit-2024)**<br><br>
+
+    - title: "Linux Plumbers **Conference**"
+      status: ""
+      date: "19-20.09.2024"
+      event_poster: "images/events/2024/lpc_2024.png"
+      additional_info: |
+        ### Linux Plumbers Conference **[Official Page](https://lpc.events/)**<br><br>
+
     - title: "Dasharo User Group 0x7 **& Developers vPub 0xC**"
       status: ""
       date: "12.09.2024"
