@@ -17,7 +17,7 @@ ctavideo:
     with open source firmware Dasharo. Check out the selection at
     [our online store](https://shop.3mdeb.com/product-category/dasharo-supported-hardware/).
     1. **Stay Ahead:** Elevate your experience with the
-    [Dasharo Entry Subscription](https://shop.3mdeb.com/shop/dasharo-entry-subscription/1year/).
+    [Dasharo Pro Package](https://shop.3mdeb.com/shop/dasharo-entry-subscription/1year/).
     Gain access to the latest binary releases of the Dasharo open-source firmware
     distribution for supported Desktop platforms, along with exclusive support.
     1. **Connect and Engage:** Stay updated and engaged by joining the
