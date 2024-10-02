@@ -32,8 +32,6 @@ banner:
       image: "images/banner/training.jpg"
       link: "training/"
 
-  clients_image: ""
-
 cooperation_with_us:
   enable: true
   title: "Cooperation with **3mdeb**"
