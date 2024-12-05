@@ -38,6 +38,34 @@ all_events:
       additional_info: |
         ### FOSDEM 2025 **[Official Page](https://fosdem.org/2025/)**<br><br>
 
+    - title: "Dasharo User Group 0x9 **& Developers vPub 0xE**"
+      status: "upcoming"
+      date: "13.03.2025"
+      event_poster: "images/events/2025/dug_9.jpg"
+      additional_info: |
+        ### Dasharo User Group #9 **[Official Page](https://vpub.dasharo.com/e/17/dasharo-user-group-9)**<br><br>
+
+    - title: "Dasharo User Group 0x10 **& Developers vPub 0xF**"
+      status: "upcoming"
+      date: "12.06.2025"
+      event_poster: "images/events/2025/dug_10.jpg"
+      additional_info: |
+        ### Dasharo User Group #10 **[Official Page](https://vpub.dasharo.com/e/18/dasharo-user-group-10)**<br><br>
+
+    - title: "Dasharo User Group 0x11 **& Developers vPub 0xG**"
+      status: "upcoming"
+      date: "18.09.2025"
+      event_poster: "images/events/2025/dug_11.jpg"
+      additional_info: |
+        ### Dasharo User Group #11 **[Official Page](https://vpub.dasharo.com/e/19/dasharo-user-group-11)**<br><br>
+
+    - title: "Dasharo User Group 0x12 **& Developers vPub 0xH**"
+      status: "upcoming"
+      date: "11.12.2025"
+      event_poster: "images/events/2025/dug_12.jpg"
+      additional_info: |
+        ### Dasharo User Group #12 **[Official Page](https://vpub.dasharo.com/e/20/dasharo-user-group-12)**<br><br>
+
   - year: "20**24**"
     events:
     - title: "Qubes OS **Summit 2024**"
