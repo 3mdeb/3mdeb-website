@@ -241,7 +241,7 @@ all_events:
       date: "28-30.11.2023"
       event_poster: "images/events/2023/Yocto_Project_logo.png"
       additional_info: |
-        ### Yocto Project Summit **[Official Page](https://summit.yoctoproject.org/yocto-project-summit-2023-11/)**
+        ### Yocto Project Summit **[Official Page](https://www.yoctoproject.org/event/yocto-project-summit-2023-11/)**
 
       # segments:
       segments:
@@ -253,8 +253,7 @@ all_events:
             Topic: **Dealing with UEFI Secure Boot support using Yocto Project**<br>
             Presenters: **Tomasz Żyjewski**
 
-            * [**Direct link**](https://web.archive.org/web/20240812072336/https://summit.yoctoproject.org/yocto-project-summit-2023-11/talk/HGTEGC/)
-            * [**Slides**](http://web.archive.org/web/20240517110258/https://summit.yoctoproject.org/media/yocto-project-summit-2023-11/submissions/HGTEGC/resources/presentation_zq25ldK.pdf)
+            * [**Slides**](https://summit.yoctoproject.org/media/yocto-project-summit-2023-11/submissions/HGTEGC/resources/presentation_zq25ldK.pdf)
 
         - date: "30.11.2023"
           image: ""
@@ -264,8 +263,7 @@ all_events:
             Topic: **FIDO Device Onboarding: Late-binding Provisioning & Tales from the Trenches of Bleeding Edge Tech**  <br>
             Presenters: **Tymek Burak**
 
-            * [**Direct link**](http://web.archive.org/web/20240812063556/https://summit.yoctoproject.org/yocto-project-summit-2023-11/talk/KXCZYK/)
-            * [**Slides**](http://web.archive.org/web/20240517110229/https://summit.yoctoproject.org/media/yocto-project-summit-2023-11/submissions/KXCZYK/resources/FIDO_Device_Onboarding_YoctoSu_C14fiKE.pdf)
+            * [**Slides**](https://summit.yoctoproject.org/media/yocto-project-summit-2023-11/submissions/KXCZYK/resources/FIDO_Device_Onboarding_YoctoSu_C14fiKE.pdf)
 
     - title: "Qubes OS **Summit 2023**"
       status: ""
