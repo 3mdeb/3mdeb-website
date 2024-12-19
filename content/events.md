@@ -13,15 +13,6 @@ events_download:
   link: "https://calendar.google.com/calendar/ical/events%403mdeb.com/public/basic.ics"
 
 all_events:
-  - year: "Upcoming **2024**"
-    events:
-    - title: "Dasharo User Group 0x8 **& Developers vPub 0xD**"
-      status: "upcoming"
-      date: "12.12.2024"
-      event_poster: "images/events/2024/dug_8.jpg"
-      additional_info: |
-        ### Dasharo User Group #8 **[Official Page](https://vpub.dasharo.com/e/15/dasharo-user-group-8)**<br><br>
-
   - year: "Upcoming **2025**"
     events:
     - title: "Xen Project **Winter Meetup**"
@@ -68,6 +59,14 @@ all_events:
 
   - year: "20**24**"
     events:
+
+    - title: "Dasharo User Group 0x8 **& Developers vPub 0xD**"
+      status: ""
+      date: "12.12.2024"
+      event_poster: "images/events/2024/dug_8.jpg"
+      additional_info: |
+        ### Dasharo User Group #8 **[Official Page](https://vpub.dasharo.com/e/15/dasharo-user-group-8)**<br><br>
+
     - title: "Qubes OS **Summit 2024**"
       status: ""
       date: "20-22.09.2024"
@@ -88,6 +87,19 @@ all_events:
       event_poster: "images/events/2024/dug_7.jpg"
       additional_info: |
         ### Dasharo User Group #7 **[Official Page](https://vpub.dasharo.com/e/14/dasharo-user-group-7)**<br><br>
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Dasharo User Group #7**  <br>
+            Presenters: **3mdeb Team with Guests**
+
+            * [**Playlist at YouTube**](https://www.youtube.com/playlist?list=PLuISieMwVBpIJQpso6QICMUqqW5z8L1S2)
+            * [**Slides**](https://dl.3mdeb.com/dasharo/dug/7/)
 
     - title: "Dasharo User Group 0x6 **& Developers vPub 0xB**"
       status: ""
