@@ -31,7 +31,7 @@ all_events:
 
     - title: "Dasharo User Group 0x9 **& Developers vPub 0xE**"
       status: "upcoming"
-      date: "13.03.2025"
+      date: "20.03.2025"
       event_poster: "images/events/2025/dug_9.jpg"
       additional_info: |
         ### Dasharo User Group #9 **[Official Page](https://vpub.dasharo.com/e/17/dasharo-user-group-9)**<br><br>
