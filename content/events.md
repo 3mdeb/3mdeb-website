@@ -264,8 +264,9 @@ all_events:
             Presentation **#1**  <br>
             Topic: **Dealing with UEFI Secure Boot support using Yocto Project**<br>
             Presenters: **Tomasz Żyjewski**
-
-            * [**Slides**](https://summit.yoctoproject.org/media/yocto-project-summit-2023-11/submissions/HGTEGC/resources/presentation_zq25ldK.pdf)
+            
+            * [**Direct link**](https://pretalx.com/yocto-project-summit-2023-11/talk/HGTEGC/)
+            * [**Slides**](https://pretalx.com/media/yocto-project-summit-2023-11/submissions/HGTEGC/resources/presentation_zq25ldK.pdf)
 
         - date: "30.11.2023"
           image: ""
@@ -275,7 +276,8 @@ all_events:
             Topic: **FIDO Device Onboarding: Late-binding Provisioning & Tales from the Trenches of Bleeding Edge Tech**  <br>
             Presenters: **Tymek Burak**
 
-            * [**Slides**](https://summit.yoctoproject.org/media/yocto-project-summit-2023-11/submissions/KXCZYK/resources/FIDO_Device_Onboarding_YoctoSu_C14fiKE.pdf)
+            * [**Direct link**](https://pretalx.com/yocto-project-summit-2023-11/talk/KXCZYK/)
+            * [**Slides**](https://pretalx.com/media/yocto-project-summit-2023-11/submissions/KXCZYK/resources/FIDO_Device_Onboarding_YoctoSu_C14fiKE.pdf)
 
     - title: "Qubes OS **Summit 2023**"
       status: ""
@@ -458,7 +460,6 @@ all_events:
             Presenters: **Maciej Pijanowski**
 
             * [**Direct link**](https://archive.fosdem.org/2023/schedule/event/twpm_osf_tpm/)
-            * [**Slides**](https://archive.fosdem.org/2023/schedule/event/twpm_osf_tpm/attachments/slides/5728/export/events/attachments/twpm_osf_tpm/slides/5728/Trustworthy_Platform_Module_An_attempt_to_create_open_source_firmware_for_TPM.pdf)
             * [**Video**](https://video.fosdem.org/2023/K.4.201/twpm_osf_tpm.webm)
 
   - year: "20**22**"
@@ -496,7 +497,7 @@ all_events:
             Presenters: **Tomasz Żyjewski**
 
             * [**Direct link**](https://pretalx.com/yocto-project-summit-2022-11/talk/KJDAFF/)
-            * [**Slides**](http://web.archive.org/web/20240701121128/https://summit.yoctoproject.org/media/yocto-project-summit-2022-11/submissions/KJDAFF/resources/slides_v1.1_WFR8xEf.pdf)
+            * [**Slides**](https://pretalx.com/media/yocto-project-summit-2022-11/submissions/KJDAFF/resources/slides_v1.1_WFR8xEf.pdf)
 
     - title: "Open Source **Firmware Conference**"
       status: ""
@@ -663,6 +664,7 @@ all_events:
 
             * [**Direct link**](https://archive.fosdem.org/2022/schedule/event/ost2/)
             * [**Slides**](https://shop.3mdeb.com/wp-content/uploads/2022/08/OST2_-A-new-way-to-grow-security-talent-for-open-source-projects.pdf)
+            * [**Video**](https://mirrors.dotsrc.org/fosdem/2022/D.firmware/ost2.mp4)
 
         - date: "06.02.2022"
           image: ""
