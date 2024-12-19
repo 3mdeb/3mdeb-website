@@ -264,7 +264,7 @@ all_events:
             Presentation **#1**  <br>
             Topic: **Dealing with UEFI Secure Boot support using Yocto Project**<br>
             Presenters: **Tomasz Żyjewski**
-            
+
             * [**Direct link**](https://pretalx.com/yocto-project-summit-2023-11/talk/HGTEGC/)
             * [**Slides**](https://pretalx.com/media/yocto-project-summit-2023-11/submissions/HGTEGC/resources/presentation_zq25ldK.pdf)
 
