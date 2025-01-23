@@ -13,15 +13,6 @@ events_download:
   link: "https://calendar.google.com/calendar/ical/events%403mdeb.com/public/basic.ics"
 
 all_events:
-  - year: "Upcoming **2024**"
-    events:
-    - title: "Dasharo User Group 0x8 **& Developers vPub 0xD**"
-      status: "upcoming"
-      date: "12.12.2024"
-      event_poster: "images/events/2024/dug_8.jpg"
-      additional_info: |
-        ### Dasharo User Group #8 **[Official Page](https://vpub.dasharo.com/e/15/dasharo-user-group-8)**<br><br>
-
   - year: "Upcoming **2025**"
     events:
     - title: "Xen Project **Winter Meetup**"
@@ -38,8 +29,44 @@ all_events:
       additional_info: |
         ### FOSDEM 2025 **[Official Page](https://fosdem.org/2025/)**<br><br>
 
+    - title: "Dasharo User Group 0x9 **& Developers vPub 0xE**"
+      status: "upcoming"
+      date: "20.03.2025"
+      event_poster: "images/events/2025/dug_9.jpg"
+      additional_info: |
+        ### Dasharo User Group #9 **[Official Page](https://vpub.dasharo.com/e/17/dasharo-user-group-9)**<br><br>
+
+    - title: "Dasharo User Group 0x10 **& Developers vPub 0xF**"
+      status: "upcoming"
+      date: "12.06.2025"
+      event_poster: "images/events/2025/dug_10.jpg"
+      additional_info: |
+        ### Dasharo User Group #10 **[Official Page](https://vpub.dasharo.com/e/18/dasharo-user-group-10)**<br><br>
+
+    - title: "Dasharo User Group 0x11 **& Developers vPub 0xG**"
+      status: "upcoming"
+      date: "18.09.2025"
+      event_poster: "images/events/2025/dug_11.jpg"
+      additional_info: |
+        ### Dasharo User Group #11 **[Official Page](https://vpub.dasharo.com/e/19/dasharo-user-group-11)**<br><br>
+
+    - title: "Dasharo User Group 0x12 **& Developers vPub 0xH**"
+      status: "upcoming"
+      date: "11.12.2025"
+      event_poster: "images/events/2025/dug_12.jpg"
+      additional_info: |
+        ### Dasharo User Group #12 **[Official Page](https://vpub.dasharo.com/e/20/dasharo-user-group-12)**<br><br>
+
   - year: "20**24**"
     events:
+
+    - title: "Dasharo User Group 0x8 **& Developers vPub 0xD**"
+      status: ""
+      date: "12.12.2024"
+      event_poster: "images/events/2024/dug_8.jpg"
+      additional_info: |
+        ### Dasharo User Group #8 **[Official Page](https://vpub.dasharo.com/e/15/dasharo-user-group-8)**<br><br>
+
     - title: "Qubes OS **Summit 2024**"
       status: ""
       date: "20-22.09.2024"
@@ -60,6 +87,19 @@ all_events:
       event_poster: "images/events/2024/dug_7.jpg"
       additional_info: |
         ### Dasharo User Group #7 **[Official Page](https://vpub.dasharo.com/e/14/dasharo-user-group-7)**<br><br>
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Dasharo User Group #7**  <br>
+            Presenters: **3mdeb Team with Guests**
+
+            * [**Playlist at YouTube**](https://www.youtube.com/playlist?list=PLuISieMwVBpIJQpso6QICMUqqW5z8L1S2)
+            * [**Slides**](https://dl.3mdeb.com/dasharo/dug/7/)
 
     - title: "Dasharo User Group 0x6 **& Developers vPub 0xB**"
       status: ""
@@ -213,7 +253,7 @@ all_events:
       date: "28-30.11.2023"
       event_poster: "images/events/2023/Yocto_Project_logo.png"
       additional_info: |
-        ### Yocto Project Summit **[Official Page](https://summit.yoctoproject.org/yocto-project-summit-2023-11/)**
+        ### Yocto Project Summit **[Official Page](https://www.yoctoproject.org/event/yocto-project-summit-2023-11/)**
 
       # segments:
       segments:
@@ -225,8 +265,8 @@ all_events:
             Topic: **Dealing with UEFI Secure Boot support using Yocto Project**<br>
             Presenters: **Tomasz Żyjewski**
 
-            * [**Direct link**](https://web.archive.org/web/20240812072336/https://summit.yoctoproject.org/yocto-project-summit-2023-11/talk/HGTEGC/)
-            * [**Slides**](http://web.archive.org/web/20240517110258/https://summit.yoctoproject.org/media/yocto-project-summit-2023-11/submissions/HGTEGC/resources/presentation_zq25ldK.pdf)
+            * [**Direct link**](https://pretalx.com/yocto-project-summit-2023-11/talk/HGTEGC/)
+            * [**Slides**](https://pretalx.com/media/yocto-project-summit-2023-11/submissions/HGTEGC/resources/presentation_zq25ldK.pdf)
 
         - date: "30.11.2023"
           image: ""
@@ -236,8 +276,8 @@ all_events:
             Topic: **FIDO Device Onboarding: Late-binding Provisioning & Tales from the Trenches of Bleeding Edge Tech**  <br>
             Presenters: **Tymek Burak**
 
-            * [**Direct link**](http://web.archive.org/web/20240812063556/https://summit.yoctoproject.org/yocto-project-summit-2023-11/talk/KXCZYK/)
-            * [**Slides**](http://web.archive.org/web/20240517110229/https://summit.yoctoproject.org/media/yocto-project-summit-2023-11/submissions/KXCZYK/resources/FIDO_Device_Onboarding_YoctoSu_C14fiKE.pdf)
+            * [**Direct link**](https://pretalx.com/yocto-project-summit-2023-11/talk/KXCZYK/)
+            * [**Slides**](https://pretalx.com/media/yocto-project-summit-2023-11/submissions/KXCZYK/resources/FIDO_Device_Onboarding_YoctoSu_C14fiKE.pdf)
 
     - title: "Qubes OS **Summit 2023**"
       status: ""
@@ -420,7 +460,6 @@ all_events:
             Presenters: **Maciej Pijanowski**
 
             * [**Direct link**](https://archive.fosdem.org/2023/schedule/event/twpm_osf_tpm/)
-            * [**Slides**](https://archive.fosdem.org/2023/schedule/event/twpm_osf_tpm/attachments/slides/5728/export/events/attachments/twpm_osf_tpm/slides/5728/Trustworthy_Platform_Module_An_attempt_to_create_open_source_firmware_for_TPM.pdf)
             * [**Video**](https://video.fosdem.org/2023/K.4.201/twpm_osf_tpm.webm)
 
   - year: "20**22**"
@@ -458,7 +497,7 @@ all_events:
             Presenters: **Tomasz Żyjewski**
 
             * [**Direct link**](https://pretalx.com/yocto-project-summit-2022-11/talk/KJDAFF/)
-            * [**Slides**](http://web.archive.org/web/20240701121128/https://summit.yoctoproject.org/media/yocto-project-summit-2022-11/submissions/KJDAFF/resources/slides_v1.1_WFR8xEf.pdf)
+            * [**Slides**](https://pretalx.com/media/yocto-project-summit-2022-11/submissions/KJDAFF/resources/slides_v1.1_WFR8xEf.pdf)
 
     - title: "Open Source **Firmware Conference**"
       status: ""
@@ -625,6 +664,7 @@ all_events:
 
             * [**Direct link**](https://archive.fosdem.org/2022/schedule/event/ost2/)
             * [**Slides**](https://shop.3mdeb.com/wp-content/uploads/2022/08/OST2_-A-new-way-to-grow-security-talent-for-open-source-projects.pdf)
+            * [**Video**](https://mirrors.dotsrc.org/fosdem/2022/D.firmware/ost2.mp4)
 
         - date: "06.02.2022"
           image: ""
