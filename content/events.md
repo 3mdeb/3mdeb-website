@@ -460,6 +460,7 @@ all_events:
             Presenters: **Maciej Pijanowski**
 
             * [**Direct link**](https://archive.fosdem.org/2023/schedule/event/twpm_osf_tpm/)
+            * [**Slides**](https://archive.fosdem.org/2023/schedule/event/twpm_osf_tpm/attachments/slides/5728/export/events/attachments/twpm_osf_tpm/slides/5728/Trustworthy_Platform_Module_An_attempt_to_create_open_source_firmware_for_TPM.pdf)
             * [**Video**](https://video.fosdem.org/2023/K.4.201/twpm_osf_tpm.webm)
 
   - year: "20**22**"

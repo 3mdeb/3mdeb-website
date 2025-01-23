@@ -13,7 +13,7 @@ message:
    {.h3}
 
 trainings:
-  - title: "coreboot for &nbsp; **embedded linux developers**"
+  - title: "DS01CBI: coreboot for &nbsp; **embedded linux developers**"
     image: "images/coreboot-big.png"
     overview: |
       *   modern x86 architecture
@@ -37,10 +37,10 @@ trainings:
       *   porting and maintaining Coreboot supported mainboards.
 
     duration: |
-      #### **5** days
-      #### **40** hours (8h/day)
-      #### **70%** lectures
-      #### **30%** hands-on workshop
+      #### **5** days
+      #### **40** hours (8h/day)
+      #### **70%** lectures
+      #### **30%** hands-on workshop
 
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
@@ -48,7 +48,7 @@ trainings:
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/7Bt72SWnJ2GnCQq">}}
 
-  - title: "Building and Development &nbsp; **of Embedded Linux Systems**"
+  - title: "ZH01ELI: Building and Development &nbsp; **of Embedded Linux Systems**"
     image: "images/training/linux.png"
     overview: |
       *   Open source development overview
@@ -75,10 +75,10 @@ trainings:
 
 
     duration: |
-      #### **4** days
-      #### **32** hours (8h/day)
-      #### **50%** lectures
-      #### **50%** hands-on workshop
+      #### **4** days
+      #### **32** hours (8h/day)
+      #### **50%** lectures
+      #### **50%** hands-on workshop
 
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
@@ -86,9 +86,10 @@ trainings:
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/ooHTPK6D5Cym5kX">}}
 
-  - title: "OST2 Arch4001, Arch4021, TC3001, TC3011, TC3211 &nbsp; **- Intel Root of Trust training**"
+  - title: "DS02RTA: &nbsp; **Intel Root of Trust training**"
     image: "images/training/ost2.png"
     overview: |
+      *   Based on OST2 Arch4001, Arch4021, TC3001, TC3011 and TC3211
       *   UEFI introduction
       *   Modern x86 architecture
       *   Where is firmware and why blobs
@@ -103,18 +104,19 @@ trainings:
       Up to **10 participants** per session.
 
     duration: |
-      #### **4** days
-      #### **17** hours (8h/day)
-      #### **100%** lectures
+      #### **4** days
+      #### **17** hours (8h/day)
+      #### **100%** lectures
 
     materials: "All training materials presentations and source code will be available for the client's internal usage."
     language: "English"
     buttons: |
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
 
-  - title: "OST2 Arch2001, Arch4001, Arch4021 &nbsp; **- System Security training**"
+  - title: "DS03SSI: &nbsp; **System Security training**"
     image: "images/training/ost2.png"
     overview: |
+      *   Based on OST2 Arch2001, Arch4001 and Arch4021
       *   x86 assembly
       *   x86 operating system internals
       *   x86 boot process
@@ -134,7 +136,7 @@ trainings:
 
 
     duration: |
-      #### **9** days
+      #### **9** days
       #### **37** hours (4h/day usually, except for once 5h/day)
       of lectures with hands-on labs
 
@@ -143,7 +145,7 @@ trainings:
     buttons: |
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
 
-  - title: "Yocto Project &nbsp; **Development**"
+  - title: "ZH02YPI: Yocto Project &nbsp; **Development**"
     image: "images/training/yocto.png"
     overview: |
       *   Overview of an Embedded Linux system architecture
@@ -174,10 +176,10 @@ trainings:
       Engineers familiar with Embedded Linux development and BSP building. Passing our Building and Development of Embedded Linux Systems training first is recommended.
 
     duration: |
-      #### **4** days
-      #### **28** hours (7h/day)
-      #### **40%** lectures
-      #### **60%** hands-on workshop
+      #### **4** days
+      #### **28** hours (7h/day)
+      #### **40%** lectures
+      #### **60%** hands-on workshop
 
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
@@ -185,7 +187,7 @@ trainings:
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/DRW89CQo366JAPB">}}
 
-  - title: "UEFI &nbsp; **offensive security**"
+  - title: "DS04UEA: UEFI &nbsp; **offensive security**"
     image: "images/registered/uefi.png"
     overview: |
       *   modern x86 architecture
@@ -207,10 +209,10 @@ trainings:
       Minimal knowledge of Python is required.
 
     duration: |
-      #### **5** days
-      #### **40** hours (8h/day)
-      #### **70%** lectures
-      #### **30%** hands-on workshop
+      #### **5** days
+      #### **40** hours (8h/day)
+      #### **70%** lectures
+      #### **30%** hands-on workshop
 
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
@@ -218,7 +220,7 @@ trainings:
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/Ta4DCfXsxbDaX7c">}}
 
-  - title: "UEFI &nbsp; **advanced concepts**"
+  - title: "DS05UEA: UEFI &nbsp; **advanced concepts**"
     image: "images/registered/uefi.png"
     overview: |
       *   Memory protection mechanisms in UEFI
@@ -234,10 +236,10 @@ trainings:
       Engineers with very good knowledge of Linux, C and Python. Good knowledge of computer systems architecture is required. Preferred audience after accomplishing 3mdeb UEFI fundamentals training or similar.
 
     duration: |
-      #### **5** days
-      #### **40** hours (8h/day)
-      #### **50%** lectures
-      #### **50%** hands-on workshop
+      #### **5** days
+      #### **40** hours (8h/day)
+      #### **50%** lectures
+      #### **50%** hands-on workshop
 
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
@@ -245,7 +247,7 @@ trainings:
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/8e6Dp27c9QXyMbR">}}
 
-  - title: "UEFI &nbsp; **fundamentals**"
+  - title: "DS06UEF: UEFI &nbsp; **fundamentals**"
     image: "images/registered/uefi.png"
     overview: |
       *   UEFI and PI specification overview
@@ -265,10 +267,10 @@ trainings:
       Engineers with with basic knowledge of Linux, C and Python building. Minimal knowledge of computer systems architecture is required.
 
     duration: |
-      #### **5** days
-      #### **40** hours (8h/day)
-      #### **50%** lectures
-      #### **50%** hands-on workshop
+      #### **5** days
+      #### **40** hours (8h/day)
+      #### **50%** lectures
+      #### **50%** hands-on workshop
 
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
@@ -276,7 +278,7 @@ trainings:
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/gFqgCxFJTrZgdNf">}}
 
-  - title: "UEFI &nbsp; **practical firmware development**"
+  - title: "DS07UEI: UEFI &nbsp; **practical firmware development**"
     image: "images/registered/uefi.png"
     overview: |
       *   Tianocore structure and components
@@ -296,10 +298,10 @@ trainings:
       Engineers with very good knowledge of Linux, C and Python. Good knowledge of computer systems architecture is required. Preferred audience after accomplishing 3mdeb UEFI fundamentals training or similar.
 
     duration: |
-      #### **5** days
-      #### **40** hours (8h/day)
-      #### **30%** lectures
-      #### **70%** hands-on workshop
+      #### **5** days
+      #### **40** hours (8h/day)
+      #### **30%** lectures
+      #### **70%** hands-on workshop
 
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
