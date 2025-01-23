@@ -37,10 +37,10 @@ trainings:
       *   porting and maintaining Coreboot supported mainboards.
 
     duration: |
-      #### **5** days
-      #### **40** hours (8h/day)
-      #### **70%** lectures
-      #### **30%** hands-on workshop
+      #### **5** days
+      #### **40** hours (8h/day)
+      #### **70%** lectures
+      #### **30%** hands-on workshop
 
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
@@ -75,10 +75,10 @@ trainings:
 
 
     duration: |
-      #### **4** days
-      #### **32** hours (8h/day)
-      #### **50%** lectures
-      #### **50%** hands-on workshop
+      #### **4** days
+      #### **32** hours (8h/day)
+      #### **50%** lectures
+      #### **50%** hands-on workshop
 
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
@@ -104,9 +104,9 @@ trainings:
       Up to **10 participants** per session.
 
     duration: |
-      #### **4** days
-      #### **17** hours (8h/day)
-      #### **100%** lectures
+      #### **4** days
+      #### **17** hours (8h/day)
+      #### **100%** lectures
 
     materials: "All training materials presentations and source code will be available for the client's internal usage."
     language: "English"
@@ -136,7 +136,7 @@ trainings:
 
 
     duration: |
-      #### **9** days
+      #### **9** days
       #### **37** hours (4h/day usually, except for once 5h/day)
       of lectures with hands-on labs
 
@@ -176,10 +176,10 @@ trainings:
       Engineers familiar with Embedded Linux development and BSP building. Passing our Building and Development of Embedded Linux Systems training first is recommended.
 
     duration: |
-      #### **4** days
-      #### **28** hours (7h/day)
-      #### **40%** lectures
-      #### **60%** hands-on workshop
+      #### **4** days
+      #### **28** hours (7h/day)
+      #### **40%** lectures
+      #### **60%** hands-on workshop
 
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
@@ -209,10 +209,10 @@ trainings:
       Minimal knowledge of Python is required.
 
     duration: |
-      #### **5** days
-      #### **40** hours (8h/day)
-      #### **70%** lectures
-      #### **30%** hands-on workshop
+      #### **5** days
+      #### **40** hours (8h/day)
+      #### **70%** lectures
+      #### **30%** hands-on workshop
 
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
@@ -236,10 +236,10 @@ trainings:
       Engineers with very good knowledge of Linux, C and Python. Good knowledge of computer systems architecture is required. Preferred audience after accomplishing 3mdeb UEFI fundamentals training or similar.
 
     duration: |
-      #### **5** days
-      #### **40** hours (8h/day)
-      #### **50%** lectures
-      #### **50%** hands-on workshop
+      #### **5** days
+      #### **40** hours (8h/day)
+      #### **50%** lectures
+      #### **50%** hands-on workshop
 
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
@@ -267,10 +267,10 @@ trainings:
       Engineers with with basic knowledge of Linux, C and Python building. Minimal knowledge of computer systems architecture is required.
 
     duration: |
-      #### **5** days
-      #### **40** hours (8h/day)
-      #### **50%** lectures
-      #### **50%** hands-on workshop
+      #### **5** days
+      #### **40** hours (8h/day)
+      #### **50%** lectures
+      #### **50%** hands-on workshop
 
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
@@ -298,10 +298,10 @@ trainings:
       Engineers with very good knowledge of Linux, C and Python. Good knowledge of computer systems architecture is required. Preferred audience after accomplishing 3mdeb UEFI fundamentals training or similar.
 
     duration: |
-      #### **5** days
-      #### **40** hours (8h/day)
-      #### **30%** lectures
-      #### **70%** hands-on workshop
+      #### **5** days
+      #### **40** hours (8h/day)
+      #### **30%** lectures
+      #### **70%** hands-on workshop
 
     materials: "All training materials presentations and source code will be available for customer internal usage."
     language: "English"
