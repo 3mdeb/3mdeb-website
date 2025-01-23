@@ -19,27 +19,27 @@ open_source_hardware_features:
 
       First of all – it maximizes the ability of third-party programmers and partners to work with a given device. In most cases, hardware manufacturers provide only a basic level of programmability by releasing software development kits (SDKs) or limited documentation about hardware specifications. Sometimes additional hardware information is available through partner programs. But with open source hardware, all information is freely available to the public.
 
-      If you wondered sometimes does your webcam is spying on you, or someone is listening in your microphone the main reason is that you’re not sure about all the possible features of these devices. That’s another big advantage of open hardware – you know exactly what the device is doing and how it works. If you understand it in a sufficient degree you can develop it, add features and customize it to infinity
+      If you have ever wondered whether your webcam is spying on you or if someone is listening through your microphone, it's likely because you're unsure about all the possible features of these devices. That’s another big advantage of open hardware—you know exactly what the device is doing and how it works. With sufficient understanding, you can develop, add features, and customize it endlessly.
 
   - image: "images/open-source-hardware/tpm-2.png"
     content: |
       ## If it is Open Source, why are you selling it?
       {.h3}
 
-      Open Hardware means that you are given all the instructions, schematics and BOM (Bill of Materials) and if you have all the parts, and have enough skill then you can build it by yourself.
+      Open hardware means that you are provided with all the instructions, schematics, and the BOM (Bill of Materials). If you have all the parts and the necessary skills, you can build it yourself.
 
-      This is like a recipe. If you can cook it by yourself – fair enough. But keep in mind, that we are professional and dedicated chefs. Consider being our customer as visiting a good restaurant.
+      This is like a recipe. If you can cook it yourself—fair enough. But keep in mind that we are professional and dedicated "chefs". Think of being our customer as similar to visiting a fine restaurant.
 
-      In our **[shop](https://shop.3mdeb.com/shop)** we offer some open source hardware products assembled by us or like **[RTE](https://shop.3mdeb.com/shop/product/rte/)** or **[TMP2 modules](https://shop.3mdeb.com/shop/product/tpm2/)** designed by us.
+      In our **[shop](https://shop.3mdeb.com/shop)** we offer some open source hardware products assembled by us or, like the **[RTE](https://shop.3mdeb.com/shop/product/rte/)** or **[TMP2 modules](https://shop.3mdeb.com/shop/product/tpm2/)**, designed by us.
 
   - image: "images/open-source-hardware/OpenVizsla-usb2.0-analyzer.png"
     content: |
       ## What can we do?
       {.h3}
 
-      Let’s imagine you have a business solution, an IoT device that will make life easier, and your wallet thicker. You know what you want, but you don’t have enough resources or knowledge to make it work. We have both. Prepare with our help a project charter that will describe your expectations, and we will create the device from scratch, develop firmware and integrate it with IoT. We’ll prepare all the documentation required to implement industrial manufacturing and maintain further development of your project.
+      Imagine you have a business solution—an IoT device that will make life easier and grow your profits. You know what you want, but you may not have the resources or expertise to bring it to life. We have both. With our help, you can prepare a project charter that outlines your expectations, and we’ll take it from there: designing the device from scratch, developing firmware, and fully integrating it with IoT. We’ll also prepare all the documentation needed for industrial manufacturing and support the continued development of your project.
 
-      Sometimes you already have your product, but there are some modifications required. Maybe they will affect your firmware and make it obsolete. We can also help in this matter. It could happen, that you had to improve the security of your hardware. Yes, we also can do that.
+      Sometimes, you already have a product, but modifications are required. These changes may impact your firmware and render it obsolete. We can help with that too. Perhaps you need to enhance the security of your hardware—yes, we can do that as well.
 
   - image: "images/open-source-hardware/muxpi.jpg"
     content: |
@@ -48,9 +48,9 @@ open_source_hardware_features:
 
       Because we are the best. Seriously. We have specialists in any field you can imagine. Doesn’t matter if it’s about creating hardware, making it work, [**RISC-V**](https://riscv.org/), [**AWS Services**](https://aws.amazon.com/), **[building Hypervisors](https://en.wikipedia.org/wiki/Hypervisor)**, **[customizing Linux](https://www.yoctoproject.org/)** or anything else.
 
-      Size of our company makes us flexible and agile, our hardware and embedded engineers will fully cooperate for your satisfaction, and all the resources will be allocated efficiently. We are continuously enlarging our potential to handle more and more sophisticated projects.
+      The size of our company makes us flexible and agile. Our hardware and embedded engineers will work collaboratively to ensure your satisfaction, with resources allocated efficiently. We are continuously expanding our capabilities to handle increasingly sophisticated projects.
 
-      Check our satisfied clients, projects we participate, and **[contact us.](https://3mdeb.com/contact/)**
+      Check our satisfied clients, projects we participate in, and **[contact us.](https://3mdeb.com/contact/)**
 
       [**Congratulations, you have just found the solution**.](/)
       {{< image src="images/markets/aws.png" alt="aws" class="d-block mx-auto">}}
