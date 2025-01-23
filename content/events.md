@@ -209,8 +209,8 @@ all_events:
             Topic: **Dealing with UEFI Secure Boot support using Yocto Project**<br>
             Presenters: **Tomasz Żyjewski**
 
-            * [**Direct link**](https://summit.yoctoproject.org/yocto-project-summit-2023-11/talk/HGTEGC/)
-            * [**Slides**](https://summit.yoctoproject.org/media/yocto-project-summit-2023-11/submissions/HGTEGC/resources/presentation_zq25ldK.pdf)
+            * [**Direct link**](https://web.archive.org/web/20240812072336/https://summit.yoctoproject.org/yocto-project-summit-2023-11/talk/HGTEGC/)
+            * [**Slides**](http://web.archive.org/web/20240517110258/https://summit.yoctoproject.org/media/yocto-project-summit-2023-11/submissions/HGTEGC/resources/presentation_zq25ldK.pdf)
 
         - date: "30.11.2023"
           image: ""
@@ -220,8 +220,8 @@ all_events:
             Topic: **FIDO Device Onboarding: Late-binding Provisioning & Tales from the Trenches of Bleeding Edge Tech**  <br>
             Presenters: **Tymek Burak**
 
-            * [**Direct link**](https://summit.yoctoproject.org/yocto-project-summit-2023-11/talk/KXCZYK/)
-            * [**Slides**](https://summit.yoctoproject.org/media/yocto-project-summit-2023-11/submissions/KXCZYK/resources/FIDO_Device_Onboarding_YoctoSu_C14fiKE.pdf)
+            * [**Direct link**](http://web.archive.org/web/20240812063556/https://summit.yoctoproject.org/yocto-project-summit-2023-11/talk/KXCZYK/)
+            * [**Slides**](http://web.archive.org/web/20240517110229/https://summit.yoctoproject.org/media/yocto-project-summit-2023-11/submissions/KXCZYK/resources/FIDO_Device_Onboarding_YoctoSu_C14fiKE.pdf)
 
     - title: "Qubes OS **Summit 2023**"
       status: ""
@@ -308,7 +308,7 @@ all_events:
             Presenters: **Tomasz Żyjewski**
 
             * [**Direct link**](https://www.yoctoproject.org/yocto-project-at-embedded-open-source-summit-2023/)
-            * [**Slides**](https://summit.yoctoproject.org/media/devday-at-eoss-2023/submissions/XZYTCW/resources/presentation_v1.1_R3aJg51.pdf)
+            * [**Slides**](http://web.archive.org/web/20230811182550/https://summit.yoctoproject.org/media/devday-at-eoss-2023/submissions/XZYTCW/resources/presentation_v1.1_R3aJg51.pdf)
 
         - date: "26.06.2023"
           image: ""
@@ -319,7 +319,7 @@ all_events:
             Presenters: **Tomasz Żyjewski, Maciej Pijanowski**
 
             * [**Direct link**](https://www.yoctoproject.org/yocto-project-at-embedded-open-source-summit-2023/)
-            * [**Slides**](https://summit.yoctoproject.org/media/devday-at-eoss-2023/submissions/JPX8ND/resources/Unveiling_OpenBMC__Exploring_features_a_xkqHpmo.pdf)
+            * [**Slides**](http://web.archive.org/web/20230812234006/https://summit.yoctoproject.org/media/devday-at-eoss-2023/submissions/JPX8ND/resources/Unveiling_OpenBMC__Exploring_features_a_xkqHpmo.pdf)
 
     - title: "Xen Developer **& Design Summit**"
       status: ""
@@ -442,7 +442,7 @@ all_events:
             Presenters: **Tomasz Żyjewski**
 
             * [**Direct link**](https://pretalx.com/yocto-project-summit-2022-11/talk/KJDAFF/)
-            * [**Slides**](https://summit.yoctoproject.org/media/yocto-project-summit-2022-11/submissions/KJDAFF/resources/slides_v1.1_WFR8xEf.pdf)
+            * [**Slides**](http://web.archive.org/web/20240701121128/https://summit.yoctoproject.org/media/yocto-project-summit-2022-11/submissions/KJDAFF/resources/slides_v1.1_WFR8xEf.pdf)
 
     - title: "Open Source **Firmware Conference**"
       status: ""
@@ -609,7 +609,6 @@ all_events:
 
             * [**Direct link**](https://archive.fosdem.org/2022/schedule/event/ost2/)
             * [**Slides**](https://shop.3mdeb.com/wp-content/uploads/2022/08/OST2_-A-new-way-to-grow-security-talent-for-open-source-projects.pdf)
-            * [**Video**](https://ftp.heanet.ie/mirrors/fosdem-video/2022/D.firmware/ost2.mp4)
 
         - date: "06.02.2022"
           image: ""
