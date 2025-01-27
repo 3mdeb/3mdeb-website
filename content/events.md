@@ -67,6 +67,19 @@ all_events:
       additional_info: |
         ### Dasharo User Group #8 **[Official Page](https://vpub.dasharo.com/e/15/dasharo-user-group-8)**<br><br>
 
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Dasharo User Group #8**  <br>
+            Presenters: **3mdeb Team with Guests**
+
+            * [**Playlist at YouTube**](https://www.youtube.com/playlist?list=PLuISieMwVBpLcYtLuM7rwooWeoH7I6tEF)
+            * [**Slides**](https://dl.3mdeb.com/dasharo/dug/8/)
+
     - title: "Qubes OS **Summit 2024**"
       status: ""
       date: "20-22.09.2024"
