@@ -43,14 +43,14 @@ all_events:
       additional_info: |
         ### Dasharo User Group #10 **[Official Page](https://vpub.dasharo.com/e/18/dasharo-user-group-10)**<br><br>
 
-    - title: "Dasharo User Group 0x11 **& Developers vPub 0xG**"
+    - title: "Dasharo User Group 0x11 **& Developers vPub 0x10**"
       status: "upcoming"
       date: "18.09.2025"
       event_poster: "images/events/2025/dug_11.jpg"
       additional_info: |
         ### Dasharo User Group #11 **[Official Page](https://vpub.dasharo.com/e/19/dasharo-user-group-11)**<br><br>
 
-    - title: "Dasharo User Group 0x12 **& Developers vPub 0xH**"
+    - title: "Dasharo User Group 0x12 **& Developers vPub 0x11**"
       status: "upcoming"
       date: "11.12.2025"
       event_poster: "images/events/2025/dug_12.jpg"
