@@ -29,28 +29,28 @@ all_events:
       additional_info: |
         ### FOSDEM 2025 **[Official Page](https://fosdem.org/2025/)**<br><br>
 
-    - title: "Dasharo User Group 0x9 **& Developers vPub 0xE**"
+    - title: "Dasharo User Group #9 **& Developers vPub 0xE**"
       status: "upcoming"
       date: "20.03.2025"
       event_poster: "images/events/2025/dug_9.jpg"
       additional_info: |
         ### Dasharo User Group #9 **[Official Page](https://vpub.dasharo.com/e/17/dasharo-user-group-9)**<br><br>
 
-    - title: "Dasharo User Group 0x10 **& Developers vPub 0xF**"
+    - title: "Dasharo User Group #10 **& Developers vPub 0xF**"
       status: "upcoming"
       date: "12.06.2025"
       event_poster: "images/events/2025/dug_10.jpg"
       additional_info: |
         ### Dasharo User Group #10 **[Official Page](https://vpub.dasharo.com/e/18/dasharo-user-group-10)**<br><br>
 
-    - title: "Dasharo User Group 0x11 **& Developers vPub 0xG**"
+    - title: "Dasharo User Group #11 **& Developers vPub 0x10**"
       status: "upcoming"
       date: "18.09.2025"
       event_poster: "images/events/2025/dug_11.jpg"
       additional_info: |
         ### Dasharo User Group #11 **[Official Page](https://vpub.dasharo.com/e/19/dasharo-user-group-11)**<br><br>
 
-    - title: "Dasharo User Group 0x12 **& Developers vPub 0xH**"
+    - title: "Dasharo User Group #12 **& Developers vPub 0x11**"
       status: "upcoming"
       date: "11.12.2025"
       event_poster: "images/events/2025/dug_12.jpg"
@@ -60,7 +60,7 @@ all_events:
   - year: "20**24**"
     events:
 
-    - title: "Dasharo User Group 0x8 **& Developers vPub 0xD**"
+    - title: "Dasharo User Group #8 **& Developers vPub 0xD**"
       status: ""
       date: "12.12.2024"
       event_poster: "images/events/2024/dug_8.jpg"
@@ -81,7 +81,7 @@ all_events:
       additional_info: |
         ### Linux Plumbers Conference **[Official Page](https://lpc.events/)**<br><br>
 
-    - title: "Dasharo User Group 0x7 **& Developers vPub 0xC**"
+    - title: "Dasharo User Group #7 **& Developers vPub 0xC**"
       status: ""
       date: "12.09.2024"
       event_poster: "images/events/2024/dug_7.jpg"
@@ -101,7 +101,7 @@ all_events:
             * [**Playlist at YouTube**](https://www.youtube.com/playlist?list=PLuISieMwVBpIJQpso6QICMUqqW5z8L1S2)
             * [**Slides**](https://dl.3mdeb.com/dasharo/dug/7/)
 
-    - title: "Dasharo User Group 0x6 **& Developers vPub 0xB**"
+    - title: "Dasharo User Group #6 **& Developers vPub 0xB**"
       status: ""
       date: "13.06.2024"
       event_poster: "images/events/2024/dug_6.jpg"
@@ -159,7 +159,7 @@ all_events:
 
             * [**Slides**](https://cloud.3mdeb.com/index.php/s/MGTLikJZLKGKbip)
 
-    - title: "Dasharo User Group 0x5 **& Developers vPub 0xA**"
+    - title: "Dasharo User Group #5 **& Developers vPub 0xA**"
       status: ""
       date: "14.03.2024"
       event_poster: "images/events/2024/dug_5.jpg"
@@ -229,7 +229,7 @@ all_events:
 
   - year: "20**23**"
     events:
-    - title: "Dasharo User Group 0x4 **& Developers vPub 0x9**"
+    - title: "Dasharo User Group #4 **& Developers vPub 0x9**"
       status: ""
       date: "07.12.2023"
       event_poster: "images/events/2023/dug_4.png"
@@ -306,7 +306,7 @@ all_events:
 
             * [**Video**](https://www.youtube.com/live/xo2BVTn7ohs?si=3N-5byETq1Mrmi-M)
 
-    - title: "Dasharo User Group 0x3 **& Developers vPub 0x8**"
+    - title: "Dasharo User Group #3 **& Developers vPub 0x8**"
       status: ""
       date: "28.09.2023"
       event_poster: "images/events/2023/dug_3.jpg"
@@ -326,7 +326,7 @@ all_events:
             * [**Slides**](https://dl.3mdeb.com/dasharo/dug/3/)
 
 
-    - title: "Dasharo User Group 0x2 **& Developers vPub 0x7**"
+    - title: "Dasharo User Group #2 **& Developers vPub 0x7**"
       status: ""
       date: "06.07.2023"
       event_poster: "images/events/2023/dug_2.png"
@@ -391,13 +391,13 @@ all_events:
           youtube_video_id: "p3Gb6C6K0To"
           additional_info: |
             Presentation **#1**  <br>
-            Topic: **Paving the Path for TrenchBoot DRTM in Xen Hypervisor**  <br>
+            Topic: **Paving the Path for TrenchBoot DRTM in Xen Hypervisor**<br>
             Presenters: **Michał Żygowski**
 
             * [**Direct link**](https://events.linuxfoundation.org/xen-project-summit/program/schedule/)
             * [**Slides**](https://static.sched.com/hosted_files/xen2023/e6/Paving%20the%20Path%20for%20TrenchBoot%20DRTM%20in%20Xen%20Hypervisor.pdf)
 
-    - title: "Dasharo User Group 0x1 **& Developers vPub 0x6**"
+    - title: "Dasharo User Group #1 **& Developers vPub 0x6**"
       status: ""
       date: "16.03.2023"
       event_poster: "images/events/2023/dug_1.png"
