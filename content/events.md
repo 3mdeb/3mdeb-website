@@ -15,19 +15,6 @@ events_download:
 all_events:
   - year: "Upcoming **2025**"
     events:
-    - title: "Xen Project **Winter Meetup**"
-      status: "upcoming"
-      date: "30-31.01.2025"
-      event_poster: "images/events/2025/xenwintermeetup.jpg"
-      additional_info: |
-        ### Xen Project Winter Meetup **[Official Page](https://campaign.vates.tech/xen-project-winter-meetup)**<br><br>
-
-    - title: "FOSDEM **2025**"
-      status: "upcoming"
-      date: "01-02.02.2025"
-      event_poster: "images/events/fosdem.jpeg"
-      additional_info: |
-        ### FOSDEM 2025 **[Official Page](https://fosdem.org/2025/)**<br><br>
 
     - title: "Dasharo User Group 9 **& Developers vPub 0xE**"
       status: "upcoming"
@@ -56,6 +43,23 @@ all_events:
       event_poster: "images/events/2025/dug_12.jpg"
       additional_info: |
         ### Dasharo User Group #12 **[Official Page](https://vpub.dasharo.com/e/20/dasharo-user-group-12)**<br><br>
+
+  - year: "20**25**"
+    events:
+
+    - title: "FOSDEM **2025**"
+      status: ""
+      date: "01-02.02.2025"
+      event_poster: "images/events/fosdem.jpeg"
+      additional_info: |
+        ### FOSDEM 2025 **[Official Page](https://fosdem.org/2025/)**<br><br>
+
+    - title: "Xen Project **Winter Meetup**"
+      status: ""
+      date: "30-31.01.2025"
+      event_poster: "images/events/2025/xenwintermeetup.jpg"
+      additional_info: |
+        ### Xen Project Winter Meetup **[Official Page](https://campaign.vates.tech/xen-project-winter-meetup)**<br><br>
 
   - year: "20**24**"
     events:
