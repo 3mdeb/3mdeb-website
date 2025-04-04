@@ -44,12 +44,31 @@
       </div>
       <div class="col-sm-6 col-md-5 col-xl-3 ps-sm-5 text-center">
         {{ with site.Params.newsletter }}
-        <p class="text-white text-opacity-75 text-center">{{.title | markdownify}}</p>
-          <a class="btn btn-primary" href="/subscribe/3mdeb_newsletter.html">SUBSCRIBE</a>
-        </p>
-      </div>
+        <form
+          action="{{.subscription_form}}"
+          method="post"
+          id="embedded-subscribe-form"
+          name="embedded-subscribe-form"
+          target="_blank"
+        >
+          <p class="text-white text-opacity-75 text-center">{{.title | markdownify}}</p>
+          <div class="input-group">
+            <input type="email" name="EMAIL" class="form-control mb-2 w-75 text-center"
+              id="lm-EMAIL" placeholder="Enter your email" required
+            />
+            <button id="subscribe-button" class="btn btn-primary w-75" type="submit">
+              SUBSCRIBE
+            </button>
+          </div>
+          <p style="display: none">
+            <input id="3160b" type="checkbox" name="l"
+              value="{{.subscription_list}}" checked
+            />
+            <label for="3160b">3mdeb newsletter</label>
+          </p>
+        </form>
         {{ end }}
-
+      </div>
         <div class="mt-5">
           <h3 class="h5 text-white fw-normal mb-4">Information</h3>
           <ul class="list-unstyled">

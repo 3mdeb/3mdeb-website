@@ -42,6 +42,8 @@ invoicing = "3mdeb Sp. z o.o. <br> ul. Piastowska 7/20A <br> 80-332 Gdańsk, Pol
 [newsletter]
 enable = true
 title = "If you are interested in receiving updates about 3mdeb activity, join our 3mdeb newsletter!"
+subscription_form = "https://listmonk.3mdeb.com/subscription/form"
+subscription_list = "3160b3cf-f539-43cf-9be7-46d481358202"
 
 # Call to action
 [cta]
