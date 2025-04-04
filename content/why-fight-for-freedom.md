@@ -21,7 +21,7 @@ ctavideo:
     Gain access to the latest binary releases of the Dasharo open-source firmware
     distribution for supported Desktop platforms, along with exclusive support.
     1. **Connect and Engage:** Stay updated and engaged by joining the
-    [3mdeb newsletter](/subscribe/3mdeb_newsletter.html) and [Matrix community](https://matrix.to/#/+3mdeb:matrix.org).
+    [3mdeb newsletter](#embedded-subscribe-form) and [Matrix community](https://matrix.to/#/+3mdeb:matrix.org).
     Stay connected with fellow enthusiasts and advocates.
     1. **Explore Further:** Discover more ways to get involved and help us drive
     change. [Explore the opportunities](https://shop.3mdeb.com/product-category/dasharo-supported-hardware/)
