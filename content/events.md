@@ -32,7 +32,7 @@ all_events:
 
     - title: "Qubes OS **Summit 2025**"
       status: "upcoming"
-      date: ""
+      date: "To be announced"
       event_poster: ""
       additional_info: |
         ### Qubes OS Summit 2025 **[Official Page](https://vpub.dasharo.com/e/21/qubes-os-summit-2025)**<br><br>
