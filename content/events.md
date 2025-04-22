@@ -16,6 +16,13 @@ all_events:
   - year: "Upcoming **2025**"
     events:
 
+    - title: "Zarhus **Developers Meetup 0x1**"
+      status: "upcoming"
+      date: "06.05.2025"
+      event_poster: "images/events/2025/zarhus-developers-0x1.jpg"
+      additional_info: |
+        ### Zarhus Developers Meetup 0x1 **[Official Page](https://events.dasharo.com/event/4/zarhus-developers-meetup-0x1)**<br><br>
+
     - title: "Dasharo User Group 10 **& Developers vPub 0xF**"
       status: "upcoming"
       date: "12.06.2025"
