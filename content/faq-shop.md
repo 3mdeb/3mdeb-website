@@ -34,7 +34,7 @@ Shipping costs are dependent on your address/country and products in your
 shopping cart. The exact cost will be calculated upon checkout, based on the
 provided shipping address.
 
-#### Q: How do you ensure the safe shipping of the full PC build?
+#### Q: How do you ensure the safe shipping of the PC build?
 
 Inspecting Your Shipment: Before the shipment of full PC builds we take pictures
 of both the hardware and packaging. After it leaves our office we do not have
@@ -48,6 +48,41 @@ the damages to the box and the damages to the item. Please notify us immediately
 so that we can initiate a damage claim with Freight. Failure to inspect for
 damages at the time of delivery could result in Freight voiding any subsequent
 damage claims.
+
+### **Taxes & Import fees**
+
+#### European Union
+
+#### Q: Do the prices in the shop include VAT?
+
+No, the prices listed in the shop are exclusive of VAT. 23% VAT may be added to
+the final price of your order depending on your billing and shipping address.
+
+#### Q: When can I use the 0% VAT option?
+
+You can use the 0% VAT method if you have a valid EU VAT number, meaning your
+billing address is registered to your company.
+
+#### Q: If I order as a private person what VAT will I need to pay?
+
+If you place an order as a private person, a 23% VAT will be added to your
+order. This is because our company is based in Poland, and under EU regulations,
+VAT is charged based on the seller's location, not the shipping country.
+Therefore, even if your shipping address is in a different EU country, the
+Polish VAT rate of 23% applies.
+
+#### Outside of EU
+
+#### Q: I live outside the European Union. Do I have to pay import taxes?
+
+Yes, you may have to pay import taxes or customs fees when your order arrives in
+your country. The price you pay in our shop does not include any import fees, as
+these are determined by your country's tax and customs authorities. Every
+country has its own rules regarding the import of goods, and they may apply
+duties, taxes, or administrative charges.
+
+The good news is that if your delivery address is outside the EU, all prices are
+TAX-free, meaning you pay 23% less than our European customers.
 
 ### **Products**
 
