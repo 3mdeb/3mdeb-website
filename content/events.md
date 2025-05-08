@@ -16,35 +16,28 @@ all_events:
   - year: "Upcoming **2025**"
     events:
 
-    - title: "Zarhus **Developers Meetup 0x1**"
-      status: "upcoming"
-      date: "06.05.2025"
-      event_poster: "images/events/2025/zarhus-developers-0x1.jpg"
-      additional_info: |
-        ### Zarhus Developers Meetup 0x1 **[Official Page](https://events.dasharo.com/event/4/zarhus-developers-meetup-0x1)**<br><br>
-
-    - title: "Dasharo User Group 10 **& Developers vPub 0xF**"
+    - title: "[**2025-06-12** Dasharo User Group 10 & Developers vPub 0xF](https://vpub.dasharo.com/e/18/dasharo-user-group-10)"
       status: "upcoming"
       date: "12.06.2025"
       event_poster: "images/events/2025/dug_10.jpg"
       additional_info: |
         ### Dasharo User Group #10 **[Official Page](https://vpub.dasharo.com/e/18/dasharo-user-group-10)**<br><br>
 
-    - title: "Dasharo User Group 11 **& Developers vPub 0x10**"
+    - title: "[**2025-09-18** Dasharo User Group 11 & Developers vPub 0x10](https://vpub.dasharo.com/e/19/dasharo-user-group-11)"
       status: "upcoming"
       date: "18.09.2025"
       event_poster: "images/events/2025/dug_11.jpg"
       additional_info: |
         ### Dasharo User Group #11 **[Official Page](https://vpub.dasharo.com/e/19/dasharo-user-group-11)**<br><br>
 
-    - title: "Qubes OS **Summit 2025**"
+    - title: "[**TBA** Qubes OS Summit 2025](https://events.dasharo.com/event/2/qubes-os-summit-2025)"
       status: "upcoming"
       date: "To be announced"
       event_poster: ""
       additional_info: |
-        ### Qubes OS Summit 2025 **[Official Page](https://vpub.dasharo.com/e/21/qubes-os-summit-2025)**<br><br>
+        ### Qubes OS Summit 2025 **[Official Page](https://events.dasharo.com/event/2/qubes-os-summit-2025)**<br><br>
 
-    - title: "Dasharo User Group 12 **& Developers vPub 0x11**"
+    - title: "[**2025-12-11** Dasharo User Group 12 & Developers vPub 0x11](https://vpub.dasharo.com/e/20/dasharo-user-group-12)"
       status: "upcoming"
       date: "11.12.2025"
       event_poster: "images/events/2025/dug_12.jpg"
@@ -54,6 +47,13 @@ all_events:
   - year: "20**25**"
     events:
 
+    - title: "Zarhus **Developers Meetup 0x1**"
+      status: ""
+      date: "06.05.2025"
+      event_poster: "images/events/2025/zarhus-developers-0x1.jpg"
+      additional_info: |
+        ### Zarhus Developers Meetup 0x1 **[Official Page](https://events.dasharo.com/event/4/zarhus-developers-meetup-0x1)**<br><br>
+
     - title: "Dasharo User Group 9 **& Developers vPub 0xE**"
       status: ""
       date: "20.03.2025"
@@ -61,12 +61,38 @@ all_events:
       additional_info: |
         ### Dasharo User Group #9 **[Official Page](https://vpub.dasharo.com/e/17/dasharo-user-group-9)**<br><br>
 
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Dasharo User Group #9**  <br>
+            Presenters: **3mdeb Team with Guests**
+            * [**Playlist at YouTube**](https://www.youtube.com/playlist?list=PLuISieMwVBpKNjDQBK2MU78tbU1XWkiPD)
+            * [**Slides**](https://dl.3mdeb.com/dasharo/dug/9/)
+
     - title: "FOSDEM **2025**"
       status: ""
       date: "01-02.02.2025"
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
         ### FOSDEM 2025 **[Official Page](https://fosdem.org/2025/)**<br><br>
+
+      # segments:
+      segments:
+        - date: "01.02.2025"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Automating Low-Level Firmware Validation with Robot Framework**  <br>
+            Presenters: **Maciej Pijanowski**
+
+            * [**Direct link**](https://fosdem.org/2025/schedule/event/fosdem-2025-5996-automating-low-level-firmware-validation-with-robot-framework/)
+            * [**Slides**](https://fosdem.org/2025/events/attachments/fosdem-2025-5996-automating-low-level-firmware-validation-with-robot-framework/slides/237952/Automatin_E23sMgP.pdf)
+            * [**Video**](https://video.fosdem.org/2025/ud6215/fosdem-2025-5996-automating-low-level-firmware-validation-with-robot-framework.av1.webm)
 
     - title: "Xen Project **Winter Meetup**"
       status: ""
