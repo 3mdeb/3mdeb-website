@@ -61,6 +61,7 @@
 
 {{ range .Params.all_events }}
 {{ $year := .year }}
+{{ if ne $year "Upcoming **2025**" }}
 <section class="section pt-0 events-wrapper">
   <div class="container">
     <div class="row justify-content-center">
@@ -132,6 +133,7 @@
     </div>
   </div>
 </section>
+{{ end }}
 {{ end }}
 
 {{ partial "components/cta.html" (dict "Context" . "Class" "bg-light") }}
