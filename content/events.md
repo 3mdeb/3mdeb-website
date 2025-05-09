@@ -23,6 +23,12 @@ all_events:
       additional_info: |
         ### Dasharo User Group #10 **[Official Page](https://vpub.dasharo.com/e/18/dasharo-user-group-10)**<br><br>
 
+    - title: "**2025-08-05** Zarhus Developers Meetup 0x2"
+      status: "upcoming"
+      date: "05.08.2025"
+      event_poster: ""
+      additional_info: |
+
     - title: "[**2025-09-18** Dasharo User Group 11 & Developers vPub 0x10](https://vpub.dasharo.com/e/19/dasharo-user-group-11)"
       status: "upcoming"
       date: "18.09.2025"
@@ -36,6 +42,12 @@ all_events:
       event_poster: ""
       additional_info: |
         ### Qubes OS Summit 2025 **[Official Page](https://events.dasharo.com/event/2/qubes-os-summit-2025)**<br><br>
+
+    - title: "**2025-11-04** Zarhus Developers Meetup 0x3"
+      status: "upcoming"
+      date: "04.11.2025"
+      event_poster: ""
+      additional_info: |
 
     - title: "[**2025-12-11** Dasharo User Group 12 & Developers vPub 0x11](https://vpub.dasharo.com/e/20/dasharo-user-group-12)"
       status: "upcoming"
