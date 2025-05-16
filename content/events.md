@@ -16,12 +16,12 @@ all_events:
   - year: "Upcoming **2025**"
     events:
 
-    - title: "[**2025-06-12** Dasharo User Group 10 & Developers vPub 0xF](https://vpub.dasharo.com/e/18/dasharo-user-group-10)"
+    - title: "[**2025-06-12** Dasharo User Group 10 & Developers vPub 0xF](https://events.dasharo.com/event/5/dasharo-user-group-dug-10-and-dasharo-developers-vpub-0xf)"
       status: "upcoming"
       date: "12.06.2025"
       event_poster: "images/events/2025/dug_10.jpg"
       additional_info: |
-        ### Dasharo User Group #10 **[Official Page](https://vpub.dasharo.com/e/18/dasharo-user-group-10)**<br><br>
+        ### Dasharo User Group #10 **[Official Page](https://events.dasharo.com/event/5/dasharo-user-group-dug-10-and-dasharo-developers-vpub-0xf)**<br><br>
 
     - title: "**2025-08-05** Zarhus Developers Meetup 0x2"
       status: "upcoming"
