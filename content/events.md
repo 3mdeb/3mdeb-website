@@ -66,6 +66,18 @@ all_events:
       additional_info: |
         ### Zarhus Developers Meetup 0x1 **[Official Page](https://events.dasharo.com/event/4/zarhus-developers-meetup-0x1)**<br><br>
 
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Zarhus Developers Meetup 0x1**  <br>
+            Presenters: **Zarhus Team**
+            * [**Playlist at YouTube**](https://www.youtube.com/playlist?list=PLuISieMwVBpLr1CMIGmm91ozBsYJaWEjr)
+            * [**Slides**](https://cfp.3mdeb.com/zarhus-developers-meetup-0x1-2025/schedule/)
+
     - title: "Dasharo User Group 9 **& Developers vPub 0xE**"
       status: ""
       date: "20.03.2025"
