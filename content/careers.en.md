@@ -371,6 +371,7 @@ current_openings:
         So why wait? Start your journey towards a rewarding and fulfilling career in IT! See you soon!
 
 apply_form:
+  enable: false
   title: "Apply **now!**"
   input_name: "Your Name (required)"
   input_email: "Your Email (required)"

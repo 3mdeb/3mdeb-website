@@ -63,6 +63,7 @@
 </section>
 {{ end }}
 
+{{ $form_enable := .Params.apply_form.enable }}
 {{ $current_openings := .Params.current_openings}}
 
 {{ with $current_openings }}
@@ -96,7 +97,7 @@
                   <div class="col">
                     <h3 class="h4 mb-3">{{.title | markdownify}}</h3>
                     {{.content | markdownify}}
-                    {{ if eq $i $applyBtn }}
+                    {{ if and (eq $i $applyBtn) $form_enable }}
                     <a href="#apply-form" class="btn btn-primary">{{$button_label | markdownify}}</a>
                     {{ end }}
                   </div>
@@ -183,6 +184,7 @@
 {{ end }}
 
 {{ with .Params.apply_form }}
+{{ if .enable }}
 <section id="apply-form" class="section">
   <div class="container">
     <div class="row">
@@ -253,11 +255,12 @@
     </div>
   </div>
 </section>
-{{ end }}
 
 <div class="container">
   <hr class="separator">
 </div>
+{{ end }}
+{{ end }}
 
 {{ with .Params.team_visions }}
 <section id="team-visions" class="section pb-0">

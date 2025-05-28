@@ -66,7 +66,7 @@ our_team:
       image: "images/team/michał-Żygowski.png"
 
     - name: "Artur <br> **Raglis**"
-      designation: "Project Manager"
+      designation: "DevOps Engineer"
       image: "images/team/artur.png"
 
     - name: "Rafał <br> **Kochanowski**"
