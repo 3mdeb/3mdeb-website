@@ -369,6 +369,7 @@ current_openings_in_osie:
         *   Zainteresowanie bezpieczeństwem systemów komputerowych
 
 apply_form:
+  enable: false
   title: "Aplikuj **Teraz!**"
   input_name: "Imię i Nazwisko (wymagane)"
   input_email: "Email (wymagane)"
