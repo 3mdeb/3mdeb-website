@@ -39,8 +39,13 @@ jobs:
 
       - name: Build
         run: |
-          echo 'Building from branch: ${GITHUB_REF}'
-          npm install && hugo --minify
+          echo "Building from branch: ${GITHUB_REF}"
+          npm install
+          if [[ "${GITHUB_REF}" == "refs/heads/main" ]]; then
+            hugo --environment production --minify
+          else
+            hugo --environment development --minify
+          fi
 
       - name: Install sshpass
         run: |
