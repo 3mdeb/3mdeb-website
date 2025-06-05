@@ -26,20 +26,20 @@ all_events:
     - title: "[**2025-08-05** Zarhus Developers Meetup 0x2](https://events.dasharo.com/event/6/zarhus-developers-meetup-0x2)"
       status: "upcoming"
       date: "05.08.2025"
-      event_poster: ""
+      event_poster: "images/events/2025/zarhus-developers-0x2.jpg"
       additional_info: |
 
-    - title: "[**2025-09-18** Dasharo User Group 11 & Developers vPub 0x10](https://vpub.dasharo.com/e/19/dasharo-user-group-11)"
+    - title: "[**2025-09-18** Dasharo User Group 11 & Developers vPub 0x10](https://events.dasharo.com/event/8/dasharo-user-group-11)"
       status: "upcoming"
       date: "18.09.2025"
       event_poster: "images/events/2025/dug_11.jpg"
       additional_info: |
-        ### Dasharo User Group #11 **[Official Page](https://vpub.dasharo.com/e/19/dasharo-user-group-11)**<br><br>
+        ### Dasharo User Group #11 **[Official Page](https://events.dasharo.com/event/8/dasharo-user-group-11)**<br><br>
 
     - title: "[**2025-09-26-28** Qubes OS Summit 2025](https://events.dasharo.com/event/2/qubes-os-summit-2025)"
       status: "upcoming"
-      date: "To be announced"
-      event_poster: ""
+      date: "26-28.09.2025"
+      event_poster: "images/events/2025/qubes-summit-2025.jpg"
       additional_info: |
         ### Qubes OS Summit 2025 **[Official Page](https://events.dasharo.com/event/2/qubes-os-summit-2025)**<br><br>
 
@@ -49,12 +49,12 @@ all_events:
       event_poster: ""
       additional_info: |
 
-    - title: "[**2025-12-11** Dasharo User Group 12 & Developers vPub 0x11](https://vpub.dasharo.com/e/20/dasharo-user-group-12)"
+    - title: "[**2025-12-11** Dasharo User Group 12 & Developers vPub 0x11](https://events.dasharo.com/event/9/dasharo-user-group-12)"
       status: "upcoming"
       date: "11.12.2025"
       event_poster: "images/events/2025/dug_12.jpg"
       additional_info: |
-        ### Dasharo User Group #12 **[Official Page](https://vpub.dasharo.com/e/20/dasharo-user-group-12)**<br><br>
+        ### Dasharo User Group #12 **[Official Page](https://events.dasharo.com/event/9/dasharo-user-group-12)**<br><br>
 
   - year: "20**25**"
     events:
