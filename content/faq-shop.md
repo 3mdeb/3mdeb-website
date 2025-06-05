@@ -55,13 +55,18 @@ damage claims.
 
 #### Q: Do the prices in the shop include VAT?
 
-No, the prices listed in the shop are exclusive of VAT. 23% VAT may be added to
-the final price of your order depending on your billing and shipping address.
+No, the prices listed in the shop are exclusive of VAT. A 23% VAT may be added
+to the final price of your order, depending on the destination country of your
+shipment.
 
 #### Q: When can I use the 0% VAT option?
 
-You can use the 0% VAT method if you have a valid EU VAT number, meaning your
-billing address is registered to your company.
+You can use the 0% VAT rate (reverse charge) if you're a business customer based
+in another EU country (outside of Poland) and provide a valid EU VAT number. In
+this case, your billing address must be registered to your company.
+
+Please note that the 0% VAT rate does not apply to companies based in Poland —
+for Polish businesses, the standard 23% VAT must still be added.
 
 #### Q: If I order as a private person what VAT will I need to pay?
 
@@ -76,13 +81,14 @@ Polish VAT rate of 23% applies.
 #### Q: I live outside the European Union. Do I have to pay import taxes?
 
 Yes, you may have to pay import taxes or customs fees when your order arrives in
-your country. The price you pay in our shop does not include any import fees, as
-these are determined by your country's tax and customs authorities. Every
-country has its own rules regarding the import of goods, and they may apply
-duties, taxes, or administrative charges.
+your country. These charges are not included in the price you pay in our shop,
+as they are determined by your country's customs and tax regulations. Each
+country has its own rules, and duties, taxes, or administrative fees may apply.
 
-The good news is that if your delivery address is outside the EU, all prices are
-TAX-free, meaning you pay 23% less than our European customers.
+The good news: If your delivery address is outside the EU, no VAT is charged at
+checkout — you pay 0% VAT. This effectively means you're paying 23% less than
+customers within the EU. However, please be aware that your local authorities
+may still apply import duties or other charges upon delivery.
 
 ### **Products**
 
