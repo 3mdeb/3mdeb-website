@@ -1,0 +1,129 @@
+{{ define "main" }}
+
+{{ partial "components/page-header.html" . }}
+
+{{ with .Params.about }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto text-center">
+        <h3 class="h2 fw-semibold pt-5 mb-0">{{.title | markdownify}}</h3>
+        <div class="mt-5">{{.content | markdownify}}</div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<div class="container">
+  <hr class="separator mt-5">
+</div>
+
+{{ with .Params.work_process }}
+<section id="careers" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <h2 class="h2 fw-semibold">{{.title | markdownify}}</h2>
+        </div>
+      </div>
+      <div class="col-md-12 col-xl-8 mx-auto">
+        <div class="row gy-5">
+          <div class="col-md-8">
+            {{.content | markdownify}}
+          </div>
+          <div class="col-6 mx-auto col-md-4">
+            {{ partial "image.html" (dict "Src" .icon "Alt" "career" "Class" "w-100" ) }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<div class="container">
+  <hr class="separator mt-5">
+</div>
+
+{{ with .Params.finance }}
+<section id="careers" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <h2 class="h2 fw-semibold">{{.title | markdownify}}</h2>
+        </div>
+      </div>
+      <div class="col-md-12 col-xl-8 mx-auto">
+        <div class="row gy-5">
+          <div class="col-md-8">
+            {{.content | markdownify}}
+          </div>
+          <div class="col-6 mx-auto col-md-4">
+            {{ partial "image.html" (dict "Src" .icon "Alt" "career" "Class" "w-100" ) }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<div class="container">
+  <hr class="separator mt-5">
+</div>
+
+{{ with .Params.guidelines }}
+<section id="careers" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <h2 class="h2 fw-semibold">{{.title | markdownify}}</h2>
+        </div>
+      </div>
+      <div class="col-md-12 col-xl-8 mx-auto">
+        <div class="row gy-5">
+          <div class="col-md-8">
+            {{.content | markdownify}}
+          </div>
+          <div class="col-6 mx-auto col-md-4">
+            {{ partial "image.html" (dict "Src" .icon "Alt" "career" "Class" "w-100" ) }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+
+{{ with .Params.learn_more }}
+<section id="{{.title | plainify | urlize}}">
+  <section class="pb-5 pt-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <h3 class="h2 fw-semibold pt-5 mb-0">{{.title | markdownify}}</h3>
+          <div class="mt-5">{{.content | markdownify}}</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-big bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mx-auto text-center">
+          <h3 class="h3 fw-semibold">{{.intro | markdownify}}</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
+
+{{ partial "components/cta.html" (dict "Context" . ) }}
+
+{{ end }}
