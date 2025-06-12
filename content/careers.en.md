@@ -29,7 +29,7 @@ careers:
 
     For technical candidates, we put a strong emphasis on their contributions to open-source. We want to work with individuals who have a proven track record of contributing to open-source projects, whether it's through bug fixes, code contributions, or community support.
 
-    If you aspire to join our R&D team, participation in our 3mdeb Open-Source Bounty Program is the direct path forward. This program serves as our primary method to assess your practical abilities, coding style, and alignment with our open-source philosophy. We encourage you to demonstrate your skills and commitment by solving a bug bounty, as this is how we evaluate potential R&D team members.
+    If you aspire to join our R&D team, participation in our 3mdeb [Open-Source Bounty Program](/bug-bounty) is the direct path forward. This program serves as our primary method to assess your practical abilities, coding style, and alignment with our open-source philosophy. We encourage you to demonstrate your skills and commitment by solving a bug bounty, as this is how we evaluate potential R&D team members.
 
     While you are welcome to send your CV to career@3mdeb.com, please be aware that for R&D roles, our response will be to direct you towards our Bounty Program for the required assessment.
 
