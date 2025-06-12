@@ -24,6 +24,12 @@ weight = 10
 
 [[main]]
 parent = "Company"
+url = "bug-bounty/"
+name = "Bug Bounty"
+weight = 15
+
+[[main]]
+parent = "Company"
 url = "markets/"
 name = "Markets"
 weight = 15
