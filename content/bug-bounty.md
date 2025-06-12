@@ -45,17 +45,6 @@ careers:
 
 careers:
   enable: true
-  title: "How much financial support can I receive?"
-  icon: ""
-  content: |
-    The financial support amount depends on the difficulty of the task. We have tasks for everyone, from beginners to experts!
-    * **Warmup:** Simple bug fixes, straightforward documentation updates, adding minor tests (1-50 USD gross)
-    * **Easy:** Slightly more challenging, but still suitable for those with basic knowledge (51-100 USD gross)
-    * **Medium:** Tasks of medium difficulty, requiring more experience (101-250 USD gross)
-    * **Hard:** Challenges for experts, with the highest financial support (251-500+ USD gross)
-
-careers:
-  enable: true
   title: "Important Guidelines:"
   icon: ""
   content: |
