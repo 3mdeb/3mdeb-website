@@ -19,7 +19,7 @@ careers:
   title: "How does it work?"
   icon: ""
   content: |
-    1. **Find a task:** Browse our repositories on GitHub, such as the ones available in the Dasharo organization, and look for issues tagged with "bounty" and a category tag (e.g., "bounty-easy"). The category tag indicates the approximate financial support range you might receive.
+    1. **Find a task:** Browse our repositories on GitHub, such as the ones available in the [Dasharo organization](https://github.com/orgs/Dasharo/repositories), and look for issues tagged with "bounty" and a category tag (e.g., "bounty-easy"). The category tag indicates the approximate financial support range you might receive.
     2. **Express your interest:** Let us know in the issue comments that you'd like to work on it.
     3. **Fork the repository:** Create a copy of the repository in your GitHub account.
     4. **Get assigned:* A maintainer will assign you to the task. To keep the task active, please provide regular updates on your progress.
@@ -63,7 +63,7 @@ careers:
     * **Diverse Contributions Welcome:** We highly value contributions across various domains that enhance our open-source projects. While code contributions (e.g., bug fixes, new features, scripts) are central, we also welcome valuable efforts in areas such as validation results, documentation, community management, marketing materials, SEO/web improvements, and event organization. If your contribution helps our projects grow, it might be eligible for financial support.
     * **Your work, your license:** You retain ownership of the code you write, but you agree to license it under an open-source license.
     * **Play nice:** Don't try to attack our systems and respect other users.
-    * **Financial Support Processing:** Financial support is processed via our 3mdeb Open-Source Collective page on Open Collective. All payments are handled through this platform.
+    * **Financial Support Processing:** Financial support is processed via our [3mdeb Open-Source Collective page on Open Collective](https://opencollective.com/3mdeb_com). All payments are handled through this platform.
     * **Taxes:** Remember that you are responsible for paying any taxes in your country.
 
 careers:
@@ -78,3 +78,5 @@ careers:
   title: "Join us and become a part of the 3mdeb community!"
   icon: ""
   content: |
+
+---

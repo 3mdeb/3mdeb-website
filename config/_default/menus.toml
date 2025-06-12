@@ -257,6 +257,11 @@ url = "/terms-conditions/"
 weight = 1
 
 [[footer]]
+name = "Terms & Conditions - Bug Bounty"
+url = "/terms-conditions-bug-bounty/"
+weight = 1
+
+[[footer]]
 name = "Privacy Policy"
 url = "/privacy-policy/"
 weight = 5
