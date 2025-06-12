@@ -21,7 +21,7 @@ work_process:
     1. **Find a task:** Browse our repositories on GitHub, such as the ones available in the [Dasharo organization](https://github.com/orgs/Dasharo/repositories), and look for issues tagged with "bounty" and a category tag (e.g., "bounty-easy"). The category tag indicates the approximate financial support range you might receive.
     2. **Express your interest:** Let us know in the issue comments that you'd like to work on it.
     3. **Fork the repository:** Create a copy of the repository in your GitHub account.
-    4. **Get assigned:* A maintainer will assign you to the task. To keep the task active, please provide regular updates on your progress.
+    4. **Get assigned:** A maintainer will assign you to the task. To keep the task active, please provide regular updates on your progress.
     5. **Fix the problem/add the feature:** Develop your solution. Remember to follow the project's coding guidelines!
     6. **Create a Pull Request (PR):** Submit your changes by sending a PR to the original repository.
     7. **Wait for review:** Our team will review your code. We may ask you to make some adjustments.
