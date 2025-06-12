@@ -23,9 +23,9 @@ work_process:
     3. **Fork the repository:** Create a copy of the repository in your GitHub account.
     4. **Get assigned:* A maintainer will assign you to the task. To keep the task active, please provide regular updates on your progress.
     5. **Fix the problem/add the feature:** Develop your solution. Remember to follow the project's coding guidelines!
-    7. **Create a Pull Request (PR):** Submit your changes by sending a PR to the original repository.
-    8. **Wait for review:** Our team will review your code. We may ask you to make some adjustments.
-    9. **Receive Financial Support!** If your PR is accepted and merged, you may receive financial support in recognition of your valuable contribution!
+    6. **Create a Pull Request (PR):** Submit your changes by sending a PR to the original repository.
+    7. **Wait for review:** Our team will review your code. We may ask you to make some adjustments.
+    8. **Receive Financial Support!** If your PR is accepted and merged, you may receive financial support in recognition of your valuable contribution!
 
     **Important Note on Inactivity:**
 
