@@ -17,7 +17,7 @@ work_process:
   title: "How does it work?"
   icon: "images/careers/writing-notes-idea.jpg"
   content: |
-  
+
     1. **Find a task:** Browse our repositories on GitHub, such as the ones available in the [Dasharo organization](https://github.com/orgs/Dasharo/repositories), and look for issues tagged with "bounty" and a category tag (e.g., "bounty-easy"). The category tag indicates the approximate financial support range you might receive.
     2. **Express your interest:** Let us know in the issue comments that you'd like to work on it.
     3. **Fork the repository:** Create a copy of the repository in your GitHub account.

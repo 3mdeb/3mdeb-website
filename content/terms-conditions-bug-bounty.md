@@ -9,7 +9,7 @@ draft: false
 
 ## Terms & Conditions
 
-#### A. Program Participation Agreement:
+### A. Program Participation Agreement
 
 By submitting a contribution, specifically a GitHub Pull Request ("Contribution"
 or "Submission"), intended to address a GitHub issue tagged as part of the 3mdeb
@@ -22,7 +22,7 @@ VAT ID: PL5842812770 ("3mdeb", "We", "Us").
 If You do not fully agree to these Terms, You must not participate in the
 Program or submit any Contributions under it.
 
-#### B. Participant Obligations:
+### B. Participant Obligations
 
 1. Lawful and Ethical Conduct: You agree to conduct all activities related to
 this Program lawfully, ethically, and in good faith. You must comply with all
@@ -56,7 +56,7 @@ period of one (1) month, 3mdeb reserves the right to remove You as the assignee
 for that task. This is to ensure that tasks remain active and available for
 other participants if progress stalls
 
-#### C. Financial Support:
+### C. Financial Support
 
 1. Nature of Payment: In recognition of Your valuable open-source Contributions
 to the Program, 3mdeb may, at its sole discretion, provide a financial token of
@@ -109,7 +109,7 @@ by Poland, the European Union, or other relevant authorities. By participating
 in this Program, You represent and warrant that You are not located in, under
 the control of, or a national or resident of any such sanctioned country.
 
-#### D. Intellectual Property Rights:
+### D. Intellectual Property Rights
 
 1. Participant's Background IP: You retain ownership of any intellectual
 property rights You held prior to making a Contribution ("Background IP").
@@ -143,7 +143,7 @@ Contribution or PR description.
 6. You will not receive additional emoluments from the license, independent of
 Support Payment.
 
-#### E. Use of Information / Confidentiality / Disclosure:
+### E. Use of Information / Confidentiality / Disclosure
 
 1. Public Nature of Submissions: You acknowledge that Contributions
 submitted via public GitHub Pull Requests, along with associated comments
@@ -180,7 +180,7 @@ accountability. You have the right to access, rectify, erase, restrict
 processing, object to processing, and data portability of Your personal data,
 subject to the conditions and limitations set out in the GDPR.
 
-#### F. Warranties and Disclaimers:
+### F. Warranties and Disclaimers
 
 1. Participant Warranties: You represent and warrant that: (i) You have the
 legal right and authority to make the Contribution and grant the licenses
@@ -200,7 +200,7 @@ RESULT IN A BOUNTY PAYMENT. 3MDEB WILL MAKE REASONABLE EFFORTS TO REVIEW ALL
 SUBMISSIONS THAT COMPLY WITH THESE TERMS, BUT DOES NOT GUARANTEE A TIMELY
 REVIEW.
 
-#### G. Limitation of Liability:
+### G. Limitation of Liability
 
 TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL 3MDEB, ITS
 AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR LICENSORS BE LIABLE FOR
@@ -214,7 +214,7 @@ OTHERWISE, SHALL NOT EXCEED THE TOTAL AMOUNT OF BOUNTY PAYMENTS, IF ANY, PAID BY
 3MDEB TO YOU UNDER THIS PROGRAM FOR THE SPECIFIC CONTRIBUTION(S) GIVING RISE TO
 THE CLAIM.
 
-#### H. Governing Law and Dispute Resolution:
+### H. Governing Law and Dispute Resolution
 
 1. Governing Law: These Terms and any disputes arising out of or in connection
 with the Program shall be governed by and construed in accordance with the laws
@@ -229,7 +229,7 @@ the personal jurisdiction and venue of such courts. This choice provides legal
 certainty for 3mdeb but participants should be aware of this specific
 jurisdiction requirement.
 
-#### I. Program Changes and Termination:
+### I. Program Changes and Termination
 
 3mdeb reserves the right, in its sole discretion, to modify, suspend, or
 terminate only for compelling reasons the Program, or amend these Terms, in
@@ -243,7 +243,7 @@ Program termination, 3mdeb will also endeavor to honor bounty payments for
 Contributions that have been accepted and merged prior to the termination date,
 to the extent reasonably practicable.
 
-#### J. Miscellaneous:
+### J. Miscellaneous
 
 1. Entire Agreement: These Terms constitute the entire agreement between
 You and 3mdeb concerning the subject matter hereof and supersede all prior
