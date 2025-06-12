@@ -139,8 +139,9 @@ code, libraries, or other materials, You are responsible for ensuring that You
 have the right to include such materials and that they can be licensed
 compatibly with the target repository's license. You must clearly identify any
 such third-party components and their respective licenses within Your
-Contribution or PR description. You will not receive additional emoluments from
-the license, independent of Support Payment.
+Contribution or PR description.
+6. You will not receive additional emoluments from the license, independent of
+Support Payment.
 
 #### E. Use of Information / Confidentiality / Disclosure:
 
@@ -152,11 +153,12 @@ consistent with open-source development methodologies.
 You consider confidential or proprietary through public GitHub channels. If You
 believe confidential communication regarding sensitive aspects of a security
 vulnerability is necessary before it is publicly resolved, You must follow the
-dedicated security reporting process as described in the Dasharo Security
-documentation, including the use of encrypted communication with the Dasharo
-security team PGP key available in the 3mdeb Security Pack. Unencrypted emails
-or public disclosure of such information may be ignored and are strictly
-prohibited.
+dedicated security reporting process as described in the [Dasharo Security
+documentation](https://docs.dasharo.com/security), including the use of
+encrypted communication with the Dasharo security team PGP key available in the
+[3mdeb Security Pack](https://github.com/3mdeb/3mdeb-secpack/tree/master).
+Unencrypted emails or public disclosure of such information may be ignored and
+are strictly prohibited.
 3. Responsible Disclosure of Vulnerabilities: Even if working on a bounty-tagged
 issue related to security, should You discover sensitive vulnerability details
 not yet publicly known, You agree not to disclose such details publicly or to
