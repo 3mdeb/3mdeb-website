@@ -29,26 +29,23 @@ careers:
 
     For technical candidates, we put a strong emphasis on their contributions to open-source. We want to work with individuals who have a proven track record of contributing to open-source projects, whether it's through bug fixes, code contributions, or community support.
 
-    To make it easier for you to join our R&D team, here are some tips for success:
+    If you aspire to join our R&D team, participation in our 3mdeb [Open-Source Bounty Program](/bug-bounty) is the direct path forward. This program serves as our primary method to assess your practical abilities, coding style, and alignment with our open-source philosophy. We encourage you to demonstrate your skills and commitment by solving a bug bounty, as this is how we evaluate potential R&D team members.
 
+    While you are welcome to send your CV to career@3mdeb.com, please be aware that for R&D roles, our response will be to direct you towards our Bounty Program for the required assessment.
+
+    You can also:
     * Share the results of your work with us and show us your code. If you have already contributed to open-source projects, be sure to tell us about them during the recruitment interview. We'd love to see the results of your work, so feel free to send or show us your repository with your CV.
-
-    * Show us what tools and programming languages you know. Check out our project details and source code in our repositories:
-    [https://github.com/3mdeb](https://github.com/3mdeb), [https://github.com/Dasharo](https://github.com/Dasharo) and to see if they align with your skills and interests. We value candidates with experience in at least one of the programming languages we work with every day that can immediately support us in daily projects.
-
-    * Familiarize yourself with our products, services, and projects listed at [https://shop.3mdeb.com/](https://shop.3mdeb.com/shop). During the recruitment interview, we will ask you about your knowledge of our areas of operation and what products and services we offer. We want to make sure that your interests coincide with our business profile.
-
-    For non-technical candidates, we are seeking individuals who are interested in the technology industry and have a passion for learning. We value candidates with a strong work ethic and excellent communication skills, paying attention to the details, and who are eager to contribute to our team.
+    * Show us what tools and programming languages you know. Check out our project details and source code in our repositories: https://github.com/3mdeb , https://github.com/Dasharo and to see if they align with your skills and interests. We value candidates with experience in at least one of the programming languages we work with every day that can immediately support us in daily projects.
+    * Familiarize yourself with our products, services, and projects listed at https://shop.3mdeb.com/ . During the recruitment interview, we will ask you about your knowledge of our areas of operation and what products and services we offer. We want to make sure that your interests coincide with our business profile.
+    * For non-technical candidates, we are seeking individuals who are interested in the technology industry and have a passion for learning. We value candidates with a strong work ethic and excellent communication skills, paying attention to the details, and who are eager to contribute to our team.
 
     When applying to 3mdeb for a non-technical position, here are some tips to help you stand out:
 
     * Familiarize yourself with our company's philosophy. Show us that you have a general understanding of what we do and that our values resonate with you.
-
     * Highlight your interest in technology and security. Let us know how you stay up-to-date with technical industry trends and news, as it is important for all team members to remain informed.
-
     * Demonstrate your strong communication and organizational skills. We value individuals who can effectively communicate with clients, partners and team members, and help keep the company organized and projects on track.
 
-    If you're interested in learning more about a career at 3mdeb, don't hesitate to reach out to us at career@3mdeb.com. We look forward to hearing from you!
+    If you're interested in learning more about a career at 3mdeb, don't hesitate to reach out to us at career@3mdeb.com . We look forward to hearing from you!
 
 current_openings:
   enable: true

@@ -24,6 +24,12 @@ weight = 10
 
 [[main]]
 parent = "Company"
+url = "bug-bounty/"
+name = "Bug Bounty"
+weight = 15
+
+[[main]]
+parent = "Company"
 url = "markets/"
 name = "Markets"
 weight = 15
@@ -248,6 +254,11 @@ weight = 35
 [[footer]]
 name = "Terms & Conditions"
 url = "/terms-conditions/"
+weight = 1
+
+[[footer]]
+name = "Terms & Conditions - Bug Bounty"
+url = "/terms-conditions-bug-bounty/"
 weight = 1
 
 [[footer]]
