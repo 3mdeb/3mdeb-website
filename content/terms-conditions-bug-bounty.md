@@ -77,12 +77,13 @@ amount will take into consideration factors such as the complexity, effort, and
 impact of the Contribution.
 4. Following the merge of an eligible Contribution, 3mdeb will guide the
 Participant through the process of submitting an expense request via the
-designated 3mdeb Open-Source Collective page on Open Collective. To process this
-Support Payment, You must provide accurate and complete details as requested by
-Open Collective to facilitate the transfer of funds. This may include Your
-preferred payment method (e.g., bank account, PayPal, Wise, where supported by
-Open Collective), Your full name, address, and any tax-related information
-required by Open Collective for compliance purposes.
+designated 3mdeb Open-Source Collective page on [Open
+Collective](https://opencollective.com/3mdeb_com). To process this Support
+Payment, You must provide accurate and complete details as requested by Open
+Collective to facilitate the transfer of funds. This may include Your preferred
+payment method (e.g., bank account, PayPal, Wise, where supported by Open
+Collective), Your full name, address, and any tax-related information required
+by Open Collective for compliance purposes.
 5. Failure to provide the required information accurately and promptly may
 result in the inability to process the Support Payment. All Support Payments
 will be processed through Open Collective, and any associated fees (e.g.,
