@@ -16,13 +16,6 @@ all_events:
   - year: "Upcoming **2025**"
     events:
 
-    - title: "[**2025-06-12** Dasharo User Group 10 & Developers vPub 0xF](https://events.dasharo.com/event/5/dasharo-user-group-dug-10-and-dasharo-developers-vpub-0xf)"
-      status: "upcoming"
-      date: "12.06.2025"
-      event_poster: "images/events/2025/dug_10.jpg"
-      additional_info: |
-        ### Dasharo User Group #10 **[Official Page](https://events.dasharo.com/event/5/dasharo-user-group-dug-10-and-dasharo-developers-vpub-0xf)**<br><br>
-
     - title: "[**2025-08-05** Zarhus Developers Meetup 0x2](https://events.dasharo.com/event/6/zarhus-developers-meetup-0x2)"
       status: "upcoming"
       date: "05.08.2025"
@@ -58,6 +51,25 @@ all_events:
 
   - year: "20**25**"
     events:
+
+    - title: "Dasharo User Group 10 **& Developers vPub 0xF**"
+      status: ""
+      date: "12.06.2025"
+      event_poster: "images/events/2025/dug_10.jpg"
+      additional_info: |
+        ### Dasharo User Group #10 **[Official Page](https://events.dasharo.com/event/5/dasharo-user-group-dug-10-and-dasharo-developers-vpub-0xf)**<br><br>
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Dasharo User Group #10**  <br>
+            Presenters: **3mdeb Team with Guests**
+            * [**Playlist at YouTube**](https://www.youtube.com/playlist?list=PLuISieMwVBpIA51fGDz2dSPDlFE5Df1cE)
+            * [**Slides**](https://cfp.3mdeb.com/developers-vpub-0xf-2025/schedule/)
 
     - title: "Zarhus **Developers Meetup 0x1**"
       status: ""
