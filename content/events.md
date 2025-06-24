@@ -36,7 +36,7 @@ all_events:
       additional_info: |
         ### Qubes OS Summit 2025 **[Official Page](https://events.dasharo.com/event/2/qubes-os-summit-2025)**<br><br>
 
-    - title: "**2025-11-04** Zarhus Developers Meetup 0x3"
+    - title: "[**2025-11-04** Zarhus Developers Meetup 0x3](https://events.dasharo.com/event/10/zarhus-developers-meetup-0x3)"
       status: "upcoming"
       date: "04.11.2025"
       event_poster: ""
