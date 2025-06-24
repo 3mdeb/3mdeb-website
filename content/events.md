@@ -36,7 +36,7 @@ all_events:
       additional_info: |
         ### Qubes OS Summit 2025 **[Official Page](https://events.dasharo.com/event/2/qubes-os-summit-2025)**<br><br>
 
-    - title: "**2025-11-04** Zarhus Developers Meetup 0x3"
+    - title: "[**2025-11-04** Zarhus Developers Meetup 0x3](https://events.dasharo.com/event/10/zarhus-developers-meetup-0x3)"
       status: "upcoming"
       date: "04.11.2025"
       event_poster: ""
@@ -1786,7 +1786,7 @@ all_events:
             Topic: **TrenchBoot Open DRTM implementation for AMD platforms** <br/>
             Presenter: **Piotr Król** <br/>
 
-            - [Direct link](https://www.osfc.io/2019/talks/trenchboot-open-drtm-implementation-for-amd-platforms/)
+            - [Direct link](https://web.archive.org/web/20250209021957/https://www.osfc.io/2019/talks/trenchboot-open-drtm-implementation-for-amd-platforms/)
             - [Slides](https://shop.3mdeb.com/wp-content/uploads/2021/06/TrenchBoot-Open-DRTM-implementation-for-AMD-platforms.pdf)
             - [White Papers](https://shop.3mdeb.com/wp-content/uploads/2022/11/TrenchBoot-_Open_DRTM_implementation_for_AMD_platforms_v2.pdf)
             - [Video](https://youtu.be/zOBb2KbQTfc)
