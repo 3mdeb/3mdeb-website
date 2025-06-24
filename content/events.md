@@ -1786,7 +1786,7 @@ all_events:
             Topic: **TrenchBoot Open DRTM implementation for AMD platforms** <br/>
             Presenter: **Piotr Król** <br/>
 
-            - [Direct link](https://www.osfc.io/2019/talks/trenchboot-open-drtm-implementation-for-amd-platforms/)
+            - [Direct link](https://web.archive.org/web/20250209021957/https://www.osfc.io/2019/talks/trenchboot-open-drtm-implementation-for-amd-platforms/)
             - [Slides](https://shop.3mdeb.com/wp-content/uploads/2021/06/TrenchBoot-Open-DRTM-implementation-for-AMD-platforms.pdf)
             - [White Papers](https://shop.3mdeb.com/wp-content/uploads/2022/11/TrenchBoot-_Open_DRTM_implementation_for_AMD_platforms_v2.pdf)
             - [Video](https://youtu.be/zOBb2KbQTfc)
