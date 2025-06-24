@@ -202,7 +202,7 @@ current_openings:
 
         Excellent skills and experience are more than welcome but not a requirement. We invite anyone with a passion for development to apply. We place great importance on enthusiasm and a strong work ethic, involvement in the open-source community, and the ability to resolve hardware and software infrastructure issues autonomously.
 
-        To join our team, kindly submit your CV to: careers@3mdeb.com. We present you with an opportunity to fully engage in the open-source community, enhance your skill set, and make an impact. Apply today and grasp the opportunity to become involved in the open-source realm, advance your abilities, and effect real change.
+        To join our team, kindly submit your CV to: career@3mdeb.com. We present you with an opportunity to fully engage in the open-source community, enhance your skill set, and make an impact. Apply today and grasp the opportunity to become involved in the open-source realm, advance your abilities, and effect real change.
 
   - title: "IT Lab&nbsp; **Technician**"
     description:
