@@ -56,8 +56,7 @@ damage claims.
 Please refer to the official Dasharo documentation:
 
 * SDWire FAQ: <https://docs.dasharo.com/transparent-validation/sd-wire/faq/>
-* MSI FAQ: <https://docs.dasharo.com/unified/msi/faq/>
-* Dasharo Pro Package supported hardware: <https://docs.dasharo.com/variants/overview/>
+* MSI Desktops FAQ: <https://docs.dasharo.com/unified/msi/faq/>
 
 ### **Communication**
 
@@ -81,6 +80,11 @@ issue](https://github.com/Dasharo/dasharo-issues/issues/new/choose).
 
 Please check our official Dasharo FAQ section:
 <https://docs.dasharo.com/osf-trivia-list/dasharo/>.
+
+#### Q: Is my hardware supported by Dasharo?
+
+Please check the Dasharo supported hardware section:
+<https://docs.dasharo.com/variants/overview/>
 
 #### Q: I value what you are doing, how can I support you?
 
