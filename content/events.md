@@ -16,10 +16,10 @@ all_events:
   - year: "Upcoming **2025**"
     events:
 
-    - title: "[**2025-08-05** Zarhus Developers Meetup 0x2](https://events.dasharo.com/event/6/zarhus-developers-meetup-0x2)"
+    - title: "[**2025-08-05** Zarhus Developers Meetup 2](https://events.dasharo.com/event/6/zarhus-developers-meetup-2)"
       status: "upcoming"
       date: "05.08.2025"
-      event_poster: "images/events/2025/zarhus-developers-0x2.jpg"
+      event_poster: "images/events/2025/zarhus-developers-2.jpg"
       additional_info: |
 
     - title: "[**2025-09-18** Dasharo User Group 11 & Developers vPub 0x10](https://events.dasharo.com/event/8/dasharo-user-group-11)"
@@ -36,7 +36,7 @@ all_events:
       additional_info: |
         ### Qubes OS Summit 2025 **[Official Page](https://events.dasharo.com/event/2/qubes-os-summit-2025)**<br><br>
 
-    - title: "[**2025-11-04** Zarhus Developers Meetup 0x3](https://events.dasharo.com/event/10/zarhus-developers-meetup-0x3)"
+    - title: "[**2025-11-04** Zarhus Developers Meetup 3](https://events.dasharo.com/event/10/zarhus-developers-meetup-3)"
       status: "upcoming"
       date: "04.11.2025"
       event_poster: ""
@@ -71,12 +71,12 @@ all_events:
             * [**Playlist at YouTube**](https://www.youtube.com/playlist?list=PLuISieMwVBpIA51fGDz2dSPDlFE5Df1cE)
             * [**Slides**](https://cfp.3mdeb.com/developers-vpub-0xf-2025/schedule/)
 
-    - title: "Zarhus **Developers Meetup 0x1**"
+    - title: "Zarhus **Developers Meetup 1**"
       status: ""
       date: "06.05.2025"
-      event_poster: "images/events/2025/zarhus-developers-0x1.jpg"
+      event_poster: "images/events/2025/zarhus-developers-1.jpg"
       additional_info: |
-        ### Zarhus Developers Meetup 0x1 **[Official Page](https://events.dasharo.com/event/4/zarhus-developers-meetup-0x1)**<br><br>
+        ### Zarhus Developers Meetup #1 **[Official Page](https://events.dasharo.com/event/4/zarhus-developers-meetup-1)**<br><br>
 
       # segments:
       segments:
@@ -85,7 +85,7 @@ all_events:
           youtube_video_id: ""
           additional_info: |
             Presentation **#1**  <br>
-            Topic: **Zarhus Developers Meetup 0x1**  <br>
+            Topic: **Zarhus Developers Meetup #1**  <br>
             Presenters: **Zarhus Team**
             * [**Playlist at YouTube**](https://www.youtube.com/playlist?list=PLuISieMwVBpLr1CMIGmm91ozBsYJaWEjr)
             * [**Slides**](https://cfp.3mdeb.com/zarhus-developers-meetup-0x1-2025/schedule/)
