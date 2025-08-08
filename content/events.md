@@ -16,10 +16,10 @@ all_events:
   - year: "Upcoming **2025**"
     events:
 
-    - title: "[**2025-08-05** Zarhus Developers Meetup 2](https://events.dasharo.com/event/6/zarhus-developers-meetup-2)"
+    - title: "[**2025-08-21** Bug Bounty Program Live Demo](https://www.reddit.com/r/3mdeb/comments/1mko4gk/join_us_live_see_how_our_bug_bounty_program_works/)"
       status: "upcoming"
-      date: "05.08.2025"
-      event_poster: "images/events/2025/zarhus-developers-2.jpg"
+      date: "21.08.2025"
+      event_poster: ""
       additional_info: |
 
     - title: "[**2025-09-18** Dasharo User Group 11 & Developers vPub 0x10](https://events.dasharo.com/event/8/dasharo-user-group-11)"
@@ -51,6 +51,25 @@ all_events:
 
   - year: "20**25**"
     events:
+
+    - title: "Zarhus **Developers Meetup 2**"
+      status: ""
+      date: "05.08.2025"
+      event_poster: "images/events/2025/zarhus-developers-2.jpg"
+      additional_info: |
+        ### Zarhus Developers Meetup #2 **[Official Page](https://events.dasharo.com/event/6/zarhus-developers-meetup-2)**<br><br>
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Zarhus Developers Meetup #2**  <br>
+            Presenters: **Zarhus Team**
+            * Playlist at YouTube: coming soon
+            * Slides: coming soon
 
     - title: "Dasharo User Group 10 **& Developers vPub 0xF**"
       status: ""
