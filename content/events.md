@@ -68,8 +68,8 @@ all_events:
             Presentation **#1**  <br>
             Topic: **Zarhus Developers Meetup #2**  <br>
             Presenters: **Zarhus Team**
-            * Playlist at YouTube: coming soon
-            * Slides: coming soon
+            * [**Playlist at YouTube**](https://www.youtube.com/playlist?list=PLuISieMwVBpJcqCZVB99ndctQpbeOD_bf)
+            * [**Slides**](https://cfp.3mdeb.com/zarhus-developers-meetup-2-2025/schedule/)
 
     - title: "Dasharo User Group 10 **& Developers vPub 0xF**"
       status: ""
