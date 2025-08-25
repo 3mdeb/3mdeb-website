@@ -585,6 +585,54 @@
   }
 }
 
+// Zammad Form custom CSS
+#zammad-feedback-form {
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  textarea {
+    min-height: 150px;
+    resize: vertical;
+  }
+  .btn{
+    background: $color-primary;
+    color: $white;
+    border-color: $color-primary;
+    font-size: 1.7rem;
+    font-family: $font-primary;
+    text-transform: uppercase;
+    padding: .7em 1em;
+    font-weight: 600;
+    border-radius: 0;
+    border: 1px solid;
+    position: relative;
+    z-index: 1;
+    transition: .2s ease;
+
+    &:hover,
+    &:active,
+    &.active,
+    &:focus,
+    &.focus {
+      background: $color-primary !important;
+      border-color: $color-primary !important;
+      transform: scale(1.05);
+      outline: 0;
+      box-shadow: none !important;
+    }
+  }
+}
+
 // Footer
 footer {
   .social-menu {
