@@ -47,14 +47,18 @@
 <section class="py-5 my-3">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-md-6 offset-md-3 text-center">
-        <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+      <div class="col-md-6 offset-md-3">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <div id="zammad-feedback-form">Form div</div>
+        <script id="zammad_form_script" src="https://<TBD>/assets/form/form.js"></script>
         <script>
-        hbspt.forms.create({
-          region: "eu1",
-          portalId: "143197783",
-          formId: "98a52e9d-bed8-4bc3-bfc6-c48bfc6acb16"
-        });
+          $(function() {
+            $('#zammad-feedback-form').ZammadForm({
+              messageTitle: 'Contact Form',
+              messageSubmit: 'Submit',
+              messageThankYou: 'Thank you for your inquiry (#%s)! We\'ll contact you as soon as possible.',
+            });
+          });
         </script>
       </div>
     </div>
