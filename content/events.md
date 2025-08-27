@@ -16,12 +16,6 @@ all_events:
   - year: "Upcoming **2025**"
     events:
 
-    - title: "[**2025-08-21** Bug Bounty Program Live Demo](https://www.reddit.com/r/3mdeb/comments/1mko4gk/join_us_live_see_how_our_bug_bounty_program_works/)"
-      status: "upcoming"
-      date: "21.08.2025"
-      event_poster: ""
-      additional_info: |
-
     - title: "[**2025-09-18** Dasharo User Group 11 & Developers vPub 0x10](https://events.dasharo.com/event/8/dasharo-user-group-11)"
       status: "upcoming"
       date: "18.09.2025"
@@ -51,6 +45,23 @@ all_events:
 
   - year: "20**25**"
     events:
+
+    - title: "Bug Bounty Program **Live Demo**"
+      status: ""
+      date: "21.08.2025"
+      event_poster: ""
+      additional_info: |
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: "aFhYhzQgy8Y"
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Bug Bounty Open-Source Program Presentation**  <br>
+            Presenter: **Filip Gołaś**
+            * [**Live stream recording**](https://youtube.com/live/aFhYhzQgy8Y?feature=share)
 
     - title: "Zarhus **Developers Meetup 2**"
       status: ""
