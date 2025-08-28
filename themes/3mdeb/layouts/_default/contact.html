@@ -59,13 +59,18 @@
         </div>
       </div>
       <div class="col-md-6">
-        <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <div id="zammad-feedback-form">Form div</div>
+        <script id="zammad_form_script" src="https://support.3mdeb.com/assets/form/form.js"></script>
         <script>
-            hbspt.forms.create({
-                region: "eu1",
-                portalId: "143197783",
-                formId: "4a80dd35-9f25-4659-ac37-25b8cd444a62"
-              });
+          $(function() {
+            $('#zammad-feedback-form').ZammadForm({
+              messageTitle: 'Contact Form',
+              messageSubmit: 'Submit',
+              messageThankYou: 'Thank you for your inquiry (#%s)! We\'ll contact you as soon as possible.',
+              noCSS: true,
+            });
+          });
         </script>
       </div>
     </div>
