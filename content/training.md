@@ -334,6 +334,27 @@ trainings:
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="LEARN MORE" link="https://hardwear.io/netherlands-2025/training/mastering-uefi-secure-boot-and-intel-root-of-trust-technologies.php">}}
 
+  - title: "DS09SBL: &nbsp; **Dasharo TrustRoot Training**"
+    image: "images/registered/uefi.png"
+    overview: |
+      *   Understand and explain the core concepts and functionalities of the Slim Bootloader boot flow and Intel Root of Trust.
+      *   Apply practical skills in setting up, configuring, and troubleshooting Slim Bootloader boot flow and Intel Root of Trust technology.
+      *   Integrate and provision advanced security technologies effectively in real-world scenarios.
+
+    audience: |
+      Firmware / BIOS / Bootloader Developers, Platform Security Architects, Hardware and Embedded Engineers, Pen Testers & Security Researchers, open-source Firmware Community Contributors
+
+    duration: |
+      #### **4** days
+      #### **18** hours (4.5h/day)
+      #### **30%** lectures
+      #### **70%** hands-on workshop
+
+    materials: "All training materials presentations and source code will be available for customer internal usage."
+    language: "English"
+    buttons: |
+      {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
+
 faq:
   title: "Frequently asked **questions**"
   faqs:
