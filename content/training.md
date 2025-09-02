@@ -324,7 +324,7 @@ trainings:
 
     duration: |
       #### **3** days
-      #### **24** hours (8h/day)
+      #### **21** hours (7h/day)
       #### **30%** lectures
       #### **70%** hands-on workshop
 
