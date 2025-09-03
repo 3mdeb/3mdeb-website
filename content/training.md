@@ -309,6 +309,52 @@ trainings:
       {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
       {{<button class="btn btn-outline-primary" label="DOWNLOAD OFFER" link="https://cloud.3mdeb.com/index.php/s/M3RqcjGCTnXn2Rc">}}
 
+  - title: "DS08MSA: &nbsp; **Mastering UEFI Secure Boot and Intel Root of Trust Technologies**"
+    image: "images/registered/uefi.png"
+    overview: |
+      *   Understand the theoretical concepts behind UEFI Secure Boot, root of trust, and chain of trust technologies.
+      *   Hands-on exploitation and defensive management of UEFI Variables and Authenticated Variables.
+      *   Implement and validate UEFI Secure Boot through practical exercises.
+      *   Identify, analyze, and exploit vulnerabilities, including BootHole and BitPixie (CVE-2023-21563).
+      *   Dive into BootKitty, Hydrophobia, [[Feb 2025 GRUB2 CVEs](https://lists.gnu.org/archive/html/grub-devel/2025-02/msg00024.html)] and recent Gigabyte SMM vulnerabilities. (New)
+      *   Implement and circumvent Intel Root of Trust, with a detailed case study on CVE-2017-5705 and a practical demonstration.
+
+    audience: |
+      Embedded Developers, Firmware Developers, Platform and System Architects, Medical and Defense Product Owners, Hardware Hackers, Pen Testers, Operating Systems Security Researchers, Developers, and Maintainers.
+
+    duration: |
+      #### **3** days
+      #### **21** hours (7h/day)
+      #### **30%** lectures
+      #### **70%** hands-on workshop
+
+    materials: "All training materials presentations and source code will be available for customer internal usage."
+    language: "English"
+    buttons: |
+      {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
+      {{<button class="btn btn-outline-primary" label="LEARN MORE" link="https://hardwear.io/netherlands-2025/training/mastering-uefi-secure-boot-and-intel-root-of-trust-technologies.php">}}
+
+  - title: "DS09SBL: &nbsp; **Dasharo TrustRoot Training**"
+    image: "images/registered/uefi.png"
+    overview: |
+      *   Understand and explain the core concepts and functionalities of the Slim Bootloader boot flow and Intel Root of Trust.
+      *   Apply practical skills in setting up, configuring, and troubleshooting Slim Bootloader boot flow and Intel Root of Trust technology.
+      *   Integrate and provision advanced security technologies effectively in real-world scenarios.
+
+    audience: |
+      Firmware / BIOS / Bootloader Developers, Platform Security Architects, Hardware and Embedded Engineers, Pen Testers & Security Researchers, open-source Firmware Community Contributors
+
+    duration: |
+      #### **4** days
+      #### **21** hours (7h/day)
+      #### **30%** lectures
+      #### **70%** hands-on workshop
+
+    materials: "All training materials presentations and source code will be available for customer internal usage."
+    language: "English"
+    buttons: |
+      {{<button class="btn btn-primary" label="BOOK A CALL" link="contact/">}}
+
 faq:
   title: "Frequently asked **questions**"
   faqs:
