@@ -16,13 +16,6 @@ all_events:
   - year: "Upcoming **2025**"
     events:
 
-    - title: "[**2025-09-18** Dasharo User Group 11 & Developers vPub 0x10](https://events.dasharo.com/event/8/dasharo-user-group-11)"
-      status: "upcoming"
-      date: "18.09.2025"
-      event_poster: "images/events/2025/dug_11.jpg"
-      additional_info: |
-        ### Dasharo User Group #11 **[Official Page](https://events.dasharo.com/event/8/dasharo-user-group-11)**<br><br>
-
     - title: "[**2025-09-26-28** Qubes OS Summit 2025](https://events.dasharo.com/event/2/qubes-os-summit-2025)"
       status: "upcoming"
       date: "26-28.09.2025"
@@ -45,6 +38,25 @@ all_events:
 
   - year: "20**25**"
     events:
+
+    - title: "Dasharo User Group 11 **& Developers vPub 0x10**"
+      status: ""
+      date: "18.09.2025"
+      event_poster: "images/events/2025/dug_11.jpg"
+      additional_info: |
+        ### Dasharo User Group #11 **[Official Page](https://events.dasharo.com/event/8/dasharo-user-group-11)**<br><br>
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Dasharo User Group #11**  <br>
+            Presenters: **3mdeb Team with Guests**
+            * Playlist at YouTube: coming soon
+            * Slides: coming soon
 
     - title: "Bug Bounty Program **Live Demo**"
       status: ""
