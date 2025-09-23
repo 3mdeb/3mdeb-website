@@ -39,7 +39,7 @@ all_events:
   - year: "20**25**"
     events:
 
-    - title: "[Dasharo User Group 11 **& Developers vPub 0x10**"
+    - title: "Dasharo User Group 11 **& Developers vPub 0x10**"
       status: ""
       date: "18.09.2025"
       event_poster: "images/events/2025/dug_11.jpg"
