@@ -208,6 +208,26 @@ all_events:
       additional_info: |
         ### Qubes OS Summit 2024 **[Official Page](https://vpub.dasharo.com/e/16/qubes-os-summit-2024)**<br><br>
 
+      # segments:
+      segments:
+        - date: "20.09.2024"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Qubes OS Summit 2024 Day 1**  <br>
+
+            * [**Full Playlist**](https://www.youtube.com/playlist?list=PLuISieMwVBpJmIaHgyv7yKDwrHpqym9Qh)
+
+        - date: "21.09.2024"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Qubes OS Summit 2024 Day 2**  <br>
+
+            * [**Full Playlist**](https://www.youtube.com/playlist?list=PLuISieMwVBpL5S7kPUHKenoFj_YJ8Y0_d)
+
     - title: "Linux Plumbers **Conference**"
       status: ""
       date: "19-20.09.2024"
