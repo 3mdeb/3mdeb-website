@@ -16,13 +16,6 @@ all_events:
   - year: "Upcoming **2025**"
     events:
 
-    - title: "[**2025-09-26-28** Qubes OS Summit 2025](https://events.dasharo.com/event/2/qubes-os-summit-2025)"
-      status: "upcoming"
-      date: "26-28.09.2025"
-      event_poster: "images/events/2025/qubes-summit-2025.jpg"
-      additional_info: |
-        ### Qubes OS Summit 2025 **[Official Page](https://events.dasharo.com/event/2/qubes-os-summit-2025)**<br><br>
-
     - title: "[**2025-11-04** Zarhus Developers Meetup 3](https://events.dasharo.com/event/10/zarhus-developers-meetup-3)"
       status: "upcoming"
       date: "04.11.2025"
@@ -38,6 +31,33 @@ all_events:
 
   - year: "20**25**"
     events:
+
+    - title: "Qubes OS **Summit 2025**"
+      status: ""
+      date: "26-28.09.2025"
+      event_poster: "images/events/2025/qubes-summit-2025.jpg"
+      additional_info: |
+        ### Qubes OS Summit 2025 **[Official Page](https://events.dasharo.com/event/2/qubes-os-summit-2025)**<br><br>
+
+      # segments:
+      segments:
+        - date: "26.09.2025"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Qubes OS Summit 2025 Day 1**  <br>
+
+            * [**Raw recording**](https://youtube.com/live/HwisqKFEQ0g?feature=share)
+
+        - date: "27.09.2024"
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Qubes OS Summit 2025 Day 2**  <br>
+
+            * [**Raw recording**](https://youtube.com/live/F9eRaa1w4KM?feature=share)
 
     - title: "Dasharo User Group 11 **& Developers vPub 0x10**"
       status: ""
