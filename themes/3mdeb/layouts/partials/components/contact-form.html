@@ -1,6 +1,6 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <div id="zammad-feedback-form">Form div</div>
-<script id="zammad_form_script" src="https://support.3mdeb.com/assets/form/form.js"></script>
+<script id="zammad_form_script" src="TBD_PROXY"></script>
 <script>
   $(function() {
     $('#zammad-feedback-form').ZammadForm({
@@ -9,5 +9,46 @@
       messageThankYou: 'Thank you for your inquiry (#%s)! We\'ll contact you as soon as possible.',
       noCSS: true,
     });
+  });
+</script>
+
+<!-- Hidden form input for token -->
+<input type="hidden" id="cap_token" name="cap_token" value="">
+
+<!-- CAP PoW method - widget element -->
+<script src="https://cdn.jsdelivr.net/npm/@cap.js/widget@0.1.28"></script>
+<cap-widget id="cap" data-cap-api-endpoint="https://TBD_SERVER/api"></cap-widget>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const widget = document.querySelector('#cap');
+    const tokenField = document.getElementById('cap_token');
+    let zammadForm = null;
+
+    widget.addEventListener('solve', function (e) {
+      const token = e.detail.token;
+      tokenField.value = token;
+      if (zammadForm) zammadForm.submit();
+    });
+
+    const formContainer = document.getElementById('zammad-feedback-form');
+     const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        mutation.addedNodes.forEach((node) => {
+          if (node.nodeName === 'FORM') {
+            const form = node;
+            zammadForm = form;
+            zammadForm.addEventListener('submit', function (e) {
+              if (!tokenField.value) {
+                e.preventDefault();
+                widget.solve();
+              }
+            });
+          }
+        });
+      });
+    });
+
+    observer.observe(formContainer, { childList: true });
   });
 </script>
