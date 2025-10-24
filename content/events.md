@@ -13,7 +13,7 @@ events_download:
   link: "https://calendar.google.com/calendar/ical/events%403mdeb.com/public/basic.ics"
 
 all_events:
-  - year: "Upcoming **2025**"
+  - year: "Upcoming **2025/2026**"
     events:
 
     - title: "[**2025-11-04** Zarhus Developers Meetup 3](https://events.dasharo.com/event/10/zarhus-developers-meetup-3)"
@@ -28,6 +28,25 @@ all_events:
       event_poster: "images/events/2025/dug_12.jpg"
       additional_info: |
         ### Dasharo User Group #12 **[Official Page](https://events.dasharo.com/event/9/dasharo-user-group-12)**<br><br>
+
+    - title: "FOSDEM **2026**"
+      status: ""
+      date: "31.01-01.02.2025"
+      event_poster: "images/events/fosdem.jpeg"
+      additional_info: |
+        ### FOSDEM 2026 **[Official Page](https://fosdem.org/2026/)**<br><br>
+
+    - title: "**TBA 2026** Dasharo User Group 13 & Developers vPub 0x12"
+      status: "upcoming"
+      date: ""
+      event_poster: ""
+      additional_info: |
+
+    - title: "**TBA 2026** Zarhus Developers Meetup #4"
+      status: "upcoming"
+      date: ""
+      event_poster: ""
+      additional_info: |
 
   - year: "20**25**"
     events:
