@@ -27,14 +27,12 @@ all_events:
       date: "11.12.2025"
       event_poster: "images/events/2025/dug_12.jpg"
       additional_info: |
-        ### Dasharo User Group #12 **[Official Page](https://events.dasharo.com/event/9/dasharo-user-group-12)**<br><br>
 
-    - title: "FOSDEM **2026**"
-      status: ""
+    - title: "[**31.01-01.02.2025** FOSDEM 2026](https://fosdem.org/2026/)"
+      status: "upcoming"
       date: "31.01-01.02.2025"
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
-        ### FOSDEM 2026 **[Official Page](https://fosdem.org/2026/)**<br><br>
 
     - title: "**TBA 2026** Dasharo User Group 13 & Developers vPub 0x12"
       status: "upcoming"
