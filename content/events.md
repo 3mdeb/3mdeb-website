@@ -27,22 +27,32 @@ all_events:
       date: "11.12.2025"
       event_poster: "images/events/2025/dug_12.jpg"
       additional_info: |
-        ### Dasharo User Group #12 **[Official Page](https://events.dasharo.com/event/9/dasharo-user-group-12)**<br><br>
 
-    - title: "FOSDEM **2026**"
-      status: ""
+    - title: "[**31.01-01.02.2025** FOSDEM 2026](https://fosdem.org/2026/)"
+      status: "upcoming"
       date: "31.01-01.02.2025"
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
-        ### FOSDEM 2026 **[Official Page](https://fosdem.org/2026/)**<br><br>
 
-    - title: "**TBA 2026** Dasharo User Group 13 & Developers vPub 0x12"
+    - title: "**2026-03-12** Dasharo User Group 13 & Developers vPub 0x12"
       status: "upcoming"
       date: ""
       event_poster: ""
       additional_info: |
 
-    - title: "**TBA 2026** Zarhus Developers Meetup #4"
+    - title: "**2026-05-05** Zarhus Developers Meetup #4"
+      status: "upcoming"
+      date: ""
+      event_poster: ""
+      additional_info: |
+
+    - title: "**2026-11-03** Zarhus Developers Meetup #5"
+      status: "upcoming"
+      date: ""
+      event_poster: ""
+      additional_info: |
+
+    - title: "**2026-12-10** Dasharo User Group 14 & Developers vPub 0x13"
       status: "upcoming"
       date: ""
       event_poster: ""
@@ -94,8 +104,8 @@ all_events:
             Presentation **#1**  <br>
             Topic: **Dasharo User Group #11**  <br>
             Presenters: **3mdeb Team with Guests**
-            * Playlist at YouTube: coming soon
-            * Slides: coming soon
+            * [**Playlist at YouTube**](https://www.youtube.com/playlist?list=PLuISieMwVBpKT9np4kX808u07j5CNZn4r)
+            * [**Slides**](https://cfp.3mdeb.com/developers-vpub-0x10-2025/schedule/)
 
     - title: "Bug Bounty Program **Live Demo**"
       status: ""
@@ -1425,7 +1435,7 @@ all_events:
       date: "21-22.10.2020"
       event_poster: "images/events/2020/EkuGwoaWAAI1K1T-1024x1024.jpg"
       additional_info: |
-        ### TPM.dev 2020 MiniConf **[Official Page](https://hopin.com/events/tpm-dev-2020-miniconf)**
+        ### TPM.dev 2020 MiniConf
 
       # segments:
       segments:
