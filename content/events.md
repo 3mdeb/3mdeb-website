@@ -1437,7 +1437,7 @@ all_events:
       date: "21-22.10.2020"
       event_poster: "images/events/2020/EkuGwoaWAAI1K1T-1024x1024.jpg"
       additional_info: |
-        ### TPM.dev 2020 MiniConf **[Official Page](https://hopin.com/events/tpm-dev-2020-miniconf)**
+        ### TPM.dev 2020 MiniConf
 
       # segments:
       segments:
