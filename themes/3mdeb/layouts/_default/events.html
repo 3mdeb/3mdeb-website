@@ -61,7 +61,7 @@
 
 {{ range .Params.all_events }}
 {{ $year := .year }}
-{{ if ne $year "Upcoming **2025**" }}
+{{ if not (strings.HasPrefix $year "Upcoming") }}
 <section class="section pt-0 events-wrapper">
   <div class="container">
     <div class="row justify-content-center">
