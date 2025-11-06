@@ -56,8 +56,30 @@ The Logo Policy document you can find
 ---
 
 {{< image
+    src="images/Logo-Black-Square-noBG.png"
+    alt="3mdeb" width="200"
+    command="fit"
+    position="float-right"
+    webp="false"
+    class="mb-5" >}}
+
+### Raster versions - logo square
+
+* [**Light logo on dark background as JPG**](https://cloud.3mdeb.com/index.php/s/2MnC8xHzPYXQBHb)
+* [**Dark logo on light background as JPG**](https://cloud.3mdeb.com/index.php/s/rZCQADcgircaHFm)
+* [**Light logo without background as PNG**](https://cloud.3mdeb.com/index.php/s/BcfJ6bNr7MtP7p9)
+* [**Dark logo without background as PNG**](https://cloud.3mdeb.com/index.php/s/MCAAkKji8KEHfgn)
+
+### Vector versions - logo square
+
+* [**Light logo on dark background as SVG**](https://cloud.3mdeb.com/index.php/s/cbCwswp8KbMA43X)
+* [**Dark logo on light background as SVG**](https://cloud.3mdeb.com/index.php/s/eed6HJqbyFTpWgE)
+
+---
+
+{{< image
     src="images/signet-black_noBG.png"
-    alt="3mdeb" width="300"
+    alt="3mdeb" width="200"
     command="fit"
     position="float-right"
     webp="false"
