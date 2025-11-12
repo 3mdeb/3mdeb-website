@@ -16,12 +16,6 @@ all_events:
   - year: "Upcoming **2025/2026**"
     events:
 
-    - title: "[**2025-11-04** Zarhus Developers Meetup 3](https://events.dasharo.com/event/10/zarhus-developers-meetup-3)"
-      status: "upcoming"
-      date: "04.11.2025"
-      event_poster: ""
-      additional_info: |
-
     - title: "[**2025-12-11** Dasharo User Group 12 & Developers vPub 0x11](https://events.dasharo.com/event/9/dasharo-user-group-12)"
       status: "upcoming"
       date: "11.12.2025"
@@ -61,6 +55,25 @@ all_events:
   - year: "20**25**"
     events:
 
+    - title: "Zarhus **Developers Meetup 3**"
+      status: ""
+      date: "04.11.2025"
+      event_poster: "images/events/2025/zarhus-developers-3.jpg"
+      additional_info: |
+        ### Zarhus Developers Meetup #3 **[Official Page](https://events.dasharo.com/event/10/zarhus-developers-meetup-3)**<br><br>
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Zarhus Developers Meetup #3**  <br>
+            Presenters: **Zarhus Team**
+            * [**Playlist at YouTube**](https://youtube.com/playlist?list=PLuISieMwVBpLQpjMIRPXxd8fSfrESQuJA&si=zyfHekMZvIbRPNDZ)
+            * [**Slides**](https://cfp.3mdeb.com/zarhus-developers-meetup-3-2025/schedule/)
+
     - title: "Qubes OS **Summit 2025**"
       status: ""
       date: "26-28.09.2025"
@@ -77,7 +90,8 @@ all_events:
             Presentation **#1**  <br>
             Topic: **Qubes OS Summit 2025 Day 1**  <br>
 
-            * [**Raw recording**](https://youtube.com/live/HwisqKFEQ0g?feature=share)
+            * [**Full Playlist**](https://www.youtube.com/playlist?list=PLuISieMwVBpJI7QKSiC6ZiHSpkFQHf64F)
+            * [**Slides**](https://cfp.3mdeb.com/qubes-os-summit-2025/schedule/)
 
         - date: "27.09.2024"
           image: ""
@@ -86,7 +100,8 @@ all_events:
             Presentation **#1**  <br>
             Topic: **Qubes OS Summit 2025 Day 2**  <br>
 
-            * [**Raw recording**](https://youtube.com/live/F9eRaa1w4KM?feature=share)
+            * [**Full Playlist**](https://www.youtube.com/playlist?list=PLuISieMwVBpLns-3Lcw2MqLCkQ78r-ZdO)
+            * [**Slides**](https://cfp.3mdeb.com/qubes-os-summit-2025/schedule/)
 
     - title: "Dasharo User Group 11 **& Developers vPub 0x10**"
       status: ""
