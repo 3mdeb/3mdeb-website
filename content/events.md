@@ -28,25 +28,25 @@ all_events:
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
 
-    - title: "**2026-03-12** Dasharo User Group 13 & Developers vPub 0x12"
+    - title: "[**2026-03-12** Dasharo User Group 13 & Developers vPub 0x12](https://events.dasharo.com/event/12/dasharo-user-group-13)"
       status: "upcoming"
       date: ""
       event_poster: ""
       additional_info: |
 
-    - title: "**2026-05-05** Zarhus Developers Meetup #4"
+    - title: "[**2026-05-05** Zarhus Developers Meetup #4](https://events.dasharo.com/event/14/zarhus-developers-meetup-4)"
       status: "upcoming"
       date: ""
       event_poster: ""
       additional_info: |
 
-    - title: "**2026-11-03** Zarhus Developers Meetup #5"
+    - title: "[**2026-11-03** Zarhus Developers Meetup #5](https://events.dasharo.com/event/15/zarhus-developers-meetup-5)"
       status: "upcoming"
       date: ""
       event_poster: ""
       additional_info: |
 
-    - title: "**2026-12-10** Dasharo User Group 14 & Developers vPub 0x13"
+    - title: "[**2026-12-10** Dasharo User Group 14 & Developers vPub 0x13](https://events.dasharo.com/event/13/dasharo-user-group-14)"
       status: "upcoming"
       date: ""
       event_poster: ""
