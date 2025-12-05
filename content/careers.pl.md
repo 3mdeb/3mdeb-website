@@ -31,7 +31,7 @@ careers:
     <br> <br>
     Jeśli chcesz stać się jego częścią, daj nam się poznać i aplikuj.
 
-    Wyślij swoje CV na adres [**career@3mdeb.com**](mailto:career@3mdeb.com) lub skorzystaj z poniższego formularza kontaktowego.
+    Wyślij swoje CV na adres <career@3mdeb.com> lub skorzystaj z poniższego formularza kontaktowego.
 
 current_openings:
   enable: true
@@ -272,7 +272,7 @@ new_branch_in_osie:
 
     Jeśli chcesz stać się jego częścią, daj nam się poznać i aplikuj.
 
-    Wyślij swoje CV na adres career@3mdeb.com lub skorzystaj z poniższego formularza kontaktowego.
+    Wyślij swoje CV na adres <career@3mdeb.com> lub skorzystaj z poniższego formularza kontaktowego.
 
 
 current_openings_in_osie:
