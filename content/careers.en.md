@@ -299,7 +299,7 @@ current_openings:
 
     - title: "What we offer: "
       content: |
-        * A very dynamic work environment with opportunities for growth and advancement - you will learn a lot!
+        * A very dynamic work environment with opportunities for growth and advancement – you will learn a lot!
         * The opportunity to work with a team of passionate and highly skilled engineers in an open-source community.
         * Flexible terms of employment with flexible work hours.
         * Possibility to travel worldwide to open-source solutions-focused conferences (for those willing).
@@ -359,7 +359,7 @@ current_openings:
 
         But it's not just about the technical skills! We also emphasize the development of soft critical skills such as communication, teamwork, and problem-solving. You'll have the opportunity to work on real-world projects and make meaningful contributions to our organization, all while building a solid foundation for your future career.
 
-        We also pride ourselves on the international character of the team, and we exchange experiences with top-class specialists in the open-source community. Plus - you will work with a team of supportive and friendly people who are passionate about their work.
+        We also pride ourselves on the international character of the team, and we exchange experiences with top-class specialists in the open-source community. Plus, you will work with a team of supportive and friendly people who are passionate about their work.
 
         This is a paid internship, and we offer flexible scheduling to accommodate your academic commitments.
 
