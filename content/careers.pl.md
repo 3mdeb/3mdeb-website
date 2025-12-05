@@ -31,14 +31,14 @@ careers:
     <br> <br>
     Jeśli chcesz stać się jego częścią, daj nam się poznać i aplikuj.
 
-    Wyślij swoje CV na adres [**career@3mdeb.com**](mailto:career@3mdeb.com) lub skorzystaj z poniższego formularza kontaktowego.
+    Wyślij swoje CV na adres <career@3mdeb.com> lub skorzystaj z poniższego formularza kontaktowego.
 
 current_openings:
   enable: true
   title: "Aktualnie **poszukujemy:**"
   button_label: "APLIKUJ TERAZ"
   jobs:
-  - title: "Embedded Systems **Developer/Engineer**"
+  - title: "Embedded Systems&nbsp; **Developer/Engineer**"
     description:
     - title: "Wymagania:"
       content: |
@@ -80,7 +80,7 @@ current_openings:
         *   Znajomość Docker oraz narzędzi CI/CD (Jenkins, Travis, Gitlab CI)
         *   Zaangażowanie w społeczności Open Source
 
-  - title: "Embedded C **Developer/Engineer**"
+  - title: "Embedded C&nbsp; **Developer/Engineer**"
     description:
     - title: "Wymagania:"
       content: |
@@ -126,7 +126,7 @@ current_openings:
         *   Znajomość Docker oraz narzędzi CI/CD (GitLab CI, Travis)
         *   Zaangażowanie w społeczności open-source
 
-  - title: "Hardware Validation **Developer/Engineer**"
+  - title: "Hardware Validation&nbsp; **Developer/Engineer**"
     description:
     - title: "Wymagania:"
       content: |
@@ -169,7 +169,7 @@ current_openings:
         *   Znajomość obsługi systemów Linux i narzędzia git 
         *   Znajomość Python’a
 
-  - title: "Technik **Elektronik**"
+  - title: "Technik&nbsp; **Elektronik**"
     description:
     - title: "Wymagania:"
       content: |
@@ -209,7 +209,7 @@ current_openings:
         *   Umiejętność korzystania z analizatora stanów logicznych oraz oscyloskopu
         *   Doświadczenie przy tworzeniu BOM’u
 
-  - title: "Office **Assistant**"
+  - title: "Office&nbsp; **Assistant**"
     description:
     - title: "Wymagania:"
       content: |
@@ -272,7 +272,7 @@ new_branch_in_osie:
 
     Jeśli chcesz stać się jego częścią, daj nam się poznać i aplikuj.
 
-    Wyślij swoje CV na adres career@3mdeb.com lub skorzystaj z poniższego formularza kontaktowego.
+    Wyślij swoje CV na adres <career@3mdeb.com> lub skorzystaj z poniższego formularza kontaktowego.
 
 
 current_openings_in_osie:

@@ -23,7 +23,7 @@ platforms from printing, events to websites, although we reserve the right to
 use the logo in certain situations.
 
 If you have any questions regarding proper use of logo you are welcome to
-ask us: [contact@3mdeb.com](mailto:contact@3mdeb.com).
+ask us: <contact@3mdeb.com>.
 
 We make available several personalities of our logo for use.
 

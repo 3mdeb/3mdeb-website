@@ -210,6 +210,20 @@ header {
         }
       }
 
+      // There are two bugs somewhere in here.
+      //
+      // First, the green underline sometimes appears right under a given menu
+      // section and sometimes just above the dropdown menu itself. When moving
+      // the cursor, it jumps up and down erratically.
+      //
+      // Secondly, when moving the cursor across a number of entries, the
+      // animation(s) feel quite "jagged". That's because as soon as the cursor
+      // no longer hovers over a menu entry, the not-yet-completed "fade in"
+      // animation gets replaced by the "fade out" animation.
+      //
+      // (Also, the "hitbox" for showing/hiding the dropdown menu is larger
+      //  than that for triggering the green underline.)
+
       &:hover::before,
       &+button:hover &::before {
         width: 100%;

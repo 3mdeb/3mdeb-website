@@ -275,7 +275,7 @@ products:
 
           **[TMP2 Module](https://shop.3mdeb.com/shop/product/tpm2/)** and **[TPM2 module for Librebox](https://shop.3mdeb.com/shop/product/tpm2-module-for-librebox/)**
 
-          * Infienon TPM SLB9665TT20FW561XUMA1
+          * Infineon TPM SLB9665TT20FW561XUMA1
           * Operating voltage 3-3.3V
           * Meeting Intel TXT, Microsoft Windows and Google Chromebook certification criteria for successful platform qualification
           * True Random Number Generator (TRNG)
