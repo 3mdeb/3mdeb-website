@@ -256,7 +256,7 @@ current_openings:
         * Group insurance
         * Opportunity for development in the selected area
         * Work in hybrid mode
-        * Work in a modern office in an attractive location in Oliva
+        * Work in a modern office in an attractive location in Oliwa
 
   - title: "Junior&nbsp; **Project Manager**"
     description:
