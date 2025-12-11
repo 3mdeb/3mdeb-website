@@ -22,9 +22,9 @@ all_events:
       event_poster: "images/events/2025/dug_12.jpg"
       additional_info: |
 
-    - title: "[**31.01-01.02.2025** FOSDEM 2026](https://fosdem.org/2026/)"
+    - title: "[**31.01-01.02.2026** FOSDEM 2026](https://fosdem.org/2026/)"
       status: "upcoming"
-      date: "31.01-01.02.2025"
+      date: "31.01-01.02.2026"
       event_poster: "images/events/fosdem.jpeg"
       additional_info: |
 
