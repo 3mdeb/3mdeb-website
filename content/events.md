@@ -16,12 +16,6 @@ all_events:
   - year: "Upcoming **2025/2026**"
     events:
 
-    - title: "[**2025-12-11** Dasharo User Group 12 & Developers vPub 0x11](https://events.dasharo.com/event/9/dasharo-user-group-12)"
-      status: "upcoming"
-      date: "11.12.2025"
-      event_poster: "images/events/2025/dug_12.jpg"
-      additional_info: |
-
     - title: "[**31.01-01.02.2026** FOSDEM 2026](https://fosdem.org/2026/)"
       status: "upcoming"
       date: "31.01-01.02.2026"
@@ -54,6 +48,45 @@ all_events:
 
   - year: "20**25**"
     events:
+
+    - title: "Linux Plumbers **Conference**"
+      status: ""
+      date: "11-13.12.2025"
+      event_poster: "images/events/2024/lpc_2024.png"
+      additional_info: |
+        ### Linux Plumbers Conference **[Official Page](https://lpc.events/event/19/)**<br><br>
+
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: "V5WGBKKHVNU"
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **The Future of Platform Security Measurement in Linux**  <br>
+            Presenters: **Maciej Pijanowski**
+
+            * [**Description**](https://lpc.events/event/19/contributions/2274/)
+            * [**Slides**](https://lpc.events/event/19/contributions/2274/attachments/1917/4101/Linux%20Plumbers%20Conference%202025%20-%20Slidev.pdf)
+
+
+    - title: "Dasharo User Group 12 **& Developers vPub 0x11**"
+      status: ""
+      date: "11.12.2025"
+      event_poster: "images/events/2025/dug_12.jpg"
+      additional_info: |
+        ### Dasharo User Group #12 **[Official Page](https://events.dasharo.com/event/9/dasharo-user-group-12)**<br><br>
+      # segments:
+      segments:
+        - date: ""
+          image: ""
+          youtube_video_id: ""
+          additional_info: |
+            Presentation **#1**  <br>
+            Topic: **Dasharo User Group #12**  <br>
+            Presenters: **3mdeb Team with Guests**
+            * [**Playlist at YouTube**](https://www.youtube.com/playlist?list=PLuISieMwVBpLp3aEoIKuJWOReXBaqmD_K)
+            * [**Slides**](https://cfp.3mdeb.com/developers-vpub-0x11-2025/schedule/)
 
     - title: "Zarhus **Developers Meetup 3**"
       status: ""
