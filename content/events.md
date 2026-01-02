@@ -13,7 +13,7 @@ events_download:
   link: "https://calendar.google.com/calendar/ical/events%403mdeb.com/public/basic.ics"
 
 all_events:
-  - year: "Upcoming **2025/2026**"
+  - year: "Upcoming **2026**"
     events:
 
     - title: "[**31.01-01.02.2026** FOSDEM 2026](https://fosdem.org/2026/)"
