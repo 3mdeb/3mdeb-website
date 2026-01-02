@@ -13,7 +13,7 @@ summaryLength = "10" # see https://gohugo.io/content-management/excerpts/
 
 [params]
 # google analytics
-googleAnalytics = "G-GGHPQTLWWH" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+googleAnalytics = "" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 
 ############################# Build ##############################
 [build]
