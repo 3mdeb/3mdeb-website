@@ -40,6 +40,7 @@ our_capabilities:
     * Board bring up
     * Boot time optimization
     * Continuous Integration and Continuous Delivery for Embedded Systems
+    * Embedded Controllers (EC) and Super I/O firmware
     * Embedded Linux Consulting
     * Embedded Systems Security (signed upgrades, verified boot etc.)
     * Linux drivers development
@@ -47,12 +48,12 @@ our_capabilities:
     * Platform maintenance and customization
     * Software update (OTA)
 
-    **We do not provide:**
+    **Following areas are outside the scope of our expertise:**
 
     * Bare-metal firmware for simple microcontrollers (Arduino, ESP8266, etc.)
     * Ultra low-power sensor nodes
     * Simple BLE advertising devices
-    * Standalone MCU development (unless integrated into larger x86/Linux systems)
+    * Standalone MCU development (unless integrated into larger complex systems)
 
     But we can do a lot more. Please check our **[service catalog](https://cloud.3mdeb.com/index.php/s/A5obmdZeA2DePEm) or [contact us anytime.](https://3mdeb.com/contact/)**
 
