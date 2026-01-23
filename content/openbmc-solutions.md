@@ -15,14 +15,14 @@ introductions:
 
       **OpenBMC** plays a critical role in shaping a transparent firmware stack for servers globally. As part of the Linux Foundation, OpenBMC represents one of the few open solutions for managing server hardware, enabling community-driven ports and reducing dependence on opaque OEM/ODM firmware.
 
-      **We specialize in porting OpenBMC support to new BMC boards** - whether for custom designs or as a more secure, more open, and more featureful alternative to vendor-provided BMC firmware. Our work empowers smaller organizations, researchers, and individual developers to build secure, transparent infrastructure without vendor lock-in, supporting digital sovereignty and long-term hardware sustainability, especially on second-hand hardware.
+      **We specialize in porting OpenBMC support to new BMC boards** - whether for custom designs or as a more secure, more open, and more featureful alternative to vendor-provided BMC firmware. Our work empowers smaller organizations, researchers, and individual developers to build secure, transparent infrastructure without vendor lock-in, supporting digital sovereignty and long-term hardware sustainability.
 
   - image: "images/internet-things/smart-space.png"
     content: |
       ## Beyond Enterprise Datacenters
       {.h3}
 
-      While OpenBMC is widely adopted by major cloud providers and OEMs, its importance extends far beyond the enterprise. Enabling broader access to this stack, especially on second-hand hardware, empowers more users to build secure, transparent infrastructure - directly supporting **digital sovereignty** and **long-term hardware sustainability**.
+      While OpenBMC is widely adopted by major cloud providers and OEMs, its importance extends far beyond the enterprise. Enabling broader access to this stack empowers more users to build secure, transparent infrastructure - directly supporting **digital sovereignty** and **long-term hardware sustainability**.
 
 technologies:
   title: "Technologies in OpenBMC Stack"
@@ -99,5 +99,5 @@ features_and_mission:
 
   - title: "Our mission"
     content: |
-      **[Contact us](https://3mdeb.com/contact/)** if you need OpenBMC porting for custom hardware, want to replace vendor-locked BMC firmware with an open solution, or require support for second-hand server hardware. We can port OpenBMC from scratch, enable all platform-specific features, and provide ongoing maintenance. Our approach promotes **digital sovereignty, hardware sustainability, and transparent server infrastructure**.
+      **[Contact us](https://3mdeb.com/contact/)** if you need OpenBMC porting for custom hardware or want to replace vendor-locked BMC firmware with an open solution. We can port OpenBMC from scratch, enable all platform-specific features, and provide ongoing maintenance. Our approach promotes **digital sovereignty, hardware sustainability, and transparent server infrastructure**.
 ---
