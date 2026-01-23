@@ -65,7 +65,6 @@ reference_platforms_for:
             * Steppe Eagle
             * LX
           * AllWinner H2+, H3, A10, A20, A33
-          * Nordic (NRF24L01, NRF51822)
           * Odroid C1 and XU3 (Amlogic S805, Samsung Exynos 5 Octa)
           * Broadcom BCM2835/BCM2836/BCM2837 (Raspberry Pi family)
           * HiSilicon Hi3520, Hi3535, Hi3518, Hi3516C
@@ -82,13 +81,11 @@ reference_platforms_for:
             * Skylake
             * Kaby Lake
           * HiSilicon Kirin 620
-          * RedBear Duo (STM32F2)
-          * Espressif ESP-01 – ESP-12 (ESP8266)
           * Marvell Armada 88F7040, A8040, A388
           * Microchip SMART SAMA5D2
           * NXP i.MX6 family (i.MX6 D / DL) and i.MX8 family (i.MX8M)
           * Rockchip RK3066, RK3288
-          * Texas Instruments AM335x, CC3100/CC3200, CC2541/CC2650, MSP430
+          * Texas Instruments AM335x
 
 used_technology:
   - "images/open-source-hardware/intel-1.png"

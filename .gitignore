@@ -14,3 +14,6 @@ resources
 jsconfig.json
 hugo_stats.json
 go.sum
+hugo
+hugo_*.tar.gz
+.claude

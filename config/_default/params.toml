@@ -56,7 +56,7 @@ button_link = "contact"
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
 keywords = ["Boilerplate", "Hugo", "Themefisher", "GetHugoThemes"]
-description = "3mdeb: Your Trusted Partner in Embedded Systems and Firmware Security. Enhance your product's reliability and security with our expert consulting services, firmware development, and hardware design solutions. We specialize in open-source firmware, secure boot, and IoT security. Contact us for tailored solutions to meet your embedded system needs."
+description = "3mdeb: Your Trusted Partner in Embedded Systems and Firmware Security. Enhance your product's reliability and security with our expert consulting services, firmware development, and hardware design solutions. We specialize in open-source x86 firmware (Dasharo), embedded Linux development (Yocto), OpenBMC solutions, and firmware security (coreboot, UEFI). Contact us for expert consulting in complex embedded systems and secure boot solutions."
 author = "Themefisher"
 image = "images/favicon.png"                                       # this image will be used as fallback if a page has no image of its own
 

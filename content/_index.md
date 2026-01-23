@@ -96,9 +96,9 @@ where_we_do:
     icon: "images/services/support.png"
     link: "hardware-development-support/"
 
-  - title: "Internet of Things <br> **Solutions**"
+  - title: "OpenBMC <br> **Solutions**"
     icon: "images/services/iot-icon.png"
-    link: "internet-of-things-solutions/"
+    link: "openbmc-solutions/"
 
   - title: "Automated <br> **Validation**"
     icon: "images/services/validation.png"

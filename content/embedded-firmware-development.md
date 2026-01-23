@@ -22,7 +22,6 @@ introduction:
 used_technology:
   - "images/used-technology/yocto.png"
   - "images/used-technology/buildroot.jpg"
-  - "images/open-source-hardware/aws.png"
   - "images/used-technology/linux-logo.png"
 
 our_capabilities:
@@ -33,9 +32,10 @@ our_capabilities:
 
     We are not just one of the firmware developers. Our company implemented plenty of embedded firmware development projects. We have proven skills and expertise in firmware and embedded software design, and project management processes.
 
+    **Our focus is on Linux-based embedded systems and complex SoC platforms.**
+
     **Our specialties are:**
 
-    * Amazon Web Services integration for Embedded Applications
     * BSP Development (Yocto, Buildroot, custom)
     * Board bring up
     * Boot time optimization
@@ -46,6 +46,13 @@ our_capabilities:
     * Linux userspace application development
     * Platform maintenance and customization
     * Software update (OTA)
+
+    **We do not provide:**
+
+    * Bare-metal firmware for simple microcontrollers (Arduino, ESP8266, etc.)
+    * Ultra low-power sensor nodes
+    * Simple BLE advertising devices
+    * Standalone MCU development (unless integrated into larger x86/Linux systems)
 
     But we can do a lot more. Please check our **[service catalog](https://cloud.3mdeb.com/index.php/s/A5obmdZeA2DePEm) or [contact us anytime.](https://3mdeb.com/contact/)**
 
@@ -58,7 +65,6 @@ reference_platforms:
         * Steppe Eagle
         * LX
       * AllWinner H2+, H3, A10, A20, A33
-      * Nordic (NRF24L01, NRF51822)
       * Odroid C1 and XU3 (Amlogic S805, Samsung Exynos 5 Octa)
       * Broadcom BCM2835/BCM2836/BCM2837 (Raspberry Pi family)
       * HiSilicon Hi3520, Hi3535, Hi3518, Hi3516C
@@ -73,13 +79,11 @@ reference_platforms:
         * Skylake
         * Kaby Lake
       * HiSilicon Kirin 620
-      * RedBear Duo (STM32F2)
-      * Espressif ESP-01 – ESP-12 (ESP8266)
       * Marvell Armada 88F7040, A8040, A388
       * Microchip SMART SAMA5D2
       * NXP i.MX6 family (i.MX6 D / DL) and i.MX8 family (i.MX8M)
       * Rockchip RK3066, RK3288
-      * Texas Instruments AM335x, CC3100/CC3200, CC2541/CC2650, MSP430
+      * Texas Instruments AM335x
 
     images:
       - "images/open-source-hardware/intel-1.png"
@@ -113,6 +117,8 @@ reference_platforms:
       *   Yocto
       *   U-Boot
       *   Linux
+      *   OpenBMC
+      *   Zephyr RTOS
       *   Docker
       *   CI / CD for our projects with the help of: Jenkins, Tavis CI, Gitlab CI
       *   SWUpdate and other upgrade systems
