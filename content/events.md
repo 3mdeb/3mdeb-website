@@ -34,6 +34,12 @@ all_events:
       event_poster: ""
       additional_info: |
 
+    - title: "[**Autumn 2026** Boot Security Mastery Conference](https://bsmconf.com)"
+      status: "upcoming"
+      date: ""
+      event_poster: ""
+      additional_info: |
+
     - title: "[**2026-11-03** Zarhus Developers Meetup #5](https://events.dasharo.com/event/15/zarhus-developers-meetup-5)"
       status: "upcoming"
       date: ""
@@ -126,7 +132,7 @@ all_events:
             * [**Full Playlist**](https://www.youtube.com/playlist?list=PLuISieMwVBpJI7QKSiC6ZiHSpkFQHf64F)
             * [**Slides**](https://cfp.3mdeb.com/qubes-os-summit-2025/schedule/)
 
-        - date: "27.09.2024"
+        - date: "27.09.2025"
           image: ""
           youtube_video_id: ""
           additional_info: |
