@@ -58,6 +58,12 @@ current_openings:
       content: |
         We are seeking an exceptional candidate with a strong command of C and a genuine passion for embedded systems development. If you enjoy working close to hardware and want to see your code running on real devices, this role is for you.
 
+        We offer the opportunity to work on open-source projects and collaborate with the community of world-class industry leaders, as well as work with some of the most prominent vendors to build your own portfolio through contributions. As a team member, you’ll impact the product and its final shape with opportunities for professional development, flexible working hours, and employment conditions.
+
+        We also provide training and certification to help our team members build their skills and advance in their careers. Our comprehensive benefits package includes medical care, financial support for sports cards, and group insurance.
+
+        In addition, we offer opportunities to attend international open-source conferences, some of which we co-organize with other companies, giving our team members the chance to showcase their skills and expertise. We also organize and host our own community events, such as workshops and community calls, where team members can share their knowledge and network with other industry professionals.
+
     - title: "Requirements:"
       content: |
         * Knowledge of C and how programs work:
@@ -78,14 +84,6 @@ current_openings:
         * Experience with bare-metal programming and hardware abstraction layers
         * Experience with (long-running) open-source projects, their mailing lists, and review tools
         * Debugging with GDB (remote targets, symbol files, hardware breakpoints)
-
-    - title: "Offer description:"
-      content: |
-        We offer the opportunity to work on open-source projects and collaborate with the community of world-class industry leaders, as well as work with some of the most prominent vendors to build your own portfolio through contributions. As a team member, you’ll impact the product and its final shape with opportunities for professional development, flexible working hours, and employment conditions.
-
-        We also provide training and certification to help our team members build their skills and advance in their careers. Our comprehensive benefits package includes medical care, financial support for sports cards, and group insurance.
-
-        In addition, we offer opportunities to attend international open-source conferences, some of which we co-organize with other companies, giving our team members the chance to showcase their skills and expertise. We also organize and host our own community events, such as workshops and community calls, where team members can share their knowledge and network with other industry professionals.
 
 apply_form:
   enable: false
